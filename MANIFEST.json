@@ -22,8 +22,8 @@
  },
  {
   "path": "context_facts_2710.md",
-  "sha256": "e569acc1a61f09e50ae43c2fd76a51e22fb25787fea47731d6e092b15cfb5cd8",
-  "bytes": 4389,
+  "sha256": "926ff33e96ec3f904d3558f88d5cb3fd57fa7d3134bac5030d040d93629c1ee6",
+  "bytes": 4441,
   "records": null,
   "original": false
  },
@@ -703,6 +703,20 @@
   "path": "experiments/ellipse/uncertainty_signals_results.json",
   "sha256": "e2c568c05404c47ec8e5fbeebb646a73d06f78ac21c37e46ddf9bdfe98f97ccd",
   "bytes": 3207,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/pilot/pilot_speaking_rho.py",
+  "sha256": "e5e2d34366f1772e85770093a8aba1d5cbdef9e8c6d561bb3c60f9ba39137bdc",
+  "bytes": 1496,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/pilot/pilot_speaking_rho_results.json",
+  "sha256": "cebe4c96874b18fefd95c7a2e13ec04d63585e721a4b1aeeb5627918eb26e015",
+  "bytes": 192,
   "records": null,
   "original": false
  },
