@@ -1,0 +1,718 @@
+[
+ {
+  "id": "h00.png",
+  "defects": [],
+  "veto": false,
+  "vetoReason": null,
+  "state": "provisional",
+  "sTotal": 1,
+  "low": [],
+  "inferred": [],
+  "per": [],
+  "routed": false,
+  "got": {
+   "title": "Professor",
+   "first_name": "Akira",
+   "last_name": "TANAKA",
+   "job_title": "Professor",
+   "department": "Graduate School of Informatics",
+   "organization": "Kyoto Example University",
+   "country": "Japan",
+   "email": "a.tanaka@example.jp",
+   "phone": "+81 75 555 0101"
+  },
+  "ms": 4528
+ },
+ {
+  "id": "h01.png",
+  "defects": [],
+  "veto": false,
+  "vetoReason": null,
+  "state": "provisional",
+  "sTotal": 0.9286,
+  "low": [
+   "title"
+  ],
+  "inferred": [],
+  "per": [],
+  "routed": true,
+  "got": {
+   "title": "",
+   "first_name": "Camille",
+   "last_name": "Walsh",
+   "job_title": "Maitre de conferences",
+   "department": "Laboratoire d'Informatique",
+   "organization": "Universite Fictive de Lyon",
+   "country": "France",
+   "email": "c.walsh@example.fr",
+   "phone": "+33 4 72 55 01 23"
+  },
+  "ms": 5522
+ },
+ {
+  "id": "h02.png",
+  "defects": [],
+  "veto": false,
+  "vetoReason": null,
+  "state": "provisional",
+  "sTotal": 0.7857,
+  "low": [
+   "department",
+   "title"
+  ],
+  "inferred": [],
+  "per": [],
+  "routed": true,
+  "got": {
+   "title": "",
+   "first_name": "Yerlan",
+   "last_name": "Mori",
+   "job_title": "Data Engineering Lead",
+   "department": "",
+   "organization": "Steppe Analytics LLP",
+   "country": "Kazakhstan",
+   "email": "y.mori@example.kz",
+   "phone": "+7 7172 55 0199"
+  },
+  "ms": 4318
+ },
+ {
+  "id": "h03.png",
+  "defects": [],
+  "veto": false,
+  "vetoReason": null,
+  "state": "provisional",
+  "sTotal": 1,
+  "low": [],
+  "inferred": [],
+  "per": [],
+  "routed": false,
+  "got": {
+   "title": "Assistant Professor",
+   "first_name": "Selin",
+   "last_name": "Brooks",
+   "job_title": "Assistant Professor",
+   "department": "Department of Industrial Engineering",
+   "organization": "Bosphorus Sample University",
+   "country": "Turkey",
+   "email": "s.brooks@example.com.tr",
+   "phone": "+90 212 555 0123"
+  },
+  "ms": 6516
+ },
+ {
+  "id": "h04.png",
+  "defects": [],
+  "veto": false,
+  "vetoReason": null,
+  "state": "provisional",
+  "sTotal": 0.7857,
+  "low": [
+   "department",
+   "title"
+  ],
+  "inferred": [],
+  "per": [],
+  "routed": true,
+  "got": {
+   "title": "",
+   "first_name": "Liam",
+   "last_name": "MOREAU",
+   "job_title": "VP of Product",
+   "department": "",
+   "organization": "Maple Synthetic Systems Inc.",
+   "country": "Canada",
+   "email": "l.moreau@example.ca",
+   "phone": "+1 416 555 0175"
+  },
+  "ms": 3824
+ },
+ {
+  "id": "h05.png",
+  "defects": [],
+  "veto": false,
+  "vetoReason": null,
+  "state": "provisional",
+  "sTotal": 1,
+  "low": [],
+  "inferred": [],
+  "per": [],
+  "routed": false,
+  "got": {
+   "title": "Professor",
+   "first_name": "Dana",
+   "last_name": "Seitkali",
+   "job_title": "Professor",
+   "department": "Graduate School of Informatics",
+   "organization": "Kyoto Example University",
+   "country": "Japan",
+   "email": "d.seitkali@example.jp",
+   "phone": "+81 75 555 0101"
+  },
+  "ms": 5234
+ },
+ {
+  "id": "h06.png",
+  "defects": [
+   "no_email"
+  ],
+  "veto": true,
+  "vetoReason": "email",
+  "state": "vetoed",
+  "sTotal": 0.9286,
+  "low": [
+   "title"
+  ],
+  "inferred": [],
+  "per": [
+   {
+    "d": "no_email",
+    "hit": true
+   }
+  ],
+  "routed": true,
+  "got": {
+   "title": "",
+   "first_name": "Rustam",
+   "last_name": "OMAROVA",
+   "job_title": "Maitre de conferences",
+   "department": "Laboratoire d'Informatique",
+   "organization": "Universite Fictive de Lyon",
+   "country": "France",
+   "email": "",
+   "phone": "+33 4 72 55 01 23"
+  },
+  "ms": 4001
+ },
+ {
+  "id": "h07.png",
+  "defects": [
+   "no_email"
+  ],
+  "veto": true,
+  "vetoReason": "email",
+  "state": "vetoed",
+  "sTotal": 0.7857,
+  "low": [
+   "department",
+   "title"
+  ],
+  "inferred": [],
+  "per": [
+   {
+    "d": "no_email",
+    "hit": true
+   }
+  ],
+  "routed": true,
+  "got": {
+   "title": "",
+   "first_name": "Ines",
+   "last_name": "ALIYEVA",
+   "job_title": "Data Engineering Lead",
+   "department": "",
+   "organization": "Steppe Analytics LLP",
+   "country": "Kazakhstan",
+   "email": "",
+   "phone": "+7 7172 55 0199"
+  },
+  "ms": 6428
+ },
+ {
+  "id": "h08.png",
+  "defects": [
+   "no_email"
+  ],
+  "veto": true,
+  "vetoReason": "email",
+  "state": "vetoed",
+  "sTotal": 1,
+  "low": [],
+  "inferred": [],
+  "per": [
+   {
+    "d": "no_email",
+    "hit": true
+   }
+  ],
+  "routed": true,
+  "got": {
+   "title": "Assistant Professor",
+   "first_name": "Kenji",
+   "last_name": "Zhumabekov",
+   "job_title": "Assistant Professor",
+   "department": "Department of Industrial Engineering",
+   "organization": "Bosphorus Sample University",
+   "country": "Turkey",
+   "email": "",
+   "phone": "+90 212 555 0123"
+  },
+  "ms": 4245
+ },
+ {
+  "id": "h09.png",
+  "defects": [
+   "no_org"
+  ],
+  "veto": true,
+  "vetoReason": "organization",
+  "state": "vetoed",
+  "sTotal": 0.7857,
+  "low": [
+   "department",
+   "title"
+  ],
+  "inferred": [],
+  "per": [
+   {
+    "d": "no_org",
+    "hit": true
+   }
+  ],
+  "routed": true,
+  "got": {
+   "title": "",
+   "first_name": "Madina",
+   "last_name": "Karimov",
+   "job_title": "VP of Product",
+   "department": "",
+   "organization": "",
+   "country": "Canada",
+   "email": "m.karimov@example.ca",
+   "phone": "+1 416 555 0175"
+  },
+  "ms": 4207
+ },
+ {
+  "id": "h10.png",
+  "defects": [
+   "no_org"
+  ],
+  "error": "Gemini vision недоступен: gemini-3.8-flash: Unterminated string in JSON at position 66 (line 4 column 13)"
+ },
+ {
+  "id": "h11.png",
+  "defects": [
+   "no_org"
+  ],
+  "veto": true,
+  "vetoReason": "organization",
+  "state": "vetoed",
+  "sTotal": 0.9286,
+  "low": [
+   "title"
+  ],
+  "inferred": [],
+  "per": [
+   {
+    "d": "no_org",
+    "hit": true
+   }
+  ],
+  "routed": true,
+  "got": {
+   "title": "",
+   "first_name": "Aruzhan",
+   "last_name": "Serikov",
+   "job_title": "Maitre de conferences",
+   "department": "Laboratoire d'Informatique",
+   "organization": "",
+   "country": "France",
+   "email": "a.serikov@example.fr",
+   "phone": "+33 4 72 55 01 23"
+  },
+  "ms": 4984
+ },
+ {
+  "id": "h12.png",
+  "defects": [
+   "no_name"
+  ],
+  "error": "Gemini vision недоступен: gemini-3.8-flash: Unterminated string in JSON at position 63 (line 4 column 15)"
+ },
+ {
+  "id": "h13.png",
+  "defects": [
+   "no_name"
+  ],
+  "error": "Gemini vision недоступен: gemini-3.8-flash: Unterminated string in JSON at position 61 (line 4 column 13)"
+ },
+ {
+  "id": "h14.png",
+  "defects": [
+   "no_name"
+  ],
+  "error": "Gemini vision недоступен: gemini-3.8-flash: Unterminated string in JSON at position 64 (line 4 column 13)"
+ },
+ {
+  "id": "h15.png",
+  "defects": [
+   "no_country"
+  ],
+  "veto": false,
+  "vetoReason": null,
+  "state": "provisional",
+  "sTotal": 0.8571,
+  "low": [
+   "provenance"
+  ],
+  "inferred": [
+   "country"
+  ],
+  "per": [
+   {
+    "d": "no_country",
+    "hit": true
+   }
+  ],
+  "routed": true,
+  "got": {
+   "title": "Professor",
+   "first_name": "Akira",
+   "last_name": "Tanaka",
+   "job_title": "Professor",
+   "department": "Graduate School of Informatics",
+   "organization": "Kyoto Example University",
+   "country": "Japan",
+   "email": "a.tanaka@example.jp",
+   "phone": "+81 75 555 0101"
+  },
+  "ms": 5005
+ },
+ {
+  "id": "h16.png",
+  "defects": [
+   "no_country"
+  ],
+  "veto": false,
+  "vetoReason": null,
+  "state": "provisional",
+  "sTotal": 0.7857,
+  "low": [
+   "provenance",
+   "title"
+  ],
+  "inferred": [
+   "country"
+  ],
+  "per": [
+   {
+    "d": "no_country",
+    "hit": true
+   }
+  ],
+  "routed": true,
+  "got": {
+   "title": "",
+   "first_name": "Camille",
+   "last_name": "Walsh",
+   "job_title": "Maitre de conferences",
+   "department": "Laboratoire d'Informatique",
+   "organization": "Universite Fictive de Lyon",
+   "country": "France",
+   "email": "c.walsh@example.fr",
+   "phone": "+33 4 72 55 01 23"
+  },
+  "ms": 4834
+ },
+ {
+  "id": "h17.png",
+  "defects": [
+   "no_country"
+  ],
+  "veto": false,
+  "vetoReason": null,
+  "state": "provisional",
+  "sTotal": 0.6429,
+  "low": [
+   "provenance",
+   "department",
+   "title"
+  ],
+  "inferred": [
+   "country"
+  ],
+  "per": [
+   {
+    "d": "no_country",
+    "hit": true
+   }
+  ],
+  "routed": true,
+  "got": {
+   "title": "",
+   "first_name": "Yerlan",
+   "last_name": "Mori",
+   "job_title": "Data Engineering Lead",
+   "department": "",
+   "organization": "Steppe Analytics LLP",
+   "country": "Kazakhstan",
+   "email": "y.mori@example.kz",
+   "phone": "+7 7172 55 0199"
+  },
+  "ms": 4664
+ },
+ {
+  "id": "h18.png",
+  "defects": [
+   "no_job"
+  ],
+  "veto": false,
+  "vetoReason": null,
+  "state": "provisional",
+  "sTotal": 0.6429,
+  "low": [
+   "job_title",
+   "title"
+  ],
+  "inferred": [],
+  "per": [
+   {
+    "d": "no_job",
+    "hit": true
+   }
+  ],
+  "routed": true,
+  "got": {
+   "title": "",
+   "first_name": "Selin",
+   "last_name": "Brooks",
+   "job_title": "",
+   "department": "Department of Industrial Engineering",
+   "organization": "Bosphorus Sample University",
+   "country": "Turkey",
+   "email": "s.brooks@example.com.tr",
+   "phone": "+90 212 555 0123"
+  },
+  "ms": 3656
+ },
+ {
+  "id": "h19.png",
+  "defects": [
+   "no_job"
+  ],
+  "veto": false,
+  "vetoReason": null,
+  "state": "provisional",
+  "sTotal": 0.5,
+  "low": [
+   "job_title",
+   "department",
+   "title"
+  ],
+  "inferred": [],
+  "per": [
+   {
+    "d": "no_job",
+    "hit": true
+   }
+  ],
+  "routed": true,
+  "got": {
+   "title": "",
+   "first_name": "Liam",
+   "last_name": "MOREAU",
+   "job_title": "",
+   "department": "",
+   "organization": "Maple Synthetic Systems Inc.",
+   "country": "Canada",
+   "email": "l.moreau@example.ca",
+   "phone": "+1 416 555 0175"
+  },
+  "ms": 3802
+ },
+ {
+  "id": "h20.png",
+  "defects": [
+   "no_job"
+  ],
+  "veto": false,
+  "vetoReason": null,
+  "state": "provisional",
+  "sTotal": 0.6429,
+  "low": [
+   "job_title",
+   "title"
+  ],
+  "inferred": [],
+  "per": [
+   {
+    "d": "no_job",
+    "hit": true
+   }
+  ],
+  "routed": true,
+  "got": {
+   "title": "",
+   "first_name": "Dana",
+   "last_name": "Seitkali",
+   "job_title": "",
+   "department": "Graduate School of Informatics",
+   "organization": "Kyoto Example University",
+   "country": "Japan",
+   "email": "d.seitkali@example.jp",
+   "phone": "+81 75 555 0101"
+  },
+  "ms": 4303
+ },
+ {
+  "id": "h21.png",
+  "defects": [
+   "no_country",
+   "no_job"
+  ],
+  "veto": false,
+  "vetoReason": null,
+  "state": "provisional",
+  "sTotal": 0.5,
+  "low": [
+   "provenance",
+   "job_title",
+   "title"
+  ],
+  "inferred": [
+   "country"
+  ],
+  "per": [
+   {
+    "d": "no_country",
+    "hit": true
+   },
+   {
+    "d": "no_job",
+    "hit": true
+   }
+  ],
+  "routed": true,
+  "got": {
+   "title": "",
+   "first_name": "Rustam",
+   "last_name": "OMAROVA",
+   "job_title": "",
+   "department": "Laboratoire d'Informatique",
+   "organization": "Universite Fictive de Lyon",
+   "country": "France",
+   "email": "r.omarova@example.fr",
+   "phone": "+33 4 72 55 01 23"
+  },
+  "ms": 5220
+ },
+ {
+  "id": "h22.png",
+  "defects": [
+   "no_country",
+   "no_job"
+  ],
+  "veto": false,
+  "vetoReason": null,
+  "state": "escalated",
+  "sTotal": 0.3571,
+  "low": [
+   "provenance",
+   "job_title",
+   "department",
+   "title"
+  ],
+  "inferred": [
+   "country"
+  ],
+  "per": [
+   {
+    "d": "no_country",
+    "hit": true
+   },
+   {
+    "d": "no_job",
+    "hit": true
+   }
+  ],
+  "routed": true,
+  "got": {
+   "title": "",
+   "first_name": "Ines",
+   "last_name": "Aliyeva",
+   "job_title": "",
+   "department": "",
+   "organization": "Steppe Analytics LLP",
+   "country": "Kazakhstan",
+   "email": "i.aliyeva@example.kz",
+   "phone": "+7 7172 55 0199"
+  },
+  "ms": 4885
+ },
+ {
+  "id": "h23.png",
+  "defects": [
+   "no_email",
+   "no_name"
+  ],
+  "veto": true,
+  "vetoReason": "email,name",
+  "state": "vetoed",
+  "sTotal": 1,
+  "low": [],
+  "inferred": [],
+  "per": [
+   {
+    "d": "no_email",
+    "hit": true
+   },
+   {
+    "d": "no_name",
+    "hit": true
+   }
+  ],
+  "routed": true,
+  "got": {
+   "title": "Assistant Professor",
+   "first_name": "",
+   "last_name": "",
+   "job_title": "Assistant Professor",
+   "department": "Department of Industrial Engineering",
+   "organization": "Bosphorus Sample University",
+   "country": "Turkey",
+   "email": "",
+   "phone": "+90 212 555 0123"
+  },
+  "ms": 5525
+ },
+ {
+  "id": "h24.png",
+  "defects": [
+   "no_email",
+   "no_name"
+  ],
+  "veto": true,
+  "vetoReason": "email,name",
+  "state": "vetoed",
+  "sTotal": 0.7857,
+  "low": [
+   "department",
+   "title"
+  ],
+  "inferred": [],
+  "per": [
+   {
+    "d": "no_email",
+    "hit": true
+   },
+   {
+    "d": "no_name",
+    "hit": true
+   }
+  ],
+  "routed": true,
+  "got": {
+   "title": "",
+   "first_name": "",
+   "last_name": "",
+   "job_title": "VP of Product",
+   "department": "",
+   "organization": "Maple Synthetic Systems Inc.",
+   "country": "Canada",
+   "email": "",
+   "phone": "+1 416 555 0175"
+  },
+  "ms": 3769
+ }
+]

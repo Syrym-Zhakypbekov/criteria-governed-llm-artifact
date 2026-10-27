@@ -1,0 +1,84 @@
+{
+ "tag": "flash38",
+ "calls": 1080,
+ "errors": 12,
+ "essays": 120,
+ "human_qwk_r1_r2": 0.6577946768060836,
+ "human_mae_r1_r2": 0.375,
+ "A": {
+  "n": 120,
+  "mae_vs_gold": 0.425,
+  "mae_ci": [
+   0.3597222222222223,
+   0.49166666666666664
+  ],
+  "qwk_single_run_vs_gold": 0.6496026612456108,
+  "qwk_single_run_vs_rater1": 0.6023738872403561,
+  "qwk_single_run_vs_rater2": 0.5944206008583691,
+  "spearman_mean_vs_gold": 0.7736394054704473,
+  "bias_ai_minus_gold": -0.3805555555555556,
+  "repeat_sd_mean": 0.05106882308569509,
+  "share_repeats_identical": 0.7833333333333333
+ },
+ "B": {
+  "n": 120,
+  "mae_vs_gold": 0.8375,
+  "mae_ci": [
+   0.7708333333333334,
+   0.9083333333333333
+  ],
+  "qwk_single_run_vs_gold": 0.39431611924712195,
+  "qwk_single_run_vs_rater1": 0.357700167193015,
+  "qwk_single_run_vs_rater2": 0.376,
+  "spearman_mean_vs_gold": 0.7842919041179311,
+  "bias_ai_minus_gold": -0.8319444444444445,
+  "repeat_sd_mean": 0.07267486362195073,
+  "share_repeats_identical": 0.6916666666666667
+ },
+ "C": {
+  "n": 120,
+  "mae_vs_gold": 0.6479166666666667,
+  "mae_ci": [
+   0.5791319444444445,
+   0.7229166666666667
+  ],
+  "qwk_single_run_vs_gold": 0.4844739222188724,
+  "qwk_single_run_vs_rater1": 0.45027932960893846,
+  "qwk_single_run_vs_rater2": 0.4494730316181029,
+  "spearman_mean_vs_gold": 0.7641417949302571,
+  "bias_ai_minus_gold": -0.6395833333333333,
+  "repeat_sd_mean": 0.05359881319565892,
+  "share_repeats_identical": 0.773109243697479
+ },
+ "paired_AB": {
+  "mae_diff": -0.4125,
+  "wilcoxon_p": 4.003262291875241e-18
+ },
+ "paired_BC": {
+  "mae_diff": 0.18958333333333333,
+  "wilcoxon_p": 2.3789304293291196e-13
+ },
+ "paired_AC": {
+  "mae_diff": -0.22291666666666668,
+  "wilcoxon_p": 5.200231153062307e-12
+ },
+ "large_errors": 43,
+ "escalate_10": {
+  "k": 12,
+  "caught": 3,
+  "random_mean": 4.2956,
+  "p_random_ge": 0.8738
+ },
+ "escalate_20": {
+  "k": 24,
+  "caught": 6,
+  "random_mean": 8.5702,
+  "p_random_ge": 0.9286
+ },
+ "escalate_30": {
+  "k": 36,
+  "caught": 11,
+  "random_mean": 12.8782,
+  "p_random_ge": 0.834
+ }
+}

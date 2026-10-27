@@ -1,0 +1,338 @@
+[
+ {
+  "file": "C:/Users/syrym/AppData/Local/Temp/apex/cards/card00.png",
+  "defect": "clean",
+  "truth": {
+   "first_name": "Daniel",
+   "last_name": "Kessler",
+   "email": "daniel.kessler@example.ac.uk",
+   "organization": "University of Northvale",
+   "job_title": "Associate Professor",
+   "country": "United Kingdom"
+  }
+ },
+ {
+  "file": "C:/Users/syrym/AppData/Local/Temp/apex/cards/card01.png",
+  "defect": "clean",
+  "truth": {
+   "first_name": "Maria",
+   "last_name": "Novak",
+   "email": "maria.novak@example.de",
+   "organization": "Technische Hochschule Westfeld",
+   "job_title": "Professor",
+   "country": "Germany"
+  }
+ },
+ {
+  "file": "C:/Users/syrym/AppData/Local/Temp/apex/cards/card02.png",
+  "defect": "clean",
+  "truth": {
+   "first_name": "Arman",
+   "last_name": "Petrov",
+   "email": "arman.petrov@example.kz",
+   "organization": "Almaty Synthetic Tech LLP",
+   "job_title": "Chief Technology Officer",
+   "country": "Kazakhstan"
+  }
+ },
+ {
+  "file": "C:/Users/syrym/AppData/Local/Temp/apex/cards/card03.png",
+  "defect": "clean",
+  "truth": {
+   "first_name": "Aigerim",
+   "last_name": "Nurlanova",
+   "email": "aigerim.nurlanova@example.it",
+   "organization": "Universita di Esempio",
+   "job_title": "Researcher",
+   "country": "Italy"
+  }
+ },
+ {
+  "file": "C:/Users/syrym/AppData/Local/Temp/apex/cards/card04.png",
+  "defect": "clean",
+  "truth": {
+   "first_name": "Lukas",
+   "last_name": "Haddad",
+   "email": "lukas.haddad@example.com",
+   "organization": "Example Data Systems Inc.",
+   "job_title": "Head of Analytics",
+   "country": "United States"
+  }
+ },
+ {
+  "file": "C:/Users/syrym/AppData/Local/Temp/apex/cards/card05.png",
+  "defect": "clean",
+  "truth": {
+   "first_name": "Sofia",
+   "last_name": "Rossi",
+   "email": "sofia.rossi@example.es",
+   "organization": "Instituto Ficticio de Tecnologia",
+   "job_title": "Assistant Professor",
+   "country": "Spain"
+  }
+ },
+ {
+  "file": "C:/Users/syrym/AppData/Local/Temp/apex/cards/card06.png",
+  "defect": "clean",
+  "truth": {
+   "first_name": "Timur",
+   "last_name": "Bekov",
+   "email": "timur.bekov@example.ac.uk",
+   "organization": "University of Northvale",
+   "job_title": "Associate Professor",
+   "country": "United Kingdom"
+  }
+ },
+ {
+  "file": "C:/Users/syrym/AppData/Local/Temp/apex/cards/card07.png",
+  "defect": "clean",
+  "truth": {
+   "first_name": "Elena",
+   "last_name": "Abenova",
+   "email": "elena.abenova@example.de",
+   "organization": "Technische Hochschule Westfeld",
+   "job_title": "Professor",
+   "country": "Germany"
+  }
+ },
+ {
+  "file": "C:/Users/syrym/AppData/Local/Temp/apex/cards/card08.png",
+  "defect": "no_email",
+  "truth": {
+   "first_name": "Omar",
+   "last_name": "Weber",
+   "email": "",
+   "organization": "Almaty Synthetic Tech LLP",
+   "job_title": "Chief Technology Officer",
+   "country": "Kazakhstan"
+  }
+ },
+ {
+  "file": "C:/Users/syrym/AppData/Local/Temp/apex/cards/card09.png",
+  "defect": "no_email",
+  "truth": {
+   "first_name": "Hana",
+   "last_name": "Sato",
+   "email": "",
+   "organization": "Universita di Esempio",
+   "job_title": "Researcher",
+   "country": "Italy"
+  }
+ },
+ {
+  "file": "C:/Users/syrym/AppData/Local/Temp/apex/cards/card10.png",
+  "defect": "no_email",
+  "truth": {
+   "first_name": "Nikolai",
+   "last_name": "Sadykov",
+   "email": "",
+   "organization": "Example Data Systems Inc.",
+   "job_title": "Head of Analytics",
+   "country": "United States"
+  }
+ },
+ {
+  "file": "C:/Users/syrym/AppData/Local/Temp/apex/cards/card11.png",
+  "defect": "no_email",
+  "truth": {
+   "first_name": "Zhanna",
+   "last_name": "Ivanova",
+   "email": "",
+   "organization": "Instituto Ficticio de Tecnologia",
+   "job_title": "Assistant Professor",
+   "country": "Spain"
+  }
+ },
+ {
+  "file": "C:/Users/syrym/AppData/Local/Temp/apex/cards/card12.png",
+  "defect": "no_org",
+  "truth": {
+   "first_name": "Daniel",
+   "last_name": "Kessler",
+   "email": "daniel.kessler@example.ac.uk",
+   "organization": "",
+   "job_title": "Associate Professor",
+   "country": "United Kingdom"
+  }
+ },
+ {
+  "file": "C:/Users/syrym/AppData/Local/Temp/apex/cards/card13.png",
+  "defect": "no_org",
+  "truth": {
+   "first_name": "Maria",
+   "last_name": "Novak",
+   "email": "maria.novak@example.de",
+   "organization": "",
+   "job_title": "Professor",
+   "country": "Germany"
+  }
+ },
+ {
+  "file": "C:/Users/syrym/AppData/Local/Temp/apex/cards/card14.png",
+  "defect": "no_org",
+  "truth": {
+   "first_name": "Arman",
+   "last_name": "Petrov",
+   "email": "arman.petrov@example.kz",
+   "organization": "",
+   "job_title": "Chief Technology Officer",
+   "country": "Kazakhstan"
+  }
+ },
+ {
+  "file": "C:/Users/syrym/AppData/Local/Temp/apex/cards/card15.png",
+  "defect": "no_org",
+  "truth": {
+   "first_name": "Aigerim",
+   "last_name": "Nurlanova",
+   "email": "aigerim.nurlanova@example.it",
+   "organization": "",
+   "job_title": "Researcher",
+   "country": "Italy"
+  }
+ },
+ {
+  "file": "C:/Users/syrym/AppData/Local/Temp/apex/cards/card16.png",
+  "defect": "no_name",
+  "truth": {
+   "first_name": "",
+   "last_name": "",
+   "email": "lukas.haddad@example.com",
+   "organization": "Example Data Systems Inc.",
+   "job_title": "Head of Analytics",
+   "country": "United States"
+  }
+ },
+ {
+  "file": "C:/Users/syrym/AppData/Local/Temp/apex/cards/card17.png",
+  "defect": "no_name",
+  "truth": {
+   "first_name": "",
+   "last_name": "",
+   "email": "sofia.rossi@example.es",
+   "organization": "Instituto Ficticio de Tecnologia",
+   "job_title": "Assistant Professor",
+   "country": "Spain"
+  }
+ },
+ {
+  "file": "C:/Users/syrym/AppData/Local/Temp/apex/cards/card18.png",
+  "defect": "no_name",
+  "truth": {
+   "first_name": "",
+   "last_name": "",
+   "email": "timur.bekov@example.ac.uk",
+   "organization": "University of Northvale",
+   "job_title": "Associate Professor",
+   "country": "United Kingdom"
+  }
+ },
+ {
+  "file": "C:/Users/syrym/AppData/Local/Temp/apex/cards/card19.png",
+  "defect": "no_name",
+  "truth": {
+   "first_name": "",
+   "last_name": "",
+   "email": "elena.abenova@example.de",
+   "organization": "Technische Hochschule Westfeld",
+   "job_title": "Professor",
+   "country": "Germany"
+  }
+ },
+ {
+  "file": "C:/Users/syrym/AppData/Local/Temp/apex/cards/card20.png",
+  "defect": "no_country",
+  "truth": {
+   "first_name": "Omar",
+   "last_name": "Weber",
+   "email": "omar.weber@example.kz",
+   "organization": "Almaty Synthetic Tech LLP",
+   "job_title": "Chief Technology Officer",
+   "country": ""
+  }
+ },
+ {
+  "file": "C:/Users/syrym/AppData/Local/Temp/apex/cards/card21.png",
+  "defect": "no_country",
+  "truth": {
+   "first_name": "Hana",
+   "last_name": "Sato",
+   "email": "hana.sato@example.it",
+   "organization": "Universita di Esempio",
+   "job_title": "Researcher",
+   "country": ""
+  }
+ },
+ {
+  "file": "C:/Users/syrym/AppData/Local/Temp/apex/cards/card22.png",
+  "defect": "no_country",
+  "truth": {
+   "first_name": "Nikolai",
+   "last_name": "Sadykov",
+   "email": "nikolai.sadykov@example.com",
+   "organization": "Example Data Systems Inc.",
+   "job_title": "Head of Analytics",
+   "country": ""
+  }
+ },
+ {
+  "file": "C:/Users/syrym/AppData/Local/Temp/apex/cards/card23.png",
+  "defect": "no_country",
+  "truth": {
+   "first_name": "Zhanna",
+   "last_name": "Ivanova",
+   "email": "zhanna.ivanova@example.es",
+   "organization": "Instituto Ficticio de Tecnologia",
+   "job_title": "Assistant Professor",
+   "country": ""
+  }
+ },
+ {
+  "file": "C:/Users/syrym/AppData/Local/Temp/apex/cards/card24.png",
+  "defect": "no_job",
+  "truth": {
+   "first_name": "Daniel",
+   "last_name": "Kessler",
+   "email": "daniel.kessler@example.ac.uk",
+   "organization": "University of Northvale",
+   "job_title": "",
+   "country": "United Kingdom"
+  }
+ },
+ {
+  "file": "C:/Users/syrym/AppData/Local/Temp/apex/cards/card25.png",
+  "defect": "no_job",
+  "truth": {
+   "first_name": "Maria",
+   "last_name": "Novak",
+   "email": "maria.novak@example.de",
+   "organization": "Technische Hochschule Westfeld",
+   "job_title": "",
+   "country": "Germany"
+  }
+ },
+ {
+  "file": "C:/Users/syrym/AppData/Local/Temp/apex/cards/card26.png",
+  "defect": "no_job",
+  "truth": {
+   "first_name": "Arman",
+   "last_name": "Petrov",
+   "email": "arman.petrov@example.kz",
+   "organization": "Almaty Synthetic Tech LLP",
+   "job_title": "",
+   "country": "Kazakhstan"
+  }
+ },
+ {
+  "file": "C:/Users/syrym/AppData/Local/Temp/apex/cards/card27.png",
+  "defect": "no_job",
+  "truth": {
+   "first_name": "Aigerim",
+   "last_name": "Nurlanova",
+   "email": "aigerim.nurlanova@example.it",
+   "organization": "Universita di Esempio",
+   "job_title": "",
+   "country": "Italy"
+  }
+ }
+]

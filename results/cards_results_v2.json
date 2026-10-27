@@ -1,0 +1,935 @@
+[
+ {
+  "id": "card00.png",
+  "defect": "clean",
+  "veto": false,
+  "vetoReason": null,
+  "state": "provisional",
+  "sTotal": 1,
+  "low": [],
+  "confidence": 1,
+  "fieldOk": {
+   "first_name": true,
+   "last_name": true,
+   "email": true,
+   "organization": true,
+   "job_title": true,
+   "country": true
+  },
+  "inferred": [],
+  "got": {
+   "title": "Dr",
+   "first_name": "Daniel",
+   "last_name": "Kessler",
+   "job_title": "Associate Professor",
+   "department": "Department of Computer Science",
+   "organization": "University of Northvale",
+   "country": "United Kingdom",
+   "email": "daniel.kessler@example.ac.uk",
+   "phone": "+44 161 306 6000"
+  },
+  "ms": 1703
+ },
+ {
+  "id": "card01.png",
+  "defect": "clean",
+  "veto": false,
+  "vetoReason": null,
+  "state": "provisional",
+  "sTotal": 1,
+  "low": [],
+  "confidence": 1,
+  "fieldOk": {
+   "first_name": true,
+   "last_name": true,
+   "email": true,
+   "organization": true,
+   "job_title": true,
+   "country": true
+  },
+  "inferred": [],
+  "got": {
+   "title": "Dr",
+   "first_name": "Maria",
+   "last_name": "Novak",
+   "job_title": "Professor",
+   "department": "Faculty of Informatics",
+   "organization": "Technische Hochschule Westfeld",
+   "country": "Germany",
+   "email": "maria.novak@example.de",
+   "phone": "+49 30 1234 5678"
+  },
+  "ms": 1720
+ },
+ {
+  "id": "card02.png",
+  "defect": "clean",
+  "veto": false,
+  "vetoReason": null,
+  "state": "provisional",
+  "sTotal": 0.8571,
+  "low": [
+   "department"
+  ],
+  "confidence": 1,
+  "fieldOk": {
+   "first_name": true,
+   "last_name": true,
+   "email": true,
+   "organization": true,
+   "job_title": true,
+   "country": true
+  },
+  "inferred": [],
+  "got": {
+   "title": "Dr",
+   "first_name": "Arman",
+   "last_name": "Petrov",
+   "job_title": "Chief Technology Officer",
+   "department": "",
+   "organization": "Almaty Synthetic Tech LLP",
+   "country": "Kazakhstan",
+   "email": "arman.petrov@example.kz",
+   "phone": "+7 727 300 1234"
+  },
+  "ms": 1308
+ },
+ {
+  "id": "card03.png",
+  "defect": "clean",
+  "veto": false,
+  "vetoReason": null,
+  "state": "provisional",
+  "sTotal": 1,
+  "low": [],
+  "confidence": 1,
+  "fieldOk": {
+   "first_name": true,
+   "last_name": true,
+   "email": true,
+   "organization": true,
+   "job_title": true,
+   "country": true
+  },
+  "inferred": [],
+  "got": {
+   "title": "Dr",
+   "first_name": "Aigerim",
+   "last_name": "Nurlanova",
+   "job_title": "Researcher",
+   "department": "Dipartimento di Ingegneria",
+   "organization": "Universita di Esempio",
+   "country": "Italy",
+   "email": "aigerim.nurlanova@example.it",
+   "phone": "+39 06 4991 0000"
+  },
+  "ms": 1334
+ },
+ {
+  "id": "card04.png",
+  "defect": "clean",
+  "veto": false,
+  "vetoReason": null,
+  "state": "provisional",
+  "sTotal": 0.8571,
+  "low": [
+   "department"
+  ],
+  "confidence": 1,
+  "fieldOk": {
+   "first_name": true,
+   "last_name": true,
+   "email": true,
+   "organization": true,
+   "job_title": true,
+   "country": true
+  },
+  "inferred": [],
+  "got": {
+   "title": "Dr",
+   "first_name": "Lukas",
+   "last_name": "Haddad",
+   "job_title": "Head of Analytics",
+   "department": "",
+   "organization": "Example Data Systems Inc.",
+   "country": "United States",
+   "email": "lukas.haddad@example.com",
+   "phone": "+1 415 555 0134"
+  },
+  "ms": 1261
+ },
+ {
+  "id": "card05.png",
+  "defect": "clean",
+  "veto": false,
+  "vetoReason": null,
+  "state": "provisional",
+  "sTotal": 1,
+  "low": [],
+  "confidence": 1,
+  "fieldOk": {
+   "first_name": true,
+   "last_name": true,
+   "email": true,
+   "organization": true,
+   "job_title": true,
+   "country": true
+  },
+  "inferred": [],
+  "got": {
+   "title": "Dr",
+   "first_name": "Sofia",
+   "last_name": "Rossi",
+   "job_title": "Assistant Professor",
+   "department": "School of Engineering",
+   "organization": "Instituto Ficticio de Tecnologia",
+   "country": "Spain",
+   "email": "sofia.rossi@example.es",
+   "phone": "+34 91 555 0199"
+  },
+  "ms": 1252
+ },
+ {
+  "id": "card06.png",
+  "defect": "clean",
+  "veto": false,
+  "vetoReason": null,
+  "state": "provisional",
+  "sTotal": 1,
+  "low": [],
+  "confidence": 1,
+  "fieldOk": {
+   "first_name": true,
+   "last_name": true,
+   "email": true,
+   "organization": true,
+   "job_title": true,
+   "country": true
+  },
+  "inferred": [],
+  "got": {
+   "title": "Dr",
+   "first_name": "Timur",
+   "last_name": "Bekov",
+   "job_title": "Associate Professor",
+   "department": "Department of Computer Science",
+   "organization": "University of Northvale",
+   "country": "United Kingdom",
+   "email": "timur.bekov@example.ac.uk",
+   "phone": "+44 161 306 6000"
+  },
+  "ms": 1469
+ },
+ {
+  "id": "card07.png",
+  "defect": "clean",
+  "veto": false,
+  "vetoReason": null,
+  "state": "provisional",
+  "sTotal": 1,
+  "low": [],
+  "confidence": 1,
+  "fieldOk": {
+   "first_name": true,
+   "last_name": true,
+   "email": true,
+   "organization": true,
+   "job_title": true,
+   "country": true
+  },
+  "inferred": [],
+  "got": {
+   "title": "Dr",
+   "first_name": "Elena",
+   "last_name": "Abenova",
+   "job_title": "Professor",
+   "department": "Faculty of Informatics",
+   "organization": "Technische Hochschule Westfeld",
+   "country": "Germany",
+   "email": "elena.abenova@example.de",
+   "phone": "+49 30 1234 5678"
+  },
+  "ms": 1874
+ },
+ {
+  "id": "card08.png",
+  "defect": "no_email",
+  "veto": true,
+  "vetoReason": "email",
+  "state": "vetoed",
+  "sTotal": 0.8571,
+  "low": [
+   "department"
+  ],
+  "confidence": 0.98,
+  "fieldOk": {
+   "first_name": true,
+   "last_name": true,
+   "email": true,
+   "organization": true,
+   "job_title": true,
+   "country": true
+  },
+  "inferred": [],
+  "got": {
+   "title": "Dr",
+   "first_name": "Omar",
+   "last_name": "Weber",
+   "job_title": "Chief Technology Officer",
+   "department": "",
+   "organization": "Almaty Synthetic Tech LLP",
+   "country": "Kazakhstan",
+   "email": "",
+   "phone": "+7 727 300 1234"
+  },
+  "ms": 1236
+ },
+ {
+  "id": "card09.png",
+  "defect": "no_email",
+  "veto": true,
+  "vetoReason": "email",
+  "state": "vetoed",
+  "sTotal": 1,
+  "low": [],
+  "confidence": 1,
+  "fieldOk": {
+   "first_name": true,
+   "last_name": true,
+   "email": true,
+   "organization": true,
+   "job_title": true,
+   "country": true
+  },
+  "inferred": [],
+  "got": {
+   "title": "Dr",
+   "first_name": "Hana",
+   "last_name": "Sato",
+   "job_title": "Researcher",
+   "department": "Dipartimento di Ingegneria",
+   "organization": "Universita di Esempio",
+   "country": "Italy",
+   "email": "",
+   "phone": "+39 06 4991 0000"
+  },
+  "ms": 1393
+ },
+ {
+  "id": "card10.png",
+  "defect": "no_email",
+  "veto": true,
+  "vetoReason": "email",
+  "state": "vetoed",
+  "sTotal": 0.8571,
+  "low": [
+   "department"
+  ],
+  "confidence": 1,
+  "fieldOk": {
+   "first_name": true,
+   "last_name": true,
+   "email": true,
+   "organization": true,
+   "job_title": true,
+   "country": true
+  },
+  "inferred": [],
+  "got": {
+   "title": "Dr",
+   "first_name": "Nikolai",
+   "last_name": "Sadykov",
+   "job_title": "Head of Analytics",
+   "department": "",
+   "organization": "Example Data Systems Inc.",
+   "country": "United States",
+   "email": "",
+   "phone": "+1 415 555 0134"
+  },
+  "ms": 1496
+ },
+ {
+  "id": "card11.png",
+  "defect": "no_email",
+  "veto": true,
+  "vetoReason": "email",
+  "state": "vetoed",
+  "sTotal": 1,
+  "low": [],
+  "confidence": 1,
+  "fieldOk": {
+   "first_name": true,
+   "last_name": true,
+   "email": true,
+   "organization": true,
+   "job_title": true,
+   "country": true
+  },
+  "inferred": [],
+  "got": {
+   "title": "Dr",
+   "first_name": "Zhanna",
+   "last_name": "Ivanova",
+   "job_title": "Assistant Professor",
+   "department": "School of Engineering",
+   "organization": "Instituto Ficticio de Tecnologia",
+   "country": "Spain",
+   "email": "",
+   "phone": "+34 91 555 0199"
+  },
+  "ms": 1326
+ },
+ {
+  "id": "card12.png",
+  "defect": "no_org",
+  "veto": true,
+  "vetoReason": "organization",
+  "state": "vetoed",
+  "sTotal": 0.8571,
+  "low": [
+   "provenance"
+  ],
+  "confidence": 0.95,
+  "fieldOk": {
+   "first_name": true,
+   "last_name": true,
+   "email": true,
+   "organization": true,
+   "job_title": true,
+   "country": true
+  },
+  "inferred": [
+   "organization"
+  ],
+  "got": {
+   "title": "Dr",
+   "first_name": "Daniel",
+   "last_name": "Kessler",
+   "job_title": "Associate Professor",
+   "department": "Department of Computer Science",
+   "organization": "",
+   "country": "United Kingdom",
+   "email": "daniel.kessler@example.ac.uk",
+   "phone": "+44 161 306 6000"
+  },
+  "ms": 1407
+ },
+ {
+  "id": "card13.png",
+  "defect": "no_org",
+  "veto": true,
+  "vetoReason": "organization",
+  "state": "vetoed",
+  "sTotal": 1,
+  "low": [],
+  "confidence": 1,
+  "fieldOk": {
+   "first_name": true,
+   "last_name": true,
+   "email": true,
+   "organization": true,
+   "job_title": true,
+   "country": true
+  },
+  "inferred": [],
+  "got": {
+   "title": "Dr",
+   "first_name": "Maria",
+   "last_name": "Novak",
+   "job_title": "Professor",
+   "department": "Faculty of Informatics",
+   "organization": "",
+   "country": "Germany",
+   "email": "maria.novak@example.de",
+   "phone": "+49 30 1234 5678"
+  },
+  "ms": 1147
+ },
+ {
+  "id": "card14.png",
+  "defect": "no_org",
+  "veto": false,
+  "vetoReason": null,
+  "state": "provisional",
+  "sTotal": 0.7143,
+  "low": [
+   "provenance",
+   "department"
+  ],
+  "confidence": 0.95,
+  "fieldOk": {
+   "first_name": true,
+   "last_name": true,
+   "email": true,
+   "organization": false,
+   "job_title": true,
+   "country": true
+  },
+  "inferred": [
+   "organization"
+  ],
+  "got": {
+   "title": "Dr",
+   "first_name": "Arman",
+   "last_name": "Petrov",
+   "job_title": "Chief Technology Officer",
+   "department": "",
+   "organization": "example.kz",
+   "country": "Kazakhstan",
+   "email": "arman.petrov@example.kz",
+   "phone": "+7 727 300 1234"
+  },
+  "ms": 1431
+ },
+ {
+  "id": "card15.png",
+  "defect": "no_org",
+  "veto": true,
+  "vetoReason": "organization",
+  "state": "vetoed",
+  "sTotal": 1,
+  "low": [],
+  "confidence": 1,
+  "fieldOk": {
+   "first_name": true,
+   "last_name": true,
+   "email": true,
+   "organization": true,
+   "job_title": true,
+   "country": true
+  },
+  "inferred": [],
+  "got": {
+   "title": "Dr",
+   "first_name": "Aigerim",
+   "last_name": "Nurlanova",
+   "job_title": "Researcher",
+   "department": "Dipartimento di Ingegneria",
+   "organization": "",
+   "country": "Italy",
+   "email": "aigerim.nurlanova@example.it",
+   "phone": "+39 06 4991 0000"
+  },
+  "ms": 1367
+ },
+ {
+  "id": "card16.png",
+  "defect": "no_name",
+  "veto": true,
+  "vetoReason": "name",
+  "state": "vetoed",
+  "sTotal": 0.6429,
+  "low": [
+   "provenance",
+   "department",
+   "title"
+  ],
+  "confidence": 0.95,
+  "fieldOk": {
+   "first_name": false,
+   "last_name": false,
+   "email": true,
+   "organization": true,
+   "job_title": true,
+   "country": true
+  },
+  "inferred": [
+   "first_name",
+   "last_name"
+  ],
+  "got": {
+   "title": "",
+   "first_name": "Lukas",
+   "last_name": "Haddad",
+   "job_title": "Head of Analytics",
+   "department": "",
+   "organization": "Example Data Systems Inc.",
+   "country": "United States",
+   "email": "lukas.haddad@example.com",
+   "phone": "+1 415 555 0134"
+  },
+  "ms": 1412
+ },
+ {
+  "id": "card17.png",
+  "defect": "no_name",
+  "veto": false,
+  "vetoReason": null,
+  "state": "provisional",
+  "sTotal": 0.9286,
+  "low": [
+   "title"
+  ],
+  "confidence": 0.95,
+  "fieldOk": {
+   "first_name": false,
+   "last_name": false,
+   "email": true,
+   "organization": true,
+   "job_title": true,
+   "country": true
+  },
+  "inferred": [],
+  "got": {
+   "title": "",
+   "first_name": "Sofia",
+   "last_name": "Rossi",
+   "job_title": "Assistant Professor",
+   "department": "School of Engineering",
+   "organization": "Instituto Ficticio de Tecnologia",
+   "country": "Spain",
+   "email": "sofia.rossi@example.es",
+   "phone": "+34 91 555 0199"
+  },
+  "ms": 1515
+ },
+ {
+  "id": "card18.png",
+  "defect": "no_name",
+  "veto": true,
+  "vetoReason": "name",
+  "state": "vetoed",
+  "sTotal": 0.7857,
+  "low": [
+   "provenance",
+   "title"
+  ],
+  "confidence": 0.95,
+  "fieldOk": {
+   "first_name": false,
+   "last_name": false,
+   "email": true,
+   "organization": true,
+   "job_title": true,
+   "country": true
+  },
+  "inferred": [
+   "first_name",
+   "last_name"
+  ],
+  "got": {
+   "title": "",
+   "first_name": "Timur",
+   "last_name": "Bekov",
+   "job_title": "Associate Professor",
+   "department": "Department of Computer Science",
+   "organization": "University of Northvale",
+   "country": "United Kingdom",
+   "email": "timur.bekov@example.ac.uk",
+   "phone": "+44 161 306 6000"
+  },
+  "ms": 1231
+ },
+ {
+  "id": "card19.png",
+  "defect": "no_name",
+  "veto": true,
+  "vetoReason": "name",
+  "state": "vetoed",
+  "sTotal": 0.5714,
+  "low": [
+   "provenance",
+   "job_title"
+  ],
+  "confidence": 0.95,
+  "fieldOk": {
+   "first_name": false,
+   "last_name": false,
+   "email": true,
+   "organization": true,
+   "job_title": false,
+   "country": true
+  },
+  "inferred": [
+   "first_name",
+   "last_name"
+  ],
+  "got": {
+   "title": "Professor",
+   "first_name": "Elena",
+   "last_name": "Abenova",
+   "job_title": "",
+   "department": "Faculty of Informatics",
+   "organization": "Technische Hochschule Westfeld",
+   "country": "Germany",
+   "email": "elena.abenova@example.de",
+   "phone": "+49 30 1234 5678"
+  },
+  "ms": 1872
+ },
+ {
+  "id": "card20.png",
+  "defect": "no_country",
+  "veto": false,
+  "vetoReason": null,
+  "state": "provisional",
+  "sTotal": 0.7143,
+  "low": [
+   "provenance",
+   "department"
+  ],
+  "confidence": 1,
+  "fieldOk": {
+   "first_name": true,
+   "last_name": true,
+   "email": true,
+   "organization": true,
+   "job_title": true,
+   "country": false
+  },
+  "inferred": [
+   "country"
+  ],
+  "got": {
+   "title": "Dr",
+   "first_name": "Omar",
+   "last_name": "Weber",
+   "job_title": "Chief Technology Officer",
+   "department": "",
+   "organization": "Almaty Synthetic Tech LLP",
+   "country": "Kazakhstan",
+   "email": "omar.weber@example.kz",
+   "phone": "+7 727 300 1234"
+  },
+  "ms": 1493
+ },
+ {
+  "id": "card21.png",
+  "defect": "no_country",
+  "veto": false,
+  "vetoReason": null,
+  "state": "provisional",
+  "sTotal": 0.8571,
+  "low": [
+   "provenance"
+  ],
+  "confidence": 1,
+  "fieldOk": {
+   "first_name": true,
+   "last_name": true,
+   "email": true,
+   "organization": true,
+   "job_title": true,
+   "country": false
+  },
+  "inferred": [
+   "country"
+  ],
+  "got": {
+   "title": "Dr",
+   "first_name": "Hana",
+   "last_name": "Sato",
+   "job_title": "Researcher",
+   "department": "Dipartimento di Ingegneria",
+   "organization": "Universita di Esempio",
+   "country": "Italy",
+   "email": "hana.sato@example.it",
+   "phone": "+39 06 4991 0000"
+  },
+  "ms": 1474
+ },
+ {
+  "id": "card22.png",
+  "defect": "no_country",
+  "veto": false,
+  "vetoReason": null,
+  "state": "provisional",
+  "sTotal": 0.7143,
+  "low": [
+   "provenance",
+   "department"
+  ],
+  "confidence": 1,
+  "fieldOk": {
+   "first_name": true,
+   "last_name": true,
+   "email": true,
+   "organization": true,
+   "job_title": true,
+   "country": false
+  },
+  "inferred": [
+   "country"
+  ],
+  "got": {
+   "title": "Dr",
+   "first_name": "Nikolai",
+   "last_name": "Sadykov",
+   "job_title": "Head of Analytics",
+   "department": "",
+   "organization": "Example Data Systems Inc.",
+   "country": "United States",
+   "email": "nikolai.sadykov@example.com",
+   "phone": "+1 415 555 0134"
+  },
+  "ms": 1408
+ },
+ {
+  "id": "card23.png",
+  "defect": "no_country",
+  "veto": false,
+  "vetoReason": null,
+  "state": "provisional",
+  "sTotal": 0.8571,
+  "low": [
+   "provenance"
+  ],
+  "confidence": 1,
+  "fieldOk": {
+   "first_name": true,
+   "last_name": true,
+   "email": true,
+   "organization": true,
+   "job_title": true,
+   "country": false
+  },
+  "inferred": [
+   "country"
+  ],
+  "got": {
+   "title": "Dr",
+   "first_name": "Zhanna",
+   "last_name": "Ivanova",
+   "job_title": "Assistant Professor",
+   "department": "School of Engineering",
+   "organization": "Instituto Ficticio de Tecnologia",
+   "country": "Spain",
+   "email": "zhanna.ivanova@example.es",
+   "phone": "+34 91 555 0199"
+  },
+  "ms": 1270
+ },
+ {
+  "id": "card24.png",
+  "defect": "no_job",
+  "veto": false,
+  "vetoReason": null,
+  "state": "provisional",
+  "sTotal": 0.7143,
+  "low": [
+   "job_title"
+  ],
+  "confidence": 1,
+  "fieldOk": {
+   "first_name": true,
+   "last_name": true,
+   "email": true,
+   "organization": true,
+   "job_title": true,
+   "country": true
+  },
+  "inferred": [],
+  "got": {
+   "title": "Dr",
+   "first_name": "Daniel",
+   "last_name": "Kessler",
+   "job_title": "",
+   "department": "Department of Computer Science",
+   "organization": "University of Northvale",
+   "country": "United Kingdom",
+   "email": "daniel.kessler@example.ac.uk",
+   "phone": "+44 161 306 6000"
+  },
+  "ms": 1332
+ },
+ {
+  "id": "card25.png",
+  "defect": "no_job",
+  "veto": false,
+  "vetoReason": null,
+  "state": "provisional",
+  "sTotal": 0.7143,
+  "low": [
+   "job_title"
+  ],
+  "confidence": 1,
+  "fieldOk": {
+   "first_name": true,
+   "last_name": true,
+   "email": true,
+   "organization": true,
+   "job_title": true,
+   "country": true
+  },
+  "inferred": [],
+  "got": {
+   "title": "Dr",
+   "first_name": "Maria",
+   "last_name": "Novak",
+   "job_title": "",
+   "department": "Faculty of Informatics",
+   "organization": "Technische Hochschule Westfeld",
+   "country": "Germany",
+   "email": "maria.novak@example.de",
+   "phone": "+49 30 1234 5678"
+  },
+  "ms": 1373
+ },
+ {
+  "id": "card26.png",
+  "defect": "no_job",
+  "veto": false,
+  "vetoReason": null,
+  "state": "provisional",
+  "sTotal": 0.5714,
+  "low": [
+   "job_title",
+   "department"
+  ],
+  "confidence": 1,
+  "fieldOk": {
+   "first_name": true,
+   "last_name": true,
+   "email": true,
+   "organization": true,
+   "job_title": true,
+   "country": true
+  },
+  "inferred": [],
+  "got": {
+   "title": "Dr",
+   "first_name": "Arman",
+   "last_name": "Petrov",
+   "job_title": "",
+   "department": "",
+   "organization": "Almaty Synthetic Tech LLP",
+   "country": "Kazakhstan",
+   "email": "arman.petrov@example.kz",
+   "phone": "+7 727 300 1234"
+  },
+  "ms": 1222
+ },
+ {
+  "id": "card27.png",
+  "defect": "no_job",
+  "veto": false,
+  "vetoReason": null,
+  "state": "provisional",
+  "sTotal": 0.7143,
+  "low": [
+   "job_title"
+  ],
+  "confidence": 1,
+  "fieldOk": {
+   "first_name": true,
+   "last_name": true,
+   "email": true,
+   "organization": true,
+   "job_title": true,
+   "country": true
+  },
+  "inferred": [],
+  "got": {
+   "title": "Dr",
+   "first_name": "Aigerim",
+   "last_name": "Nurlanova",
+   "job_title": "",
+   "department": "Dipartimento di Ingegneria",
+   "organization": "Universita di Esempio",
+   "country": "Italy",
+   "email": "aigerim.nurlanova@example.it",
+   "phone": "+39 06 4991 0000"
+  },
+  "ms": 1368
+ }
+]

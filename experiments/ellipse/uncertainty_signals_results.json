@@ -1,0 +1,214 @@
+{
+ "target": "|mean C - rater mean| >= 0.75",
+ "budgets": [
+  0.1,
+  0.2,
+  0.3
+ ],
+ "flashlite": {
+  "n": 120,
+  "large": 84,
+  "within": {
+   "distinct_values": 2,
+   "10": {
+    "k": 12,
+    "caught": 8.71,
+    "random_expected": 8.4,
+    "diff": 0.31,
+    "diff_ci": [
+     -2.7,
+     3.0
+    ]
+   },
+   "20": {
+    "k": 24,
+    "caught": 17.12,
+    "random_expected": 16.8,
+    "diff": 0.32,
+    "diff_ci": [
+     -3.6,
+     4.2
+    ]
+   },
+   "30": {
+    "k": 36,
+    "caught": 25.49,
+    "random_expected": 25.2,
+    "diff": 0.29,
+    "diff_ci": [
+     -4.3,
+     4.7
+    ]
+   }
+  },
+  "between": {
+   "distinct_values": 23,
+   "10": {
+    "k": 12,
+    "caught": 10.29,
+    "random_expected": 8.4,
+    "diff": 1.88,
+    "diff_ci": [
+     -0.5,
+     4.0
+    ]
+   },
+   "20": {
+    "k": 24,
+    "caught": 20.0,
+    "random_expected": 16.8,
+    "diff": 3.2,
+    "diff_ci": [
+     -0.4,
+     6.8
+    ]
+   },
+   "30": {
+    "k": 36,
+    "caught": 27.62,
+    "random_expected": 25.2,
+    "diff": 2.43,
+    "diff_ci": [
+     -2.0,
+     7.0
+    ]
+   }
+  },
+  "cross": {
+   "distinct_values": 11,
+   "10": {
+    "k": 12,
+    "caught": 11.41,
+    "random_expected": 8.4,
+    "diff": 3.01,
+    "diff_ci": [
+     0.9,
+     4.4
+    ]
+   },
+   "20": {
+    "k": 24,
+    "caught": 21.24,
+    "random_expected": 16.8,
+    "diff": 4.44,
+    "diff_ci": [
+     1.0,
+     7.2
+    ]
+   },
+   "30": {
+    "k": 36,
+    "caught": 30.64,
+    "random_expected": 25.2,
+    "diff": 5.44,
+    "diff_ci": [
+     1.6,
+     9.4
+    ]
+   }
+  }
+ },
+ "flash38": {
+  "n": 119,
+  "large": 43,
+  "within": {
+   "distinct_values": 2,
+   "10": {
+    "k": 12,
+    "caught": 7.14,
+    "random_expected": 4.34,
+    "diff": 2.8,
+    "diff_ci": [
+     -0.43,
+     5.66
+    ]
+   },
+   "20": {
+    "k": 24,
+    "caught": 14.33,
+    "random_expected": 8.67,
+    "diff": 5.66,
+    "diff_ci": [
+     1.33,
+     9.52
+    ]
+   },
+   "30": {
+    "k": 36,
+    "caught": 18.73,
+    "random_expected": 13.01,
+    "diff": 5.72,
+    "diff_ci": [
+     0.6,
+     10.41
+    ]
+   }
+  },
+  "between": {
+   "distinct_values": 18,
+   "10": {
+    "k": 12,
+    "caught": 2.67,
+    "random_expected": 4.34,
+    "diff": -1.67,
+    "diff_ci": [
+     -4.24,
+     1.27
+    ]
+   },
+   "20": {
+    "k": 24,
+    "caught": 7.3,
+    "random_expected": 8.67,
+    "diff": -1.37,
+    "diff_ci": [
+     -5.5,
+     2.53
+    ]
+   },
+   "30": {
+    "k": 36,
+    "caught": 11.6,
+    "random_expected": 13.01,
+    "diff": -1.41,
+    "diff_ci": [
+     -6.1,
+     3.29
+    ]
+   }
+  },
+  "cross": {
+   "distinct_values": 11,
+   "10": {
+    "k": 12,
+    "caught": 1.89,
+    "random_expected": 4.34,
+    "diff": -2.45,
+    "diff_ci": [
+     -4.64,
+     0.37
+    ]
+   },
+   "20": {
+    "k": 24,
+    "caught": 5.94,
+    "random_expected": 8.67,
+    "diff": -2.73,
+    "diff_ci": [
+     -6.48,
+     1.13
+    ]
+   },
+   "30": {
+    "k": 36,
+    "caught": 9.52,
+    "random_expected": 13.01,
+    "diff": -3.49,
+    "diff_ci": [
+     -7.92,
+     0.78
+    ]
+   }
+  }
+ }
+}

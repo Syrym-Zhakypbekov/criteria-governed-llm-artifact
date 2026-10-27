@@ -1,0 +1,42 @@
+{
+ "gemini-3.1-flash-lite": {
+  "docs": 36,
+  "routing_identical_all_3": 36,
+  "criteria_identical_all_3": 36,
+  "caught_per_run": [
+   28,
+   28,
+   28
+  ],
+  "false_alarms_per_run": [
+   0,
+   0,
+   0
+  ],
+  "errors_per_run": [
+   0,
+   0,
+   0
+  ]
+ },
+ "gemini-3.8-flash": {
+  "docs": 36,
+  "routing_identical_all_3": 36,
+  "criteria_identical_all_3": 36,
+  "caught_per_run": [
+   28,
+   28,
+   28
+  ],
+  "false_alarms_per_run": [
+   0,
+   0,
+   0
+  ],
+  "errors_per_run": [
+   0,
+   0,
+   0
+  ]
+ }
+}

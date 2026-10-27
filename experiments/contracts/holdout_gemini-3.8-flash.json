@@ -1,0 +1,781 @@
+[
+ {
+  "id": "clean-h100",
+  "defects": [],
+  "expectVeto": false,
+  "expectLow": [],
+  "veto": false,
+  "vetoReason": null,
+  "state": "provisional",
+  "sTotal": 1,
+  "low": [],
+  "routed": false,
+  "criterionHit": true,
+  "ms": 4733
+ },
+ {
+  "id": "clean-h101",
+  "defects": [],
+  "expectVeto": false,
+  "expectLow": [],
+  "veto": false,
+  "vetoReason": null,
+  "state": "provisional",
+  "sTotal": 1,
+  "low": [],
+  "routed": false,
+  "criterionHit": true,
+  "ms": 4592
+ },
+ {
+  "id": "clean-h102",
+  "defects": [],
+  "expectVeto": false,
+  "expectLow": [],
+  "veto": false,
+  "vetoReason": null,
+  "state": "provisional",
+  "sTotal": 1,
+  "low": [],
+  "routed": false,
+  "criterionHit": true,
+  "ms": 2918
+ },
+ {
+  "id": "clean-h103",
+  "defects": [],
+  "expectVeto": false,
+  "expectLow": [],
+  "veto": false,
+  "vetoReason": null,
+  "state": "provisional",
+  "sTotal": 1,
+  "low": [],
+  "routed": false,
+  "criterionHit": true,
+  "ms": 4162
+ },
+ {
+  "id": "clean-h104",
+  "defects": [],
+  "expectVeto": false,
+  "expectLow": [],
+  "veto": false,
+  "vetoReason": null,
+  "state": "provisional",
+  "sTotal": 1,
+  "low": [],
+  "routed": false,
+  "criterionHit": true,
+  "ms": 4182
+ },
+ {
+  "id": "clean-h105",
+  "defects": [],
+  "expectVeto": false,
+  "expectLow": [],
+  "veto": false,
+  "vetoReason": null,
+  "state": "provisional",
+  "sTotal": 1,
+  "low": [],
+  "routed": false,
+  "criterionHit": true,
+  "ms": 4768
+ },
+ {
+  "id": "clean-h106",
+  "defects": [],
+  "expectVeto": false,
+  "expectLow": [],
+  "veto": false,
+  "vetoReason": null,
+  "state": "provisional",
+  "sTotal": 1,
+  "low": [],
+  "routed": false,
+  "criterionHit": true,
+  "ms": 3032
+ },
+ {
+  "id": "clean-h107",
+  "defects": [],
+  "expectVeto": false,
+  "expectLow": [],
+  "veto": false,
+  "vetoReason": null,
+  "state": "provisional",
+  "sTotal": 1,
+  "low": [],
+  "routed": false,
+  "criterionHit": true,
+  "ms": 2744
+ },
+ {
+  "id": "clean-h108",
+  "defects": [],
+  "expectVeto": false,
+  "expectLow": [],
+  "veto": false,
+  "vetoReason": null,
+  "state": "provisional",
+  "sTotal": 1,
+  "low": [],
+  "routed": false,
+  "criterionHit": true,
+  "ms": 3573
+ },
+ {
+  "id": "clean-h109",
+  "defects": [],
+  "expectVeto": false,
+  "expectLow": [],
+  "veto": false,
+  "vetoReason": null,
+  "state": "provisional",
+  "sTotal": 1,
+  "low": [],
+  "routed": false,
+  "criterionHit": true,
+  "ms": 5884
+ },
+ {
+  "id": "bin_short-h110",
+  "defects": [
+   "bin_short"
+  ],
+  "expectVeto": true,
+  "expectLow": [],
+  "veto": true,
+  "vetoReason": "bin",
+  "state": "vetoed",
+  "sTotal": 1,
+  "low": [],
+  "routed": true,
+  "criterionHit": true,
+  "ms": 4166
+ },
+ {
+  "id": "bin_short-h111",
+  "defects": [
+   "bin_short"
+  ],
+  "expectVeto": true,
+  "expectLow": [],
+  "veto": true,
+  "vetoReason": "bin",
+  "state": "vetoed",
+  "sTotal": 1,
+  "low": [],
+  "routed": true,
+  "criterionHit": true,
+  "ms": 4447
+ },
+ {
+  "id": "bin_short-h112",
+  "defects": [
+   "bin_short"
+  ],
+  "expectVeto": true,
+  "expectLow": [],
+  "veto": true,
+  "vetoReason": "bin",
+  "state": "vetoed",
+  "sTotal": 1,
+  "low": [],
+  "routed": true,
+  "criterionHit": true,
+  "ms": 5134
+ },
+ {
+  "id": "bin_missing-h113",
+  "defects": [
+   "bin_missing"
+  ],
+  "expectVeto": true,
+  "expectLow": [],
+  "veto": true,
+  "vetoReason": "bin",
+  "state": "vetoed",
+  "sTotal": 1,
+  "low": [],
+  "routed": true,
+  "criterionHit": true,
+  "ms": 4692
+ },
+ {
+  "id": "bin_missing-h114",
+  "defects": [
+   "bin_missing"
+  ],
+  "expectVeto": true,
+  "expectLow": [],
+  "veto": true,
+  "vetoReason": "bin",
+  "state": "vetoed",
+  "sTotal": 1,
+  "low": [],
+  "routed": true,
+  "criterionHit": true,
+  "ms": 4353
+ },
+ {
+  "id": "bin_missing-h115",
+  "defects": [
+   "bin_missing"
+  ],
+  "expectVeto": true,
+  "expectLow": [],
+  "veto": true,
+  "vetoReason": "bin",
+  "state": "vetoed",
+  "sTotal": 1,
+  "low": [],
+  "routed": true,
+  "criterionHit": true,
+  "ms": 4298
+ },
+ {
+  "id": "bin_long-h116",
+  "defects": [
+   "bin_long"
+  ],
+  "expectVeto": true,
+  "expectLow": [],
+  "veto": true,
+  "vetoReason": "bin",
+  "state": "vetoed",
+  "sTotal": 1,
+  "low": [],
+  "routed": true,
+  "criterionHit": true,
+  "ms": 4424
+ },
+ {
+  "id": "bin_long-h117",
+  "defects": [
+   "bin_long"
+  ],
+  "expectVeto": true,
+  "expectLow": [],
+  "veto": true,
+  "vetoReason": "bin",
+  "state": "vetoed",
+  "sTotal": 1,
+  "low": [],
+  "routed": true,
+  "criterionHit": true,
+  "ms": 3983
+ },
+ {
+  "id": "bin_long-h118",
+  "defects": [
+   "bin_long"
+  ],
+  "expectVeto": true,
+  "expectLow": [],
+  "veto": true,
+  "vetoReason": "bin",
+  "state": "vetoed",
+  "sTotal": 1,
+  "low": [],
+  "routed": true,
+  "criterionHit": true,
+  "ms": 4133
+ },
+ {
+  "id": "no_items-h119",
+  "defects": [
+   "no_items"
+  ],
+  "expectVeto": true,
+  "expectLow": [],
+  "veto": true,
+  "vetoReason": "items",
+  "state": "vetoed",
+  "sTotal": 0.6667,
+  "low": [
+   "prices"
+  ],
+  "routed": true,
+  "criterionHit": true,
+  "ms": 6583
+ },
+ {
+  "id": "no_items-h120",
+  "defects": [
+   "no_items"
+  ],
+  "expectVeto": true,
+  "expectLow": [],
+  "veto": true,
+  "vetoReason": "items",
+  "state": "vetoed",
+  "sTotal": 0.6667,
+  "low": [
+   "prices"
+  ],
+  "routed": true,
+  "criterionHit": true,
+  "ms": 2385
+ },
+ {
+  "id": "no_items-h121",
+  "defects": [
+   "no_items"
+  ],
+  "expectVeto": true,
+  "expectLow": [],
+  "veto": true,
+  "vetoReason": "items",
+  "state": "vetoed",
+  "sTotal": 0.6667,
+  "low": [
+   "prices"
+  ],
+  "routed": true,
+  "criterionHit": true,
+  "ms": 2613
+ },
+ {
+  "id": "no_price-h122",
+  "defects": [
+   "no_price"
+  ],
+  "expectVeto": false,
+  "expectLow": [
+   "prices"
+  ],
+  "veto": false,
+  "vetoReason": null,
+  "state": "escalated",
+  "sTotal": 0.8889,
+  "low": [
+   "prices"
+  ],
+  "routed": true,
+  "criterionHit": true,
+  "ms": 4084
+ },
+ {
+  "id": "no_price-h123",
+  "defects": [
+   "no_price"
+  ],
+  "expectVeto": false,
+  "expectLow": [
+   "prices"
+  ],
+  "veto": false,
+  "vetoReason": null,
+  "state": "escalated",
+  "sTotal": 0.8889,
+  "low": [
+   "prices"
+  ],
+  "routed": true,
+  "criterionHit": true,
+  "ms": 3707
+ },
+ {
+  "id": "no_price-h124",
+  "defects": [
+   "no_price"
+  ],
+  "expectVeto": false,
+  "expectLow": [
+   "prices"
+  ],
+  "veto": false,
+  "vetoReason": null,
+  "state": "escalated",
+  "sTotal": 0.8889,
+  "low": [
+   "prices"
+  ],
+  "routed": true,
+  "criterionHit": true,
+  "ms": 3345
+ },
+ {
+  "id": "vat_no_rate-h125",
+  "defects": [
+   "vat_no_rate"
+  ],
+  "expectVeto": false,
+  "expectLow": [
+   "vat_explicit"
+  ],
+  "veto": false,
+  "vetoReason": null,
+  "state": "escalated",
+  "sTotal": 0.8889,
+  "low": [
+   "vat_explicit"
+  ],
+  "routed": true,
+  "criterionHit": true,
+  "ms": 3221
+ },
+ {
+  "id": "vat_no_rate-h126",
+  "defects": [
+   "vat_no_rate"
+  ],
+  "expectVeto": false,
+  "expectLow": [
+   "vat_explicit"
+  ],
+  "veto": false,
+  "vetoReason": null,
+  "state": "escalated",
+  "sTotal": 0.8889,
+  "low": [
+   "vat_explicit"
+  ],
+  "routed": true,
+  "criterionHit": true,
+  "ms": 2874
+ },
+ {
+  "id": "vat_no_rate-h127",
+  "defects": [
+   "vat_no_rate"
+  ],
+  "expectVeto": false,
+  "expectLow": [
+   "vat_explicit"
+  ],
+  "veto": false,
+  "vetoReason": null,
+  "state": "escalated",
+  "sTotal": 0.8889,
+  "low": [
+   "vat_explicit"
+  ],
+  "routed": true,
+  "criterionHit": true,
+  "ms": 4246
+ },
+ {
+  "id": "third_party-h128",
+  "defects": [
+   "third_party"
+  ],
+  "expectVeto": false,
+  "expectLow": [
+   "third_party_email"
+  ],
+  "veto": false,
+  "vetoReason": null,
+  "state": "escalated",
+  "sTotal": 0.8889,
+  "low": [
+   "third_party_email"
+  ],
+  "routed": true,
+  "criterionHit": true,
+  "ms": 4661
+ },
+ {
+  "id": "third_party-h129",
+  "defects": [
+   "third_party"
+  ],
+  "expectVeto": false,
+  "expectLow": [
+   "third_party_email"
+  ],
+  "veto": false,
+  "vetoReason": null,
+  "state": "escalated",
+  "sTotal": 0.8889,
+  "low": [
+   "third_party_email"
+  ],
+  "routed": true,
+  "criterionHit": true,
+  "ms": 4925
+ },
+ {
+  "id": "third_party-h130",
+  "defects": [
+   "third_party"
+  ],
+  "expectVeto": false,
+  "expectLow": [
+   "third_party_email"
+  ],
+  "veto": false,
+  "vetoReason": null,
+  "state": "escalated",
+  "sTotal": 0.8889,
+  "low": [
+   "third_party_email"
+  ],
+  "routed": true,
+  "criterionHit": true,
+  "ms": 4525
+ },
+ {
+  "id": "addendum_nobase-h131",
+  "defects": [
+   "addendum_nobase"
+  ],
+  "expectVeto": false,
+  "expectLow": [
+   "addendum_base"
+  ],
+  "veto": false,
+  "vetoReason": null,
+  "state": "escalated",
+  "sTotal": 0.7778,
+  "low": [
+   "addendum_base"
+  ],
+  "routed": true,
+  "criterionHit": true,
+  "ms": 4496
+ },
+ {
+  "id": "addendum_nobase-h132",
+  "defects": [
+   "addendum_nobase"
+  ],
+  "expectVeto": false,
+  "expectLow": [
+   "addendum_base"
+  ],
+  "veto": false,
+  "vetoReason": null,
+  "state": "escalated",
+  "sTotal": 0.7778,
+  "low": [
+   "addendum_base"
+  ],
+  "routed": true,
+  "criterionHit": true,
+  "ms": 4938
+ },
+ {
+  "id": "addendum_nobase-h133",
+  "defects": [
+   "addendum_nobase"
+  ],
+  "expectVeto": false,
+  "expectLow": [
+   "addendum_base"
+  ],
+  "veto": false,
+  "vetoReason": null,
+  "state": "escalated",
+  "sTotal": 0.7778,
+  "low": [
+   "addendum_base"
+  ],
+  "routed": true,
+  "criterionHit": true,
+  "ms": 3882
+ },
+ {
+  "id": "bin_missing+no_price-h134",
+  "defects": [
+   "bin_missing",
+   "no_price"
+  ],
+  "expectVeto": true,
+  "expectLow": [
+   "prices"
+  ],
+  "veto": true,
+  "vetoReason": "bin",
+  "state": "vetoed",
+  "sTotal": 0.8889,
+  "low": [
+   "prices"
+  ],
+  "routed": true,
+  "criterionHit": true,
+  "ms": 3531
+ },
+ {
+  "id": "bin_missing+no_price-h135",
+  "defects": [
+   "bin_missing",
+   "no_price"
+  ],
+  "expectVeto": true,
+  "expectLow": [
+   "prices"
+  ],
+  "veto": true,
+  "vetoReason": "bin",
+  "state": "vetoed",
+  "sTotal": 0.8889,
+  "low": [
+   "prices"
+  ],
+  "routed": true,
+  "criterionHit": true,
+  "ms": 2880
+ },
+ {
+  "id": "bin_missing+no_price-h136",
+  "defects": [
+   "bin_missing",
+   "no_price"
+  ],
+  "expectVeto": true,
+  "expectLow": [
+   "prices"
+  ],
+  "veto": true,
+  "vetoReason": "bin",
+  "state": "vetoed",
+  "sTotal": 0.8889,
+  "low": [
+   "prices"
+  ],
+  "routed": true,
+  "criterionHit": true,
+  "ms": 4667
+ },
+ {
+  "id": "vat_no_rate+third_party-h137",
+  "defects": [
+   "vat_no_rate",
+   "third_party"
+  ],
+  "expectVeto": false,
+  "expectLow": [
+   "vat_explicit",
+   "third_party_email"
+  ],
+  "veto": false,
+  "vetoReason": null,
+  "state": "escalated",
+  "sTotal": 0.7778,
+  "low": [
+   "vat_explicit",
+   "third_party_email"
+  ],
+  "routed": true,
+  "criterionHit": true,
+  "ms": 4698
+ },
+ {
+  "id": "vat_no_rate+third_party-h138",
+  "defects": [
+   "vat_no_rate",
+   "third_party"
+  ],
+  "expectVeto": false,
+  "expectLow": [
+   "vat_explicit",
+   "third_party_email"
+  ],
+  "veto": false,
+  "vetoReason": null,
+  "state": "escalated",
+  "sTotal": 0.7778,
+  "low": [
+   "vat_explicit",
+   "third_party_email"
+  ],
+  "routed": true,
+  "criterionHit": true,
+  "ms": 3475
+ },
+ {
+  "id": "vat_no_rate+third_party-h139",
+  "defects": [
+   "vat_no_rate",
+   "third_party"
+  ],
+  "expectVeto": false,
+  "expectLow": [
+   "vat_explicit",
+   "third_party_email"
+  ],
+  "veto": false,
+  "vetoReason": null,
+  "state": "escalated",
+  "sTotal": 0.7778,
+  "low": [
+   "vat_explicit",
+   "third_party_email"
+  ],
+  "routed": true,
+  "criterionHit": true,
+  "ms": 4815
+ },
+ {
+  "id": "no_price+addendum_nobase-h140",
+  "defects": [
+   "no_price",
+   "addendum_nobase"
+  ],
+  "expectVeto": false,
+  "expectLow": [
+   "prices",
+   "addendum_base"
+  ],
+  "veto": false,
+  "vetoReason": null,
+  "state": "escalated",
+  "sTotal": 0.6667,
+  "low": [
+   "prices",
+   "addendum_base"
+  ],
+  "routed": true,
+  "criterionHit": true,
+  "ms": 4072
+ },
+ {
+  "id": "no_price+addendum_nobase-h141",
+  "defects": [
+   "no_price",
+   "addendum_nobase"
+  ],
+  "expectVeto": false,
+  "expectLow": [
+   "prices",
+   "addendum_base"
+  ],
+  "veto": false,
+  "vetoReason": null,
+  "state": "escalated",
+  "sTotal": 0.6667,
+  "low": [
+   "prices",
+   "addendum_base"
+  ],
+  "routed": true,
+  "criterionHit": true,
+  "ms": 4792
+ },
+ {
+  "id": "no_price+addendum_nobase-h142",
+  "defects": [
+   "no_price",
+   "addendum_nobase"
+  ],
+  "expectVeto": false,
+  "expectLow": [
+   "prices",
+   "addendum_base"
+  ],
+  "veto": false,
+  "vetoReason": null,
+  "state": "escalated",
+  "sTotal": 0.6667,
+  "low": [
+   "prices",
+   "addendum_base"
+  ],
+  "routed": true,
+  "criterionHit": true,
+  "ms": 4333
+ }
+]

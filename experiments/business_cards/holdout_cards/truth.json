@@ -1,0 +1,144 @@
+[
+ {
+  "file": "h00.png",
+  "defects": []
+ },
+ {
+  "file": "h01.png",
+  "defects": []
+ },
+ {
+  "file": "h02.png",
+  "defects": []
+ },
+ {
+  "file": "h03.png",
+  "defects": []
+ },
+ {
+  "file": "h04.png",
+  "defects": []
+ },
+ {
+  "file": "h05.png",
+  "defects": []
+ },
+ {
+  "file": "h06.png",
+  "defects": [
+   "no_email"
+  ]
+ },
+ {
+  "file": "h07.png",
+  "defects": [
+   "no_email"
+  ]
+ },
+ {
+  "file": "h08.png",
+  "defects": [
+   "no_email"
+  ]
+ },
+ {
+  "file": "h09.png",
+  "defects": [
+   "no_org"
+  ]
+ },
+ {
+  "file": "h10.png",
+  "defects": [
+   "no_org"
+  ]
+ },
+ {
+  "file": "h11.png",
+  "defects": [
+   "no_org"
+  ]
+ },
+ {
+  "file": "h12.png",
+  "defects": [
+   "no_name"
+  ]
+ },
+ {
+  "file": "h13.png",
+  "defects": [
+   "no_name"
+  ]
+ },
+ {
+  "file": "h14.png",
+  "defects": [
+   "no_name"
+  ]
+ },
+ {
+  "file": "h15.png",
+  "defects": [
+   "no_country"
+  ]
+ },
+ {
+  "file": "h16.png",
+  "defects": [
+   "no_country"
+  ]
+ },
+ {
+  "file": "h17.png",
+  "defects": [
+   "no_country"
+  ]
+ },
+ {
+  "file": "h18.png",
+  "defects": [
+   "no_job"
+  ]
+ },
+ {
+  "file": "h19.png",
+  "defects": [
+   "no_job"
+  ]
+ },
+ {
+  "file": "h20.png",
+  "defects": [
+   "no_job"
+  ]
+ },
+ {
+  "file": "h21.png",
+  "defects": [
+   "no_country",
+   "no_job"
+  ]
+ },
+ {
+  "file": "h22.png",
+  "defects": [
+   "no_country",
+   "no_job"
+  ]
+ },
+ {
+  "file": "h23.png",
+  "defects": [
+   "no_email",
+   "no_name"
+  ]
+ },
+ {
+  "file": "h24.png",
+  "defects": [
+   "no_email",
+   "no_name"
+  ]
+ }
+]

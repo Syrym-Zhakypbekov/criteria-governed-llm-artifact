@@ -1,0 +1,627 @@
+{
+ "generated": "2026-10-27T10:36:28",
+ "experiments": [
+  {
+   "id": "contracts_dev",
+   "description": "Contract planted defects, development v1/v2",
+   "scripts": [
+    {
+     "path": "experiments_2610/run.ts",
+     "sha256": "c43843a83b5b3c74259dbbcc728489952c093e9c28b5c81f10f73a432e1a0ea1",
+     "bytes": 4672,
+     "records": null,
+     "mtime": "2026-10-26T23:42:22"
+    },
+    {
+     "path": "experiments_2610/an.py",
+     "sha256": "79f46c3c8036b9722eab0b26b805321803a81f5117e23af0d62556ebe5cd02d9",
+     "bytes": 827,
+     "records": null,
+     "mtime": "2026-10-26T23:42:22"
+    },
+    {
+     "path": "experiments_2610/an2.py",
+     "sha256": "aaafb8b7f29bb8ec1c7bded20a5e135b4f0c20851acd07dd04d7963d0c94d587",
+     "bytes": 1393,
+     "records": null,
+     "mtime": "2026-10-26T23:42:22"
+    },
+    {
+     "path": "experiments_2610/tau.py",
+     "sha256": "cd9096c9a38c892d6754d440a42450a0f6c9038d705461247f44318edd36e54f",
+     "bytes": 569,
+     "records": null,
+     "mtime": "2026-10-26T23:42:34"
+    }
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "path": "experiments_2610/contracts_results_v1.json",
+     "sha256": "4b1a3c3969f743f615505a19138e5eaf336bb9a577fecc1cec9052f86be81066",
+     "bytes": 10496,
+     "records": 36,
+     "mtime": "2026-10-26T23:42:22"
+    },
+    {
+     "path": "experiments_2610/contracts_results_v2.json",
+     "sha256": "97a94f6623d8e1ab57fe52d72ec23f98d1fb6301e8aa57975a992b5c96991e99",
+     "bytes": 10605,
+     "records": 36,
+     "mtime": "2026-10-26T23:42:22"
+    }
+   ]
+  },
+  {
+   "id": "contracts_models",
+   "description": "Contract v2 model comparison",
+   "scripts": [
+    {
+     "path": "experiments_2610/run.ts",
+     "sha256": "c43843a83b5b3c74259dbbcc728489952c093e9c28b5c81f10f73a432e1a0ea1",
+     "bytes": 4672,
+     "records": null,
+     "mtime": "2026-10-26T23:42:22"
+    }
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "path": "experiments_2610/results_gemini-3.1-flash-lite.json",
+     "sha256": "aa1c8d4c0decb6047c5fbed025abf2a0a404ac1ed3c5a8473f54f494e1dc9e8d",
+     "bytes": 10604,
+     "records": 36,
+     "mtime": "2026-10-27T00:06:11"
+    },
+    {
+     "path": "experiments_2610/results_gemini-3.1-pro-preview.json",
+     "sha256": "0cac89a7304a00ff0411367e5c3f4d4fae3ae869f242ce71dac69cc1baf3aae3",
+     "bytes": 10626,
+     "records": 36,
+     "mtime": "2026-10-27T00:06:11"
+    }
+   ]
+  },
+  {
+   "id": "contracts_stability",
+   "description": "Three repeats of v2, two models",
+   "scripts": [
+    {
+     "path": "experiments_2610/stability.py",
+     "sha256": "cd9e2e275a9fa10421c3eec847d1a14235a29732e156d9e07bf095f3f1e9b3a0",
+     "bytes": 1549,
+     "records": null,
+     "mtime": "2026-10-27T09:25:42"
+    }
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "path": "experiments_2610/stability_results.json",
+     "sha256": "ddd22b7689d086ea7cd7ddbff5bfeaf6dca8f887e5dff16a8f328ced35f497b3",
+     "bytes": 544,
+     "records": null,
+     "mtime": "2026-10-27T09:25:42"
+    }
+   ]
+  },
+  {
+   "id": "contracts_holdout",
+   "description": "Frozen held-out contracts (inputs generated deterministically by run_holdout.ts; production commit 1114a138, tau_S=0.9)",
+   "scripts": [
+    {
+     "path": "experiments_2610/run_holdout.ts",
+     "sha256": "3d0585c0b2ede9255ebff28fac50673ec992bee7c71df1bcb1692e4b54413a2f",
+     "bytes": 5243,
+     "records": null,
+     "mtime": "2026-10-27T09:48:22"
+    },
+    {
+     "path": "experiments_2610/holdout_an.py",
+     "sha256": "6255887c6fc3c9d50d3b63013a77ba14325a2addd4edf4fe331c664f3ded74a6",
+     "bytes": 1124,
+     "records": null,
+     "mtime": "2026-10-27T09:51:57"
+    }
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "path": "experiments_2610/holdout_gemini-3.1-flash-lite.json",
+     "sha256": "1c5c70f4e600953541df4c3f5285253d827e4dcf9558401adf5b0ac518a1abb5",
+     "bytes": 12353,
+     "records": 43,
+     "mtime": "2026-10-27T09:54:12"
+    },
+    {
+     "path": "experiments_2610/holdout_gemini-3.8-flash.json",
+     "sha256": "a50b378d1920bb27d9fe4d6c6bbcd2374bb8368c2d03b36d06f3eae83c8474f1",
+     "bytes": 12353,
+     "records": 43,
+     "mtime": "2026-10-27T09:51:57"
+    }
+   ]
+  },
+  {
+   "id": "cards_dev",
+   "description": "Business-card planted defects v1-v3",
+   "scripts": [
+    {
+     "path": "experiments_2610/mkcards.py",
+     "sha256": "28826891dd89dd8ebdfc1cb162340cdce40d16fa571f6bdac0dad2e797b4a61f",
+     "bytes": 2826,
+     "records": null,
+     "mtime": "2026-10-26T23:42:22"
+    },
+    {
+     "path": "experiments_2610/cards.ts",
+     "sha256": "f0a7d724e61fa1fd8a9ecf93ec546518c903ddef1fa21245e37bc6ec251488d1",
+     "bytes": 1692,
+     "records": null,
+     "mtime": "2026-10-26T23:42:22"
+    }
+   ],
+   "inputs": [],
+   "outputs": [
+    {
+     "path": "experiments_2610/cards_results_v1.json",
+     "sha256": "e8dbdd05133da5ba15276db4177ea46198b20682e8d5ce0f1d41e2b0f4a7f038",
+     "bytes": 17880,
+     "records": 28,
+     "mtime": "2026-10-26T23:42:22"
+    },
+    {
+     "path": "experiments_2610/cards_results_v2.json",
+     "sha256": "1d4b85efa7b259b16b1311d87c41bdd387234370f327f3238d71439e668f1246",
+     "bytes": 18761,
+     "records": 28,
+     "mtime": "2026-10-26T23:42:54"
+    },
+    {
+     "path": "experiments_2610/cards_results_v3.json",
+     "sha256": "b5273a56cfb021c6a591a6868b01d94c392599e7014cccfbaeee10d95412e17c",
+     "bytes": 18765,
+     "records": 28,
+     "mtime": "2026-10-26T23:47:33"
+    }
+   ]
+  },
+  {
+   "id": "cards_holdout",
+   "description": "Frozen held-out business cards (25 new-design PNG + truth.json)",
+   "scripts": [
+    {
+     "path": "experiments_2610/mkcards_holdout.py",
+     "sha256": "7d1f23a8125940ffff248263cfee4a4ac7dee01406df677ba48387698b03fba7",
+     "bytes": 3526,
+     "records": null,
+     "mtime": "2026-10-27T10:22:06"
+    },
+    {
+     "path": "experiments_2610/cards_holdout.ts",
+     "sha256": "6c685d29caa0ee61675909f9ba2f33599fc2ad878b8bdafaac1497187a85f03b",
+     "bytes": 1908,
+     "records": null,
+     "mtime": "2026-10-27T10:22:07"
+    }
+   ],
+   "inputs": [
+    {
+     "path": "experiments_2610/cards_holdout/truth.json",
+     "sha256": "9f26dbba0dd993b402b83f610d07d55c21e1421b9467fb4a24a73cfbd8ccdc6f",
+     "bytes": 1617,
+     "records": 25,
+     "mtime": "2026-10-27T10:22:20"
+    },
+    {
+     "path": "experiments_2610/cards_holdout/h00.png",
+     "sha256": "c93f2028b566089448418399d412752836f5e31f3df311d2afabca2a93be7a79",
+     "bytes": 44283,
+     "records": null,
+     "mtime": "2026-10-27T10:22:20"
+    },
+    {
+     "path": "experiments_2610/cards_holdout/h01.png",
+     "sha256": "51b0dd02f8dbbb562a2284b9f40b2e2b3138c8c78069d9440efa69068b120bc6",
+     "bytes": 33797,
+     "records": null,
+     "mtime": "2026-10-27T10:22:20"
+    },
+    {
+     "path": "experiments_2610/cards_holdout/h02.png",
+     "sha256": "b253fddcb251da9b86ea5fdc3601efd9eb6fa698c9f102ca083701da37108293",
+     "bytes": 41037,
+     "records": null,
+     "mtime": "2026-10-27T10:22:20"
+    },
+    {
+     "path": "experiments_2610/cards_holdout/h03.png",
+     "sha256": "5f1a117f31eb275c8693bf33521184d6701210fbd95bfb35e4c3a174346dd43d",
+     "bytes": 48730,
+     "records": null,
+     "mtime": "2026-10-27T10:22:20"
+    },
+    {
+     "path": "experiments_2610/cards_holdout/h04.png",
+     "sha256": "0ef7a6880cfd4ea5842fd310abaea852b9e916924a4048da6343813316050b38",
+     "bytes": 30249,
+     "records": null,
+     "mtime": "2026-10-27T10:22:20"
+    },
+    {
+     "path": "experiments_2610/cards_holdout/h05.png",
+     "sha256": "9908141507bae2a57baaf53e09359c1e984b5d8ea57eb03081da907b30b93bb4",
+     "bytes": 48056,
+     "records": null,
+     "mtime": "2026-10-27T10:22:20"
+    },
+    {
+     "path": "experiments_2610/cards_holdout/h06.png",
+     "sha256": "fc3673e2d7122454d3b49d2842ae6a02683bb0d101b9164bdeea8f69560131dc",
+     "bytes": 44019,
+     "records": null,
+     "mtime": "2026-10-27T10:22:20"
+    },
+    {
+     "path": "experiments_2610/cards_holdout/h07.png",
+     "sha256": "e767a1b8cb01931d5046a32fb5a7a428dc93bf1c3726ebd1575d3d6eb68125ad",
+     "bytes": 26907,
+     "records": null,
+     "mtime": "2026-10-27T10:22:20"
+    },
+    {
+     "path": "experiments_2610/cards_holdout/h08.png",
+     "sha256": "24a4b58700bbf3078ae1f2d31b4f7fd5ffc413514fcc44fd3d4f3c133329a61b",
+     "bytes": 53189,
+     "records": null,
+     "mtime": "2026-10-27T10:22:20"
+    },
+    {
+     "path": "experiments_2610/cards_holdout/h09.png",
+     "sha256": "7dc5477803a646000235ed162b046bf937de875bd9967a37e7c20f3ee561fb16",
+     "bytes": 34805,
+     "records": null,
+     "mtime": "2026-10-27T10:22:20"
+    },
+    {
+     "path": "experiments_2610/cards_holdout/h10.png",
+     "sha256": "958d09441e5889e45fe2eb7eead4c89033f32ee9aec832f4df5f21d580973fb7",
+     "bytes": 27698,
+     "records": null,
+     "mtime": "2026-10-27T10:22:20"
+    },
+    {
+     "path": "experiments_2610/cards_holdout/h11.png",
+     "sha256": "26c8c1919ab9865a61a380219d932149cf98ae2004dba813e5ff4de3cce824a9",
+     "bytes": 43357,
+     "records": null,
+     "mtime": "2026-10-27T10:22:20"
+    },
+    {
+     "path": "experiments_2610/cards_holdout/h12.png",
+     "sha256": "24503753a7bc9cc5c6e117c35a8b2ef6c7c3dfb3d75ff7aa082f1347973344ba",
+     "bytes": 32216,
+     "records": null,
+     "mtime": "2026-10-27T10:22:20"
+    },
+    {
+     "path": "experiments_2610/cards_holdout/h13.png",
+     "sha256": "c145f5e2af48142dc6169c1e1ebd1a744a103e75aeaa4d616ac44fe386d8da35",
+     "bytes": 30234,
+     "records": null,
+     "mtime": "2026-10-27T10:22:20"
+    },
+    {
+     "path": "experiments_2610/cards_holdout/h14.png",
+     "sha256": "0879289e01eb0ffb206155d345261b53535a3e4018a7ea0b8e461dd9055063ca",
+     "bytes": 35549,
+     "records": null,
+     "mtime": "2026-10-27T10:22:20"
+    },
+    {
+     "path": "experiments_2610/cards_holdout/h15.png",
+     "sha256": "2e045b2d68aa99b32669a8ebafc148ad7a07089ed02c06d587043260b557a6f5",
+     "bytes": 43030,
+     "records": null,
+     "mtime": "2026-10-27T10:22:20"
+    },
+    {
+     "path": "experiments_2610/cards_holdout/h16.png",
+     "sha256": "b28276c4e9dc4cca6d88a401264ea2766d474d1a499b848f27a890d4b649c446",
+     "bytes": 32815,
+     "records": null,
+     "mtime": "2026-10-27T10:22:20"
+    },
+    {
+     "path": "experiments_2610/cards_holdout/h17.png",
+     "sha256": "400254fa5b6571617b2dae14822905b83e393d6c93f5fa5e9441d56a0eda7100",
+     "bytes": 38541,
+     "records": null,
+     "mtime": "2026-10-27T10:22:20"
+    },
+    {
+     "path": "experiments_2610/cards_holdout/h18.png",
+     "sha256": "3609d53ed4f12782d1d9e9d9d7d1f4d43e14a32cf7cbe30449e6a6eb120309a3",
+     "bytes": 44144,
+     "records": null,
+     "mtime": "2026-10-27T10:22:20"
+    },
+    {
+     "path": "experiments_2610/cards_holdout/h19.png",
+     "sha256": "d949f3e4affc36238f46d3f9f57db330b0b8be3f181b0e597d388b03b455161a",
+     "bytes": 27000,
+     "records": null,
+     "mtime": "2026-10-27T10:22:20"
+    },
+    {
+     "path": "experiments_2610/cards_holdout/h20.png",
+     "sha256": "73233e0071d56a36b6d3ea95ee1672d25c8bb688f2b4916e04708b4a28a26af9",
+     "bytes": 45309,
+     "records": null,
+     "mtime": "2026-10-27T10:22:20"
+    },
+    {
+     "path": "experiments_2610/cards_holdout/h21.png",
+     "sha256": "cda3c2545cddb6535267c242cb2bf8a475a2964883cdcd0c687bf9d4953c1538",
+     "bytes": 40554,
+     "records": null,
+     "mtime": "2026-10-27T10:22:20"
+    },
+    {
+     "path": "experiments_2610/cards_holdout/h22.png",
+     "sha256": "1703634d22a9313ea89bc5e980cdce93fd48261125363836e6edd96fb1f48a79",
+     "bytes": 23698,
+     "records": null,
+     "mtime": "2026-10-27T10:22:20"
+    },
+    {
+     "path": "experiments_2610/cards_holdout/h23.png",
+     "sha256": "c0e2a250f16b58d685aa58e2920ad1abc61cba741c2009984755b4d8e3dfbeea",
+     "bytes": 39623,
+     "records": null,
+     "mtime": "2026-10-27T10:22:20"
+    },
+    {
+     "path": "experiments_2610/cards_holdout/h24.png",
+     "sha256": "669edfb9d7ea4572eec2380181254fd6665eaef1997abb0d5b61f305bb77136a",
+     "bytes": 27744,
+     "records": null,
+     "mtime": "2026-10-27T10:22:20"
+    }
+   ],
+   "outputs": [
+    {
+     "path": "experiments_2610/cards_holdout_gemini-3.5-flash-lite.json",
+     "sha256": "b6557c5f1cdc4173685be2c6cb025ce538424c80e92cc87d2c46ccc10687d953",
+     "bytes": 14817,
+     "records": 25,
+     "mtime": "2026-10-27T10:26:50"
+    },
+    {
+     "path": "experiments_2610/cards_holdout_gemini-3.8-flash.json",
+     "sha256": "64869c17a4614e5b55746e31cba109bf1d7663d121d5ec41b62870b8dde18edb",
+     "bytes": 12956,
+     "records": 25,
+     "mtime": "2026-10-27T10:26:51"
+    }
+   ]
+  },
+  {
+   "id": "ellipse",
+   "description": "ELLIPSE 120 essays x 3 configs x 3 runs x 2 models; calibration, human comparison, uncertainty signals",
+   "scripts": [
+    {
+     "path": "ellipse_2710/build_jobs.py",
+     "sha256": "c59fa2d2472af344a74fb5e30a4766b8443383245e3ce3bacb73d36fe3987db7",
+     "bytes": 9053,
+     "records": null,
+     "mtime": "2026-10-27T09:19:31"
+    },
+    {
+     "path": "ellipse_2710/ellipse_run.ts",
+     "sha256": "baeeabb908cf545949cab13a668dc55ba78d8a068c4bf6a99af978e92baa5e81",
+     "bytes": 1599,
+     "records": null,
+     "mtime": "2026-10-27T09:19:41"
+    },
+    {
+     "path": "ellipse_2710/analyse.py",
+     "sha256": "d103a00067f38693b731a69dc6a64570d3de88d277eba6756ce77377eecc9338",
+     "bytes": 5503,
+     "records": null,
+     "mtime": "2026-10-27T09:22:12"
+    },
+    {
+     "path": "ellipse_2710/calibrate.py",
+     "sha256": "a4446058aafe578b54d0239584d812d45640b61c32134ce81c379e20c404f139",
+     "bytes": 2095,
+     "records": null,
+     "mtime": "2026-10-27T09:24:51"
+    },
+    {
+     "path": "ellipse_2710/human_compare.py",
+     "sha256": "34704a60084077c481dc857655111cd89fc4a5cc596dd0e8299ca0e173b8f816",
+     "bytes": 2947,
+     "records": null,
+     "mtime": "2026-10-27T09:47:27"
+    },
+    {
+     "path": "ellipse_2710/cross_model.py",
+     "sha256": "a945c1e4653727aace865edecd59f005db6543f1b9f99d9cb9118007d0947a8e",
+     "bytes": 3584,
+     "records": null,
+     "mtime": "2026-10-27T09:54:33"
+    },
+    {
+     "path": "ellipse_2710/uncertainty_signals.py",
+     "sha256": "08ccf2b3ca0be3ab444cb424241d576dd4f9b780da2265aff67c0eff3fbdc717",
+     "bytes": 3154,
+     "records": null,
+     "mtime": "2026-10-27T10:35:19"
+    }
+   ],
+   "inputs": [
+    {
+     "path": "ellipse_2710/jobs.json",
+     "sha256": "92ea1b1b87e16b60dcc1a0849bab3cc19decea8e4c4bf33dfcdeffb8f7818750",
+     "bytes": 5621738,
+     "records": null,
+     "mtime": "2026-10-27T09:19:49"
+    }
+   ],
+   "outputs": [
+    {
+     "path": "ellipse_2710/ellipse_flashlite.jsonl",
+     "sha256": "3b98e10eb012cd4417442179578511ada1ba69b4c0af6ae620ab52d3a5884381",
+     "bytes": 139378,
+     "records": 1080,
+     "mtime": "2026-10-27T09:23:01"
+    },
+    {
+     "path": "ellipse_2710/ellipse_flash38.jsonl",
+     "sha256": "4a5aee6e03dfcdcacd83444da114957eb3ceabbc072d8a2abce92656c6da6e86",
+     "bytes": 140534,
+     "records": 1080,
+     "mtime": "2026-10-27T09:43:26"
+    },
+    {
+     "path": "ellipse_2710/results_flashlite.json",
+     "sha256": "afccd4a97536901a0ed7d9c87f37829460d8dcef3588bed1ed741f9012722126",
+     "bytes": 2164,
+     "records": null,
+     "mtime": "2026-10-27T09:23:24"
+    },
+    {
+     "path": "ellipse_2710/results_flash38.json",
+     "sha256": "1bcf462f77cf0ad3b92d509807916de966ef09b1b3ed9bf5367dba4c2525fb37",
+     "bytes": 2125,
+     "records": null,
+     "mtime": "2026-10-27T09:43:31"
+    },
+    {
+     "path": "ellipse_2710/calibration_flashlite.json",
+     "sha256": "f65682bbb23d5857c67123c7ec52608148864582da525357ccffe5802cebbd6a",
+     "bytes": 886,
+     "records": null,
+     "mtime": "2026-10-27T09:25:02"
+    },
+    {
+     "path": "ellipse_2710/calibration_flash38.json",
+     "sha256": "61f51f29829432a335f458409f38e7fe275b8122054fbc1a6db39ec88d80c19e",
+     "bytes": 844,
+     "records": null,
+     "mtime": "2026-10-27T09:43:36"
+    },
+    {
+     "path": "ellipse_2710/human_compare_flashlite.json",
+     "sha256": "6fbd6a2dceab718a9996c2b999b81d2075b26f710bfd74b389d05543446fc0aa",
+     "bytes": 954,
+     "records": null,
+     "mtime": "2026-10-27T09:47:42"
+    },
+    {
+     "path": "ellipse_2710/human_compare_flash38.json",
+     "sha256": "c03c440bcc57caae7bc1443c5bde984922d4822f46f1ffac7f0db9896c92cbcb",
+     "bytes": 965,
+     "records": null,
+     "mtime": "2026-10-27T09:47:51"
+    },
+    {
+     "path": "ellipse_2710/cross_model_results.json",
+     "sha256": "3715e1e5c4e5374c980bad242c30a5af8878df40b38720796f22a53e1a3de1cb",
+     "bytes": 1328,
+     "records": null,
+     "mtime": "2026-10-27T09:54:44"
+    },
+    {
+     "path": "ellipse_2710/uncertainty_signals_results.json",
+     "sha256": "0b9cf2891ef25447c0d74c2fb54bf93beb862cb080b71331952e888e1c4fb77d",
+     "bytes": 3192,
+     "records": null,
+     "mtime": "2026-10-27T10:35:20"
+    }
+   ]
+  }
+ ],
+ "metered_calls_queue_llm_call_26_10_23h_to_27_10_10h25": [
+  {
+   "caller": "jrd-extract",
+   "model": "gemini-3.1-flash-lite",
+   "n": 151,
+   "failed": 0,
+   "usd": 0.202
+  },
+  {
+   "caller": "jrd-extract",
+   "model": "gemini-3.1-pro",
+   "n": 36,
+   "failed": 36,
+   "usd": 0.0,
+   "note": "model id unavailable; rerun as gemini-3.1-pro-preview"
+  },
+  {
+   "caller": "jrd-extract",
+   "model": "gemini-3.1-pro-preview",
+   "n": 36,
+   "failed": 0,
+   "usd": 0.755
+  },
+  {
+   "caller": "jrd-extract",
+   "model": "gemini-3.5-flash-lite",
+   "n": 1,
+   "failed": 0,
+   "usd": 0.006,
+   "note": "smoke test"
+  },
+  {
+   "caller": "jrd-extract",
+   "model": "gemini-3.8-flash",
+   "n": 192,
+   "failed": 0,
+   "usd": 0.594
+  },
+  {
+   "caller": "qs.card",
+   "model": "gemini-3.5-flash-lite",
+   "n": 1,
+   "failed": 0,
+   "usd": 0.001,
+   "note": "smoke test"
+  },
+  {
+   "caller": "research.ellipse",
+   "model": "gemini-3.1-flash-lite",
+   "n": 1080,
+   "failed": 0,
+   "usd": 0.37
+  },
+  {
+   "caller": "research.ellipse",
+   "model": "gemini-3.8-flash",
+   "n": 1080,
+   "failed": 0,
+   "usd": 3.149
+  },
+  {
+   "caller": "research.synthetic",
+   "model": "gemini-3.5-flash-lite",
+   "n": 114,
+   "failed": 0,
+   "usd": 0.085
+  },
+  {
+   "caller": "research.synthetic",
+   "model": "gemini-3.8-flash",
+   "n": 25,
+   "failed": 0,
+   "usd": 0.072,
+   "note": "4 truncated JSON (HTTP 200) counted as errors in cards_holdout"
+  }
+ ],
+ "totals": {
+  "calls": 2716,
+  "failed_http": 36,
+  "usd": 5.234
+ }
+}

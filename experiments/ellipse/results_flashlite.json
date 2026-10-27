@@ -1,0 +1,84 @@
+{
+ "tag": "flashlite",
+ "calls": 1080,
+ "errors": 2,
+ "essays": 120,
+ "human_qwk_r1_r2": 0.6577946768060836,
+ "human_mae_r1_r2": 0.375,
+ "A": {
+  "n": 120,
+  "mae_vs_gold": 0.7972222222222223,
+  "mae_ci": [
+   0.7235763888888889,
+   0.8777777777777779
+  ],
+  "qwk_single_run_vs_gold": 0.36159948542024,
+  "qwk_single_run_vs_rater1": 0.3226744186046512,
+  "qwk_single_run_vs_rater2": 0.363283775048481,
+  "spearman_mean_vs_gold": 0.7144757064970756,
+  "bias_ai_minus_gold": -0.7805555555555556,
+  "repeat_sd_mean": 0.01178511301977579,
+  "share_repeats_identical": 0.95
+ },
+ "B": {
+  "n": 120,
+  "mae_vs_gold": 1.3081944444444447,
+  "mae_ci": [
+   1.2273506944444446,
+   1.3936180555555553
+  ],
+  "qwk_single_run_vs_gold": 0.19833834187732025,
+  "qwk_single_run_vs_rater1": 0.178727701110737,
+  "qwk_single_run_vs_rater2": 0.18853974121996286,
+  "spearman_mean_vs_gold": 0.7358697305282184,
+  "bias_ai_minus_gold": -1.3081944444444447,
+  "repeat_sd_mean": 0.024748737341529166,
+  "share_repeats_identical": 0.8416666666666667
+ },
+ "C": {
+  "n": 120,
+  "mae_vs_gold": 0.9819444444444445,
+  "mae_ci": [
+   0.9041319444444444,
+   1.0652777777777778
+  ],
+  "qwk_single_run_vs_gold": 0.27098817294642286,
+  "qwk_single_run_vs_rater1": 0.23944687045123725,
+  "qwk_single_run_vs_rater2": 0.2586090479405808,
+  "spearman_mean_vs_gold": 0.7134803177437743,
+  "bias_ai_minus_gold": -0.9819444444444445,
+  "repeat_sd_mean": 0.015713484026367724,
+  "share_repeats_identical": 0.9333333333333333
+ },
+ "paired_AB": {
+  "mae_diff": -0.5109722222222222,
+  "wilcoxon_p": 4.031460471194665e-22
+ },
+ "paired_BC": {
+  "mae_diff": 0.32625000000000004,
+  "wilcoxon_p": 1.948164781484799e-18
+ },
+ "paired_AC": {
+  "mae_diff": -0.18472222222222223,
+  "wilcoxon_p": 8.816107501721758e-10
+ },
+ "large_errors": 84,
+ "escalate_10": {
+  "k": 12,
+  "caught": 10,
+  "random_mean": 8.4138,
+  "p_random_ge": 0.245
+ },
+ "escalate_20": {
+  "k": 24,
+  "caught": 20,
+  "random_mean": 16.7838,
+  "p_random_ge": 0.0824
+ },
+ "escalate_30": {
+  "k": 36,
+  "caught": 28,
+  "random_mean": 25.169,
+  "p_random_ge": 0.1532
+ }
+}
