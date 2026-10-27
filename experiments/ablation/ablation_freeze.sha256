@@ -13,3 +13,4 @@ NOTE: the a339bed4 entry above is SUPERSEDED — its price parser missed NBSP th
 2026-10-27T16:16:54Z freeze_holdout2.ts generator written after the final C5 freeze; run once per model
 5ea258bb1169f2b7d821c6dc0e17b25af1c37f5146c2472a52e9f3f0ca89dbda *ablation_replay.ts
 2026-10-27T16:33:22Z ablation_replay.ts = driver-only revision of the frozen ablation.ts (883d602a): probe base from any clean draft with guard, per-set summary, corrected comments (Codex R14-01/03); decision logic unchanged; outputs byte-identical to ablation.ts on all four frozen inputs
+2026-10-27T17:50:35Z ablation_replay.ts recorded hash 5ea258bb... was computed on a CRLF working copy; the LF-normalised file in this repository hashes to 4b4e0add3aac0190...; converting its LF to CRLF reproduces 5ea258bb exactly (content identical). ablation.ts 883d602a and freeze_holdout2.ts 0aa5afc9 verify unchanged.
