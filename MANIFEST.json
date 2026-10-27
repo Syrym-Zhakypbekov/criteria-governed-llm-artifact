@@ -1,5 +1,33 @@
 [
  {
+  "path": ".github/ISSUE_TEMPLATE/config.yml",
+  "sha256": "13064e7bea658e01e718b414fbb7b3b244f36411fe25ee2055c151f7b534547a",
+  "bytes": 27,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": ".github/ISSUE_TEMPLATE/reproducibility.md",
+  "sha256": "1c053af8e34a3dff6669d6e02dc38119dd68297b89b329c6054dca616e5b94b2",
+  "bytes": 346,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": ".zenodo.json",
+  "sha256": "c807a695f5d71e1f49cc8fd402f0ed40b6792c5a785eebfb8e9d91693986af68",
+  "bytes": 1888,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "CITATION.cff",
+  "sha256": "078c1cf5a7a846cc7b5c8a47539814924d4013a956be051bfbb289865ce4d2f9",
+  "bytes": 1228,
+  "records": null,
+  "original": false
+ },
+ {
   "path": "LICENSE",
   "sha256": "02ecb6c0b882cc6fed6c9f0c9b270dcc307b4aed77117fdf50806adb5c7e65b9",
   "bytes": 1074,
@@ -8,8 +36,8 @@
  },
  {
   "path": "README.md",
-  "sha256": "af7e638f86cfaf8b0bb4d644388321829a92261b33688403e0150abe2152470b",
-  "bytes": 4846,
+  "sha256": "a8daa43d215985a251de21360cab2cd1bc0fcb2dfdf4891b913073f0e39fdab0",
+  "bytes": 5739,
   "records": null,
   "original": false
  },
@@ -24,6 +52,216 @@
   "path": "context_facts_2710.md",
   "sha256": "926ff33e96ec3f904d3558f88d5cb3fd57fa7d3134bac5030d040d93629c1ee6",
   "bytes": 4441,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/ablation/README.md",
+  "sha256": "9820d5defbc7007dff6ffb7cf27a4f7fdc3e2799bcdb128c9aa405687937ac9f",
+  "bytes": 3053,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/ablation/ablation.ts",
+  "sha256": "883d602ac00836c37400700d0dcc450e0797c9550b7c54f3482a5574db75e93e",
+  "bytes": 10653,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/ablation/ablation_freeze.sha256",
+  "sha256": "e128391e9b2baa0e690ff0cace04fa12db526891b14f8ffb81a35e76c20b7b41",
+  "bytes": 1741,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/ablation/ablation_gemini-3.1-flash-lite.json",
+  "sha256": "62a2b36e8e1fa6c6687b5e559e8657258daf54cdc163d6a315949dd18de8e991",
+  "bytes": 63993,
+  "records": 79,
+  "original": false
+ },
+ {
+  "path": "experiments/ablation/ablation_gemini-3.1-flash-lite_regexv1.json",
+  "sha256": "62a2b36e8e1fa6c6687b5e559e8657258daf54cdc163d6a315949dd18de8e991",
+  "bytes": 63993,
+  "records": 79,
+  "original": false
+ },
+ {
+  "path": "experiments/ablation/ablation_gemini-3.8-flash.json",
+  "sha256": "75534905d6cfebdd0602c35ccaf3d583caa3fcb090b176be1d2fd70577fef7af",
+  "bytes": 64106,
+  "records": 79,
+  "original": false
+ },
+ {
+  "path": "experiments/ablation/ablation_gemini-3.8-flash_regexv1.json",
+  "sha256": "75534905d6cfebdd0602c35ccaf3d583caa3fcb090b176be1d2fd70577fef7af",
+  "bytes": 64106,
+  "records": 79,
+  "original": false
+ },
+ {
+  "path": "experiments/ablation/ablation_h2_gemini-3.1-flash-lite.json",
+  "sha256": "ed6283dd96ac3e761debdffa75c79e2a7cc29adf89d1015ef60faaacf80de657",
+  "bytes": 35062,
+  "records": 43,
+  "original": false
+ },
+ {
+  "path": "experiments/ablation/ablation_h2_gemini-3.8-flash.json",
+  "sha256": "c2c33fd40f0f6a3587e6220b1400fc343d31c5870295e62eafdcf9a003678f0a",
+  "bytes": 35501,
+  "records": 43,
+  "original": false
+ },
+ {
+  "path": "experiments/ablation/ablation_replay.ts",
+  "sha256": "5ea258bb1169f2b7d821c6dc0e17b25af1c37f5146c2472a52e9f3f0ca89dbda",
+  "bytes": 11511,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/ablation/ablation_stats.py",
+  "sha256": "5b8f02a2a1f16b308673decdeaea8494af168b4d6f560effc9b7c96660882075",
+  "bytes": 4358,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/ablation/ablation_summary.json",
+  "sha256": "8161df158af1ffa95466814b63848b19681288eb7704ee5fe9bf5e6a3c033a40",
+  "bytes": 15104,
+  "records": 6,
+  "original": false
+ },
+ {
+  "path": "experiments/ablation/ablation_summary_h2.json",
+  "sha256": "40aa2d30ee062225acfd4f5e379bcd07acbd80a34ad0723c47a81104536629da",
+  "bytes": 5028,
+  "records": 2,
+  "original": false
+ },
+ {
+  "path": "experiments/ablation/ablation_summary_main.json",
+  "sha256": "39b3f3e4ff2cbf07a2e8daf8b787bbb66786769b3abc3d92b51c58b2813ace4c",
+  "bytes": 10079,
+  "records": 4,
+  "original": false
+ },
+ {
+  "path": "experiments/ablation/ablation_summary_regexv1.json",
+  "sha256": "39b3f3e4ff2cbf07a2e8daf8b787bbb66786769b3abc3d92b51c58b2813ace4c",
+  "bytes": 10079,
+  "records": 4,
+  "original": false
+ },
+ {
+  "path": "experiments/ablation/apex_jrd_frozen.ts",
+  "sha256": "0873f024e4a329b212973f839aa862e5d6e3351551afb02bd0361c2b2e2a2d73",
+  "bytes": 30264,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/ablation/cost_evidence_2710.json",
+  "sha256": "657abe931a24391012f051a126c831cdb956a018b0dfc21773048a35936b3fa6",
+  "bytes": 2327,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/ablation/fig_ablation.py",
+  "sha256": "d4eecd9b99fe88ac2197d08b79da998b06f45a40faa183b74c22b58a7e76e640",
+  "bytes": 2300,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/ablation/freeze_contracts.ts",
+  "sha256": "7f191fa51e8c747feb1a05abb9c590ea9f9bc9afec85cfbd99cfa7bd1563d36c",
+  "bytes": 8273,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/ablation/freeze_holdout2.ts",
+  "sha256": "0aa5afc9e4badaa8f02d6c1e05c208405ce087600f684c8e52584abc1b855c45",
+  "bytes": 5301,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/ablation/frozen_gemini-3.1-flash-lite.json",
+  "sha256": "34de645682d7abeea4a828a348b4f851306ba4acb1746e0a994060dd2081e6c6",
+  "bytes": 292183,
+  "records": 79,
+  "original": false
+ },
+ {
+  "path": "experiments/ablation/frozen_gemini-3.8-flash.json",
+  "sha256": "dd756c6ce9103d6e74a57e88b41fc2972e15145c1113ed1d64a3cd6ec5dc4168",
+  "bytes": 296509,
+  "records": 79,
+  "original": false
+ },
+ {
+  "path": "experiments/ablation/frozen_h2_gemini-3.1-flash-lite.json",
+  "sha256": "81e2ed9d41dd7befd3bf62af0b0ac2d66c1b2262a1acd3dbcb86b3571bd10df0",
+  "bytes": 167633,
+  "records": 43,
+  "original": false
+ },
+ {
+  "path": "experiments/ablation/frozen_h2_gemini-3.8-flash.json",
+  "sha256": "fa66ddf6ecfdd15b08feb19c980d8e57405fd613aaed00c6ee58cbfaecb68430",
+  "bytes": 170753,
+  "records": 43,
+  "original": false
+ },
+ {
+  "path": "experiments/ablation/stubs/decision-ledger.ts",
+  "sha256": "55f1d6934026a3d7a724ae3bdded8de1be0510ae7b013af5bc26aae82f14d2e1",
+  "bytes": 202,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/ablation/stubs/gemini.ts",
+  "sha256": "96ed5e7855256b75cb5d7a61b014faa781bdeba6d3330999e1d8d1c814d46cf1",
+  "bytes": 403,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/ablation/stubs/mammoth.ts",
+  "sha256": "510e34e61eed2b6280857c014dbf3b759b1e410eea312b4c9ba2723db89b6b7c",
+  "bytes": 203,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/ablation/stubs/salem-jrd-flow.ts",
+  "sha256": "1bcaf4bc62479ffa60f13e4ed22e429e884265857eb04cfc4141a478f9dd1014",
+  "bytes": 251,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/ablation/stubs/xlsx.ts",
+  "sha256": "61205b2ef54be66cd7d1726c9d2b2d1ee192620f32172705e3eb1bba31ca4783",
+  "bytes": 199,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/ablation/tsconfig.json",
+  "sha256": "42bceb93142311b14d5c912091c755b76e9cc3667a36e0e0d3685060ac1bee74",
+  "bytes": 434,
   "records": null,
   "original": false
  },
@@ -568,8 +806,8 @@
  },
  {
   "path": "experiments/ellipse/calibrate.py",
-  "sha256": "a3763b95b1f6479d4e1b80581101f4fe076ae9a326d2ca23f04bd591961ef462",
-  "bytes": 2122,
+  "sha256": "0ec56685a9a9e654901c8d31206e905ae03b8f898207c277facc81535ae59390",
+  "bytes": 2220,
   "records": null,
   "original": false
  },
@@ -638,8 +876,8 @@
  },
  {
   "path": "experiments/ellipse/human_compare.py",
-  "sha256": "bcf7dd47bfc4db22f8ad29f397ad8258df1eb27fa9cecfc4a0fc266bbd991f58",
-  "bytes": 2973,
+  "sha256": "700f8095552d38abe6c1c031bb65d3d9eb094983bad962ab520bae0c1c31bdc9",
+  "bytes": 3115,
   "records": null,
   "original": false
  },
@@ -722,8 +960,8 @@
  },
  {
   "path": "figures/Figure1_operator.png",
-  "sha256": "47a3a0e404d2f1d3b678d1d04bf9018554a9680afb252c858cab070aa88ce95c",
-  "bytes": 359585,
+  "sha256": "48cb56822e7ef8b2a9751f3d6acaacf3354c002fb5cbe5683871a05a14b50ed0",
+  "bytes": 511017,
   "records": null,
   "original": false
  },
@@ -749,7 +987,14 @@
   "original": false
  },
  {
-  "path": "figures/Figure5_gates.png",
+  "path": "figures/Figure5_ablation.png",
+  "sha256": "860e3a47178389e9f112df9fcb913c17006aa27c2a754970e4fa9fe8f12f61dd",
+  "bytes": 248541,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "figures/Figure6_gates.png",
   "sha256": "99399dba84671b8de2b9b3aa692dfbd18014124be0ff69f18e3ce29bd7ef1d0c",
   "bytes": 150596,
   "records": null,
@@ -764,8 +1009,8 @@
  },
  {
   "path": "figures/src/figs.py",
-  "sha256": "39fe3acf80810e684424968c3e6457ac4a5765c8fad8dcb753ea6349de714be3",
-  "bytes": 8580,
+  "sha256": "0df75c78ea3388229fd83e6152ce6c01c6cdf412915f905c492e416751ef636e",
+  "bytes": 10161,
   "records": null,
   "original": false
  },

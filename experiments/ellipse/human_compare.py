@@ -1,7 +1,9 @@
 # Commensurable comparison (reviewer request): calibrated AI vs EACH single rater, against rater 1 vs rater 2 on the same
 # held-out essays. Calibration is fitted on the calibration fold against the mean of the two raters, applied to held-out
 # essays; single-run AI score (run 1) is used so that AI and human are both single ratings. Difference in QWK
-# (AI-vs-rater minus rater-vs-rater) with a bootstrap 95% CI over essays inside each split, pooled over 200 splits.
+# (AI-vs-rater minus rater-vs-rater): report the mean difference and its central 95% range across 400 held-out fold
+# evaluations from 200 random two-fold partitions. These ranges describe split-to-split variability; no within-fold
+# bootstrap is performed.
 # usage: python human_compare.py jobs.json raw_rater.csv results.jsonl tag
 import json, sys, numpy as np, pandas as pd
 from sklearn.metrics import cohen_kappa_score

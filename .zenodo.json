@@ -1,0 +1,37 @@
+{
+  "title": "Research artefact: Criteria-Governed LLM Decision Workflows — operator, ablation package, synthetic inputs and analysis scripts",
+  "upload_type": "software",
+  "description": "<p>Code, prompts, synthetic test inputs, frozen model outputs, analysis scripts and aggregate results for the manuscript «Criteria-Governed LLM Decision Workflows: An Auditable Architecture and Experimental Evaluation in a Production University Platform» (submitted to MDPI <i>Machine Learning and Knowledge Extraction</i>, Special Issue «Knowledge Discovery and Extraction with Large Language Models, Retrieval-Augmented Generation, and Autonomous Agents»).</p><p>Includes the five-configuration governance ablation (C1 LLM only to C5 full operator) on frozen outputs of two models, the confirmatory held-out set generated after the operator was frozen (with SHA-256 chronology), an offline replay that reproduces every stored routing decision byte for byte, and the statistics (Cochran's Q, McNemar mid-p with Holm correction, Clopper–Pearson intervals). No personal data are included.</p>",
+  "creators": [
+    {
+      "name": "Zhakypbekov, Syrym",
+      "affiliation": "International Information Technology University",
+      "orcid": "0000-0001-9112-5922"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "criteria-governed AI",
+    "human-in-the-loop",
+    "large language models",
+    "knowledge extraction",
+    "LLM-assisted decision workflows",
+    "ablation study",
+    "decision support",
+    "reproducibility"
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://github.com/Syrym-Zhakypbekov/criteria-governed-llm-artifact",
+      "scheme": "url"
+    },
+    {
+      "relation": "references",
+      "identifier": "10.3390/informatics13110179",
+      "scheme": "doi"
+    }
+  ],
+  "language": "eng",
+  "access_right": "open"
+}

@@ -1,0 +1,2305 @@
+[
+ {
+  "set": "holdout2",
+  "id": "clean-q200",
+  "model": "gemini-3.8-flash",
+  "defects": [],
+  "defective": false,
+  "error": null,
+  "C1": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C2": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C3": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C4": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C5": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "PROD": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  }
+ },
+ {
+  "set": "holdout2",
+  "id": "clean-q201",
+  "model": "gemini-3.8-flash",
+  "defects": [],
+  "defective": false,
+  "error": null,
+  "C1": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C2": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C3": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C4": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C5": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "PROD": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  }
+ },
+ {
+  "set": "holdout2",
+  "id": "clean-q202",
+  "model": "gemini-3.8-flash",
+  "defects": [],
+  "defective": false,
+  "error": null,
+  "C1": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C2": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C3": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C4": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C5": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "PROD": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  }
+ },
+ {
+  "set": "holdout2",
+  "id": "clean-q203",
+  "model": "gemini-3.8-flash",
+  "defects": [],
+  "defective": false,
+  "error": null,
+  "C1": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C2": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C3": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C4": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C5": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "PROD": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  }
+ },
+ {
+  "set": "holdout2",
+  "id": "clean-q204",
+  "model": "gemini-3.8-flash",
+  "defects": [],
+  "defective": false,
+  "error": null,
+  "C1": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C2": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C3": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C4": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C5": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "PROD": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  }
+ },
+ {
+  "set": "holdout2",
+  "id": "clean-q205",
+  "model": "gemini-3.8-flash",
+  "defects": [],
+  "defective": false,
+  "error": null,
+  "C1": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C2": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C3": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C4": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C5": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "PROD": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  }
+ },
+ {
+  "set": "holdout2",
+  "id": "clean-q206",
+  "model": "gemini-3.8-flash",
+  "defects": [],
+  "defective": false,
+  "error": null,
+  "C1": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C2": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C3": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C4": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C5": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "PROD": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  }
+ },
+ {
+  "set": "holdout2",
+  "id": "clean-q207",
+  "model": "gemini-3.8-flash",
+  "defects": [],
+  "defective": false,
+  "error": null,
+  "C1": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C2": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C3": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C4": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C5": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "PROD": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  }
+ },
+ {
+  "set": "holdout2",
+  "id": "clean-q208",
+  "model": "gemini-3.8-flash",
+  "defects": [],
+  "defective": false,
+  "error": null,
+  "C1": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C2": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C3": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C4": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C5": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "PROD": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  }
+ },
+ {
+  "set": "holdout2",
+  "id": "clean-q209",
+  "model": "gemini-3.8-flash",
+  "defects": [],
+  "defective": false,
+  "error": null,
+  "C1": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C2": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C3": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C4": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C5": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "PROD": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  }
+ },
+ {
+  "set": "holdout2",
+  "id": "bin_short-q210",
+  "model": "gemini-3.8-flash",
+  "defects": [
+   "bin_short"
+  ],
+  "defective": true,
+  "error": null,
+  "C1": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C2": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C3": {
+   "state": "vetoed",
+   "codes": [
+    "bin"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C4": {
+   "state": "vetoed",
+   "codes": [
+    "bin"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C5": {
+   "state": "vetoed",
+   "codes": [
+    "bin",
+    "bin_evidence"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "PROD": {
+   "state": "vetoed",
+   "codes": [
+    "bin"
+   ],
+   "routed": true,
+   "traced": true
+  }
+ },
+ {
+  "set": "holdout2",
+  "id": "bin_short-q211",
+  "model": "gemini-3.8-flash",
+  "defects": [
+   "bin_short"
+  ],
+  "defective": true,
+  "error": null,
+  "C1": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C2": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C3": {
+   "state": "vetoed",
+   "codes": [
+    "bin"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C4": {
+   "state": "vetoed",
+   "codes": [
+    "bin"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C5": {
+   "state": "vetoed",
+   "codes": [
+    "bin",
+    "bin_evidence"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "PROD": {
+   "state": "vetoed",
+   "codes": [
+    "bin"
+   ],
+   "routed": true,
+   "traced": true
+  }
+ },
+ {
+  "set": "holdout2",
+  "id": "bin_short-q212",
+  "model": "gemini-3.8-flash",
+  "defects": [
+   "bin_short"
+  ],
+  "defective": true,
+  "error": null,
+  "C1": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C2": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C3": {
+   "state": "vetoed",
+   "codes": [
+    "bin"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C4": {
+   "state": "vetoed",
+   "codes": [
+    "bin"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C5": {
+   "state": "vetoed",
+   "codes": [
+    "bin",
+    "bin_evidence"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "PROD": {
+   "state": "vetoed",
+   "codes": [
+    "bin"
+   ],
+   "routed": true,
+   "traced": true
+  }
+ },
+ {
+  "set": "holdout2",
+  "id": "bin_missing-q213",
+  "model": "gemini-3.8-flash",
+  "defects": [
+   "bin_missing"
+  ],
+  "defective": true,
+  "error": null,
+  "C1": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C2": {
+   "state": "escalated",
+   "codes": [
+    "schema:supplier.bin"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C3": {
+   "state": "vetoed",
+   "codes": [
+    "bin",
+    "schema:supplier.bin"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C4": {
+   "state": "vetoed",
+   "codes": [
+    "bin",
+    "schema:supplier.bin"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C5": {
+   "state": "vetoed",
+   "codes": [
+    "bin",
+    "bin_evidence",
+    "schema:supplier.bin"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "PROD": {
+   "state": "vetoed",
+   "codes": [
+    "bin"
+   ],
+   "routed": true,
+   "traced": true
+  }
+ },
+ {
+  "set": "holdout2",
+  "id": "bin_missing-q214",
+  "model": "gemini-3.8-flash",
+  "defects": [
+   "bin_missing"
+  ],
+  "defective": true,
+  "error": null,
+  "C1": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C2": {
+   "state": "escalated",
+   "codes": [
+    "schema:supplier.bin"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C3": {
+   "state": "vetoed",
+   "codes": [
+    "bin",
+    "schema:supplier.bin"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C4": {
+   "state": "vetoed",
+   "codes": [
+    "bin",
+    "schema:supplier.bin"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C5": {
+   "state": "vetoed",
+   "codes": [
+    "bin",
+    "bin_evidence",
+    "schema:supplier.bin"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "PROD": {
+   "state": "vetoed",
+   "codes": [
+    "bin"
+   ],
+   "routed": true,
+   "traced": true
+  }
+ },
+ {
+  "set": "holdout2",
+  "id": "bin_missing-q215",
+  "model": "gemini-3.8-flash",
+  "defects": [
+   "bin_missing"
+  ],
+  "defective": true,
+  "error": null,
+  "C1": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C2": {
+   "state": "escalated",
+   "codes": [
+    "schema:supplier.bin"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C3": {
+   "state": "vetoed",
+   "codes": [
+    "bin",
+    "schema:supplier.bin"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C4": {
+   "state": "vetoed",
+   "codes": [
+    "bin",
+    "schema:supplier.bin"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C5": {
+   "state": "vetoed",
+   "codes": [
+    "bin",
+    "bin_evidence",
+    "schema:supplier.bin"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "PROD": {
+   "state": "vetoed",
+   "codes": [
+    "bin"
+   ],
+   "routed": true,
+   "traced": true
+  }
+ },
+ {
+  "set": "holdout2",
+  "id": "bin_long-q216",
+  "model": "gemini-3.8-flash",
+  "defects": [
+   "bin_long"
+  ],
+  "defective": true,
+  "error": null,
+  "C1": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C2": {
+   "state": "escalated",
+   "codes": [
+    "schema:supplier.bin"
+   ],
+   "routed": true,
+   "traced": false
+  },
+  "C3": {
+   "state": "vetoed",
+   "codes": [
+    "bin",
+    "schema:supplier.bin"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C4": {
+   "state": "vetoed",
+   "codes": [
+    "bin",
+    "schema:supplier.bin"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C5": {
+   "state": "vetoed",
+   "codes": [
+    "bin",
+    "bin_evidence",
+    "schema:supplier.bin"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "PROD": {
+   "state": "vetoed",
+   "codes": [
+    "bin"
+   ],
+   "routed": true,
+   "traced": true
+  }
+ },
+ {
+  "set": "holdout2",
+  "id": "bin_long-q217",
+  "model": "gemini-3.8-flash",
+  "defects": [
+   "bin_long"
+  ],
+  "defective": true,
+  "error": null,
+  "C1": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C2": {
+   "state": "escalated",
+   "codes": [
+    "schema:supplier.bin"
+   ],
+   "routed": true,
+   "traced": false
+  },
+  "C3": {
+   "state": "vetoed",
+   "codes": [
+    "bin",
+    "schema:supplier.bin"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C4": {
+   "state": "vetoed",
+   "codes": [
+    "bin",
+    "schema:supplier.bin"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C5": {
+   "state": "vetoed",
+   "codes": [
+    "bin",
+    "bin_evidence",
+    "schema:supplier.bin"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "PROD": {
+   "state": "vetoed",
+   "codes": [
+    "bin"
+   ],
+   "routed": true,
+   "traced": true
+  }
+ },
+ {
+  "set": "holdout2",
+  "id": "bin_long-q218",
+  "model": "gemini-3.8-flash",
+  "defects": [
+   "bin_long"
+  ],
+  "defective": true,
+  "error": null,
+  "C1": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C2": {
+   "state": "escalated",
+   "codes": [
+    "schema:supplier.bin"
+   ],
+   "routed": true,
+   "traced": false
+  },
+  "C3": {
+   "state": "vetoed",
+   "codes": [
+    "bin",
+    "schema:supplier.bin"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C4": {
+   "state": "vetoed",
+   "codes": [
+    "bin",
+    "schema:supplier.bin"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C5": {
+   "state": "vetoed",
+   "codes": [
+    "bin",
+    "bin_evidence",
+    "schema:supplier.bin"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "PROD": {
+   "state": "vetoed",
+   "codes": [
+    "bin"
+   ],
+   "routed": true,
+   "traced": true
+  }
+ },
+ {
+  "set": "holdout2",
+  "id": "no_items-q219",
+  "model": "gemini-3.8-flash",
+  "defects": [
+   "no_items"
+  ],
+  "defective": true,
+  "error": null,
+  "C1": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C2": {
+   "state": "escalated",
+   "codes": [
+    "schema:items"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C3": {
+   "state": "vetoed",
+   "codes": [
+    "items",
+    "schema:items"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C4": {
+   "state": "vetoed",
+   "codes": [
+    "items",
+    "prices",
+    "schema:items"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C5": {
+   "state": "vetoed",
+   "codes": [
+    "items",
+    "prices",
+    "schema:items"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "PROD": {
+   "state": "vetoed",
+   "codes": [
+    "items",
+    "prices"
+   ],
+   "routed": true,
+   "traced": true
+  }
+ },
+ {
+  "set": "holdout2",
+  "id": "no_items-q220",
+  "model": "gemini-3.8-flash",
+  "defects": [
+   "no_items"
+  ],
+  "defective": true,
+  "error": null,
+  "C1": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C2": {
+   "state": "escalated",
+   "codes": [
+    "schema:items"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C3": {
+   "state": "vetoed",
+   "codes": [
+    "items",
+    "schema:items"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C4": {
+   "state": "vetoed",
+   "codes": [
+    "items",
+    "prices",
+    "schema:items"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C5": {
+   "state": "vetoed",
+   "codes": [
+    "items",
+    "prices",
+    "schema:items"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "PROD": {
+   "state": "vetoed",
+   "codes": [
+    "items",
+    "prices"
+   ],
+   "routed": true,
+   "traced": true
+  }
+ },
+ {
+  "set": "holdout2",
+  "id": "no_items-q221",
+  "model": "gemini-3.8-flash",
+  "defects": [
+   "no_items"
+  ],
+  "defective": true,
+  "error": null,
+  "C1": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C2": {
+   "state": "escalated",
+   "codes": [
+    "schema:items"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C3": {
+   "state": "vetoed",
+   "codes": [
+    "items",
+    "schema:items"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C4": {
+   "state": "vetoed",
+   "codes": [
+    "items",
+    "prices",
+    "schema:items"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C5": {
+   "state": "vetoed",
+   "codes": [
+    "items",
+    "prices",
+    "schema:items"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "PROD": {
+   "state": "vetoed",
+   "codes": [
+    "items",
+    "prices"
+   ],
+   "routed": true,
+   "traced": true
+  }
+ },
+ {
+  "set": "holdout2",
+  "id": "no_price-q222",
+  "model": "gemini-3.8-flash",
+  "defects": [
+   "no_price"
+  ],
+  "defective": true,
+  "error": null,
+  "C1": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C2": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C3": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C4": {
+   "state": "escalated",
+   "codes": [
+    "prices"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C5": {
+   "state": "escalated",
+   "codes": [
+    "prices"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "PROD": {
+   "state": "escalated",
+   "codes": [
+    "prices"
+   ],
+   "routed": true,
+   "traced": true
+  }
+ },
+ {
+  "set": "holdout2",
+  "id": "no_price-q223",
+  "model": "gemini-3.8-flash",
+  "defects": [
+   "no_price"
+  ],
+  "defective": true,
+  "error": null,
+  "C1": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C2": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C3": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C4": {
+   "state": "escalated",
+   "codes": [
+    "prices"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C5": {
+   "state": "escalated",
+   "codes": [
+    "prices"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "PROD": {
+   "state": "escalated",
+   "codes": [
+    "prices"
+   ],
+   "routed": true,
+   "traced": true
+  }
+ },
+ {
+  "set": "holdout2",
+  "id": "no_price-q224",
+  "model": "gemini-3.8-flash",
+  "defects": [
+   "no_price"
+  ],
+  "defective": true,
+  "error": null,
+  "C1": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C2": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C3": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C4": {
+   "state": "escalated",
+   "codes": [
+    "prices"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C5": {
+   "state": "escalated",
+   "codes": [
+    "prices"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "PROD": {
+   "state": "escalated",
+   "codes": [
+    "prices"
+   ],
+   "routed": true,
+   "traced": true
+  }
+ },
+ {
+  "set": "holdout2",
+  "id": "vat_no_rate-q225",
+  "model": "gemini-3.8-flash",
+  "defects": [
+   "vat_no_rate"
+  ],
+  "defective": true,
+  "error": null,
+  "C1": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C2": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C3": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C4": {
+   "state": "escalated",
+   "codes": [
+    "vat_explicit"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C5": {
+   "state": "escalated",
+   "codes": [
+    "vat_explicit"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "PROD": {
+   "state": "escalated",
+   "codes": [
+    "vat_explicit"
+   ],
+   "routed": true,
+   "traced": true
+  }
+ },
+ {
+  "set": "holdout2",
+  "id": "vat_no_rate-q226",
+  "model": "gemini-3.8-flash",
+  "defects": [
+   "vat_no_rate"
+  ],
+  "defective": true,
+  "error": null,
+  "C1": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C2": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C3": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C4": {
+   "state": "escalated",
+   "codes": [
+    "vat_explicit"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C5": {
+   "state": "escalated",
+   "codes": [
+    "vat_explicit"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "PROD": {
+   "state": "escalated",
+   "codes": [
+    "vat_explicit"
+   ],
+   "routed": true,
+   "traced": true
+  }
+ },
+ {
+  "set": "holdout2",
+  "id": "vat_no_rate-q227",
+  "model": "gemini-3.8-flash",
+  "defects": [
+   "vat_no_rate"
+  ],
+  "defective": true,
+  "error": null,
+  "C1": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C2": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C3": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C4": {
+   "state": "escalated",
+   "codes": [
+    "vat_explicit"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C5": {
+   "state": "escalated",
+   "codes": [
+    "vat_explicit"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "PROD": {
+   "state": "escalated",
+   "codes": [
+    "vat_explicit"
+   ],
+   "routed": true,
+   "traced": true
+  }
+ },
+ {
+  "set": "holdout2",
+  "id": "third_party-q228",
+  "model": "gemini-3.8-flash",
+  "defects": [
+   "third_party"
+  ],
+  "defective": true,
+  "error": null,
+  "C1": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C2": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C3": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C4": {
+   "state": "escalated",
+   "codes": [
+    "third_party_email"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C5": {
+   "state": "escalated",
+   "codes": [
+    "third_party_email"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "PROD": {
+   "state": "escalated",
+   "codes": [
+    "third_party_email"
+   ],
+   "routed": true,
+   "traced": true
+  }
+ },
+ {
+  "set": "holdout2",
+  "id": "third_party-q229",
+  "model": "gemini-3.8-flash",
+  "defects": [
+   "third_party"
+  ],
+  "defective": true,
+  "error": null,
+  "C1": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C2": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C3": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C4": {
+   "state": "escalated",
+   "codes": [
+    "third_party_email"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C5": {
+   "state": "escalated",
+   "codes": [
+    "third_party_email"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "PROD": {
+   "state": "escalated",
+   "codes": [
+    "third_party_email"
+   ],
+   "routed": true,
+   "traced": true
+  }
+ },
+ {
+  "set": "holdout2",
+  "id": "third_party-q230",
+  "model": "gemini-3.8-flash",
+  "defects": [
+   "third_party"
+  ],
+  "defective": true,
+  "error": null,
+  "C1": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C2": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C3": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C4": {
+   "state": "escalated",
+   "codes": [
+    "third_party_email"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C5": {
+   "state": "escalated",
+   "codes": [
+    "third_party_email"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "PROD": {
+   "state": "escalated",
+   "codes": [
+    "third_party_email"
+   ],
+   "routed": true,
+   "traced": true
+  }
+ },
+ {
+  "set": "holdout2",
+  "id": "addendum_nobase-q231",
+  "model": "gemini-3.8-flash",
+  "defects": [
+   "addendum_nobase"
+  ],
+  "defective": true,
+  "error": null,
+  "C1": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C2": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C3": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C4": {
+   "state": "escalated",
+   "codes": [
+    "addendum_base"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C5": {
+   "state": "escalated",
+   "codes": [
+    "addendum_base"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "PROD": {
+   "state": "escalated",
+   "codes": [
+    "addendum_base"
+   ],
+   "routed": true,
+   "traced": true
+  }
+ },
+ {
+  "set": "holdout2",
+  "id": "addendum_nobase-q232",
+  "model": "gemini-3.8-flash",
+  "defects": [
+   "addendum_nobase"
+  ],
+  "defective": true,
+  "error": null,
+  "C1": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C2": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C3": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C4": {
+   "state": "escalated",
+   "codes": [
+    "addendum_base"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C5": {
+   "state": "escalated",
+   "codes": [
+    "addendum_base"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "PROD": {
+   "state": "escalated",
+   "codes": [
+    "addendum_base"
+   ],
+   "routed": true,
+   "traced": true
+  }
+ },
+ {
+  "set": "holdout2",
+  "id": "addendum_nobase-q233",
+  "model": "gemini-3.8-flash",
+  "defects": [
+   "addendum_nobase"
+  ],
+  "defective": true,
+  "error": null,
+  "C1": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C2": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C3": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C4": {
+   "state": "escalated",
+   "codes": [
+    "addendum_base"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C5": {
+   "state": "escalated",
+   "codes": [
+    "addendum_base"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "PROD": {
+   "state": "escalated",
+   "codes": [
+    "addendum_base"
+   ],
+   "routed": true,
+   "traced": true
+  }
+ },
+ {
+  "set": "holdout2",
+  "id": "bin_long+third_party-q234",
+  "model": "gemini-3.8-flash",
+  "defects": [
+   "bin_long",
+   "third_party"
+  ],
+  "defective": true,
+  "error": null,
+  "C1": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C2": {
+   "state": "escalated",
+   "codes": [
+    "schema:supplier.bin"
+   ],
+   "routed": true,
+   "traced": false
+  },
+  "C3": {
+   "state": "vetoed",
+   "codes": [
+    "bin",
+    "schema:supplier.bin"
+   ],
+   "routed": true,
+   "traced": false
+  },
+  "C4": {
+   "state": "vetoed",
+   "codes": [
+    "bin",
+    "third_party_email",
+    "schema:supplier.bin"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C5": {
+   "state": "vetoed",
+   "codes": [
+    "bin",
+    "bin_evidence",
+    "third_party_email",
+    "schema:supplier.bin"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "PROD": {
+   "state": "vetoed",
+   "codes": [
+    "bin",
+    "third_party_email"
+   ],
+   "routed": true,
+   "traced": true
+  }
+ },
+ {
+  "set": "holdout2",
+  "id": "bin_long+third_party-q235",
+  "model": "gemini-3.8-flash",
+  "defects": [
+   "bin_long",
+   "third_party"
+  ],
+  "defective": true,
+  "error": null,
+  "C1": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C2": {
+   "state": "escalated",
+   "codes": [
+    "schema:supplier.bin"
+   ],
+   "routed": true,
+   "traced": false
+  },
+  "C3": {
+   "state": "vetoed",
+   "codes": [
+    "bin",
+    "schema:supplier.bin"
+   ],
+   "routed": true,
+   "traced": false
+  },
+  "C4": {
+   "state": "vetoed",
+   "codes": [
+    "bin",
+    "third_party_email",
+    "schema:supplier.bin"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C5": {
+   "state": "vetoed",
+   "codes": [
+    "bin",
+    "bin_evidence",
+    "third_party_email",
+    "schema:supplier.bin"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "PROD": {
+   "state": "vetoed",
+   "codes": [
+    "bin",
+    "third_party_email"
+   ],
+   "routed": true,
+   "traced": true
+  }
+ },
+ {
+  "set": "holdout2",
+  "id": "bin_long+third_party-q236",
+  "model": "gemini-3.8-flash",
+  "defects": [
+   "bin_long",
+   "third_party"
+  ],
+  "defective": true,
+  "error": null,
+  "C1": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C2": {
+   "state": "escalated",
+   "codes": [
+    "schema:supplier.bin"
+   ],
+   "routed": true,
+   "traced": false
+  },
+  "C3": {
+   "state": "vetoed",
+   "codes": [
+    "bin",
+    "schema:supplier.bin"
+   ],
+   "routed": true,
+   "traced": false
+  },
+  "C4": {
+   "state": "vetoed",
+   "codes": [
+    "bin",
+    "third_party_email",
+    "schema:supplier.bin"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C5": {
+   "state": "vetoed",
+   "codes": [
+    "bin",
+    "bin_evidence",
+    "third_party_email",
+    "schema:supplier.bin"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "PROD": {
+   "state": "vetoed",
+   "codes": [
+    "bin",
+    "third_party_email"
+   ],
+   "routed": true,
+   "traced": true
+  }
+ },
+ {
+  "set": "holdout2",
+  "id": "no_price+vat_no_rate-q237",
+  "model": "gemini-3.8-flash",
+  "defects": [
+   "no_price",
+   "vat_no_rate"
+  ],
+  "defective": true,
+  "error": null,
+  "C1": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C2": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C3": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C4": {
+   "state": "escalated",
+   "codes": [
+    "prices",
+    "vat_explicit"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C5": {
+   "state": "escalated",
+   "codes": [
+    "prices",
+    "vat_explicit"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "PROD": {
+   "state": "escalated",
+   "codes": [
+    "prices",
+    "vat_explicit"
+   ],
+   "routed": true,
+   "traced": true
+  }
+ },
+ {
+  "set": "holdout2",
+  "id": "no_price+vat_no_rate-q238",
+  "model": "gemini-3.8-flash",
+  "defects": [
+   "no_price",
+   "vat_no_rate"
+  ],
+  "defective": true,
+  "error": null,
+  "C1": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C2": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C3": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C4": {
+   "state": "escalated",
+   "codes": [
+    "prices",
+    "vat_explicit"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C5": {
+   "state": "escalated",
+   "codes": [
+    "prices",
+    "vat_explicit"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "PROD": {
+   "state": "escalated",
+   "codes": [
+    "prices",
+    "vat_explicit"
+   ],
+   "routed": true,
+   "traced": true
+  }
+ },
+ {
+  "set": "holdout2",
+  "id": "no_price+vat_no_rate-q239",
+  "model": "gemini-3.8-flash",
+  "defects": [
+   "no_price",
+   "vat_no_rate"
+  ],
+  "defective": true,
+  "error": null,
+  "C1": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C2": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C3": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C4": {
+   "state": "escalated",
+   "codes": [
+    "prices",
+    "vat_explicit"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C5": {
+   "state": "escalated",
+   "codes": [
+    "prices",
+    "vat_explicit"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "PROD": {
+   "state": "escalated",
+   "codes": [
+    "prices",
+    "vat_explicit"
+   ],
+   "routed": true,
+   "traced": true
+  }
+ },
+ {
+  "set": "holdout2",
+  "id": "addendum_nobase+third_party-q240",
+  "model": "gemini-3.8-flash",
+  "defects": [
+   "addendum_nobase",
+   "third_party"
+  ],
+  "defective": true,
+  "error": null,
+  "C1": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C2": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C3": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C4": {
+   "state": "escalated",
+   "codes": [
+    "addendum_base",
+    "third_party_email"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C5": {
+   "state": "escalated",
+   "codes": [
+    "addendum_base",
+    "third_party_email"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "PROD": {
+   "state": "escalated",
+   "codes": [
+    "addendum_base",
+    "third_party_email"
+   ],
+   "routed": true,
+   "traced": true
+  }
+ },
+ {
+  "set": "holdout2",
+  "id": "addendum_nobase+third_party-q241",
+  "model": "gemini-3.8-flash",
+  "defects": [
+   "addendum_nobase",
+   "third_party"
+  ],
+  "defective": true,
+  "error": null,
+  "C1": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C2": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C3": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C4": {
+   "state": "escalated",
+   "codes": [
+    "addendum_base",
+    "third_party_email"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C5": {
+   "state": "escalated",
+   "codes": [
+    "addendum_base",
+    "third_party_email"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "PROD": {
+   "state": "escalated",
+   "codes": [
+    "addendum_base",
+    "third_party_email"
+   ],
+   "routed": true,
+   "traced": true
+  }
+ },
+ {
+  "set": "holdout2",
+  "id": "addendum_nobase+third_party-q242",
+  "model": "gemini-3.8-flash",
+  "defects": [
+   "addendum_nobase",
+   "third_party"
+  ],
+  "defective": true,
+  "error": null,
+  "C1": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C2": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C3": {
+   "state": "provisional",
+   "codes": [],
+   "routed": false,
+   "traced": null
+  },
+  "C4": {
+   "state": "escalated",
+   "codes": [
+    "addendum_base",
+    "third_party_email"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "C5": {
+   "state": "escalated",
+   "codes": [
+    "addendum_base",
+    "third_party_email"
+   ],
+   "routed": true,
+   "traced": true
+  },
+  "PROD": {
+   "state": "escalated",
+   "codes": [
+    "addendum_base",
+    "third_party_email"
+   ],
+   "routed": true,
+   "traced": true
+  }
+ }
+]

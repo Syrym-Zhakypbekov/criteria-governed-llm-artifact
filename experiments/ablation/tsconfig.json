@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "esnext", "moduleResolution": "bundler", "target": "es2022", "strict": false, "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/lib/gemini": ["stubs/gemini.ts"],
+      "@/apps/legal/lib/salem-jrd-flow": ["stubs/salem-jrd-flow.ts"],
+      "@/lib/decision-ledger": ["stubs/decision-ledger.ts"],
+      "xlsx": ["stubs/xlsx.ts"],
+      "mammoth": ["stubs/mammoth.ts"]
+    }
+  }
+}

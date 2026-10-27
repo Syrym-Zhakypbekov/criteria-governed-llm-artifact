@@ -1,0 +1,15 @@
+b442d1a2e1b5fc8bae4f873ac677325c47409bc63e6cb5b6b8ee455f5337d30c *ablation.ts
+0873f024e4a329b212973f839aa862e5d6e3351551afb02bd0361c2b2e2a2d73 *apex_jrd_frozen.ts
+7f191fa51e8c747feb1a05abb9c590ea9f9bc9afec85cfbd99cfa7bd1563d36c *freeze_contracts.ts
+2026-10-27T15:55:09Z frozen C5 v2 (criterion floor added on dev)
+69e0ef1e459eaa6caedf3fe4cc41156aa9fa8913dd892565e8df65d4475f285f *ablation.ts
+2026-10-27T16:11:35Z ablation.ts v3: Cyrillic regex fix for addendum applicability (found by Codex R13); counts identical; probes added
+a339bed43d3d364947044ee0923cb7f709dd8dc6c39fe8be704b6fc8942e5af9 *ablation.ts
+2026-10-27T16:15:01Z ablation.ts FINAL C5 (v4: exact-decimal price evidence, union applicability) frozen BEFORE holdout2 was generated
+NOTE: the a339bed4 entry above is SUPERSEDED — its price parser missed NBSP thousands separators (10/10 false alarms on the exposed held-out set); fixed before holdout2 existed
+883d602ac00836c37400700d0dcc450e0797c9550b7c54f3482a5574db75e93e *ablation.ts
+2026-10-27T16:16:06Z ablation.ts FINAL C5 frozen BEFORE holdout2 was generated (exact-decimal price evidence with NBSP/narrow-NBSP separators, union applicability, 4 probes pass)
+0aa5afc9e4badaa8f02d6c1e05c208405ce087600f684c8e52584abc1b855c45 *freeze_holdout2.ts
+2026-10-27T16:16:54Z freeze_holdout2.ts generator written after the final C5 freeze; run once per model
+5ea258bb1169f2b7d821c6dc0e17b25af1c37f5146c2472a52e9f3f0ca89dbda *ablation_replay.ts
+2026-10-27T16:33:22Z ablation_replay.ts = driver-only revision of the frozen ablation.ts (883d602a): probe base from any clean draft with guard, per-set summary, corrected comments (Codex R14-01/03); decision logic unchanged; outputs byte-identical to ablation.ts on all four frozen inputs

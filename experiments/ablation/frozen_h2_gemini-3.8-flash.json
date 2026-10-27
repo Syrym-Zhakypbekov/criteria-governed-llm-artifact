@@ -1,0 +1,5668 @@
+[
+ {
+  "set": "holdout2",
+  "id": "clean-q200",
+  "defects": [],
+  "text": "ЗАЯВКА НА ПОСТАВКУ (синтетические данные для исследования)\nНаименование поставщика: ТОО «Нова Ресурс Синтез»\nИИН/БИН: 910013107400\nЭл. почта для подписи договора: sign200@example.net\nДиректор: Синтезов С.С.\nНДС 16% включен в стоимость.\n№ | Наименование | Количество | Ед. изм. | Цена за ед., тенге с НДС\n1 | Перчатки нитриловые (уп. 100 шт.) | 20 | упаковка | 3 490.50\n2 | Антисептик для рук 1 л | 35 | флакон | 1 875.25\n3 | Батарейки AA (уп. 4 шт.) | 50 | упаковка | 1 290.00",
+  "model": "gemini-3.8-flash",
+  "raw": {
+   "supplier": {
+    "name": "ТОО «Нова Ресурс Синтез»",
+    "bin": "910013107400",
+    "address": "",
+    "phone": "",
+    "email": "sign200@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vat_rate": 16,
+    "with_vat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Перчатки нитриловые",
+     "description": "Перчатки нитриловые (уп. 100 шт.)",
+     "qty": 20,
+     "unit": "Упаковка",
+     "unit_price_with_vat": 3490.5,
+     "ktru_hints": [
+      "Перчатки медицинские",
+      "Перчатки смотровые"
+     ]
+    },
+    {
+     "name": "Антисептик для рук",
+     "description": "Антисептик для рук 1 л",
+     "qty": 35,
+     "unit": "Флакон",
+     "unit_price_with_vat": 1875.25,
+     "ktru_hints": [
+      "Антисептик для рук",
+      "Дезинфицирующее средство"
+     ]
+    },
+    {
+     "name": "Батарейки AA",
+     "description": "Батарейки AA (уп. 4 шт.)",
+     "qty": 50,
+     "unit": "Упаковка",
+     "unit_price_with_vat": 1290,
+     "ktru_hints": [
+      "Батарейка",
+      "Элемент питания"
+     ]
+    }
+   ],
+   "third_party": null
+  },
+  "draft": {
+   "thirdParty": null,
+   "supplier": {
+    "name": "ТОО «Нова Ресурс Синтез»",
+    "bin": "910013107400",
+    "address": "",
+    "phone": "",
+    "email": "sign200@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vatRate": 16,
+    "withVat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Перчатки нитриловые",
+     "description": "Перчатки нитриловые (уп. 100 шт.)",
+     "qty": 20,
+     "unit": "Упаковка",
+     "unitPriceWithVat": 3490.5,
+     "ktruHints": [
+      "Перчатки медицинские",
+      "Перчатки смотровые"
+     ]
+    },
+    {
+     "name": "Антисептик для рук",
+     "description": "Антисептик для рук 1 л",
+     "qty": 35,
+     "unit": "Флакон",
+     "unitPriceWithVat": 1875.25,
+     "ktruHints": [
+      "Антисептик для рук",
+      "Дезинфицирующее средство"
+     ]
+    },
+    {
+     "name": "Батарейки AA",
+     "description": "Батарейки AA (уп. 4 шт.)",
+     "qty": 50,
+     "unit": "Упаковка",
+     "unitPriceWithVat": 1290,
+     "ktruHints": [
+      "Батарейка",
+      "Элемент питания"
+     ]
+    }
+   ],
+   "warnings": []
+  },
+  "error": null,
+  "ms": 4623
+ },
+ {
+  "set": "holdout2",
+  "id": "clean-q201",
+  "defects": [],
+  "text": "ЗАЯВКА НА ПОСТАВКУ (синтетические данные для исследования)\nНаименование поставщика: ИП «Орион Поставка Тест»\nИИН/БИН: 910013172937\nЭл. почта для подписи договора: sign201@example.net\nДиректор: Синтезов С.С.\nНДС 16% включен в стоимость.\n№ | Наименование | Количество | Ед. изм. | Цена за ед., тенге с НДС\n1 | Антисептик для рук 1 л | 35 | флакон | 1 875.25\n2 | Батарейки AA (уп. 4 шт.) | 50 | упаковка | 1 290.00\n3 | Лампа светодиодная E27 12 Вт | 60 | штука | 845.75",
+  "model": "gemini-3.8-flash",
+  "raw": {
+   "supplier": {
+    "name": "ИП «Орион Поставка Тест»",
+    "bin": "910013172937",
+    "address": "",
+    "phone": "",
+    "email": "sign201@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vat_rate": 16,
+    "with_vat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Антисептик для рук",
+     "description": "Антисептик для рук 1 л",
+     "qty": 35,
+     "unit": "Флакон",
+     "unit_price_with_vat": 1875.25,
+     "ktru_hints": [
+      "Антисептик",
+      "Дезинфицирующее средство"
+     ]
+    },
+    {
+     "name": "Батарейки AA",
+     "description": "Батарейки AA (уп. 4 шт.)",
+     "qty": 50,
+     "unit": "Упаковка",
+     "unit_price_with_vat": 1290,
+     "ktru_hints": [
+      "Батарейка",
+      "Элемент питания"
+     ]
+    },
+    {
+     "name": "Лампа светодиодная",
+     "description": "Лампа светодиодная E27 12 Вт",
+     "qty": 60,
+     "unit": "Штука",
+     "unit_price_with_vat": 845.75,
+     "ktru_hints": [
+      "Лампа светодиодная",
+      "Лампа электрическая"
+     ]
+    }
+   ],
+   "third_party": null
+  },
+  "draft": {
+   "thirdParty": null,
+   "supplier": {
+    "name": "ИП «Орион Поставка Тест»",
+    "bin": "910013172937",
+    "address": "",
+    "phone": "",
+    "email": "sign201@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vatRate": 16,
+    "withVat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Антисептик для рук",
+     "description": "Антисептик для рук 1 л",
+     "qty": 35,
+     "unit": "Флакон",
+     "unitPriceWithVat": 1875.25,
+     "ktruHints": [
+      "Антисептик",
+      "Дезинфицирующее средство"
+     ]
+    },
+    {
+     "name": "Батарейки AA",
+     "description": "Батарейки AA (уп. 4 шт.)",
+     "qty": 50,
+     "unit": "Упаковка",
+     "unitPriceWithVat": 1290,
+     "ktruHints": [
+      "Батарейка",
+      "Элемент питания"
+     ]
+    },
+    {
+     "name": "Лампа светодиодная",
+     "description": "Лампа светодиодная E27 12 Вт",
+     "qty": 60,
+     "unit": "Штука",
+     "unitPriceWithVat": 845.75,
+     "ktruHints": [
+      "Лампа светодиодная",
+      "Лампа электрическая"
+     ]
+    }
+   ],
+   "warnings": []
+  },
+  "error": null,
+  "ms": 5217
+ },
+ {
+  "set": "holdout2",
+  "id": "clean-q202",
+  "defects": [],
+  "text": "ЗАЯВКА НА ПОСТАВКУ (синтетические данные для исследования)\nНаименование поставщика: ТОО «Вега Снаб Пример»\nИИН/БИН: 910013238474\nЭл. почта для подписи договора: sign202@example.net\nДиректор: Синтезов С.С.\nНДС 16% включен в стоимость.\n№ | Наименование | Количество | Ед. изм. | Цена за ед., тенге с НДС\n1 | Батарейки AA (уп. 4 шт.) | 50 | упаковка | 1 290.00\n2 | Лампа светодиодная E27 12 Вт | 60 | штука | 845.75\n3 | Кабель HDMI 3 м | 12 | штука | 2 760.40",
+  "model": "gemini-3.8-flash",
+  "raw": {
+   "supplier": {
+    "name": "ТОО «Вега Снаб Пример»",
+    "bin": "910013238474",
+    "address": "",
+    "phone": "",
+    "email": "sign202@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vat_rate": 16,
+    "with_vat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Батарейки AA",
+     "description": "Батарейки AA (уп. 4 шт.)",
+     "qty": 50,
+     "unit": "Упаковка",
+     "unit_price_with_vat": 1290,
+     "ktru_hints": [
+      "Батарея первичная",
+      "Элемент питания"
+     ]
+    },
+    {
+     "name": "Лампа светодиодная",
+     "description": "Лампа светодиодная E27 12 Вт",
+     "qty": 60,
+     "unit": "Штука",
+     "unit_price_with_vat": 845.75,
+     "ktru_hints": [
+      "Лампа светодиодная"
+     ]
+    },
+    {
+     "name": "Кабель HDMI",
+     "description": "Кабель HDMI 3 м",
+     "qty": 12,
+     "unit": "Штука",
+     "unit_price_with_vat": 2760.4,
+     "ktru_hints": [
+      "Кабель аудио-видео",
+      "Кабель соединительный"
+     ]
+    }
+   ],
+   "third_party": null
+  },
+  "draft": {
+   "thirdParty": null,
+   "supplier": {
+    "name": "ТОО «Вега Снаб Пример»",
+    "bin": "910013238474",
+    "address": "",
+    "phone": "",
+    "email": "sign202@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vatRate": 16,
+    "withVat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Батарейки AA",
+     "description": "Батарейки AA (уп. 4 шт.)",
+     "qty": 50,
+     "unit": "Упаковка",
+     "unitPriceWithVat": 1290,
+     "ktruHints": [
+      "Батарея первичная",
+      "Элемент питания"
+     ]
+    },
+    {
+     "name": "Лампа светодиодная",
+     "description": "Лампа светодиодная E27 12 Вт",
+     "qty": 60,
+     "unit": "Штука",
+     "unitPriceWithVat": 845.75,
+     "ktruHints": [
+      "Лампа светодиодная"
+     ]
+    },
+    {
+     "name": "Кабель HDMI",
+     "description": "Кабель HDMI 3 м",
+     "qty": 12,
+     "unit": "Штука",
+     "unitPriceWithVat": 2760.4,
+     "ktruHints": [
+      "Кабель аудио-видео",
+      "Кабель соединительный"
+     ]
+    }
+   ],
+   "warnings": []
+  },
+  "error": null,
+  "ms": 4501
+ },
+ {
+  "set": "holdout2",
+  "id": "clean-q203",
+  "defects": [],
+  "text": "ЗАЯВКА НА ПОСТАВКУ (синтетические данные для исследования)\nНаименование поставщика: ИП «Лира Офис Модель»\nИИН/БИН: 910013304011\nЭл. почта для подписи договора: sign203@example.net\nДиректор: Синтезов С.С.\nНДС 16% включен в стоимость.\n№ | Наименование | Количество | Ед. изм. | Цена за ед., тенге с НДС\n1 | Лампа светодиодная E27 12 Вт | 60 | штука | 845.75\n2 | Кабель HDMI 3 м | 12 | штука | 2 760.40\n3 | Папка-скоросшиватель пластиковая | 150 | штука | 185.90",
+  "model": "gemini-3.8-flash",
+  "raw": {
+   "supplier": {
+    "name": "ИП «Лира Офис Модель»",
+    "bin": "910013304011",
+    "address": "",
+    "phone": "",
+    "email": "sign203@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vat_rate": 16,
+    "with_vat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Лампа светодиодная",
+     "description": "Лампа светодиодная E27 12 Вт",
+     "qty": 60,
+     "unit": "Штука",
+     "unit_price_with_vat": 845.75,
+     "ktru_hints": [
+      "Лампа светодиодная",
+      "Лампа"
+     ]
+    },
+    {
+     "name": "Кабель HDMI",
+     "description": "Кабель HDMI 3 м",
+     "qty": 12,
+     "unit": "Штука",
+     "unit_price_with_vat": 2760.4,
+     "ktru_hints": [
+      "Кабель соединительный",
+      "Кабель"
+     ]
+    },
+    {
+     "name": "Папка-скоросшиватель",
+     "description": "Папка-скоросшиватель пластиковая",
+     "qty": 150,
+     "unit": "Штука",
+     "unit_price_with_vat": 185.9,
+     "ktru_hints": [
+      "Папка-скоросшиватель",
+      "Папка канцелярская"
+     ]
+    }
+   ],
+   "third_party": null
+  },
+  "draft": {
+   "thirdParty": null,
+   "supplier": {
+    "name": "ИП «Лира Офис Модель»",
+    "bin": "910013304011",
+    "address": "",
+    "phone": "",
+    "email": "sign203@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vatRate": 16,
+    "withVat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Лампа светодиодная",
+     "description": "Лампа светодиодная E27 12 Вт",
+     "qty": 60,
+     "unit": "Штука",
+     "unitPriceWithVat": 845.75,
+     "ktruHints": [
+      "Лампа светодиодная",
+      "Лампа"
+     ]
+    },
+    {
+     "name": "Кабель HDMI",
+     "description": "Кабель HDMI 3 м",
+     "qty": 12,
+     "unit": "Штука",
+     "unitPriceWithVat": 2760.4,
+     "ktruHints": [
+      "Кабель соединительный",
+      "Кабель"
+     ]
+    },
+    {
+     "name": "Папка-скоросшиватель",
+     "description": "Папка-скоросшиватель пластиковая",
+     "qty": 150,
+     "unit": "Штука",
+     "unitPriceWithVat": 185.9,
+     "ktruHints": [
+      "Папка-скоросшиватель",
+      "Папка канцелярская"
+     ]
+    }
+   ],
+   "warnings": []
+  },
+  "error": null,
+  "ms": 4734
+ },
+ {
+  "set": "holdout2",
+  "id": "clean-q204",
+  "defects": [],
+  "text": "ЗАЯВКА НА ПОСТАВКУ (синтетические данные для исследования)\nНаименование поставщика: ТОО «Альтаир Трейд Демо»\nИИН/БИН: 910013369548\nЭл. почта для подписи договора: sign204@example.net\nДиректор: Синтезов С.С.\nНДС 16% включен в стоимость.\n№ | Наименование | Количество | Ед. изм. | Цена за ед., тенге с НДС\n1 | Кабель HDMI 3 м | 12 | штука | 2 760.40\n2 | Папка-скоросшиватель пластиковая | 150 | штука | 185.90\n3 | Скрепки 28 мм (уп. 100 шт.) | 80 | упаковка | 210.00",
+  "model": "gemini-3.8-flash",
+  "raw": {
+   "supplier": {
+    "name": "ТОО «Альтаир Трейд Демо»",
+    "bin": "910013369548",
+    "address": "",
+    "phone": "",
+    "email": "sign204@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vat_rate": 16,
+    "with_vat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Кабель HDMI",
+     "description": "Кабель HDMI 3 м",
+     "qty": 12,
+     "unit": "Штука",
+     "unit_price_with_vat": 2760.4,
+     "ktru_hints": [
+      "Кабель аудио-видео",
+      "Кабель соединительный"
+     ]
+    },
+    {
+     "name": "Папка-скоросшиватель",
+     "description": "Папка-скоросшиватель пластиковая",
+     "qty": 150,
+     "unit": "Штука",
+     "unit_price_with_vat": 185.9,
+     "ktru_hints": [
+      "Папка-скоросшиватель",
+      "Папка канцелярская"
+     ]
+    },
+    {
+     "name": "Скрепки канцелярские",
+     "description": "Скрепки 28 мм (уп. 100 шт.)",
+     "qty": 80,
+     "unit": "Упаковка",
+     "unit_price_with_vat": 210,
+     "ktru_hints": [
+      "Скрепки канцелярские"
+     ]
+    }
+   ],
+   "third_party": null
+  },
+  "draft": {
+   "thirdParty": null,
+   "supplier": {
+    "name": "ТОО «Альтаир Трейд Демо»",
+    "bin": "910013369548",
+    "address": "",
+    "phone": "",
+    "email": "sign204@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vatRate": 16,
+    "withVat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Кабель HDMI",
+     "description": "Кабель HDMI 3 м",
+     "qty": 12,
+     "unit": "Штука",
+     "unitPriceWithVat": 2760.4,
+     "ktruHints": [
+      "Кабель аудио-видео",
+      "Кабель соединительный"
+     ]
+    },
+    {
+     "name": "Папка-скоросшиватель",
+     "description": "Папка-скоросшиватель пластиковая",
+     "qty": 150,
+     "unit": "Штука",
+     "unitPriceWithVat": 185.9,
+     "ktruHints": [
+      "Папка-скоросшиватель",
+      "Папка канцелярская"
+     ]
+    },
+    {
+     "name": "Скрепки канцелярские",
+     "description": "Скрепки 28 мм (уп. 100 шт.)",
+     "qty": 80,
+     "unit": "Упаковка",
+     "unitPriceWithVat": 210,
+     "ktruHints": [
+      "Скрепки канцелярские"
+     ]
+    }
+   ],
+   "warnings": []
+  },
+  "error": null,
+  "ms": 4038
+ },
+ {
+  "set": "holdout2",
+  "id": "clean-q205",
+  "defects": [],
+  "text": "ЗАЯВКА НА ПОСТАВКУ (синтетические данные для исследования)\nНаименование поставщика: ТОО «Нова Ресурс Синтез»\nИИН/БИН: 910013435085\nЭл. почта для подписи договора: sign205@example.net\nДиректор: Синтезов С.С.\nНДС 16% включен в стоимость.\n№ | Наименование | Количество | Ед. изм. | Цена за ед., тенге с НДС\n1 | Перчатки нитриловые (уп. 100 шт.) | 20 | упаковка | 3 490.50\n2 | Антисептик для рук 1 л | 35 | флакон | 1 875.25\n3 | Батарейки AA (уп. 4 шт.) | 50 | упаковка | 1 290.00",
+  "model": "gemini-3.8-flash",
+  "raw": {
+   "supplier": {
+    "name": "ТОО «Нова Ресурс Синтез»",
+    "bin": "910013435085",
+    "address": "",
+    "phone": "",
+    "email": "sign205@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vat_rate": 16,
+    "with_vat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Перчатки нитриловые",
+     "description": "Перчатки нитриловые (уп. 100 шт.)",
+     "qty": 20,
+     "unit": "Упаковка",
+     "unit_price_with_vat": 3490.5,
+     "ktru_hints": [
+      "Перчатки медицинские",
+      "Перчатки смотровые"
+     ]
+    },
+    {
+     "name": "Антисептик для рук",
+     "description": "Антисептик для рук 1 л",
+     "qty": 35,
+     "unit": "Флакон",
+     "unit_price_with_vat": 1875.25,
+     "ktru_hints": [
+      "Антисептик",
+      "Дезинфицирующее средство"
+     ]
+    },
+    {
+     "name": "Батарейки AA",
+     "description": "Батарейки AA (уп. 4 шт.)",
+     "qty": 50,
+     "unit": "Упаковка",
+     "unit_price_with_vat": 1290,
+     "ktru_hints": [
+      "Батарейка",
+      "Элемент питания"
+     ]
+    }
+   ],
+   "third_party": null
+  },
+  "draft": {
+   "thirdParty": null,
+   "supplier": {
+    "name": "ТОО «Нова Ресурс Синтез»",
+    "bin": "910013435085",
+    "address": "",
+    "phone": "",
+    "email": "sign205@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vatRate": 16,
+    "withVat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Перчатки нитриловые",
+     "description": "Перчатки нитриловые (уп. 100 шт.)",
+     "qty": 20,
+     "unit": "Упаковка",
+     "unitPriceWithVat": 3490.5,
+     "ktruHints": [
+      "Перчатки медицинские",
+      "Перчатки смотровые"
+     ]
+    },
+    {
+     "name": "Антисептик для рук",
+     "description": "Антисептик для рук 1 л",
+     "qty": 35,
+     "unit": "Флакон",
+     "unitPriceWithVat": 1875.25,
+     "ktruHints": [
+      "Антисептик",
+      "Дезинфицирующее средство"
+     ]
+    },
+    {
+     "name": "Батарейки AA",
+     "description": "Батарейки AA (уп. 4 шт.)",
+     "qty": 50,
+     "unit": "Упаковка",
+     "unitPriceWithVat": 1290,
+     "ktruHints": [
+      "Батарейка",
+      "Элемент питания"
+     ]
+    }
+   ],
+   "warnings": []
+  },
+  "error": null,
+  "ms": 3971
+ },
+ {
+  "set": "holdout2",
+  "id": "clean-q206",
+  "defects": [],
+  "text": "ЗАЯВКА НА ПОСТАВКУ (синтетические данные для исследования)\nНаименование поставщика: ИП «Орион Поставка Тест»\nИИН/БИН: 910013500622\nЭл. почта для подписи договора: sign206@example.net\nДиректор: Синтезов С.С.\nНДС 16% включен в стоимость.\n№ | Наименование | Количество | Ед. изм. | Цена за ед., тенге с НДС\n1 | Антисептик для рук 1 л | 35 | флакон | 1 875.25\n2 | Батарейки AA (уп. 4 шт.) | 50 | упаковка | 1 290.00\n3 | Лампа светодиодная E27 12 Вт | 60 | штука | 845.75",
+  "model": "gemini-3.8-flash",
+  "raw": {
+   "supplier": {
+    "name": "ИП «Орион Поставка Тест»",
+    "bin": "910013500622",
+    "address": "",
+    "phone": "",
+    "email": "sign206@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vat_rate": 16,
+    "with_vat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Антисептик для рук",
+     "description": "Антисептик для рук 1 л",
+     "qty": 35,
+     "unit": "Флакон",
+     "unit_price_with_vat": 1875.25,
+     "ktru_hints": [
+      "Антисептик",
+      "Дезинфицирующее средство"
+     ]
+    },
+    {
+     "name": "Батарейки AA",
+     "description": "Батарейки AA (уп. 4 шт.)",
+     "qty": 50,
+     "unit": "Упаковка",
+     "unit_price_with_vat": 1290,
+     "ktru_hints": [
+      "Батарейка",
+      "Элемент питания"
+     ]
+    },
+    {
+     "name": "Лампа светодиодная",
+     "description": "Лампа светодиодная E27 12 Вт",
+     "qty": 60,
+     "unit": "Штука",
+     "unit_price_with_vat": 845.75,
+     "ktru_hints": [
+      "Лампа светодиодная",
+      "Лампа осветительная"
+     ]
+    }
+   ],
+   "third_party": null
+  },
+  "draft": {
+   "thirdParty": null,
+   "supplier": {
+    "name": "ИП «Орион Поставка Тест»",
+    "bin": "910013500622",
+    "address": "",
+    "phone": "",
+    "email": "sign206@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vatRate": 16,
+    "withVat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Антисептик для рук",
+     "description": "Антисептик для рук 1 л",
+     "qty": 35,
+     "unit": "Флакон",
+     "unitPriceWithVat": 1875.25,
+     "ktruHints": [
+      "Антисептик",
+      "Дезинфицирующее средство"
+     ]
+    },
+    {
+     "name": "Батарейки AA",
+     "description": "Батарейки AA (уп. 4 шт.)",
+     "qty": 50,
+     "unit": "Упаковка",
+     "unitPriceWithVat": 1290,
+     "ktruHints": [
+      "Батарейка",
+      "Элемент питания"
+     ]
+    },
+    {
+     "name": "Лампа светодиодная",
+     "description": "Лампа светодиодная E27 12 Вт",
+     "qty": 60,
+     "unit": "Штука",
+     "unitPriceWithVat": 845.75,
+     "ktruHints": [
+      "Лампа светодиодная",
+      "Лампа осветительная"
+     ]
+    }
+   ],
+   "warnings": []
+  },
+  "error": null,
+  "ms": 4491
+ },
+ {
+  "set": "holdout2",
+  "id": "clean-q207",
+  "defects": [],
+  "text": "ЗАЯВКА НА ПОСТАВКУ (синтетические данные для исследования)\nНаименование поставщика: ТОО «Вега Снаб Пример»\nИИН/БИН: 910013566159\nЭл. почта для подписи договора: sign207@example.net\nДиректор: Синтезов С.С.\nНДС 16% включен в стоимость.\n№ | Наименование | Количество | Ед. изм. | Цена за ед., тенге с НДС\n1 | Батарейки AA (уп. 4 шт.) | 50 | упаковка | 1 290.00\n2 | Лампа светодиодная E27 12 Вт | 60 | штука | 845.75\n3 | Кабель HDMI 3 м | 12 | штука | 2 760.40",
+  "model": "gemini-3.8-flash",
+  "raw": {
+   "supplier": {
+    "name": "ТОО «Вега Снаб Пример»",
+    "bin": "910013566159",
+    "address": "",
+    "phone": "",
+    "email": "sign207@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vat_rate": 16,
+    "with_vat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Батарейки AA",
+     "description": "Батарейки AA (уп. 4 шт.)",
+     "qty": 50,
+     "unit": "Упаковка",
+     "unit_price_with_vat": 1290,
+     "ktru_hints": [
+      "Батарейка",
+      "Элемент питания"
+     ]
+    },
+    {
+     "name": "Лампа светодиодная E27",
+     "description": "Лампа светодиодная E27 12 Вт",
+     "qty": 60,
+     "unit": "Штука",
+     "unit_price_with_vat": 845.75,
+     "ktru_hints": [
+      "Лампа светодиодная",
+      "Лампа электрическая"
+     ]
+    },
+    {
+     "name": "Кабель HDMI",
+     "description": "Кабель HDMI 3 м",
+     "qty": 12,
+     "unit": "Штука",
+     "unit_price_with_vat": 2760.4,
+     "ktru_hints": [
+      "Кабель соединительный",
+      "Кабель HDMI"
+     ]
+    }
+   ],
+   "third_party": null
+  },
+  "draft": {
+   "thirdParty": null,
+   "supplier": {
+    "name": "ТОО «Вега Снаб Пример»",
+    "bin": "910013566159",
+    "address": "",
+    "phone": "",
+    "email": "sign207@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vatRate": 16,
+    "withVat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Батарейки AA",
+     "description": "Батарейки AA (уп. 4 шт.)",
+     "qty": 50,
+     "unit": "Упаковка",
+     "unitPriceWithVat": 1290,
+     "ktruHints": [
+      "Батарейка",
+      "Элемент питания"
+     ]
+    },
+    {
+     "name": "Лампа светодиодная E27",
+     "description": "Лампа светодиодная E27 12 Вт",
+     "qty": 60,
+     "unit": "Штука",
+     "unitPriceWithVat": 845.75,
+     "ktruHints": [
+      "Лампа светодиодная",
+      "Лампа электрическая"
+     ]
+    },
+    {
+     "name": "Кабель HDMI",
+     "description": "Кабель HDMI 3 м",
+     "qty": 12,
+     "unit": "Штука",
+     "unitPriceWithVat": 2760.4,
+     "ktruHints": [
+      "Кабель соединительный",
+      "Кабель HDMI"
+     ]
+    }
+   ],
+   "warnings": []
+  },
+  "error": null,
+  "ms": 5056
+ },
+ {
+  "set": "holdout2",
+  "id": "clean-q208",
+  "defects": [],
+  "text": "ЗАЯВКА НА ПОСТАВКУ (синтетические данные для исследования)\nНаименование поставщика: ИП «Лира Офис Модель»\nИИН/БИН: 910013631696\nЭл. почта для подписи договора: sign208@example.net\nДиректор: Синтезов С.С.\nНДС 16% включен в стоимость.\n№ | Наименование | Количество | Ед. изм. | Цена за ед., тенге с НДС\n1 | Лампа светодиодная E27 12 Вт | 60 | штука | 845.75\n2 | Кабель HDMI 3 м | 12 | штука | 2 760.40\n3 | Папка-скоросшиватель пластиковая | 150 | штука | 185.90",
+  "model": "gemini-3.8-flash",
+  "raw": {
+   "supplier": {
+    "name": "ИП «Лира Офис Модель»",
+    "bin": "910013631696",
+    "address": "",
+    "phone": "",
+    "email": "sign208@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vat_rate": 16,
+    "with_vat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Лампа светодиодная",
+     "description": "Лампа светодиодная E27 12 Вт",
+     "qty": 60,
+     "unit": "Штука",
+     "unit_price_with_vat": 845.75,
+     "ktru_hints": [
+      "Лампа светодиодная",
+      "Лампа электрическая"
+     ]
+    },
+    {
+     "name": "Кабель HDMI",
+     "description": "Кабель HDMI 3 м",
+     "qty": 12,
+     "unit": "Штука",
+     "unit_price_with_vat": 2760.4,
+     "ktru_hints": [
+      "Кабель соединительный",
+      "Кабель HDMI"
+     ]
+    },
+    {
+     "name": "Папка-скоросшиватель",
+     "description": "Папка-скоросшиватель пластиковая",
+     "qty": 150,
+     "unit": "Штука",
+     "unit_price_with_vat": 185.9,
+     "ktru_hints": [
+      "Папка-скоросшиватель",
+      "Канцелярские товары"
+     ]
+    }
+   ],
+   "third_party": null
+  },
+  "draft": {
+   "thirdParty": null,
+   "supplier": {
+    "name": "ИП «Лира Офис Модель»",
+    "bin": "910013631696",
+    "address": "",
+    "phone": "",
+    "email": "sign208@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vatRate": 16,
+    "withVat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Лампа светодиодная",
+     "description": "Лампа светодиодная E27 12 Вт",
+     "qty": 60,
+     "unit": "Штука",
+     "unitPriceWithVat": 845.75,
+     "ktruHints": [
+      "Лампа светодиодная",
+      "Лампа электрическая"
+     ]
+    },
+    {
+     "name": "Кабель HDMI",
+     "description": "Кабель HDMI 3 м",
+     "qty": 12,
+     "unit": "Штука",
+     "unitPriceWithVat": 2760.4,
+     "ktruHints": [
+      "Кабель соединительный",
+      "Кабель HDMI"
+     ]
+    },
+    {
+     "name": "Папка-скоросшиватель",
+     "description": "Папка-скоросшиватель пластиковая",
+     "qty": 150,
+     "unit": "Штука",
+     "unitPriceWithVat": 185.9,
+     "ktruHints": [
+      "Папка-скоросшиватель",
+      "Канцелярские товары"
+     ]
+    }
+   ],
+   "warnings": []
+  },
+  "error": null,
+  "ms": 4781
+ },
+ {
+  "set": "holdout2",
+  "id": "clean-q209",
+  "defects": [],
+  "text": "ЗАЯВКА НА ПОСТАВКУ (синтетические данные для исследования)\nНаименование поставщика: ТОО «Альтаир Трейд Демо»\nИИН/БИН: 910013697233\nЭл. почта для подписи договора: sign209@example.net\nДиректор: Синтезов С.С.\nНДС 16% включен в стоимость.\n№ | Наименование | Количество | Ед. изм. | Цена за ед., тенге с НДС\n1 | Кабель HDMI 3 м | 12 | штука | 2 760.40\n2 | Папка-скоросшиватель пластиковая | 150 | штука | 185.90\n3 | Скрепки 28 мм (уп. 100 шт.) | 80 | упаковка | 210.00",
+  "model": "gemini-3.8-flash",
+  "raw": {
+   "supplier": {
+    "name": "ТОО «Альтаир Трейд Демо»",
+    "bin": "910013697233",
+    "address": "",
+    "phone": "",
+    "email": "sign209@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vat_rate": 16,
+    "with_vat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Кабель HDMI",
+     "description": "Кабель HDMI 3 м",
+     "qty": 12,
+     "unit": "Штука",
+     "unit_price_with_vat": 2760.4,
+     "ktru_hints": [
+      "Кабель соединительный",
+      "Кабель"
+     ]
+    },
+    {
+     "name": "Папка-скоросшиватель",
+     "description": "Папка-скоросшиватель пластиковая",
+     "qty": 150,
+     "unit": "Штука",
+     "unit_price_with_vat": 185.9,
+     "ktru_hints": [
+      "Папка-скоросшиватель",
+      "Папка канцелярская"
+     ]
+    },
+    {
+     "name": "Скрепки",
+     "description": "Скрепки 28 мм (уп. 100 шт.)",
+     "qty": 80,
+     "unit": "Упаковка",
+     "unit_price_with_vat": 210,
+     "ktru_hints": [
+      "Скрепка канцелярская",
+      "Скрепки"
+     ]
+    }
+   ],
+   "third_party": null
+  },
+  "draft": {
+   "thirdParty": null,
+   "supplier": {
+    "name": "ТОО «Альтаир Трейд Демо»",
+    "bin": "910013697233",
+    "address": "",
+    "phone": "",
+    "email": "sign209@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vatRate": 16,
+    "withVat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Кабель HDMI",
+     "description": "Кабель HDMI 3 м",
+     "qty": 12,
+     "unit": "Штука",
+     "unitPriceWithVat": 2760.4,
+     "ktruHints": [
+      "Кабель соединительный",
+      "Кабель"
+     ]
+    },
+    {
+     "name": "Папка-скоросшиватель",
+     "description": "Папка-скоросшиватель пластиковая",
+     "qty": 150,
+     "unit": "Штука",
+     "unitPriceWithVat": 185.9,
+     "ktruHints": [
+      "Папка-скоросшиватель",
+      "Папка канцелярская"
+     ]
+    },
+    {
+     "name": "Скрепки",
+     "description": "Скрепки 28 мм (уп. 100 шт.)",
+     "qty": 80,
+     "unit": "Упаковка",
+     "unitPriceWithVat": 210,
+     "ktruHints": [
+      "Скрепка канцелярская",
+      "Скрепки"
+     ]
+    }
+   ],
+   "warnings": []
+  },
+  "error": null,
+  "ms": 3729
+ },
+ {
+  "set": "holdout2",
+  "id": "bin_short-q210",
+  "defects": [
+   "bin_short"
+  ],
+  "text": "ЗАЯВКА НА ПОСТАВКУ (синтетические данные для исследования)\nНаименование поставщика: ТОО «Нова Ресурс Синтез»\nИИН/БИН: 91001376277\nЭл. почта для подписи договора: sign210@example.net\nДиректор: Синтезов С.С.\nНДС 16% включен в стоимость.\n№ | Наименование | Количество | Ед. изм. | Цена за ед., тенге с НДС\n1 | Перчатки нитриловые (уп. 100 шт.) | 20 | упаковка | 3 490.50\n2 | Антисептик для рук 1 л | 35 | флакон | 1 875.25\n3 | Батарейки AA (уп. 4 шт.) | 50 | упаковка | 1 290.00",
+  "model": "gemini-3.8-flash",
+  "raw": {
+   "supplier": {
+    "name": "ТОО «Нова Ресурс Синтез»",
+    "bin": "91001376277",
+    "address": "",
+    "phone": "",
+    "email": "sign210@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vat_rate": 16,
+    "with_vat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Перчатки нитриловые",
+     "description": "Перчатки нитриловые (уп. 100 шт.)",
+     "qty": 20,
+     "unit": "Упаковка",
+     "unit_price_with_vat": 3490.5,
+     "ktru_hints": [
+      "Перчатки медицинские",
+      "Перчатки смотровые"
+     ]
+    },
+    {
+     "name": "Антисептик для рук",
+     "description": "Антисептик для рук 1 л",
+     "qty": 35,
+     "unit": "Флакон",
+     "unit_price_with_vat": 1875.25,
+     "ktru_hints": [
+      "Антисептик",
+      "Дезинфицирующее средство"
+     ]
+    },
+    {
+     "name": "Батарейки AA",
+     "description": "Батарейки AA (уп. 4 шт.)",
+     "qty": 50,
+     "unit": "Упаковка",
+     "unit_price_with_vat": 1290,
+     "ktru_hints": [
+      "Батарейка",
+      "Элемент питания"
+     ]
+    }
+   ],
+   "third_party": null
+  },
+  "draft": {
+   "thirdParty": null,
+   "supplier": {
+    "name": "ТОО «Нова Ресурс Синтез»",
+    "bin": "91001376277",
+    "address": "",
+    "phone": "",
+    "email": "sign210@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vatRate": 16,
+    "withVat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Перчатки нитриловые",
+     "description": "Перчатки нитриловые (уп. 100 шт.)",
+     "qty": 20,
+     "unit": "Упаковка",
+     "unitPriceWithVat": 3490.5,
+     "ktruHints": [
+      "Перчатки медицинские",
+      "Перчатки смотровые"
+     ]
+    },
+    {
+     "name": "Антисептик для рук",
+     "description": "Антисептик для рук 1 л",
+     "qty": 35,
+     "unit": "Флакон",
+     "unitPriceWithVat": 1875.25,
+     "ktruHints": [
+      "Антисептик",
+      "Дезинфицирующее средство"
+     ]
+    },
+    {
+     "name": "Батарейки AA",
+     "description": "Батарейки AA (уп. 4 шт.)",
+     "qty": 50,
+     "unit": "Упаковка",
+     "unitPriceWithVat": 1290,
+     "ktruHints": [
+      "Батарейка",
+      "Элемент питания"
+     ]
+    }
+   ],
+   "warnings": [
+    "БИН/ИИН поставщика «91001376277» не из 12 цифр — проверьте."
+   ]
+  },
+  "error": null,
+  "ms": 3137
+ },
+ {
+  "set": "holdout2",
+  "id": "bin_short-q211",
+  "defects": [
+   "bin_short"
+  ],
+  "text": "ЗАЯВКА НА ПОСТАВКУ (синтетические данные для исследования)\nНаименование поставщика: ИП «Орион Поставка Тест»\nИИН/БИН: 91001382830\nЭл. почта для подписи договора: sign211@example.net\nДиректор: Синтезов С.С.\nНДС 16% включен в стоимость.\n№ | Наименование | Количество | Ед. изм. | Цена за ед., тенге с НДС\n1 | Антисептик для рук 1 л | 35 | флакон | 1 875.25\n2 | Батарейки AA (уп. 4 шт.) | 50 | упаковка | 1 290.00\n3 | Лампа светодиодная E27 12 Вт | 60 | штука | 845.75",
+  "model": "gemini-3.8-flash",
+  "raw": {
+   "supplier": {
+    "name": "ИП «Орион Поставка Тест»",
+    "bin": "91001382830",
+    "address": "",
+    "phone": "",
+    "email": "sign211@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vat_rate": 16,
+    "with_vat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Антисептик для рук",
+     "description": "Антисептик для рук 1 л",
+     "qty": 35,
+     "unit": "Флакон",
+     "unit_price_with_vat": 1875.25,
+     "ktru_hints": [
+      "Антисептик",
+      "Дезинфицирующее средство"
+     ]
+    },
+    {
+     "name": "Батарейки AA",
+     "description": "Батарейки AA (уп. 4 шт.)",
+     "qty": 50,
+     "unit": "Упаковка",
+     "unit_price_with_vat": 1290,
+     "ktru_hints": [
+      "Батарейка",
+      "Элемент питания"
+     ]
+    },
+    {
+     "name": "Лампа светодиодная",
+     "description": "Лампа светодиодная E27 12 Вт",
+     "qty": 60,
+     "unit": "Штука",
+     "unit_price_with_vat": 845.75,
+     "ktru_hints": [
+      "Лампа светодиодная",
+      "Лампа"
+     ]
+    }
+   ],
+   "third_party": null
+  },
+  "draft": {
+   "thirdParty": null,
+   "supplier": {
+    "name": "ИП «Орион Поставка Тест»",
+    "bin": "91001382830",
+    "address": "",
+    "phone": "",
+    "email": "sign211@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vatRate": 16,
+    "withVat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Антисептик для рук",
+     "description": "Антисептик для рук 1 л",
+     "qty": 35,
+     "unit": "Флакон",
+     "unitPriceWithVat": 1875.25,
+     "ktruHints": [
+      "Антисептик",
+      "Дезинфицирующее средство"
+     ]
+    },
+    {
+     "name": "Батарейки AA",
+     "description": "Батарейки AA (уп. 4 шт.)",
+     "qty": 50,
+     "unit": "Упаковка",
+     "unitPriceWithVat": 1290,
+     "ktruHints": [
+      "Батарейка",
+      "Элемент питания"
+     ]
+    },
+    {
+     "name": "Лампа светодиодная",
+     "description": "Лампа светодиодная E27 12 Вт",
+     "qty": 60,
+     "unit": "Штука",
+     "unitPriceWithVat": 845.75,
+     "ktruHints": [
+      "Лампа светодиодная",
+      "Лампа"
+     ]
+    }
+   ],
+   "warnings": [
+    "БИН/ИИН поставщика «91001382830» не из 12 цифр — проверьте."
+   ]
+  },
+  "error": null,
+  "ms": 4592
+ },
+ {
+  "set": "holdout2",
+  "id": "bin_short-q212",
+  "defects": [
+   "bin_short"
+  ],
+  "text": "ЗАЯВКА НА ПОСТАВКУ (синтетические данные для исследования)\nНаименование поставщика: ТОО «Вега Снаб Пример»\nИИН/БИН: 91001389384\nЭл. почта для подписи договора: sign212@example.net\nДиректор: Синтезов С.С.\nНДС 16% включен в стоимость.\n№ | Наименование | Количество | Ед. изм. | Цена за ед., тенге с НДС\n1 | Батарейки AA (уп. 4 шт.) | 50 | упаковка | 1 290.00\n2 | Лампа светодиодная E27 12 Вт | 60 | штука | 845.75\n3 | Кабель HDMI 3 м | 12 | штука | 2 760.40",
+  "model": "gemini-3.8-flash",
+  "raw": {
+   "supplier": {
+    "name": "ТОО «Вега Снаб Пример»",
+    "bin": "91001389384",
+    "address": "",
+    "phone": "",
+    "email": "sign212@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vat_rate": 16,
+    "with_vat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Батарейки AA",
+     "description": "Батарейки AA (уп. 4 шт.)",
+     "qty": 50,
+     "unit": "Упаковка",
+     "unit_price_with_vat": 1290,
+     "ktru_hints": [
+      "Батарейка",
+      "Элемент питания"
+     ]
+    },
+    {
+     "name": "Лампа светодиодная",
+     "description": "Лампа светодиодная E27 12 Вт",
+     "qty": 60,
+     "unit": "Штука",
+     "unit_price_with_vat": 845.75,
+     "ktru_hints": [
+      "Лампа светодиодная",
+      "Лампа"
+     ]
+    },
+    {
+     "name": "Кабель HDMI",
+     "description": "Кабель HDMI 3 м",
+     "qty": 12,
+     "unit": "Штука",
+     "unit_price_with_vat": 2760.4,
+     "ktru_hints": [
+      "Кабель HDMI",
+      "Кабель интерфейсный"
+     ]
+    }
+   ],
+   "third_party": null
+  },
+  "draft": {
+   "thirdParty": null,
+   "supplier": {
+    "name": "ТОО «Вега Снаб Пример»",
+    "bin": "91001389384",
+    "address": "",
+    "phone": "",
+    "email": "sign212@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vatRate": 16,
+    "withVat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Батарейки AA",
+     "description": "Батарейки AA (уп. 4 шт.)",
+     "qty": 50,
+     "unit": "Упаковка",
+     "unitPriceWithVat": 1290,
+     "ktruHints": [
+      "Батарейка",
+      "Элемент питания"
+     ]
+    },
+    {
+     "name": "Лампа светодиодная",
+     "description": "Лампа светодиодная E27 12 Вт",
+     "qty": 60,
+     "unit": "Штука",
+     "unitPriceWithVat": 845.75,
+     "ktruHints": [
+      "Лампа светодиодная",
+      "Лампа"
+     ]
+    },
+    {
+     "name": "Кабель HDMI",
+     "description": "Кабель HDMI 3 м",
+     "qty": 12,
+     "unit": "Штука",
+     "unitPriceWithVat": 2760.4,
+     "ktruHints": [
+      "Кабель HDMI",
+      "Кабель интерфейсный"
+     ]
+    }
+   ],
+   "warnings": [
+    "БИН/ИИН поставщика «91001389384» не из 12 цифр — проверьте."
+   ]
+  },
+  "error": null,
+  "ms": 4449
+ },
+ {
+  "set": "holdout2",
+  "id": "bin_missing-q213",
+  "defects": [
+   "bin_missing"
+  ],
+  "text": "ЗАЯВКА НА ПОСТАВКУ (синтетические данные для исследования)\nНаименование поставщика: ИП «Лира Офис Модель»\nЭл. почта для подписи договора: sign213@example.net\nДиректор: Синтезов С.С.\nНДС 16% включен в стоимость.\n№ | Наименование | Количество | Ед. изм. | Цена за ед., тенге с НДС\n1 | Лампа светодиодная E27 12 Вт | 60 | штука | 845.75\n2 | Кабель HDMI 3 м | 12 | штука | 2 760.40\n3 | Папка-скоросшиватель пластиковая | 150 | штука | 185.90",
+  "model": "gemini-3.8-flash",
+  "raw": {
+   "supplier": {
+    "name": "ИП «Лира Офис Модель»",
+    "bin": "",
+    "address": "",
+    "phone": "",
+    "email": "sign213@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vat_rate": 16,
+    "with_vat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Лампа светодиодная",
+     "description": "Лампа светодиодная E27 12 Вт",
+     "qty": 60,
+     "unit": "Штука",
+     "unit_price_with_vat": 845.75,
+     "ktru_hints": [
+      "Лампа светодиодная",
+      "Лампа электрическая"
+     ]
+    },
+    {
+     "name": "Кабель HDMI",
+     "description": "Кабель HDMI 3 м",
+     "qty": 12,
+     "unit": "Штука",
+     "unit_price_with_vat": 2760.4,
+     "ktru_hints": [
+      "Кабель соединительный",
+      "Кабель интерфейсный"
+     ]
+    },
+    {
+     "name": "Папка-скоросшиватель",
+     "description": "Папка-скоросшиватель пластиковая",
+     "qty": 150,
+     "unit": "Штука",
+     "unit_price_with_vat": 185.9,
+     "ktru_hints": [
+      "Папка-скоросшиватель",
+      "Папка канцелярская"
+     ]
+    }
+   ],
+   "third_party": null
+  },
+  "draft": {
+   "thirdParty": null,
+   "supplier": {
+    "name": "ИП «Лира Офис Модель»",
+    "bin": "",
+    "address": "",
+    "phone": "",
+    "email": "sign213@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vatRate": 16,
+    "withVat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Лампа светодиодная",
+     "description": "Лампа светодиодная E27 12 Вт",
+     "qty": 60,
+     "unit": "Штука",
+     "unitPriceWithVat": 845.75,
+     "ktruHints": [
+      "Лампа светодиодная",
+      "Лампа электрическая"
+     ]
+    },
+    {
+     "name": "Кабель HDMI",
+     "description": "Кабель HDMI 3 м",
+     "qty": 12,
+     "unit": "Штука",
+     "unitPriceWithVat": 2760.4,
+     "ktruHints": [
+      "Кабель соединительный",
+      "Кабель интерфейсный"
+     ]
+    },
+    {
+     "name": "Папка-скоросшиватель",
+     "description": "Папка-скоросшиватель пластиковая",
+     "qty": 150,
+     "unit": "Штука",
+     "unitPriceWithVat": 185.9,
+     "ktruHints": [
+      "Папка-скоросшиватель",
+      "Папка канцелярская"
+     ]
+    }
+   ],
+   "warnings": [
+    "В файле не нашёлся БИН/ИИН поставщика — впишите его вручную."
+   ]
+  },
+  "error": null,
+  "ms": 5663
+ },
+ {
+  "set": "holdout2",
+  "id": "bin_missing-q214",
+  "defects": [
+   "bin_missing"
+  ],
+  "text": "ЗАЯВКА НА ПОСТАВКУ (синтетические данные для исследования)\nНаименование поставщика: ТОО «Альтаир Трейд Демо»\nЭл. почта для подписи договора: sign214@example.net\nДиректор: Синтезов С.С.\nНДС 16% включен в стоимость.\n№ | Наименование | Количество | Ед. изм. | Цена за ед., тенге с НДС\n1 | Кабель HDMI 3 м | 12 | штука | 2 760.40\n2 | Папка-скоросшиватель пластиковая | 150 | штука | 185.90\n3 | Скрепки 28 мм (уп. 100 шт.) | 80 | упаковка | 210.00",
+  "model": "gemini-3.8-flash",
+  "raw": {
+   "supplier": {
+    "name": "ТОО «Альтаир Трейд Демо»",
+    "bin": "",
+    "address": "",
+    "phone": "",
+    "email": "sign214@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vat_rate": 16,
+    "with_vat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Кабель HDMI",
+     "description": "Кабель HDMI 3 м",
+     "qty": 12,
+     "unit": "Штука",
+     "unit_price_with_vat": 2760.4,
+     "ktru_hints": [
+      "Кабель соединительный",
+      "Кабель HDMI"
+     ]
+    },
+    {
+     "name": "Папка-скоросшиватель",
+     "description": "Папка-скоросшиватель пластиковая",
+     "qty": 150,
+     "unit": "Штука",
+     "unit_price_with_vat": 185.9,
+     "ktru_hints": [
+      "Папка-скоросшиватель",
+      "Папка канцелярская"
+     ]
+    },
+    {
+     "name": "Скрепки канцелярские",
+     "description": "Скрепки 28 мм (уп. 100 шт.)",
+     "qty": 80,
+     "unit": "Упаковка",
+     "unit_price_with_vat": 210,
+     "ktru_hints": [
+      "Скрепки канцелярские"
+     ]
+    }
+   ],
+   "third_party": null
+  },
+  "draft": {
+   "thirdParty": null,
+   "supplier": {
+    "name": "ТОО «Альтаир Трейд Демо»",
+    "bin": "",
+    "address": "",
+    "phone": "",
+    "email": "sign214@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vatRate": 16,
+    "withVat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Кабель HDMI",
+     "description": "Кабель HDMI 3 м",
+     "qty": 12,
+     "unit": "Штука",
+     "unitPriceWithVat": 2760.4,
+     "ktruHints": [
+      "Кабель соединительный",
+      "Кабель HDMI"
+     ]
+    },
+    {
+     "name": "Папка-скоросшиватель",
+     "description": "Папка-скоросшиватель пластиковая",
+     "qty": 150,
+     "unit": "Штука",
+     "unitPriceWithVat": 185.9,
+     "ktruHints": [
+      "Папка-скоросшиватель",
+      "Папка канцелярская"
+     ]
+    },
+    {
+     "name": "Скрепки канцелярские",
+     "description": "Скрепки 28 мм (уп. 100 шт.)",
+     "qty": 80,
+     "unit": "Упаковка",
+     "unitPriceWithVat": 210,
+     "ktruHints": [
+      "Скрепки канцелярские"
+     ]
+    }
+   ],
+   "warnings": [
+    "В файле не нашёлся БИН/ИИН поставщика — впишите его вручную."
+   ]
+  },
+  "error": null,
+  "ms": 4454
+ },
+ {
+  "set": "holdout2",
+  "id": "bin_missing-q215",
+  "defects": [
+   "bin_missing"
+  ],
+  "text": "ЗАЯВКА НА ПОСТАВКУ (синтетические данные для исследования)\nНаименование поставщика: ТОО «Нова Ресурс Синтез»\nЭл. почта для подписи договора: sign215@example.net\nДиректор: Синтезов С.С.\nНДС 16% включен в стоимость.\n№ | Наименование | Количество | Ед. изм. | Цена за ед., тенге с НДС\n1 | Перчатки нитриловые (уп. 100 шт.) | 20 | упаковка | 3 490.50\n2 | Антисептик для рук 1 л | 35 | флакон | 1 875.25\n3 | Батарейки AA (уп. 4 шт.) | 50 | упаковка | 1 290.00",
+  "model": "gemini-3.8-flash",
+  "raw": {
+   "supplier": {
+    "name": "ТОО «Нова Ресурс Синтез»",
+    "bin": "",
+    "address": "",
+    "phone": "",
+    "email": "sign215@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vat_rate": 16,
+    "with_vat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Перчатки нитриловые",
+     "description": "Перчатки нитриловые (уп. 100 шт.)",
+     "qty": 20,
+     "unit": "Упаковка",
+     "unit_price_with_vat": 3490.5,
+     "ktru_hints": [
+      "Перчатки медицинские",
+      "Перчатки смотровые"
+     ]
+    },
+    {
+     "name": "Антисептик для рук",
+     "description": "Антисептик для рук 1 л",
+     "qty": 35,
+     "unit": "Флакон",
+     "unit_price_with_vat": 1875.25,
+     "ktru_hints": [
+      "Антисептик",
+      "Средство дезинфицирующее"
+     ]
+    },
+    {
+     "name": "Батарейки AA",
+     "description": "Батарейки AA (уп. 4 шт.)",
+     "qty": 50,
+     "unit": "Упаковка",
+     "unit_price_with_vat": 1290,
+     "ktru_hints": [
+      "Батарейка",
+      "Элемент питания"
+     ]
+    }
+   ],
+   "third_party": null
+  },
+  "draft": {
+   "thirdParty": null,
+   "supplier": {
+    "name": "ТОО «Нова Ресурс Синтез»",
+    "bin": "",
+    "address": "",
+    "phone": "",
+    "email": "sign215@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vatRate": 16,
+    "withVat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Перчатки нитриловые",
+     "description": "Перчатки нитриловые (уп. 100 шт.)",
+     "qty": 20,
+     "unit": "Упаковка",
+     "unitPriceWithVat": 3490.5,
+     "ktruHints": [
+      "Перчатки медицинские",
+      "Перчатки смотровые"
+     ]
+    },
+    {
+     "name": "Антисептик для рук",
+     "description": "Антисептик для рук 1 л",
+     "qty": 35,
+     "unit": "Флакон",
+     "unitPriceWithVat": 1875.25,
+     "ktruHints": [
+      "Антисептик",
+      "Средство дезинфицирующее"
+     ]
+    },
+    {
+     "name": "Батарейки AA",
+     "description": "Батарейки AA (уп. 4 шт.)",
+     "qty": 50,
+     "unit": "Упаковка",
+     "unitPriceWithVat": 1290,
+     "ktruHints": [
+      "Батарейка",
+      "Элемент питания"
+     ]
+    }
+   ],
+   "warnings": [
+    "В файле не нашёлся БИН/ИИН поставщика — впишите его вручную."
+   ]
+  },
+  "error": null,
+  "ms": 4929
+ },
+ {
+  "set": "holdout2",
+  "id": "bin_long-q216",
+  "defects": [
+   "bin_long"
+  ],
+  "text": "ЗАЯВКА НА ПОСТАВКУ (синтетические данные для исследования)\nНаименование поставщика: ИП «Орион Поставка Тест»\nИИН/БИН: 9100141559924\nЭл. почта для подписи договора: sign216@example.net\nДиректор: Синтезов С.С.\nНДС 16% включен в стоимость.\n№ | Наименование | Количество | Ед. изм. | Цена за ед., тенге с НДС\n1 | Антисептик для рук 1 л | 35 | флакон | 1 875.25\n2 | Батарейки AA (уп. 4 шт.) | 50 | упаковка | 1 290.00\n3 | Лампа светодиодная E27 12 Вт | 60 | штука | 845.75",
+  "model": "gemini-3.8-flash",
+  "raw": {
+   "supplier": {
+    "name": "ИП «Орион Поставка Тест»",
+    "bin": "",
+    "address": "",
+    "phone": "",
+    "email": "sign216@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vat_rate": 16,
+    "with_vat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Антисептик для рук",
+     "description": "Антисептик для рук 1 л",
+     "qty": 35,
+     "unit": "Флакон",
+     "unit_price_with_vat": 1875.25,
+     "ktru_hints": [
+      "Антисептик",
+      "Дезинфицирующее средство"
+     ]
+    },
+    {
+     "name": "Батарейки",
+     "description": "Батарейки AA (уп. 4 шт.)",
+     "qty": 50,
+     "unit": "Упаковка",
+     "unit_price_with_vat": 1290,
+     "ktru_hints": [
+      "Батарейка",
+      "Элемент питания"
+     ]
+    },
+    {
+     "name": "Лампа светодиодная",
+     "description": "Лампа светодиодная E27 12 Вт",
+     "qty": 60,
+     "unit": "Штука",
+     "unit_price_with_vat": 845.75,
+     "ktru_hints": [
+      "Лампа светодиодная",
+      "Лампа электрическая"
+     ]
+    }
+   ],
+   "third_party": null
+  },
+  "draft": {
+   "thirdParty": null,
+   "supplier": {
+    "name": "ИП «Орион Поставка Тест»",
+    "bin": "",
+    "address": "",
+    "phone": "",
+    "email": "sign216@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vatRate": 16,
+    "withVat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Антисептик для рук",
+     "description": "Антисептик для рук 1 л",
+     "qty": 35,
+     "unit": "Флакон",
+     "unitPriceWithVat": 1875.25,
+     "ktruHints": [
+      "Антисептик",
+      "Дезинфицирующее средство"
+     ]
+    },
+    {
+     "name": "Батарейки",
+     "description": "Батарейки AA (уп. 4 шт.)",
+     "qty": 50,
+     "unit": "Упаковка",
+     "unitPriceWithVat": 1290,
+     "ktruHints": [
+      "Батарейка",
+      "Элемент питания"
+     ]
+    },
+    {
+     "name": "Лампа светодиодная",
+     "description": "Лампа светодиодная E27 12 Вт",
+     "qty": 60,
+     "unit": "Штука",
+     "unitPriceWithVat": 845.75,
+     "ktruHints": [
+      "Лампа светодиодная",
+      "Лампа электрическая"
+     ]
+    }
+   ],
+   "warnings": [
+    "В файле не нашёлся БИН/ИИН поставщика — впишите его вручную."
+   ]
+  },
+  "error": null,
+  "ms": 4797
+ },
+ {
+  "set": "holdout2",
+  "id": "bin_long-q217",
+  "defects": [
+   "bin_long"
+  ],
+  "text": "ЗАЯВКА НА ПОСТАВКУ (синтетические данные для исследования)\nНаименование поставщика: ТОО «Вега Снаб Пример»\nИИН/БИН: 9100142215294\nЭл. почта для подписи договора: sign217@example.net\nДиректор: Синтезов С.С.\nНДС 16% включен в стоимость.\n№ | Наименование | Количество | Ед. изм. | Цена за ед., тенге с НДС\n1 | Батарейки AA (уп. 4 шт.) | 50 | упаковка | 1 290.00\n2 | Лампа светодиодная E27 12 Вт | 60 | штука | 845.75\n3 | Кабель HDMI 3 м | 12 | штука | 2 760.40",
+  "model": "gemini-3.8-flash",
+  "raw": {
+   "supplier": {
+    "name": "ТОО «Вега Снаб Пример»",
+    "bin": "",
+    "address": "",
+    "phone": "",
+    "email": "sign217@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vat_rate": 16,
+    "with_vat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Батарейки AA",
+     "description": "Батарейки AA (уп. 4 шт.)",
+     "qty": 50,
+     "unit": "Упаковка",
+     "unit_price_with_vat": 1290,
+     "ktru_hints": [
+      "Батарея первичная",
+      "Элемент питания"
+     ]
+    },
+    {
+     "name": "Лампа светодиодная",
+     "description": "Лампа светодиодная E27 12 Вт",
+     "qty": 60,
+     "unit": "Штука",
+     "unit_price_with_vat": 845.75,
+     "ktru_hints": [
+      "Лампа светодиодная"
+     ]
+    },
+    {
+     "name": "Кабель HDMI",
+     "description": "Кабель HDMI 3 м",
+     "qty": 12,
+     "unit": "Штука",
+     "unit_price_with_vat": 2760.4,
+     "ktru_hints": [
+      "Кабель интерфейсный",
+      "Кабель HDMI"
+     ]
+    }
+   ],
+   "third_party": null
+  },
+  "draft": {
+   "thirdParty": null,
+   "supplier": {
+    "name": "ТОО «Вега Снаб Пример»",
+    "bin": "",
+    "address": "",
+    "phone": "",
+    "email": "sign217@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vatRate": 16,
+    "withVat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Батарейки AA",
+     "description": "Батарейки AA (уп. 4 шт.)",
+     "qty": 50,
+     "unit": "Упаковка",
+     "unitPriceWithVat": 1290,
+     "ktruHints": [
+      "Батарея первичная",
+      "Элемент питания"
+     ]
+    },
+    {
+     "name": "Лампа светодиодная",
+     "description": "Лампа светодиодная E27 12 Вт",
+     "qty": 60,
+     "unit": "Штука",
+     "unitPriceWithVat": 845.75,
+     "ktruHints": [
+      "Лампа светодиодная"
+     ]
+    },
+    {
+     "name": "Кабель HDMI",
+     "description": "Кабель HDMI 3 м",
+     "qty": 12,
+     "unit": "Штука",
+     "unitPriceWithVat": 2760.4,
+     "ktruHints": [
+      "Кабель интерфейсный",
+      "Кабель HDMI"
+     ]
+    }
+   ],
+   "warnings": [
+    "В файле не нашёлся БИН/ИИН поставщика — впишите его вручную."
+   ]
+  },
+  "error": null,
+  "ms": 3811
+ },
+ {
+  "set": "holdout2",
+  "id": "bin_long-q218",
+  "defects": [
+   "bin_long"
+  ],
+  "text": "ЗАЯВКА НА ПОСТАВКУ (синтетические данные для исследования)\nНаименование поставщика: ИП «Лира Офис Модель»\nИИН/БИН: 9100142870664\nЭл. почта для подписи договора: sign218@example.net\nДиректор: Синтезов С.С.\nНДС 16% включен в стоимость.\n№ | Наименование | Количество | Ед. изм. | Цена за ед., тенге с НДС\n1 | Лампа светодиодная E27 12 Вт | 60 | штука | 845.75\n2 | Кабель HDMI 3 м | 12 | штука | 2 760.40\n3 | Папка-скоросшиватель пластиковая | 150 | штука | 185.90",
+  "model": "gemini-3.8-flash",
+  "raw": {
+   "supplier": {
+    "name": "ИП «Лира Офис Модель»",
+    "bin": "",
+    "address": "",
+    "phone": "",
+    "email": "sign218@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vat_rate": 16,
+    "with_vat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Лампа светодиодная",
+     "description": "Лампа светодиодная E27 12 Вт",
+     "qty": 60,
+     "unit": "Штука",
+     "unit_price_with_vat": 845.75,
+     "ktru_hints": [
+      "Лампа светодиодная",
+      "Лампа электрическая"
+     ]
+    },
+    {
+     "name": "Кабель HDMI",
+     "description": "Кабель HDMI 3 м",
+     "qty": 12,
+     "unit": "Штука",
+     "unit_price_with_vat": 2760.4,
+     "ktru_hints": [
+      "Кабель соединительный",
+      "Кабель HDMI"
+     ]
+    },
+    {
+     "name": "Папка-скоросшиватель",
+     "description": "Папка-скоросшиватель пластиковая",
+     "qty": 150,
+     "unit": "Штука",
+     "unit_price_with_vat": 185.9,
+     "ktru_hints": [
+      "Папка-скоросшиватель",
+      "Канцелярские товары"
+     ]
+    }
+   ],
+   "third_party": null
+  },
+  "draft": {
+   "thirdParty": null,
+   "supplier": {
+    "name": "ИП «Лира Офис Модель»",
+    "bin": "",
+    "address": "",
+    "phone": "",
+    "email": "sign218@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vatRate": 16,
+    "withVat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Лампа светодиодная",
+     "description": "Лампа светодиодная E27 12 Вт",
+     "qty": 60,
+     "unit": "Штука",
+     "unitPriceWithVat": 845.75,
+     "ktruHints": [
+      "Лампа светодиодная",
+      "Лампа электрическая"
+     ]
+    },
+    {
+     "name": "Кабель HDMI",
+     "description": "Кабель HDMI 3 м",
+     "qty": 12,
+     "unit": "Штука",
+     "unitPriceWithVat": 2760.4,
+     "ktruHints": [
+      "Кабель соединительный",
+      "Кабель HDMI"
+     ]
+    },
+    {
+     "name": "Папка-скоросшиватель",
+     "description": "Папка-скоросшиватель пластиковая",
+     "qty": 150,
+     "unit": "Штука",
+     "unitPriceWithVat": 185.9,
+     "ktruHints": [
+      "Папка-скоросшиватель",
+      "Канцелярские товары"
+     ]
+    }
+   ],
+   "warnings": [
+    "В файле не нашёлся БИН/ИИН поставщика — впишите его вручную."
+   ]
+  },
+  "error": null,
+  "ms": 4453
+ },
+ {
+  "set": "holdout2",
+  "id": "no_items-q219",
+  "defects": [
+   "no_items"
+  ],
+  "text": "ЗАЯВКА НА ПОСТАВКУ (синтетические данные для исследования)\nНаименование поставщика: ТОО «Альтаир Трейд Демо»\nИИН/БИН: 910014352603\nЭл. почта для подписи договора: sign219@example.net\nДиректор: Синтезов С.С.\nНДС 16% включен в стоимость.\n№ | Наименование | Количество | Ед. изм. | Цена за ед., тенге с НДС",
+  "model": "gemini-3.8-flash",
+  "raw": {
+   "supplier": {
+    "name": "ТОО «Альтаир Трейд Демо»",
+    "bin": "910014352603",
+    "address": "",
+    "phone": "",
+    "email": "sign219@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vat_rate": 16,
+    "with_vat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [],
+   "third_party": null
+  },
+  "draft": {
+   "thirdParty": null,
+   "supplier": {
+    "name": "ТОО «Альтаир Трейд Демо»",
+    "bin": "910014352603",
+    "address": "",
+    "phone": "",
+    "email": "sign219@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vatRate": 16,
+    "withVat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [],
+   "warnings": [
+    "Не нашлось ни одной строки товара — добавьте строки вручную."
+   ]
+  },
+  "error": null,
+  "ms": 2928
+ },
+ {
+  "set": "holdout2",
+  "id": "no_items-q220",
+  "defects": [
+   "no_items"
+  ],
+  "text": "ЗАЯВКА НА ПОСТАВКУ (синтетические данные для исследования)\nНаименование поставщика: ТОО «Нова Ресурс Синтез»\nИИН/БИН: 910014418140\nЭл. почта для подписи договора: sign220@example.net\nДиректор: Синтезов С.С.\nНДС 16% включен в стоимость.\n№ | Наименование | Количество | Ед. изм. | Цена за ед., тенге с НДС",
+  "model": "gemini-3.8-flash",
+  "raw": {
+   "supplier": {
+    "name": "ТОО «Нова Ресурс Синтез»",
+    "bin": "910014418140",
+    "address": "",
+    "phone": "",
+    "email": "sign220@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vat_rate": 16,
+    "with_vat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [],
+   "third_party": null
+  },
+  "draft": {
+   "thirdParty": null,
+   "supplier": {
+    "name": "ТОО «Нова Ресурс Синтез»",
+    "bin": "910014418140",
+    "address": "",
+    "phone": "",
+    "email": "sign220@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vatRate": 16,
+    "withVat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [],
+   "warnings": [
+    "Не нашлось ни одной строки товара — добавьте строки вручную."
+   ]
+  },
+  "error": null,
+  "ms": 2365
+ },
+ {
+  "set": "holdout2",
+  "id": "no_items-q221",
+  "defects": [
+   "no_items"
+  ],
+  "text": "ЗАЯВКА НА ПОСТАВКУ (синтетические данные для исследования)\nНаименование поставщика: ИП «Орион Поставка Тест»\nИИН/БИН: 910014483677\nЭл. почта для подписи договора: sign221@example.net\nДиректор: Синтезов С.С.\nНДС 16% включен в стоимость.\n№ | Наименование | Количество | Ед. изм. | Цена за ед., тенге с НДС",
+  "model": "gemini-3.8-flash",
+  "raw": {
+   "supplier": {
+    "name": "ИП «Орион Поставка Тест»",
+    "bin": "910014483677",
+    "address": "",
+    "phone": "",
+    "email": "sign221@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vat_rate": 16,
+    "with_vat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [],
+   "third_party": null
+  },
+  "draft": {
+   "thirdParty": null,
+   "supplier": {
+    "name": "ИП «Орион Поставка Тест»",
+    "bin": "910014483677",
+    "address": "",
+    "phone": "",
+    "email": "sign221@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vatRate": 16,
+    "withVat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [],
+   "warnings": [
+    "Не нашлось ни одной строки товара — добавьте строки вручную."
+   ]
+  },
+  "error": null,
+  "ms": 3090
+ },
+ {
+  "set": "holdout2",
+  "id": "no_price-q222",
+  "defects": [
+   "no_price"
+  ],
+  "text": "ЗАЯВКА НА ПОСТАВКУ (синтетические данные для исследования)\nНаименование поставщика: ТОО «Вега Снаб Пример»\nИИН/БИН: 910014549214\nЭл. почта для подписи договора: sign222@example.net\nДиректор: Синтезов С.С.\nНДС 16% включен в стоимость.\n№ | Наименование | Количество | Ед. изм. | Цена за ед., тенге с НДС\n1 | Батарейки AA (уп. 4 шт.) | 50 | упаковка | —\n2 | Лампа светодиодная E27 12 Вт | 60 | штука | 845.75\n3 | Кабель HDMI 3 м | 12 | штука | 2 760.40",
+  "model": "gemini-3.8-flash",
+  "raw": {
+   "supplier": {
+    "name": "ТОО «Вега Снаб Пример»",
+    "bin": "910014549214",
+    "address": "",
+    "phone": "",
+    "email": "sign222@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vat_rate": 16,
+    "with_vat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Батарейка",
+     "description": "Батарейки AA (уп. 4 шт.)",
+     "qty": 50,
+     "unit": "Упаковка",
+     "unit_price_with_vat": 0,
+     "ktru_hints": [
+      "Батарея аккумуляторная",
+      "Элемент питания"
+     ]
+    },
+    {
+     "name": "Лампа светодиодная",
+     "description": "Лампа светодиодная E27 12 Вт",
+     "qty": 60,
+     "unit": "Штука",
+     "unit_price_with_vat": 845.75,
+     "ktru_hints": [
+      "Лампа светодиодная",
+      "Лампа электрическая"
+     ]
+    },
+    {
+     "name": "Кабель HDMI",
+     "description": "Кабель HDMI 3 м",
+     "qty": 12,
+     "unit": "Штука",
+     "unit_price_with_vat": 2760.4,
+     "ktru_hints": [
+      "Кабель соединительный",
+      "Кабель HDMI"
+     ]
+    }
+   ],
+   "third_party": null
+  },
+  "draft": {
+   "thirdParty": null,
+   "supplier": {
+    "name": "ТОО «Вега Снаб Пример»",
+    "bin": "910014549214",
+    "address": "",
+    "phone": "",
+    "email": "sign222@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vatRate": 16,
+    "withVat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Батарейка",
+     "description": "Батарейки AA (уп. 4 шт.)",
+     "qty": 50,
+     "unit": "Упаковка",
+     "unitPriceWithVat": 0,
+     "ktruHints": [
+      "Батарея аккумуляторная",
+      "Элемент питания"
+     ]
+    },
+    {
+     "name": "Лампа светодиодная",
+     "description": "Лампа светодиодная E27 12 Вт",
+     "qty": 60,
+     "unit": "Штука",
+     "unitPriceWithVat": 845.75,
+     "ktruHints": [
+      "Лампа светодиодная",
+      "Лампа электрическая"
+     ]
+    },
+    {
+     "name": "Кабель HDMI",
+     "description": "Кабель HDMI 3 м",
+     "qty": 12,
+     "unit": "Штука",
+     "unitPriceWithVat": 2760.4,
+     "ktruHints": [
+      "Кабель соединительный",
+      "Кабель HDMI"
+     ]
+    }
+   ],
+   "warnings": [
+    "Строка 1 «Батарейка»: нет цены."
+   ]
+  },
+  "error": null,
+  "ms": 3580
+ },
+ {
+  "set": "holdout2",
+  "id": "no_price-q223",
+  "defects": [
+   "no_price"
+  ],
+  "text": "ЗАЯВКА НА ПОСТАВКУ (синтетические данные для исследования)\nНаименование поставщика: ИП «Лира Офис Модель»\nИИН/БИН: 910014614751\nЭл. почта для подписи договора: sign223@example.net\nДиректор: Синтезов С.С.\nНДС 16% включен в стоимость.\n№ | Наименование | Количество | Ед. изм. | Цена за ед., тенге с НДС\n1 | Лампа светодиодная E27 12 Вт | 60 | штука | —\n2 | Кабель HDMI 3 м | 12 | штука | 2 760.40\n3 | Папка-скоросшиватель пластиковая | 150 | штука | 185.90",
+  "model": "gemini-3.8-flash",
+  "raw": {
+   "supplier": {
+    "name": "ИП «Лира Офис Модель»",
+    "bin": "910014614751",
+    "address": "",
+    "phone": "",
+    "email": "sign223@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vat_rate": 16,
+    "with_vat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Лампа светодиодная",
+     "description": "Лампа светодиодная E27 12 Вт",
+     "qty": 60,
+     "unit": "Штука",
+     "unit_price_with_vat": 0,
+     "ktru_hints": [
+      "Лампа светодиодная",
+      "Лампа электрическая"
+     ]
+    },
+    {
+     "name": "Кабель HDMI",
+     "description": "Кабель HDMI 3 м",
+     "qty": 12,
+     "unit": "Штука",
+     "unit_price_with_vat": 2760.4,
+     "ktru_hints": [
+      "Кабель соединительный",
+      "Кабель"
+     ]
+    },
+    {
+     "name": "Папка-скоросшиватель",
+     "description": "Папка-скоросшиватель пластиковая",
+     "qty": 150,
+     "unit": "Штука",
+     "unit_price_with_vat": 185.9,
+     "ktru_hints": [
+      "Папка-скоросшиватель",
+      "Папка канцелярская"
+     ]
+    }
+   ],
+   "third_party": null
+  },
+  "draft": {
+   "thirdParty": null,
+   "supplier": {
+    "name": "ИП «Лира Офис Модель»",
+    "bin": "910014614751",
+    "address": "",
+    "phone": "",
+    "email": "sign223@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vatRate": 16,
+    "withVat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Лампа светодиодная",
+     "description": "Лампа светодиодная E27 12 Вт",
+     "qty": 60,
+     "unit": "Штука",
+     "unitPriceWithVat": 0,
+     "ktruHints": [
+      "Лампа светодиодная",
+      "Лампа электрическая"
+     ]
+    },
+    {
+     "name": "Кабель HDMI",
+     "description": "Кабель HDMI 3 м",
+     "qty": 12,
+     "unit": "Штука",
+     "unitPriceWithVat": 2760.4,
+     "ktruHints": [
+      "Кабель соединительный",
+      "Кабель"
+     ]
+    },
+    {
+     "name": "Папка-скоросшиватель",
+     "description": "Папка-скоросшиватель пластиковая",
+     "qty": 150,
+     "unit": "Штука",
+     "unitPriceWithVat": 185.9,
+     "ktruHints": [
+      "Папка-скоросшиватель",
+      "Папка канцелярская"
+     ]
+    }
+   ],
+   "warnings": [
+    "Строка 1 «Лампа светодиодная»: нет цены."
+   ]
+  },
+  "error": null,
+  "ms": 3274
+ },
+ {
+  "set": "holdout2",
+  "id": "no_price-q224",
+  "defects": [
+   "no_price"
+  ],
+  "text": "ЗАЯВКА НА ПОСТАВКУ (синтетические данные для исследования)\nНаименование поставщика: ТОО «Альтаир Трейд Демо»\nИИН/БИН: 910014680288\nЭл. почта для подписи договора: sign224@example.net\nДиректор: Синтезов С.С.\nНДС 16% включен в стоимость.\n№ | Наименование | Количество | Ед. изм. | Цена за ед., тенге с НДС\n1 | Кабель HDMI 3 м | 12 | штука | —\n2 | Папка-скоросшиватель пластиковая | 150 | штука | 185.90\n3 | Скрепки 28 мм (уп. 100 шт.) | 80 | упаковка | 210.00",
+  "model": "gemini-3.8-flash",
+  "raw": {
+   "supplier": {
+    "name": "ТОО «Альтаир Трейд Демо»",
+    "bin": "910014680288",
+    "address": "",
+    "phone": "",
+    "email": "sign224@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vat_rate": 16,
+    "with_vat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Кабель HDMI",
+     "description": "Кабель HDMI 3 м",
+     "qty": 12,
+     "unit": "Штука",
+     "unit_price_with_vat": 0,
+     "ktru_hints": [
+      "Кабель соединительный",
+      "Кабель HDMI"
+     ]
+    },
+    {
+     "name": "Папка-скоросшиватель",
+     "description": "Папка-скоросшиватель пластиковая",
+     "qty": 150,
+     "unit": "Штука",
+     "unit_price_with_vat": 185.9,
+     "ktru_hints": [
+      "Папка-скоросшиватель",
+      "Папка канцелярская"
+     ]
+    },
+    {
+     "name": "Скрепки канцелярские",
+     "description": "Скрепки 28 мм (уп. 100 шт.)",
+     "qty": 80,
+     "unit": "Упаковка",
+     "unit_price_with_vat": 210,
+     "ktru_hints": [
+      "Скрепки канцелярские",
+      "Скрепка"
+     ]
+    }
+   ],
+   "third_party": null
+  },
+  "draft": {
+   "thirdParty": null,
+   "supplier": {
+    "name": "ТОО «Альтаир Трейд Демо»",
+    "bin": "910014680288",
+    "address": "",
+    "phone": "",
+    "email": "sign224@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vatRate": 16,
+    "withVat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Кабель HDMI",
+     "description": "Кабель HDMI 3 м",
+     "qty": 12,
+     "unit": "Штука",
+     "unitPriceWithVat": 0,
+     "ktruHints": [
+      "Кабель соединительный",
+      "Кабель HDMI"
+     ]
+    },
+    {
+     "name": "Папка-скоросшиватель",
+     "description": "Папка-скоросшиватель пластиковая",
+     "qty": 150,
+     "unit": "Штука",
+     "unitPriceWithVat": 185.9,
+     "ktruHints": [
+      "Папка-скоросшиватель",
+      "Папка канцелярская"
+     ]
+    },
+    {
+     "name": "Скрепки канцелярские",
+     "description": "Скрепки 28 мм (уп. 100 шт.)",
+     "qty": 80,
+     "unit": "Упаковка",
+     "unitPriceWithVat": 210,
+     "ktruHints": [
+      "Скрепки канцелярские",
+      "Скрепка"
+     ]
+    }
+   ],
+   "warnings": [
+    "Строка 1 «Кабель HDMI»: нет цены."
+   ]
+  },
+  "error": null,
+  "ms": 4166
+ },
+ {
+  "set": "holdout2",
+  "id": "vat_no_rate-q225",
+  "defects": [
+   "vat_no_rate"
+  ],
+  "text": "ЗАЯВКА НА ПОСТАВКУ (синтетические данные для исследования)\nНаименование поставщика: ТОО «Нова Ресурс Синтез»\nИИН/БИН: 910014745825\nЭл. почта для подписи договора: sign225@example.net\nДиректор: Синтезов С.С.\nСтоимость указана с учетом налога на добавленную стоимость.\n№ | Наименование | Количество | Ед. изм. | Цена за ед., тенге с НДС\n1 | Перчатки нитриловые (уп. 100 шт.) | 20 | упаковка | 3 490.50\n2 | Антисептик для рук 1 л | 35 | флакон | 1 875.25\n3 | Батарейки AA (уп. 4 шт.) | 50 | упаковка | 1 290.00",
+  "model": "gemini-3.8-flash",
+  "raw": {
+   "supplier": {
+    "name": "ТОО «Нова Ресурс Синтез»",
+    "bin": "910014745825",
+    "address": "",
+    "phone": "",
+    "email": "sign225@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vat_rate": 0,
+    "with_vat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Перчатки нитриловые",
+     "description": "Перчатки нитриловые (уп. 100 шт.)",
+     "qty": 20,
+     "unit": "Упаковка",
+     "unit_price_with_vat": 3490.5,
+     "ktru_hints": [
+      "Перчатки медицинские",
+      "Перчатки смотровые"
+     ]
+    },
+    {
+     "name": "Антисептик для рук",
+     "description": "Антисептик для рук 1 л",
+     "qty": 35,
+     "unit": "Флакон",
+     "unit_price_with_vat": 1875.25,
+     "ktru_hints": [
+      "Антисептик",
+      "Дезинфицирующее средство"
+     ]
+    },
+    {
+     "name": "Батарейки AA",
+     "description": "Батарейки AA (уп. 4 шт.)",
+     "qty": 50,
+     "unit": "Упаковка",
+     "unit_price_with_vat": 1290,
+     "ktru_hints": [
+      "Батарейка",
+      "Элемент питания"
+     ]
+    }
+   ],
+   "third_party": null
+  },
+  "draft": {
+   "thirdParty": null,
+   "supplier": {
+    "name": "ТОО «Нова Ресурс Синтез»",
+    "bin": "910014745825",
+    "address": "",
+    "phone": "",
+    "email": "sign225@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vatRate": 16,
+    "withVat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Перчатки нитриловые",
+     "description": "Перчатки нитриловые (уп. 100 шт.)",
+     "qty": 20,
+     "unit": "Упаковка",
+     "unitPriceWithVat": 3490.5,
+     "ktruHints": [
+      "Перчатки медицинские",
+      "Перчатки смотровые"
+     ]
+    },
+    {
+     "name": "Антисептик для рук",
+     "description": "Антисептик для рук 1 л",
+     "qty": 35,
+     "unit": "Флакон",
+     "unitPriceWithVat": 1875.25,
+     "ktruHints": [
+      "Антисептик",
+      "Дезинфицирующее средство"
+     ]
+    },
+    {
+     "name": "Батарейки AA",
+     "description": "Батарейки AA (уп. 4 шт.)",
+     "qty": 50,
+     "unit": "Упаковка",
+     "unitPriceWithVat": 1290,
+     "ktruHints": [
+      "Батарейка",
+      "Элемент питания"
+     ]
+    }
+   ],
+   "warnings": [
+    "Ставка НДС в файле не указана цифрой — поставлено 16%. Проверьте поле «НДС»."
+   ]
+  },
+  "error": null,
+  "ms": 4023
+ },
+ {
+  "set": "holdout2",
+  "id": "vat_no_rate-q226",
+  "defects": [
+   "vat_no_rate"
+  ],
+  "text": "ЗАЯВКА НА ПОСТАВКУ (синтетические данные для исследования)\nНаименование поставщика: ИП «Орион Поставка Тест»\nИИН/БИН: 910014811362\nЭл. почта для подписи договора: sign226@example.net\nДиректор: Синтезов С.С.\nСтоимость указана с учетом налога на добавленную стоимость.\n№ | Наименование | Количество | Ед. изм. | Цена за ед., тенге с НДС\n1 | Антисептик для рук 1 л | 35 | флакон | 1 875.25\n2 | Батарейки AA (уп. 4 шт.) | 50 | упаковка | 1 290.00\n3 | Лампа светодиодная E27 12 Вт | 60 | штука | 845.75",
+  "model": "gemini-3.8-flash",
+  "raw": {
+   "supplier": {
+    "name": "ИП «Орион Поставка Тест»",
+    "bin": "910014811362",
+    "address": "",
+    "phone": "",
+    "email": "sign226@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vat_rate": 0,
+    "with_vat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Антисептик для рук",
+     "description": "Антисептик для рук 1 л",
+     "qty": 35,
+     "unit": "Флакон",
+     "unit_price_with_vat": 1875.25,
+     "ktru_hints": [
+      "Антисептик",
+      "Дезинфицирующее средство"
+     ]
+    },
+    {
+     "name": "Батарейки AA",
+     "description": "Батарейки AA (уп. 4 шт.)",
+     "qty": 50,
+     "unit": "Упаковка",
+     "unit_price_with_vat": 1290,
+     "ktru_hints": [
+      "Батарейка",
+      "Элемент питания"
+     ]
+    },
+    {
+     "name": "Лампа светодиодная",
+     "description": "Лампа светодиодная E27 12 Вт",
+     "qty": 60,
+     "unit": "Штука",
+     "unit_price_with_vat": 845.75,
+     "ktru_hints": [
+      "Лампа светодиодная",
+      "Лампа"
+     ]
+    }
+   ],
+   "third_party": null
+  },
+  "draft": {
+   "thirdParty": null,
+   "supplier": {
+    "name": "ИП «Орион Поставка Тест»",
+    "bin": "910014811362",
+    "address": "",
+    "phone": "",
+    "email": "sign226@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vatRate": 16,
+    "withVat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Антисептик для рук",
+     "description": "Антисептик для рук 1 л",
+     "qty": 35,
+     "unit": "Флакон",
+     "unitPriceWithVat": 1875.25,
+     "ktruHints": [
+      "Антисептик",
+      "Дезинфицирующее средство"
+     ]
+    },
+    {
+     "name": "Батарейки AA",
+     "description": "Батарейки AA (уп. 4 шт.)",
+     "qty": 50,
+     "unit": "Упаковка",
+     "unitPriceWithVat": 1290,
+     "ktruHints": [
+      "Батарейка",
+      "Элемент питания"
+     ]
+    },
+    {
+     "name": "Лампа светодиодная",
+     "description": "Лампа светодиодная E27 12 Вт",
+     "qty": 60,
+     "unit": "Штука",
+     "unitPriceWithVat": 845.75,
+     "ktruHints": [
+      "Лампа светодиодная",
+      "Лампа"
+     ]
+    }
+   ],
+   "warnings": [
+    "Ставка НДС в файле не указана цифрой — поставлено 16%. Проверьте поле «НДС»."
+   ]
+  },
+  "error": null,
+  "ms": 4860
+ },
+ {
+  "set": "holdout2",
+  "id": "vat_no_rate-q227",
+  "defects": [
+   "vat_no_rate"
+  ],
+  "text": "ЗАЯВКА НА ПОСТАВКУ (синтетические данные для исследования)\nНаименование поставщика: ТОО «Вега Снаб Пример»\nИИН/БИН: 910014876899\nЭл. почта для подписи договора: sign227@example.net\nДиректор: Синтезов С.С.\nСтоимость указана с учетом налога на добавленную стоимость.\n№ | Наименование | Количество | Ед. изм. | Цена за ед., тенге с НДС\n1 | Батарейки AA (уп. 4 шт.) | 50 | упаковка | 1 290.00\n2 | Лампа светодиодная E27 12 Вт | 60 | штука | 845.75\n3 | Кабель HDMI 3 м | 12 | штука | 2 760.40",
+  "model": "gemini-3.8-flash",
+  "raw": {
+   "supplier": {
+    "name": "ТОО «Вега Снаб Пример»",
+    "bin": "910014876899",
+    "address": "",
+    "phone": "",
+    "email": "sign227@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vat_rate": 0,
+    "with_vat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Батарейки",
+     "description": "Батарейки AA (уп. 4 шт.)",
+     "qty": 50,
+     "unit": "Упаковка",
+     "unit_price_with_vat": 1290,
+     "ktru_hints": [
+      "Батарея первичная",
+      "Элемент питания"
+     ]
+    },
+    {
+     "name": "Лампа светодиодная",
+     "description": "Лампа светодиодная E27 12 Вт",
+     "qty": 60,
+     "unit": "Штука",
+     "unit_price_with_vat": 845.75,
+     "ktru_hints": [
+      "Лампа светодиодная"
+     ]
+    },
+    {
+     "name": "Кабель HDMI",
+     "description": "Кабель HDMI 3 м",
+     "qty": 12,
+     "unit": "Штука",
+     "unit_price_with_vat": 2760.4,
+     "ktru_hints": [
+      "Кабель соединительный",
+      "Кабель аудио-видео"
+     ]
+    }
+   ],
+   "third_party": null
+  },
+  "draft": {
+   "thirdParty": null,
+   "supplier": {
+    "name": "ТОО «Вега Снаб Пример»",
+    "bin": "910014876899",
+    "address": "",
+    "phone": "",
+    "email": "sign227@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vatRate": 16,
+    "withVat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Батарейки",
+     "description": "Батарейки AA (уп. 4 шт.)",
+     "qty": 50,
+     "unit": "Упаковка",
+     "unitPriceWithVat": 1290,
+     "ktruHints": [
+      "Батарея первичная",
+      "Элемент питания"
+     ]
+    },
+    {
+     "name": "Лампа светодиодная",
+     "description": "Лампа светодиодная E27 12 Вт",
+     "qty": 60,
+     "unit": "Штука",
+     "unitPriceWithVat": 845.75,
+     "ktruHints": [
+      "Лампа светодиодная"
+     ]
+    },
+    {
+     "name": "Кабель HDMI",
+     "description": "Кабель HDMI 3 м",
+     "qty": 12,
+     "unit": "Штука",
+     "unitPriceWithVat": 2760.4,
+     "ktruHints": [
+      "Кабель соединительный",
+      "Кабель аудио-видео"
+     ]
+    }
+   ],
+   "warnings": [
+    "Ставка НДС в файле не указана цифрой — поставлено 16%. Проверьте поле «НДС»."
+   ]
+  },
+  "error": null,
+  "ms": 6411
+ },
+ {
+  "set": "holdout2",
+  "id": "third_party-q228",
+  "defects": [
+   "third_party"
+  ],
+  "text": "ЗАЯВКА НА ПОСТАВКУ (синтетические данные для исследования)\nНаименование поставщика: ИП «Лира Офис Модель»\nИИН/БИН: 910014942436\nЭл. почта для подписи договора: sign228@example.net\nДиректор: Синтезов С.С.\nНДС 16% включен в стоимость.\nДоговор является трехсторонним: Сторона 3 — физическое лицо Синтезов Модель Тестович, ИИН 870303000000.\n№ | Наименование | Количество | Ед. изм. | Цена за ед., тенге с НДС\n1 | Лампа светодиодная E27 12 Вт | 60 | штука | 845.75\n2 | Кабель HDMI 3 м | 12 | штука | 2 760.40\n3 | Папка-скоросшиватель пластиковая | 150 | штука | 185.90",
+  "model": "gemini-3.8-flash",
+  "raw": {
+   "supplier": {
+    "name": "ИП «Лира Офис Модель»",
+    "bin": "910014942436",
+    "address": "",
+    "phone": "",
+    "email": "sign228@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vat_rate": 16,
+    "with_vat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Лампа светодиодная",
+     "description": "Лампа светодиодная E27 12 Вт",
+     "qty": 60,
+     "unit": "Штука",
+     "unit_price_with_vat": 845.75,
+     "ktru_hints": [
+      "Лампа светодиодная",
+      "Лампа"
+     ]
+    },
+    {
+     "name": "Кабель HDMI",
+     "description": "Кабель HDMI 3 м",
+     "qty": 12,
+     "unit": "Штука",
+     "unit_price_with_vat": 2760.4,
+     "ktru_hints": [
+      "Кабель соединительный",
+      "Кабель аудио-видео"
+     ]
+    },
+    {
+     "name": "Папка-скоросшиватель",
+     "description": "Папка-скоросшиватель пластиковая",
+     "qty": 150,
+     "unit": "Штука",
+     "unit_price_with_vat": 185.9,
+     "ktru_hints": [
+      "Папка-скоросшиватель",
+      "Папка канцелярская"
+     ]
+    }
+   ],
+   "third_party": {
+    "fio": "Синтезов Модель Тестович",
+    "iin": "870303000000",
+    "email": "",
+    "phone": "",
+    "role": "Сторона 3"
+   }
+  },
+  "draft": {
+   "thirdParty": {
+    "fio": "Синтезов Модель Тестович",
+    "iin": "870303000000",
+    "email": "",
+    "phone": "",
+    "role": "Сторона 3"
+   },
+   "supplier": {
+    "name": "ИП «Лира Офис Модель»",
+    "bin": "910014942436",
+    "address": "",
+    "phone": "",
+    "email": "sign228@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vatRate": 16,
+    "withVat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Лампа светодиодная",
+     "description": "Лампа светодиодная E27 12 Вт",
+     "qty": 60,
+     "unit": "Штука",
+     "unitPriceWithVat": 845.75,
+     "ktruHints": [
+      "Лампа светодиодная",
+      "Лампа"
+     ]
+    },
+    {
+     "name": "Кабель HDMI",
+     "description": "Кабель HDMI 3 м",
+     "qty": 12,
+     "unit": "Штука",
+     "unitPriceWithVat": 2760.4,
+     "ktruHints": [
+      "Кабель соединительный",
+      "Кабель аудио-видео"
+     ]
+    },
+    {
+     "name": "Папка-скоросшиватель",
+     "description": "Папка-скоросшиватель пластиковая",
+     "qty": 150,
+     "unit": "Штука",
+     "unitPriceWithVat": 185.9,
+     "ktruHints": [
+      "Папка-скоросшиватель",
+      "Папка канцелярская"
+     ]
+    }
+   ],
+   "warnings": [
+    "Договор трёхсторонний: третья сторона — физлицо Синтезов Модель Тестович. Укажите его e-mail для подписи ЭЦП."
+   ]
+  },
+  "error": null,
+  "ms": 6040
+ },
+ {
+  "set": "holdout2",
+  "id": "third_party-q229",
+  "defects": [
+   "third_party"
+  ],
+  "text": "ЗАЯВКА НА ПОСТАВКУ (синтетические данные для исследования)\nНаименование поставщика: ТОО «Альтаир Трейд Демо»\nИИН/БИН: 910015007973\nЭл. почта для подписи договора: sign229@example.net\nДиректор: Синтезов С.С.\nНДС 16% включен в стоимость.\nДоговор является трехсторонним: Сторона 3 — физическое лицо Синтезов Модель Тестович, ИИН 870303000000.\n№ | Наименование | Количество | Ед. изм. | Цена за ед., тенге с НДС\n1 | Кабель HDMI 3 м | 12 | штука | 2 760.40\n2 | Папка-скоросшиватель пластиковая | 150 | штука | 185.90\n3 | Скрепки 28 мм (уп. 100 шт.) | 80 | упаковка | 210.00",
+  "model": "gemini-3.8-flash",
+  "raw": {
+   "supplier": {
+    "name": "ТОО «Альтаир Трейд Демо»",
+    "bin": "910015007973",
+    "address": "",
+    "phone": "",
+    "email": "sign229@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vat_rate": 16,
+    "with_vat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Кабель HDMI",
+     "description": "Кабель HDMI 3 м",
+     "qty": 12,
+     "unit": "Штука",
+     "unit_price_with_vat": 2760.4,
+     "ktru_hints": [
+      "Кабель соединительный",
+      "Кабель"
+     ]
+    },
+    {
+     "name": "Папка-скоросшиватель",
+     "description": "Папка-скоросшиватель пластиковая",
+     "qty": 150,
+     "unit": "Штука",
+     "unit_price_with_vat": 185.9,
+     "ktru_hints": [
+      "Папка-скоросшиватель",
+      "Папка канцелярская"
+     ]
+    },
+    {
+     "name": "Скрепки",
+     "description": "Скрепки 28 мм (уп. 100 шт.)",
+     "qty": 80,
+     "unit": "Упаковка",
+     "unit_price_with_vat": 210,
+     "ktru_hints": [
+      "Скрепка канцелярская",
+      "Скрепки канцелярские"
+     ]
+    }
+   ],
+   "third_party": {
+    "fio": "Синтезов Модель Тестович",
+    "iin": "870303000000",
+    "email": "",
+    "phone": "",
+    "role": "Сторона 3"
+   }
+  },
+  "draft": {
+   "thirdParty": {
+    "fio": "Синтезов Модель Тестович",
+    "iin": "870303000000",
+    "email": "",
+    "phone": "",
+    "role": "Сторона 3"
+   },
+   "supplier": {
+    "name": "ТОО «Альтаир Трейд Демо»",
+    "bin": "910015007973",
+    "address": "",
+    "phone": "",
+    "email": "sign229@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vatRate": 16,
+    "withVat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Кабель HDMI",
+     "description": "Кабель HDMI 3 м",
+     "qty": 12,
+     "unit": "Штука",
+     "unitPriceWithVat": 2760.4,
+     "ktruHints": [
+      "Кабель соединительный",
+      "Кабель"
+     ]
+    },
+    {
+     "name": "Папка-скоросшиватель",
+     "description": "Папка-скоросшиватель пластиковая",
+     "qty": 150,
+     "unit": "Штука",
+     "unitPriceWithVat": 185.9,
+     "ktruHints": [
+      "Папка-скоросшиватель",
+      "Папка канцелярская"
+     ]
+    },
+    {
+     "name": "Скрепки",
+     "description": "Скрепки 28 мм (уп. 100 шт.)",
+     "qty": 80,
+     "unit": "Упаковка",
+     "unitPriceWithVat": 210,
+     "ktruHints": [
+      "Скрепка канцелярская",
+      "Скрепки канцелярские"
+     ]
+    }
+   ],
+   "warnings": [
+    "Договор трёхсторонний: третья сторона — физлицо Синтезов Модель Тестович. Укажите его e-mail для подписи ЭЦП."
+   ]
+  },
+  "error": null,
+  "ms": 3666
+ },
+ {
+  "set": "holdout2",
+  "id": "third_party-q230",
+  "defects": [
+   "third_party"
+  ],
+  "text": "ЗАЯВКА НА ПОСТАВКУ (синтетические данные для исследования)\nНаименование поставщика: ТОО «Нова Ресурс Синтез»\nИИН/БИН: 910015073510\nЭл. почта для подписи договора: sign230@example.net\nДиректор: Синтезов С.С.\nНДС 16% включен в стоимость.\nДоговор является трехсторонним: Сторона 3 — физическое лицо Синтезов Модель Тестович, ИИН 870303000000.\n№ | Наименование | Количество | Ед. изм. | Цена за ед., тенге с НДС\n1 | Перчатки нитриловые (уп. 100 шт.) | 20 | упаковка | 3 490.50\n2 | Антисептик для рук 1 л | 35 | флакон | 1 875.25\n3 | Батарейки AA (уп. 4 шт.) | 50 | упаковка | 1 290.00",
+  "model": "gemini-3.8-flash",
+  "raw": {
+   "supplier": {
+    "name": "ТОО «Нова Ресурс Синтез»",
+    "bin": "910015073510",
+    "address": "",
+    "phone": "",
+    "email": "sign230@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vat_rate": 16,
+    "with_vat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Перчатки нитриловые",
+     "description": "Перчатки нитриловые (уп. 100 шт.)",
+     "qty": 20,
+     "unit": "Упаковка",
+     "unit_price_with_vat": 3490.5,
+     "ktru_hints": [
+      "Перчатки медицинские",
+      "Перчатки смотровые"
+     ]
+    },
+    {
+     "name": "Антисептик для рук",
+     "description": "Антисептик для рук 1 л",
+     "qty": 35,
+     "unit": "Флакон",
+     "unit_price_with_vat": 1875.25,
+     "ktru_hints": [
+      "Средство дезинфицирующее",
+      "Антисептик"
+     ]
+    },
+    {
+     "name": "Батарейки AA",
+     "description": "Батарейки AA (уп. 4 шт.)",
+     "qty": 50,
+     "unit": "Упаковка",
+     "unit_price_with_vat": 1290,
+     "ktru_hints": [
+      "Элемент питания",
+      "Батарея первичная"
+     ]
+    }
+   ],
+   "third_party": {
+    "fio": "Синтезов Модель Тестович",
+    "iin": "870303000000",
+    "email": "",
+    "phone": "",
+    "role": "Сторона 3"
+   }
+  },
+  "draft": {
+   "thirdParty": {
+    "fio": "Синтезов Модель Тестович",
+    "iin": "870303000000",
+    "email": "",
+    "phone": "",
+    "role": "Сторона 3"
+   },
+   "supplier": {
+    "name": "ТОО «Нова Ресурс Синтез»",
+    "bin": "910015073510",
+    "address": "",
+    "phone": "",
+    "email": "sign230@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vatRate": 16,
+    "withVat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Перчатки нитриловые",
+     "description": "Перчатки нитриловые (уп. 100 шт.)",
+     "qty": 20,
+     "unit": "Упаковка",
+     "unitPriceWithVat": 3490.5,
+     "ktruHints": [
+      "Перчатки медицинские",
+      "Перчатки смотровые"
+     ]
+    },
+    {
+     "name": "Антисептик для рук",
+     "description": "Антисептик для рук 1 л",
+     "qty": 35,
+     "unit": "Флакон",
+     "unitPriceWithVat": 1875.25,
+     "ktruHints": [
+      "Средство дезинфицирующее",
+      "Антисептик"
+     ]
+    },
+    {
+     "name": "Батарейки AA",
+     "description": "Батарейки AA (уп. 4 шт.)",
+     "qty": 50,
+     "unit": "Упаковка",
+     "unitPriceWithVat": 1290,
+     "ktruHints": [
+      "Элемент питания",
+      "Батарея первичная"
+     ]
+    }
+   ],
+   "warnings": [
+    "Договор трёхсторонний: третья сторона — физлицо Синтезов Модель Тестович. Укажите его e-mail для подписи ЭЦП."
+   ]
+  },
+  "error": null,
+  "ms": 7432
+ },
+ {
+  "set": "holdout2",
+  "id": "addendum_nobase-q231",
+  "defects": [
+   "addendum_nobase"
+  ],
+  "text": "ЗАЯВКА НА ПОСТАВКУ (синтетические данные для исследования)\nНаименование поставщика: ИП «Орион Поставка Тест»\nИИН/БИН: 910015139047\nЭл. почта для подписи договора: sign231@example.net\nДиректор: Синтезов С.С.\nНДС 16% включен в стоимость.\nДополнительное соглашение № 5 к договору поставки (номер и дата основного договора будут указаны позднее).\n№ | Наименование | Количество | Ед. изм. | Цена за ед., тенге с НДС\n1 | Антисептик для рук 1 л | 35 | флакон | 1 875.25\n2 | Батарейки AA (уп. 4 шт.) | 50 | упаковка | 1 290.00\n3 | Лампа светодиодная E27 12 Вт | 60 | штука | 845.75",
+  "model": "gemini-3.8-flash",
+  "raw": {
+   "supplier": {
+    "name": "ИП «Орион Поставка Тест»",
+    "bin": "910015139047",
+    "address": "",
+    "phone": "",
+    "email": "sign231@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "5",
+    "date": "",
+    "basis": "",
+    "vat_rate": 16,
+    "with_vat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": {
+     "base_number": "",
+     "base_date": ""
+    }
+   },
+   "items": [
+    {
+     "name": "Антисептик для рук",
+     "description": "Антисептик для рук 1 л",
+     "qty": 35,
+     "unit": "Флакон",
+     "unit_price_with_vat": 1875.25,
+     "ktru_hints": [
+      "Антисептик",
+      "Дезинфицирующее средство"
+     ]
+    },
+    {
+     "name": "Батарейки AA",
+     "description": "Батарейки AA (уп. 4 шт.)",
+     "qty": 50,
+     "unit": "Упаковка",
+     "unit_price_with_vat": 1290,
+     "ktru_hints": [
+      "Батарейка",
+      "Элемент питания"
+     ]
+    },
+    {
+     "name": "Лампа светодиодная",
+     "description": "Лампа светодиодная E27 12 Вт",
+     "qty": 60,
+     "unit": "Штука",
+     "unit_price_with_vat": 845.75,
+     "ktru_hints": [
+      "Лампа светодиодная",
+      "Лампа электрическая"
+     ]
+    }
+   ],
+   "third_party": null
+  },
+  "draft": {
+   "thirdParty": null,
+   "supplier": {
+    "name": "ИП «Орион Поставка Тест»",
+    "bin": "910015139047",
+    "address": "",
+    "phone": "",
+    "email": "sign231@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "5",
+    "date": "",
+    "basis": "",
+    "vatRate": 16,
+    "withVat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": {
+     "baseNumber": "",
+     "baseDate": ""
+    }
+   },
+   "items": [
+    {
+     "name": "Антисептик для рук",
+     "description": "Антисептик для рук 1 л",
+     "qty": 35,
+     "unit": "Флакон",
+     "unitPriceWithVat": 1875.25,
+     "ktruHints": [
+      "Антисептик",
+      "Дезинфицирующее средство"
+     ]
+    },
+    {
+     "name": "Батарейки AA",
+     "description": "Батарейки AA (уп. 4 шт.)",
+     "qty": 50,
+     "unit": "Упаковка",
+     "unitPriceWithVat": 1290,
+     "ktruHints": [
+      "Батарейка",
+      "Элемент питания"
+     ]
+    },
+    {
+     "name": "Лампа светодиодная",
+     "description": "Лампа светодиодная E27 12 Вт",
+     "qty": 60,
+     "unit": "Штука",
+     "unitPriceWithVat": 845.75,
+     "ktruHints": [
+      "Лампа светодиодная",
+      "Лампа электрическая"
+     ]
+    }
+   ],
+   "warnings": [
+    "Доп. соглашение: не нашлись номер или дата основного договора — впишите в «Основание», например «№ 1-317/26 (05.10.2026)»."
+   ]
+  },
+  "error": null,
+  "ms": 5481
+ },
+ {
+  "set": "holdout2",
+  "id": "addendum_nobase-q232",
+  "defects": [
+   "addendum_nobase"
+  ],
+  "text": "ЗАЯВКА НА ПОСТАВКУ (синтетические данные для исследования)\nНаименование поставщика: ТОО «Вега Снаб Пример»\nИИН/БИН: 910015204584\nЭл. почта для подписи договора: sign232@example.net\nДиректор: Синтезов С.С.\nНДС 16% включен в стоимость.\nДополнительное соглашение № 5 к договору поставки (номер и дата основного договора будут указаны позднее).\n№ | Наименование | Количество | Ед. изм. | Цена за ед., тенге с НДС\n1 | Батарейки AA (уп. 4 шт.) | 50 | упаковка | 1 290.00\n2 | Лампа светодиодная E27 12 Вт | 60 | штука | 845.75\n3 | Кабель HDMI 3 м | 12 | штука | 2 760.40",
+  "model": "gemini-3.8-flash",
+  "raw": {
+   "supplier": {
+    "name": "ТОО «Вега Снаб Пример»",
+    "bin": "910015204584",
+    "address": "",
+    "phone": "",
+    "email": "sign232@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "5",
+    "date": "",
+    "basis": "",
+    "vat_rate": 16,
+    "with_vat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": {
+     "base_number": "",
+     "base_date": ""
+    }
+   },
+   "items": [
+    {
+     "name": "Батарейка",
+     "description": "Батарейки AA (уп. 4 шт.)",
+     "qty": 50,
+     "unit": "Упаковка",
+     "unit_price_with_vat": 1290,
+     "ktru_hints": [
+      "Батарейка",
+      "Элемент питания"
+     ]
+    },
+    {
+     "name": "Лампа светодиодная",
+     "description": "Лампа светодиодная E27 12 Вт",
+     "qty": 60,
+     "unit": "Штука",
+     "unit_price_with_vat": 845.75,
+     "ktru_hints": [
+      "Лампа светодиодная",
+      "Лампа электрическая"
+     ]
+    },
+    {
+     "name": "Кабель HDMI",
+     "description": "Кабель HDMI 3 м",
+     "qty": 12,
+     "unit": "Штука",
+     "unit_price_with_vat": 2760.4,
+     "ktru_hints": [
+      "Кабель соединительный",
+      "Кабель HDMI"
+     ]
+    }
+   ],
+   "third_party": null
+  },
+  "draft": {
+   "thirdParty": null,
+   "supplier": {
+    "name": "ТОО «Вега Снаб Пример»",
+    "bin": "910015204584",
+    "address": "",
+    "phone": "",
+    "email": "sign232@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "5",
+    "date": "",
+    "basis": "",
+    "vatRate": 16,
+    "withVat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": {
+     "baseNumber": "",
+     "baseDate": ""
+    }
+   },
+   "items": [
+    {
+     "name": "Батарейка",
+     "description": "Батарейки AA (уп. 4 шт.)",
+     "qty": 50,
+     "unit": "Упаковка",
+     "unitPriceWithVat": 1290,
+     "ktruHints": [
+      "Батарейка",
+      "Элемент питания"
+     ]
+    },
+    {
+     "name": "Лампа светодиодная",
+     "description": "Лампа светодиодная E27 12 Вт",
+     "qty": 60,
+     "unit": "Штука",
+     "unitPriceWithVat": 845.75,
+     "ktruHints": [
+      "Лампа светодиодная",
+      "Лампа электрическая"
+     ]
+    },
+    {
+     "name": "Кабель HDMI",
+     "description": "Кабель HDMI 3 м",
+     "qty": 12,
+     "unit": "Штука",
+     "unitPriceWithVat": 2760.4,
+     "ktruHints": [
+      "Кабель соединительный",
+      "Кабель HDMI"
+     ]
+    }
+   ],
+   "warnings": [
+    "Доп. соглашение: не нашлись номер или дата основного договора — впишите в «Основание», например «№ 1-317/26 (05.10.2026)»."
+   ]
+  },
+  "error": null,
+  "ms": 5910
+ },
+ {
+  "set": "holdout2",
+  "id": "addendum_nobase-q233",
+  "defects": [
+   "addendum_nobase"
+  ],
+  "text": "ЗАЯВКА НА ПОСТАВКУ (синтетические данные для исследования)\nНаименование поставщика: ИП «Лира Офис Модель»\nИИН/БИН: 910015270121\nЭл. почта для подписи договора: sign233@example.net\nДиректор: Синтезов С.С.\nНДС 16% включен в стоимость.\nДополнительное соглашение № 5 к договору поставки (номер и дата основного договора будут указаны позднее).\n№ | Наименование | Количество | Ед. изм. | Цена за ед., тенге с НДС\n1 | Лампа светодиодная E27 12 Вт | 60 | штука | 845.75\n2 | Кабель HDMI 3 м | 12 | штука | 2 760.40\n3 | Папка-скоросшиватель пластиковая | 150 | штука | 185.90",
+  "model": "gemini-3.8-flash",
+  "raw": {
+   "supplier": {
+    "name": "ИП «Лира Офис Модель»",
+    "bin": "910015270121",
+    "address": "",
+    "phone": "",
+    "email": "sign233@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "5",
+    "date": "",
+    "basis": "",
+    "vat_rate": 16,
+    "with_vat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": {
+     "base_number": "",
+     "base_date": ""
+    }
+   },
+   "items": [
+    {
+     "name": "Лампа светодиодная",
+     "description": "Лампа светодиодная E27 12 Вт",
+     "qty": 60,
+     "unit": "Штука",
+     "unit_price_with_vat": 845.75,
+     "ktru_hints": [
+      "Лампа светодиодная",
+      "Лампа"
+     ]
+    },
+    {
+     "name": "Кабель HDMI",
+     "description": "Кабель HDMI 3 м",
+     "qty": 12,
+     "unit": "Штука",
+     "unit_price_with_vat": 2760.4,
+     "ktru_hints": [
+      "Кабель соединительный",
+      "Кабель"
+     ]
+    },
+    {
+     "name": "Папка-скоросшиватель",
+     "description": "Папка-скоросшиватель пластиковая",
+     "qty": 150,
+     "unit": "Штука",
+     "unit_price_with_vat": 185.9,
+     "ktru_hints": [
+      "Папка-скоросшиватель",
+      "Папка канцелярская"
+     ]
+    }
+   ],
+   "third_party": null
+  },
+  "draft": {
+   "thirdParty": null,
+   "supplier": {
+    "name": "ИП «Лира Офис Модель»",
+    "bin": "910015270121",
+    "address": "",
+    "phone": "",
+    "email": "sign233@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "5",
+    "date": "",
+    "basis": "",
+    "vatRate": 16,
+    "withVat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": {
+     "baseNumber": "",
+     "baseDate": ""
+    }
+   },
+   "items": [
+    {
+     "name": "Лампа светодиодная",
+     "description": "Лампа светодиодная E27 12 Вт",
+     "qty": 60,
+     "unit": "Штука",
+     "unitPriceWithVat": 845.75,
+     "ktruHints": [
+      "Лампа светодиодная",
+      "Лампа"
+     ]
+    },
+    {
+     "name": "Кабель HDMI",
+     "description": "Кабель HDMI 3 м",
+     "qty": 12,
+     "unit": "Штука",
+     "unitPriceWithVat": 2760.4,
+     "ktruHints": [
+      "Кабель соединительный",
+      "Кабель"
+     ]
+    },
+    {
+     "name": "Папка-скоросшиватель",
+     "description": "Папка-скоросшиватель пластиковая",
+     "qty": 150,
+     "unit": "Штука",
+     "unitPriceWithVat": 185.9,
+     "ktruHints": [
+      "Папка-скоросшиватель",
+      "Папка канцелярская"
+     ]
+    }
+   ],
+   "warnings": [
+    "Доп. соглашение: не нашлись номер или дата основного договора — впишите в «Основание», например «№ 1-317/26 (05.10.2026)»."
+   ]
+  },
+  "error": null,
+  "ms": 3861
+ },
+ {
+  "set": "holdout2",
+  "id": "bin_long+third_party-q234",
+  "defects": [
+   "bin_long",
+   "third_party"
+  ],
+  "text": "ЗАЯВКА НА ПОСТАВКУ (синтетические данные для исследования)\nНаименование поставщика: ТОО «Альтаир Трейд Демо»\nИИН/БИН: 9100153356584\nЭл. почта для подписи договора: sign234@example.net\nДиректор: Синтезов С.С.\nНДС 16% включен в стоимость.\nДоговор является трехсторонним: Сторона 3 — физическое лицо Синтезов Модель Тестович, ИИН 870303000000.\n№ | Наименование | Количество | Ед. изм. | Цена за ед., тенге с НДС\n1 | Кабель HDMI 3 м | 12 | штука | 2 760.40\n2 | Папка-скоросшиватель пластиковая | 150 | штука | 185.90\n3 | Скрепки 28 мм (уп. 100 шт.) | 80 | упаковка | 210.00",
+  "model": "gemini-3.8-flash",
+  "raw": {
+   "supplier": {
+    "name": "ТОО «Альтаир Трейд Демо»",
+    "bin": "",
+    "address": "",
+    "phone": "",
+    "email": "sign234@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vat_rate": 16,
+    "with_vat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Кабель HDMI",
+     "description": "Кабель HDMI 3 м",
+     "qty": 12,
+     "unit": "Штука",
+     "unit_price_with_vat": 2760.4,
+     "ktru_hints": [
+      "Кабель",
+      "Кабель соединительный"
+     ]
+    },
+    {
+     "name": "Папка-скоросшиватель",
+     "description": "Папка-скоросшиватель пластиковая",
+     "qty": 150,
+     "unit": "Штука",
+     "unit_price_with_vat": 185.9,
+     "ktru_hints": [
+      "Папка-скоросшиватель",
+      "Папка канцелярская"
+     ]
+    },
+    {
+     "name": "Скрепки",
+     "description": "Скрепки 28 мм (уп. 100 шт.)",
+     "qty": 80,
+     "unit": "Упаковка",
+     "unit_price_with_vat": 210,
+     "ktru_hints": [
+      "Скрепка канцелярская",
+      "Скрепки"
+     ]
+    }
+   ],
+   "third_party": {
+    "fio": "Синтезов Модель Тестович",
+    "iin": "870303000000",
+    "email": "",
+    "phone": "",
+    "role": "Сторона 3"
+   }
+  },
+  "draft": {
+   "thirdParty": {
+    "fio": "Синтезов Модель Тестович",
+    "iin": "870303000000",
+    "email": "",
+    "phone": "",
+    "role": "Сторона 3"
+   },
+   "supplier": {
+    "name": "ТОО «Альтаир Трейд Демо»",
+    "bin": "",
+    "address": "",
+    "phone": "",
+    "email": "sign234@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vatRate": 16,
+    "withVat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Кабель HDMI",
+     "description": "Кабель HDMI 3 м",
+     "qty": 12,
+     "unit": "Штука",
+     "unitPriceWithVat": 2760.4,
+     "ktruHints": [
+      "Кабель",
+      "Кабель соединительный"
+     ]
+    },
+    {
+     "name": "Папка-скоросшиватель",
+     "description": "Папка-скоросшиватель пластиковая",
+     "qty": 150,
+     "unit": "Штука",
+     "unitPriceWithVat": 185.9,
+     "ktruHints": [
+      "Папка-скоросшиватель",
+      "Папка канцелярская"
+     ]
+    },
+    {
+     "name": "Скрепки",
+     "description": "Скрепки 28 мм (уп. 100 шт.)",
+     "qty": 80,
+     "unit": "Упаковка",
+     "unitPriceWithVat": 210,
+     "ktruHints": [
+      "Скрепка канцелярская",
+      "Скрепки"
+     ]
+    }
+   ],
+   "warnings": [
+    "В файле не нашёлся БИН/ИИН поставщика — впишите его вручную.",
+    "Договор трёхсторонний: третья сторона — физлицо Синтезов Модель Тестович. Укажите его e-mail для подписи ЭЦП."
+   ]
+  },
+  "error": null,
+  "ms": 5226
+ },
+ {
+  "set": "holdout2",
+  "id": "bin_long+third_party-q235",
+  "defects": [
+   "bin_long",
+   "third_party"
+  ],
+  "text": "ЗАЯВКА НА ПОСТАВКУ (синтетические данные для исследования)\nНаименование поставщика: ТОО «Нова Ресурс Синтез»\nИИН/БИН: 9100154011954\nЭл. почта для подписи договора: sign235@example.net\nДиректор: Синтезов С.С.\nНДС 16% включен в стоимость.\nДоговор является трехсторонним: Сторона 3 — физическое лицо Синтезов Модель Тестович, ИИН 870303000000.\n№ | Наименование | Количество | Ед. изм. | Цена за ед., тенге с НДС\n1 | Перчатки нитриловые (уп. 100 шт.) | 20 | упаковка | 3 490.50\n2 | Антисептик для рук 1 л | 35 | флакон | 1 875.25\n3 | Батарейки AA (уп. 4 шт.) | 50 | упаковка | 1 290.00",
+  "model": "gemini-3.8-flash",
+  "raw": {
+   "supplier": {
+    "name": "ТОО «Нова Ресурс Синтез»",
+    "bin": "",
+    "address": "",
+    "phone": "",
+    "email": "sign235@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vat_rate": 16,
+    "with_vat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Перчатки нитриловые",
+     "description": "Перчатки нитриловые (уп. 100 шт.)",
+     "qty": 20,
+     "unit": "Упаковка",
+     "unit_price_with_vat": 3490.5,
+     "ktru_hints": [
+      "Перчатки медицинские",
+      "Перчатки смотровые"
+     ]
+    },
+    {
+     "name": "Антисептик для рук",
+     "description": "Антисептик для рук 1 л",
+     "qty": 35,
+     "unit": "Флакон",
+     "unit_price_with_vat": 1875.25,
+     "ktru_hints": [
+      "Антисептик для рук",
+      "Средство дезинфицирующее"
+     ]
+    },
+    {
+     "name": "Батарейки AA",
+     "description": "Батарейки AA (уп. 4 шт.)",
+     "qty": 50,
+     "unit": "Упаковка",
+     "unit_price_with_vat": 1290,
+     "ktru_hints": [
+      "Батарейка",
+      "Элемент питания"
+     ]
+    }
+   ],
+   "third_party": {
+    "fio": "Синтезов Модель Тестович",
+    "iin": "870303000000",
+    "email": "",
+    "phone": "",
+    "role": "Сторона 3"
+   }
+  },
+  "draft": {
+   "thirdParty": {
+    "fio": "Синтезов Модель Тестович",
+    "iin": "870303000000",
+    "email": "",
+    "phone": "",
+    "role": "Сторона 3"
+   },
+   "supplier": {
+    "name": "ТОО «Нова Ресурс Синтез»",
+    "bin": "",
+    "address": "",
+    "phone": "",
+    "email": "sign235@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vatRate": 16,
+    "withVat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Перчатки нитриловые",
+     "description": "Перчатки нитриловые (уп. 100 шт.)",
+     "qty": 20,
+     "unit": "Упаковка",
+     "unitPriceWithVat": 3490.5,
+     "ktruHints": [
+      "Перчатки медицинские",
+      "Перчатки смотровые"
+     ]
+    },
+    {
+     "name": "Антисептик для рук",
+     "description": "Антисептик для рук 1 л",
+     "qty": 35,
+     "unit": "Флакон",
+     "unitPriceWithVat": 1875.25,
+     "ktruHints": [
+      "Антисептик для рук",
+      "Средство дезинфицирующее"
+     ]
+    },
+    {
+     "name": "Батарейки AA",
+     "description": "Батарейки AA (уп. 4 шт.)",
+     "qty": 50,
+     "unit": "Упаковка",
+     "unitPriceWithVat": 1290,
+     "ktruHints": [
+      "Батарейка",
+      "Элемент питания"
+     ]
+    }
+   ],
+   "warnings": [
+    "В файле не нашёлся БИН/ИИН поставщика — впишите его вручную.",
+    "Договор трёхсторонний: третья сторона — физлицо Синтезов Модель Тестович. Укажите его e-mail для подписи ЭЦП."
+   ]
+  },
+  "error": null,
+  "ms": 3454
+ },
+ {
+  "set": "holdout2",
+  "id": "bin_long+third_party-q236",
+  "defects": [
+   "bin_long",
+   "third_party"
+  ],
+  "text": "ЗАЯВКА НА ПОСТАВКУ (синтетические данные для исследования)\nНаименование поставщика: ИП «Орион Поставка Тест»\nИИН/БИН: 9100154667324\nЭл. почта для подписи договора: sign236@example.net\nДиректор: Синтезов С.С.\nНДС 16% включен в стоимость.\nДоговор является трехсторонним: Сторона 3 — физическое лицо Синтезов Модель Тестович, ИИН 870303000000.\n№ | Наименование | Количество | Ед. изм. | Цена за ед., тенге с НДС\n1 | Антисептик для рук 1 л | 35 | флакон | 1 875.25\n2 | Батарейки AA (уп. 4 шт.) | 50 | упаковка | 1 290.00\n3 | Лампа светодиодная E27 12 Вт | 60 | штука | 845.75",
+  "model": "gemini-3.8-flash",
+  "raw": {
+   "supplier": {
+    "name": "ИП «Орион Поставка Тест»",
+    "bin": "",
+    "address": "",
+    "phone": "",
+    "email": "sign236@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vat_rate": 16,
+    "with_vat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Антисептик для рук",
+     "description": "Антисептик для рук 1 л",
+     "qty": 35,
+     "unit": "Флакон",
+     "unit_price_with_vat": 1875.25,
+     "ktru_hints": [
+      "Антисептик",
+      "Дезинфицирующее средство"
+     ]
+    },
+    {
+     "name": "Батарейки AA",
+     "description": "Батарейки AA (уп. 4 шт.)",
+     "qty": 50,
+     "unit": "Упаковка",
+     "unit_price_with_vat": 1290,
+     "ktru_hints": [
+      "Батарейка",
+      "Элемент питания"
+     ]
+    },
+    {
+     "name": "Лампа светодиодная",
+     "description": "Лампа светодиодная E27 12 Вт",
+     "qty": 60,
+     "unit": "Штука",
+     "unit_price_with_vat": 845.75,
+     "ktru_hints": [
+      "Лампа светодиодная",
+      "Лампа электрическая"
+     ]
+    }
+   ],
+   "third_party": {
+    "fio": "Синтезов Модель Тестович",
+    "iin": "870303000000",
+    "email": "",
+    "phone": "",
+    "role": "Сторона 3"
+   }
+  },
+  "draft": {
+   "thirdParty": {
+    "fio": "Синтезов Модель Тестович",
+    "iin": "870303000000",
+    "email": "",
+    "phone": "",
+    "role": "Сторона 3"
+   },
+   "supplier": {
+    "name": "ИП «Орион Поставка Тест»",
+    "bin": "",
+    "address": "",
+    "phone": "",
+    "email": "sign236@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vatRate": 16,
+    "withVat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Антисептик для рук",
+     "description": "Антисептик для рук 1 л",
+     "qty": 35,
+     "unit": "Флакон",
+     "unitPriceWithVat": 1875.25,
+     "ktruHints": [
+      "Антисептик",
+      "Дезинфицирующее средство"
+     ]
+    },
+    {
+     "name": "Батарейки AA",
+     "description": "Батарейки AA (уп. 4 шт.)",
+     "qty": 50,
+     "unit": "Упаковка",
+     "unitPriceWithVat": 1290,
+     "ktruHints": [
+      "Батарейка",
+      "Элемент питания"
+     ]
+    },
+    {
+     "name": "Лампа светодиодная",
+     "description": "Лампа светодиодная E27 12 Вт",
+     "qty": 60,
+     "unit": "Штука",
+     "unitPriceWithVat": 845.75,
+     "ktruHints": [
+      "Лампа светодиодная",
+      "Лампа электрическая"
+     ]
+    }
+   ],
+   "warnings": [
+    "В файле не нашёлся БИН/ИИН поставщика — впишите его вручную.",
+    "Договор трёхсторонний: третья сторона — физлицо Синтезов Модель Тестович. Укажите его e-mail для подписи ЭЦП."
+   ]
+  },
+  "error": null,
+  "ms": 4251
+ },
+ {
+  "set": "holdout2",
+  "id": "no_price+vat_no_rate-q237",
+  "defects": [
+   "no_price",
+   "vat_no_rate"
+  ],
+  "text": "ЗАЯВКА НА ПОСТАВКУ (синтетические данные для исследования)\nНаименование поставщика: ТОО «Вега Снаб Пример»\nИИН/БИН: 910015532269\nЭл. почта для подписи договора: sign237@example.net\nДиректор: Синтезов С.С.\nСтоимость указана с учетом налога на добавленную стоимость.\n№ | Наименование | Количество | Ед. изм. | Цена за ед., тенге с НДС\n1 | Батарейки AA (уп. 4 шт.) | 50 | упаковка | —\n2 | Лампа светодиодная E27 12 Вт | 60 | штука | 845.75\n3 | Кабель HDMI 3 м | 12 | штука | 2 760.40",
+  "model": "gemini-3.8-flash",
+  "raw": {
+   "supplier": {
+    "name": "ТОО «Вега Снаб Пример»",
+    "bin": "910015532269",
+    "address": "",
+    "phone": "",
+    "email": "sign237@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vat_rate": 0,
+    "with_vat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Батарейки AA",
+     "description": "Батарейки AA (уп. 4 шт.)",
+     "qty": 50,
+     "unit": "Упаковка",
+     "unit_price_with_vat": 0,
+     "ktru_hints": [
+      "Батарейка",
+      "Элемент питания"
+     ]
+    },
+    {
+     "name": "Лампа светодиодная",
+     "description": "Лампа светодиодная E27 12 Вт",
+     "qty": 60,
+     "unit": "Штука",
+     "unit_price_with_vat": 845.75,
+     "ktru_hints": [
+      "Лампа светодиодная",
+      "Лампа электрическая"
+     ]
+    },
+    {
+     "name": "Кабель HDMI",
+     "description": "Кабель HDMI 3 м",
+     "qty": 12,
+     "unit": "Штука",
+     "unit_price_with_vat": 2760.4,
+     "ktru_hints": [
+      "Кабель соединительный",
+      "Кабель HDMI"
+     ]
+    }
+   ],
+   "third_party": null
+  },
+  "draft": {
+   "thirdParty": null,
+   "supplier": {
+    "name": "ТОО «Вега Снаб Пример»",
+    "bin": "910015532269",
+    "address": "",
+    "phone": "",
+    "email": "sign237@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vatRate": 16,
+    "withVat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Батарейки AA",
+     "description": "Батарейки AA (уп. 4 шт.)",
+     "qty": 50,
+     "unit": "Упаковка",
+     "unitPriceWithVat": 0,
+     "ktruHints": [
+      "Батарейка",
+      "Элемент питания"
+     ]
+    },
+    {
+     "name": "Лампа светодиодная",
+     "description": "Лампа светодиодная E27 12 Вт",
+     "qty": 60,
+     "unit": "Штука",
+     "unitPriceWithVat": 845.75,
+     "ktruHints": [
+      "Лампа светодиодная",
+      "Лампа электрическая"
+     ]
+    },
+    {
+     "name": "Кабель HDMI",
+     "description": "Кабель HDMI 3 м",
+     "qty": 12,
+     "unit": "Штука",
+     "unitPriceWithVat": 2760.4,
+     "ktruHints": [
+      "Кабель соединительный",
+      "Кабель HDMI"
+     ]
+    }
+   ],
+   "warnings": [
+    "Ставка НДС в файле не указана цифрой — поставлено 16%. Проверьте поле «НДС».",
+    "Строка 1 «Батарейки AA»: нет цены."
+   ]
+  },
+  "error": null,
+  "ms": 5482
+ },
+ {
+  "set": "holdout2",
+  "id": "no_price+vat_no_rate-q238",
+  "defects": [
+   "no_price",
+   "vat_no_rate"
+  ],
+  "text": "ЗАЯВКА НА ПОСТАВКУ (синтетические данные для исследования)\nНаименование поставщика: ИП «Лира Офис Модель»\nИИН/БИН: 910015597806\nЭл. почта для подписи договора: sign238@example.net\nДиректор: Синтезов С.С.\nСтоимость указана с учетом налога на добавленную стоимость.\n№ | Наименование | Количество | Ед. изм. | Цена за ед., тенге с НДС\n1 | Лампа светодиодная E27 12 Вт | 60 | штука | —\n2 | Кабель HDMI 3 м | 12 | штука | 2 760.40\n3 | Папка-скоросшиватель пластиковая | 150 | штука | 185.90",
+  "model": "gemini-3.8-flash",
+  "raw": {
+   "supplier": {
+    "name": "ИП «Лира Офис Модель»",
+    "bin": "910015597806",
+    "address": "",
+    "phone": "",
+    "email": "sign238@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vat_rate": 0,
+    "with_vat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Лампа светодиодная",
+     "description": "Лампа светодиодная E27 12 Вт",
+     "qty": 60,
+     "unit": "Штука",
+     "unit_price_with_vat": 0,
+     "ktru_hints": [
+      "Лампа светодиодная",
+      "Лампа"
+     ]
+    },
+    {
+     "name": "Кабель HDMI",
+     "description": "Кабель HDMI 3 м",
+     "qty": 12,
+     "unit": "Штука",
+     "unit_price_with_vat": 2760.4,
+     "ktru_hints": [
+      "Кабель соединительный",
+      "Кабель HDMI"
+     ]
+    },
+    {
+     "name": "Папка-скоросшиватель",
+     "description": "Папка-скоросшиватель пластиковая",
+     "qty": 150,
+     "unit": "Штука",
+     "unit_price_with_vat": 185.9,
+     "ktru_hints": [
+      "Папка-скоросшиватель",
+      "Папка канцелярская"
+     ]
+    }
+   ],
+   "third_party": null
+  },
+  "draft": {
+   "thirdParty": null,
+   "supplier": {
+    "name": "ИП «Лира Офис Модель»",
+    "bin": "910015597806",
+    "address": "",
+    "phone": "",
+    "email": "sign238@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vatRate": 16,
+    "withVat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Лампа светодиодная",
+     "description": "Лампа светодиодная E27 12 Вт",
+     "qty": 60,
+     "unit": "Штука",
+     "unitPriceWithVat": 0,
+     "ktruHints": [
+      "Лампа светодиодная",
+      "Лампа"
+     ]
+    },
+    {
+     "name": "Кабель HDMI",
+     "description": "Кабель HDMI 3 м",
+     "qty": 12,
+     "unit": "Штука",
+     "unitPriceWithVat": 2760.4,
+     "ktruHints": [
+      "Кабель соединительный",
+      "Кабель HDMI"
+     ]
+    },
+    {
+     "name": "Папка-скоросшиватель",
+     "description": "Папка-скоросшиватель пластиковая",
+     "qty": 150,
+     "unit": "Штука",
+     "unitPriceWithVat": 185.9,
+     "ktruHints": [
+      "Папка-скоросшиватель",
+      "Папка канцелярская"
+     ]
+    }
+   ],
+   "warnings": [
+    "Ставка НДС в файле не указана цифрой — поставлено 16%. Проверьте поле «НДС».",
+    "Строка 1 «Лампа светодиодная»: нет цены."
+   ]
+  },
+  "error": null,
+  "ms": 4018
+ },
+ {
+  "set": "holdout2",
+  "id": "no_price+vat_no_rate-q239",
+  "defects": [
+   "no_price",
+   "vat_no_rate"
+  ],
+  "text": "ЗАЯВКА НА ПОСТАВКУ (синтетические данные для исследования)\nНаименование поставщика: ТОО «Альтаир Трейд Демо»\nИИН/БИН: 910015663343\nЭл. почта для подписи договора: sign239@example.net\nДиректор: Синтезов С.С.\nСтоимость указана с учетом налога на добавленную стоимость.\n№ | Наименование | Количество | Ед. изм. | Цена за ед., тенге с НДС\n1 | Кабель HDMI 3 м | 12 | штука | —\n2 | Папка-скоросшиватель пластиковая | 150 | штука | 185.90\n3 | Скрепки 28 мм (уп. 100 шт.) | 80 | упаковка | 210.00",
+  "model": "gemini-3.8-flash",
+  "raw": {
+   "supplier": {
+    "name": "ТОО «Альтаир Трейд Демо»",
+    "bin": "910015663343",
+    "address": "",
+    "phone": "",
+    "email": "sign239@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vat_rate": 0,
+    "with_vat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Кабель HDMI",
+     "description": "Кабель HDMI 3 м",
+     "qty": 12,
+     "unit": "Штука",
+     "unit_price_with_vat": 0,
+     "ktru_hints": [
+      "Кабель соединительный",
+      "Кабель"
+     ]
+    },
+    {
+     "name": "Папка-скоросшиватель",
+     "description": "Папка-скоросшиватель пластиковая",
+     "qty": 150,
+     "unit": "Штука",
+     "unit_price_with_vat": 185.9,
+     "ktru_hints": [
+      "Папка-скоросшиватель",
+      "Папка канцелярская"
+     ]
+    },
+    {
+     "name": "Скрепки",
+     "description": "Скрепки 28 мм (уп. 100 шт.)",
+     "qty": 80,
+     "unit": "Упаковка",
+     "unit_price_with_vat": 210,
+     "ktru_hints": [
+      "Скрепка канцелярская",
+      "Скрепки"
+     ]
+    }
+   ],
+   "third_party": null
+  },
+  "draft": {
+   "thirdParty": null,
+   "supplier": {
+    "name": "ТОО «Альтаир Трейд Демо»",
+    "bin": "910015663343",
+    "address": "",
+    "phone": "",
+    "email": "sign239@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "",
+    "date": "",
+    "basis": "",
+    "vatRate": 16,
+    "withVat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": null
+   },
+   "items": [
+    {
+     "name": "Кабель HDMI",
+     "description": "Кабель HDMI 3 м",
+     "qty": 12,
+     "unit": "Штука",
+     "unitPriceWithVat": 0,
+     "ktruHints": [
+      "Кабель соединительный",
+      "Кабель"
+     ]
+    },
+    {
+     "name": "Папка-скоросшиватель",
+     "description": "Папка-скоросшиватель пластиковая",
+     "qty": 150,
+     "unit": "Штука",
+     "unitPriceWithVat": 185.9,
+     "ktruHints": [
+      "Папка-скоросшиватель",
+      "Папка канцелярская"
+     ]
+    },
+    {
+     "name": "Скрепки",
+     "description": "Скрепки 28 мм (уп. 100 шт.)",
+     "qty": 80,
+     "unit": "Упаковка",
+     "unitPriceWithVat": 210,
+     "ktruHints": [
+      "Скрепка канцелярская",
+      "Скрепки"
+     ]
+    }
+   ],
+   "warnings": [
+    "Ставка НДС в файле не указана цифрой — поставлено 16%. Проверьте поле «НДС».",
+    "Строка 1 «Кабель HDMI»: нет цены."
+   ]
+  },
+  "error": null,
+  "ms": 3919
+ },
+ {
+  "set": "holdout2",
+  "id": "addendum_nobase+third_party-q240",
+  "defects": [
+   "addendum_nobase",
+   "third_party"
+  ],
+  "text": "ЗАЯВКА НА ПОСТАВКУ (синтетические данные для исследования)\nНаименование поставщика: ТОО «Нова Ресурс Синтез»\nИИН/БИН: 910015728880\nЭл. почта для подписи договора: sign240@example.net\nДиректор: Синтезов С.С.\nНДС 16% включен в стоимость.\nДополнительное соглашение № 5 к договору поставки (номер и дата основного договора будут указаны позднее).\nДоговор является трехсторонним: Сторона 3 — физическое лицо Синтезов Модель Тестович, ИИН 870303000000.\n№ | Наименование | Количество | Ед. изм. | Цена за ед., тенге с НДС\n1 | Перчатки нитриловые (уп. 100 шт.) | 20 | упаковка | 3 490.50\n2 | Антисептик для рук 1 л | 35 | флакон | 1 875.25\n3 | Батарейки AA (уп. 4 шт.) | 50 | упаковка | 1 290.00",
+  "model": "gemini-3.8-flash",
+  "raw": {
+   "supplier": {
+    "name": "ТОО «Нова Ресурс Синтез»",
+    "bin": "910015728880",
+    "address": "",
+    "phone": "",
+    "email": "sign240@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "5",
+    "date": "",
+    "basis": "",
+    "vat_rate": 16,
+    "with_vat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": {
+     "base_number": "",
+     "base_date": ""
+    }
+   },
+   "items": [
+    {
+     "name": "Перчатки нитриловые",
+     "description": "Перчатки нитриловые (уп. 100 шт.)",
+     "qty": 20,
+     "unit": "упаковка",
+     "unit_price_with_vat": 3490.5,
+     "ktru_hints": [
+      "Перчатки медицинские",
+      "Перчатки смотровые"
+     ]
+    },
+    {
+     "name": "Антисептик для рук",
+     "description": "Антисептик для рук 1 л",
+     "qty": 35,
+     "unit": "флакон",
+     "unit_price_with_vat": 1875.25,
+     "ktru_hints": [
+      "Антисептик кожный",
+      "Дезинфицирующее средство"
+     ]
+    },
+    {
+     "name": "Батарейки AA",
+     "description": "Батарейки AA (уп. 4 шт.)",
+     "qty": 50,
+     "unit": "упаковка",
+     "unit_price_with_vat": 1290,
+     "ktru_hints": [
+      "Батарея первичная",
+      "Элемент питания"
+     ]
+    }
+   ],
+   "third_party": {
+    "fio": "Синтезов Модель Тестович",
+    "iin": "870303000000",
+    "email": "",
+    "phone": "",
+    "role": "Сторона 3"
+   }
+  },
+  "draft": {
+   "thirdParty": {
+    "fio": "Синтезов Модель Тестович",
+    "iin": "870303000000",
+    "email": "",
+    "phone": "",
+    "role": "Сторона 3"
+   },
+   "supplier": {
+    "name": "ТОО «Нова Ресурс Синтез»",
+    "bin": "910015728880",
+    "address": "",
+    "phone": "",
+    "email": "sign240@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "5",
+    "date": "",
+    "basis": "",
+    "vatRate": 16,
+    "withVat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": {
+     "baseNumber": "",
+     "baseDate": ""
+    }
+   },
+   "items": [
+    {
+     "name": "Перчатки нитриловые",
+     "description": "Перчатки нитриловые (уп. 100 шт.)",
+     "qty": 20,
+     "unit": "упаковка",
+     "unitPriceWithVat": 3490.5,
+     "ktruHints": [
+      "Перчатки медицинские",
+      "Перчатки смотровые"
+     ]
+    },
+    {
+     "name": "Антисептик для рук",
+     "description": "Антисептик для рук 1 л",
+     "qty": 35,
+     "unit": "флакон",
+     "unitPriceWithVat": 1875.25,
+     "ktruHints": [
+      "Антисептик кожный",
+      "Дезинфицирующее средство"
+     ]
+    },
+    {
+     "name": "Батарейки AA",
+     "description": "Батарейки AA (уп. 4 шт.)",
+     "qty": 50,
+     "unit": "упаковка",
+     "unitPriceWithVat": 1290,
+     "ktruHints": [
+      "Батарея первичная",
+      "Элемент питания"
+     ]
+    }
+   ],
+   "warnings": [
+    "Договор трёхсторонний: третья сторона — физлицо Синтезов Модель Тестович. Укажите его e-mail для подписи ЭЦП.",
+    "Доп. соглашение: не нашлись номер или дата основного договора — впишите в «Основание», например «№ 1-317/26 (05.10.2026)»."
+   ]
+  },
+  "error": null,
+  "ms": 5040
+ },
+ {
+  "set": "holdout2",
+  "id": "addendum_nobase+third_party-q241",
+  "defects": [
+   "addendum_nobase",
+   "third_party"
+  ],
+  "text": "ЗАЯВКА НА ПОСТАВКУ (синтетические данные для исследования)\nНаименование поставщика: ИП «Орион Поставка Тест»\nИИН/БИН: 910015794417\nЭл. почта для подписи договора: sign241@example.net\nДиректор: Синтезов С.С.\nНДС 16% включен в стоимость.\nДополнительное соглашение № 5 к договору поставки (номер и дата основного договора будут указаны позднее).\nДоговор является трехсторонним: Сторона 3 — физическое лицо Синтезов Модель Тестович, ИИН 870303000000.\n№ | Наименование | Количество | Ед. изм. | Цена за ед., тенге с НДС\n1 | Антисептик для рук 1 л | 35 | флакон | 1 875.25\n2 | Батарейки AA (уп. 4 шт.) | 50 | упаковка | 1 290.00\n3 | Лампа светодиодная E27 12 Вт | 60 | штука | 845.75",
+  "model": "gemini-3.8-flash",
+  "raw": {
+   "supplier": {
+    "name": "ИП «Орион Поставка Тест»",
+    "bin": "910015794417",
+    "address": "",
+    "phone": "",
+    "email": "sign241@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "5",
+    "date": "",
+    "basis": "",
+    "vat_rate": 16,
+    "with_vat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": {
+     "base_number": "",
+     "base_date": ""
+    }
+   },
+   "items": [
+    {
+     "name": "Антисептик для рук",
+     "description": "Антисептик для рук 1 л",
+     "qty": 35,
+     "unit": "Флакон",
+     "unit_price_with_vat": 1875.25,
+     "ktru_hints": [
+      "Антисептик",
+      "Дезинфицирующее средство"
+     ]
+    },
+    {
+     "name": "Батарейки AA",
+     "description": "Батарейки AA (уп. 4 шт.)",
+     "qty": 50,
+     "unit": "Упаковка",
+     "unit_price_with_vat": 1290,
+     "ktru_hints": [
+      "Батарейка",
+      "Элемент питания"
+     ]
+    },
+    {
+     "name": "Лампа светодиодная",
+     "description": "Лампа светодиодная E27 12 Вт",
+     "qty": 60,
+     "unit": "Штука",
+     "unit_price_with_vat": 845.75,
+     "ktru_hints": [
+      "Лампа светодиодная",
+      "Лампа"
+     ]
+    }
+   ],
+   "third_party": {
+    "fio": "Синтезов Модель Тестович",
+    "iin": "870303000000",
+    "email": "",
+    "phone": "",
+    "role": "Сторона 3"
+   }
+  },
+  "draft": {
+   "thirdParty": {
+    "fio": "Синтезов Модель Тестович",
+    "iin": "870303000000",
+    "email": "",
+    "phone": "",
+    "role": "Сторона 3"
+   },
+   "supplier": {
+    "name": "ИП «Орион Поставка Тест»",
+    "bin": "910015794417",
+    "address": "",
+    "phone": "",
+    "email": "sign241@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "5",
+    "date": "",
+    "basis": "",
+    "vatRate": 16,
+    "withVat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": {
+     "baseNumber": "",
+     "baseDate": ""
+    }
+   },
+   "items": [
+    {
+     "name": "Антисептик для рук",
+     "description": "Антисептик для рук 1 л",
+     "qty": 35,
+     "unit": "Флакон",
+     "unitPriceWithVat": 1875.25,
+     "ktruHints": [
+      "Антисептик",
+      "Дезинфицирующее средство"
+     ]
+    },
+    {
+     "name": "Батарейки AA",
+     "description": "Батарейки AA (уп. 4 шт.)",
+     "qty": 50,
+     "unit": "Упаковка",
+     "unitPriceWithVat": 1290,
+     "ktruHints": [
+      "Батарейка",
+      "Элемент питания"
+     ]
+    },
+    {
+     "name": "Лампа светодиодная",
+     "description": "Лампа светодиодная E27 12 Вт",
+     "qty": 60,
+     "unit": "Штука",
+     "unitPriceWithVat": 845.75,
+     "ktruHints": [
+      "Лампа светодиодная",
+      "Лампа"
+     ]
+    }
+   ],
+   "warnings": [
+    "Договор трёхсторонний: третья сторона — физлицо Синтезов Модель Тестович. Укажите его e-mail для подписи ЭЦП.",
+    "Доп. соглашение: не нашлись номер или дата основного договора — впишите в «Основание», например «№ 1-317/26 (05.10.2026)»."
+   ]
+  },
+  "error": null,
+  "ms": 6394
+ },
+ {
+  "set": "holdout2",
+  "id": "addendum_nobase+third_party-q242",
+  "defects": [
+   "addendum_nobase",
+   "third_party"
+  ],
+  "text": "ЗАЯВКА НА ПОСТАВКУ (синтетические данные для исследования)\nНаименование поставщика: ТОО «Вега Снаб Пример»\nИИН/БИН: 910015859954\nЭл. почта для подписи договора: sign242@example.net\nДиректор: Синтезов С.С.\nНДС 16% включен в стоимость.\nДополнительное соглашение № 5 к договору поставки (номер и дата основного договора будут указаны позднее).\nДоговор является трехсторонним: Сторона 3 — физическое лицо Синтезов Модель Тестович, ИИН 870303000000.\n№ | Наименование | Количество | Ед. изм. | Цена за ед., тенге с НДС\n1 | Батарейки AA (уп. 4 шт.) | 50 | упаковка | 1 290.00\n2 | Лампа светодиодная E27 12 Вт | 60 | штука | 845.75\n3 | Кабель HDMI 3 м | 12 | штука | 2 760.40",
+  "model": "gemini-3.8-flash",
+  "raw": {
+   "supplier": {
+    "name": "ТОО «Вега Снаб Пример»",
+    "bin": "910015859954",
+    "address": "",
+    "phone": "",
+    "email": "sign242@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "5",
+    "date": "",
+    "basis": "",
+    "vat_rate": 16,
+    "with_vat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": {
+     "base_number": "",
+     "base_date": ""
+    }
+   },
+   "items": [
+    {
+     "name": "Батарейки AA",
+     "description": "Батарейки AA (уп. 4 шт.)",
+     "qty": 50,
+     "unit": "Упаковка",
+     "unit_price_with_vat": 1290,
+     "ktru_hints": [
+      "Батарея первичная",
+      "Элемент питания"
+     ]
+    },
+    {
+     "name": "Лампа светодиодная",
+     "description": "Лампа светодиодная E27 12 Вт",
+     "qty": 60,
+     "unit": "Штука",
+     "unit_price_with_vat": 845.75,
+     "ktru_hints": [
+      "Лампа светодиодная"
+     ]
+    },
+    {
+     "name": "Кабель HDMI",
+     "description": "Кабель HDMI 3 м",
+     "qty": 12,
+     "unit": "Штука",
+     "unit_price_with_vat": 2760.4,
+     "ktru_hints": [
+      "Кабель соединительный"
+     ]
+    }
+   ],
+   "third_party": {
+    "fio": "Синтезов Модель Тестович",
+    "iin": "870303000000",
+    "email": "",
+    "phone": "",
+    "role": "Сторона 3"
+   }
+  },
+  "draft": {
+   "thirdParty": {
+    "fio": "Синтезов Модель Тестович",
+    "iin": "870303000000",
+    "email": "",
+    "phone": "",
+    "role": "Сторона 3"
+   },
+   "supplier": {
+    "name": "ТОО «Вега Снаб Пример»",
+    "bin": "910015859954",
+    "address": "",
+    "phone": "",
+    "email": "sign242@example.net",
+    "iban": "",
+    "bank": "",
+    "bik": "",
+    "director": "Синтезов С.С."
+   },
+   "contract": {
+    "number": "5",
+    "date": "",
+    "basis": "",
+    "vatRate": 16,
+    "withVat": true,
+    "kind": "goods",
+    "from": "",
+    "until": "",
+    "addendum": {
+     "baseNumber": "",
+     "baseDate": ""
+    }
+   },
+   "items": [
+    {
+     "name": "Батарейки AA",
+     "description": "Батарейки AA (уп. 4 шт.)",
+     "qty": 50,
+     "unit": "Упаковка",
+     "unitPriceWithVat": 1290,
+     "ktruHints": [
+      "Батарея первичная",
+      "Элемент питания"
+     ]
+    },
+    {
+     "name": "Лампа светодиодная",
+     "description": "Лампа светодиодная E27 12 Вт",
+     "qty": 60,
+     "unit": "Штука",
+     "unitPriceWithVat": 845.75,
+     "ktruHints": [
+      "Лампа светодиодная"
+     ]
+    },
+    {
+     "name": "Кабель HDMI",
+     "description": "Кабель HDMI 3 м",
+     "qty": 12,
+     "unit": "Штука",
+     "unitPriceWithVat": 2760.4,
+     "ktruHints": [
+      "Кабель соединительный"
+     ]
+    }
+   ],
+   "warnings": [
+    "Договор трёхсторонний: третья сторона — физлицо Синтезов Модель Тестович. Укажите его e-mail для подписи ЭЦП.",
+    "Доп. соглашение: не нашлись номер или дата основного договора — впишите в «Основание», например «№ 1-317/26 (05.10.2026)»."
+   ]
+  },
+  "error": null,
+  "ms": 5589
+ }
+]

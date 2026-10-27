@@ -1,0 +1,298 @@
+[
+ {
+  "model": "gemini-3.8-flash",
+  "set": "holdout2",
+  "n_defective": 33,
+  "n_clean": 10,
+  "errors": 0,
+  "configs": {
+   "C1": {
+    "routed": 0,
+    "routed_pct": 0.0,
+    "routed_ci": [
+     0.0,
+     10.6
+    ],
+    "traced": 0,
+    "traced_pct": 0.0,
+    "false_alarms": 0,
+    "fa_ci": [
+     0.0,
+     30.8
+    ]
+   },
+   "C2": {
+    "routed": 12,
+    "routed_pct": 36.4,
+    "routed_ci": [
+     20.4,
+     54.9
+    ],
+    "traced": 6,
+    "traced_pct": 18.2,
+    "false_alarms": 0,
+    "fa_ci": [
+     0.0,
+     30.8
+    ]
+   },
+   "C3": {
+    "routed": 15,
+    "routed_pct": 45.5,
+    "routed_ci": [
+     28.1,
+     63.6
+    ],
+    "traced": 12,
+    "traced_pct": 36.4,
+    "false_alarms": 0,
+    "fa_ci": [
+     0.0,
+     30.8
+    ]
+   },
+   "C4": {
+    "routed": 33,
+    "routed_pct": 100.0,
+    "routed_ci": [
+     89.4,
+     100.0
+    ],
+    "traced": 33,
+    "traced_pct": 100.0,
+    "false_alarms": 0,
+    "fa_ci": [
+     0.0,
+     30.8
+    ]
+   },
+   "C5": {
+    "routed": 33,
+    "routed_pct": 100.0,
+    "routed_ci": [
+     89.4,
+     100.0
+    ],
+    "traced": 33,
+    "traced_pct": 100.0,
+    "false_alarms": 0,
+    "fa_ci": [
+     0.0,
+     30.8
+    ]
+   },
+   "PROD": {
+    "routed": 33,
+    "routed_pct": 100.0,
+    "routed_ci": [
+     89.4,
+     100.0
+    ],
+    "traced": 33,
+    "traced_pct": 100.0,
+    "false_alarms": 0,
+    "fa_ci": [
+     0.0,
+     30.8
+    ]
+   }
+  },
+  "cochran_q": {
+   "Q": 93.93,
+   "df": 4,
+   "p": 1.9233758309926598e-19
+  },
+  "mcnemar": [
+   {
+    "pair": "C1 vs C2",
+    "only_first": 0,
+    "only_second": 12,
+    "p_midp": 0.0002441406249999999,
+    "p_holm": 0.0007324218749999997
+   },
+   {
+    "pair": "C2 vs C3",
+    "only_first": 0,
+    "only_second": 3,
+    "p_midp": 0.125,
+    "p_holm": 0.25
+   },
+   {
+    "pair": "C3 vs C4",
+    "only_first": 0,
+    "only_second": 18,
+    "p_midp": 3.814697265624995e-06,
+    "p_holm": 1.525878906249998e-05
+   },
+   {
+    "pair": "C4 vs C5",
+    "only_first": 0,
+    "only_second": 0,
+    "p_midp": 1.0,
+    "p_holm": 1.0
+   },
+   {
+    "pair": "C2 vs C4",
+    "only_first": 0,
+    "only_second": 21,
+    "p_midp": 4.7683715820312436e-07,
+    "p_holm": 2.861022949218746e-06
+   },
+   {
+    "pair": "C2 vs C5",
+    "only_first": 0,
+    "only_second": 21,
+    "p_midp": 4.7683715820312436e-07,
+    "p_holm": 2.861022949218746e-06
+   }
+  ]
+ },
+ {
+  "model": "gemini-3.1-flash-lite",
+  "set": "holdout2",
+  "n_defective": 33,
+  "n_clean": 10,
+  "errors": 0,
+  "configs": {
+   "C1": {
+    "routed": 0,
+    "routed_pct": 0.0,
+    "routed_ci": [
+     0.0,
+     10.6
+    ],
+    "traced": 0,
+    "traced_pct": 0.0,
+    "false_alarms": 0,
+    "fa_ci": [
+     0.0,
+     30.8
+    ]
+   },
+   "C2": {
+    "routed": 6,
+    "routed_pct": 18.2,
+    "routed_ci": [
+     7.0,
+     35.5
+    ],
+    "traced": 6,
+    "traced_pct": 18.2,
+    "false_alarms": 0,
+    "fa_ci": [
+     0.0,
+     30.8
+    ]
+   },
+   "C3": {
+    "routed": 15,
+    "routed_pct": 45.5,
+    "routed_ci": [
+     28.1,
+     63.6
+    ],
+    "traced": 12,
+    "traced_pct": 36.4,
+    "false_alarms": 0,
+    "fa_ci": [
+     0.0,
+     30.8
+    ]
+   },
+   "C4": {
+    "routed": 33,
+    "routed_pct": 100.0,
+    "routed_ci": [
+     89.4,
+     100.0
+    ],
+    "traced": 33,
+    "traced_pct": 100.0,
+    "false_alarms": 0,
+    "fa_ci": [
+     0.0,
+     30.8
+    ]
+   },
+   "C5": {
+    "routed": 33,
+    "routed_pct": 100.0,
+    "routed_ci": [
+     89.4,
+     100.0
+    ],
+    "traced": 33,
+    "traced_pct": 100.0,
+    "false_alarms": 0,
+    "fa_ci": [
+     0.0,
+     30.8
+    ]
+   },
+   "PROD": {
+    "routed": 33,
+    "routed_pct": 100.0,
+    "routed_ci": [
+     89.4,
+     100.0
+    ],
+    "traced": 33,
+    "traced_pct": 100.0,
+    "false_alarms": 0,
+    "fa_ci": [
+     0.0,
+     30.8
+    ]
+   }
+  },
+  "cochran_q": {
+   "Q": 99.48,
+   "df": 4,
+   "p": 1.266831719676555e-20
+  },
+  "mcnemar": [
+   {
+    "pair": "C1 vs C2",
+    "only_first": 0,
+    "only_second": 6,
+    "p_midp": 0.015624999999999879,
+    "p_holm": 0.031249999999999757
+   },
+   {
+    "pair": "C2 vs C3",
+    "only_first": 0,
+    "only_second": 9,
+    "p_midp": 0.0019531249999999996,
+    "p_holm": 0.005859374999999998
+   },
+   {
+    "pair": "C3 vs C4",
+    "only_first": 0,
+    "only_second": 18,
+    "p_midp": 3.814697265624995e-06,
+    "p_holm": 1.525878906249998e-05
+   },
+   {
+    "pair": "C4 vs C5",
+    "only_first": 0,
+    "only_second": 0,
+    "p_midp": 1.0,
+    "p_holm": 1.0
+   },
+   {
+    "pair": "C2 vs C4",
+    "only_first": 0,
+    "only_second": 27,
+    "p_midp": 7.4505805969238116e-09,
+    "p_holm": 4.470348358154287e-08
+   },
+   {
+    "pair": "C2 vs C5",
+    "only_first": 0,
+    "only_second": 27,
+    "p_midp": 7.4505805969238116e-09,
+    "p_holm": 4.470348358154287e-08
+   }
+  ]
+ }
+]
