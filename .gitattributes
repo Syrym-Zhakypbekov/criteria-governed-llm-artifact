@@ -1,0 +1,5 @@
+# Same bytes on every OS: checksums in MANIFEST.json and ablation_freeze.sha256 depend on it
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.pdf binary
