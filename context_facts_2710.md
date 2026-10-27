@@ -38,3 +38,7 @@ Note: the earlier figures «427 people / 53,908 visits» were a rolling now()−
 | **Total** | | **2716** | USD 5.234 |
 
 Evaluation calls with used outputs: 2668 (+36 failed, +10 unused, +2 smoke tests = 2716).
+
+## Speaking/text model allocation in the expert calibration study (work_v1)
+`SELECT i.stratum, s.model_version, s.provider, count(*) FROM work_v1.calibration_study_item i LEFT JOIN work_v1.answer_scores s ON s.id = i.ai_score_id GROUP BY 1,2,3`
+AUDIO: gemini-2.5-flash 5 (recording) · gemini-2.5-flash-lite 1 (recording) + 7 (transcript) = 13. CHAT: gemini-2.5-flash 10 · gemini-2.5-flash-lite 11 · deepseek-chat 1 = 22.

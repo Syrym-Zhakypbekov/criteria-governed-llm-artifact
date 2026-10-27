@@ -1,0 +1,863 @@
+[
+ {
+  "path": "LICENSE",
+  "sha256": "02ecb6c0b882cc6fed6c9f0c9b270dcc307b4aed77117fdf50806adb5c7e65b9",
+  "bytes": 1074,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "README.md",
+  "sha256": "3d8d1c2ba1614c76781858ef4b78d0e1bb1151eeae5f5f6fe234e3b4c777f77d",
+  "bytes": 4813,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "build_repo_manifest.py",
+  "sha256": "afae4ffc53184ed9d6ea33002e3ec39964ce93c67a0f3071d0d90ea8960cef02",
+  "bytes": 1079,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "context_facts_2710.md",
+  "sha256": "fc2b249d2ce7eaf07546c976425bec2b80e28f97d4dab1383749227ae46d9f23",
+  "bytes": 3861,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/build_manifest.py",
+  "sha256": "f2396e72ef4613cd1b562049e718d09dc05e3c9fc3fe8e0a846ebce516ac0955",
+  "bytes": 4827,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/cards.ts",
+  "sha256": "f0a7d724e61fa1fd8a9ecf93ec546518c903ddef1fa21245e37bc6ec251488d1",
+  "bytes": 1692,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/cards_holdout.ts",
+  "sha256": "36cb02a951054495afc72d433eb875fbe07c24c7c6a00cd78a0c02f340adf237",
+  "bytes": 1966,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/cards_holdout_gemini-3.5-flash-lite.json",
+  "sha256": "fda21ea3e130f43d5ff3a83de7398fd9601d4d865d9f5cc7c58d10816c3a1203",
+  "bytes": 16186,
+  "records": 25,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/cards_holdout_gemini-3.5-flash-lite.orig.json",
+  "sha256": "b6557c5f1cdc4173685be2c6cb025ce538424c80e92cc87d2c46ccc10687d953",
+  "bytes": 14817,
+  "records": 25,
+  "original": true
+ },
+ {
+  "path": "experiments/business_cards/cards_holdout_gemini-3.8-flash.json",
+  "sha256": "2b85787b695549121595ab77d827472a6d8947ccd2937190dcb1c55d58848e6d",
+  "bytes": 14106,
+  "records": 25,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/cards_holdout_gemini-3.8-flash.orig.json",
+  "sha256": "64869c17a4614e5b55746e31cba109bf1d7663d121d5ec41b62870b8dde18edb",
+  "bytes": 12956,
+  "records": 25,
+  "original": true
+ },
+ {
+  "path": "experiments/business_cards/holdout_cards/h00.png",
+  "sha256": "c93f2028b566089448418399d412752836f5e31f3df311d2afabca2a93be7a79",
+  "bytes": 44283,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/holdout_cards/h01.png",
+  "sha256": "51b0dd02f8dbbb562a2284b9f40b2e2b3138c8c78069d9440efa69068b120bc6",
+  "bytes": 33797,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/holdout_cards/h02.png",
+  "sha256": "b253fddcb251da9b86ea5fdc3601efd9eb6fa698c9f102ca083701da37108293",
+  "bytes": 41037,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/holdout_cards/h03.png",
+  "sha256": "5f1a117f31eb275c8693bf33521184d6701210fbd95bfb35e4c3a174346dd43d",
+  "bytes": 48730,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/holdout_cards/h04.png",
+  "sha256": "0ef7a6880cfd4ea5842fd310abaea852b9e916924a4048da6343813316050b38",
+  "bytes": 30249,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/holdout_cards/h05.png",
+  "sha256": "9908141507bae2a57baaf53e09359c1e984b5d8ea57eb03081da907b30b93bb4",
+  "bytes": 48056,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/holdout_cards/h06.png",
+  "sha256": "fc3673e2d7122454d3b49d2842ae6a02683bb0d101b9164bdeea8f69560131dc",
+  "bytes": 44019,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/holdout_cards/h07.png",
+  "sha256": "e767a1b8cb01931d5046a32fb5a7a428dc93bf1c3726ebd1575d3d6eb68125ad",
+  "bytes": 26907,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/holdout_cards/h08.png",
+  "sha256": "24a4b58700bbf3078ae1f2d31b4f7fd5ffc413514fcc44fd3d4f3c133329a61b",
+  "bytes": 53189,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/holdout_cards/h09.png",
+  "sha256": "7dc5477803a646000235ed162b046bf937de875bd9967a37e7c20f3ee561fb16",
+  "bytes": 34805,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/holdout_cards/h10.png",
+  "sha256": "958d09441e5889e45fe2eb7eead4c89033f32ee9aec832f4df5f21d580973fb7",
+  "bytes": 27698,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/holdout_cards/h11.png",
+  "sha256": "26c8c1919ab9865a61a380219d932149cf98ae2004dba813e5ff4de3cce824a9",
+  "bytes": 43357,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/holdout_cards/h12.png",
+  "sha256": "24503753a7bc9cc5c6e117c35a8b2ef6c7c3dfb3d75ff7aa082f1347973344ba",
+  "bytes": 32216,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/holdout_cards/h13.png",
+  "sha256": "c145f5e2af48142dc6169c1e1ebd1a744a103e75aeaa4d616ac44fe386d8da35",
+  "bytes": 30234,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/holdout_cards/h14.png",
+  "sha256": "0879289e01eb0ffb206155d345261b53535a3e4018a7ea0b8e461dd9055063ca",
+  "bytes": 35549,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/holdout_cards/h15.png",
+  "sha256": "2e045b2d68aa99b32669a8ebafc148ad7a07089ed02c06d587043260b557a6f5",
+  "bytes": 43030,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/holdout_cards/h16.png",
+  "sha256": "b28276c4e9dc4cca6d88a401264ea2766d474d1a499b848f27a890d4b649c446",
+  "bytes": 32815,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/holdout_cards/h17.png",
+  "sha256": "400254fa5b6571617b2dae14822905b83e393d6c93f5fa5e9441d56a0eda7100",
+  "bytes": 38541,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/holdout_cards/h18.png",
+  "sha256": "3609d53ed4f12782d1d9e9d9d7d1f4d43e14a32cf7cbe30449e6a6eb120309a3",
+  "bytes": 44144,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/holdout_cards/h19.png",
+  "sha256": "d949f3e4affc36238f46d3f9f57db330b0b8be3f181b0e597d388b03b455161a",
+  "bytes": 27000,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/holdout_cards/h20.png",
+  "sha256": "73233e0071d56a36b6d3ea95ee1672d25c8bb688f2b4916e04708b4a28a26af9",
+  "bytes": 45309,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/holdout_cards/h21.png",
+  "sha256": "cda3c2545cddb6535267c242cb2bf8a475a2964883cdcd0c687bf9d4953c1538",
+  "bytes": 40554,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/holdout_cards/h22.png",
+  "sha256": "1703634d22a9313ea89bc5e980cdce93fd48261125363836e6edd96fb1f48a79",
+  "bytes": 23698,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/holdout_cards/h23.png",
+  "sha256": "c0e2a250f16b58d685aa58e2920ad1abc61cba741c2009984755b4d8e3dfbeea",
+  "bytes": 39623,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/holdout_cards/h24.png",
+  "sha256": "669edfb9d7ea4572eec2380181254fd6665eaef1997abb0d5b61f305bb77136a",
+  "bytes": 27744,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/holdout_cards/truth.json",
+  "sha256": "9f26dbba0dd993b402b83f610d07d55c21e1421b9467fb4a24a73cfbd8ccdc6f",
+  "bytes": 1617,
+  "records": 25,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/mkcards.py",
+  "sha256": "28826891dd89dd8ebdfc1cb162340cdce40d16fa571f6bdac0dad2e797b4a61f",
+  "bytes": 2826,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/mkcards_holdout.py",
+  "sha256": "7d1f23a8125940ffff248263cfee4a4ac7dee01406df677ba48387698b03fba7",
+  "bytes": 3526,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/synthetic_cards/card00.png",
+  "sha256": "8c8ba6579f4854d2d43cc1322c1b51a9eebed3b0771ec7fc357ce5d9167a5206",
+  "bytes": 31948,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/synthetic_cards/card01.png",
+  "sha256": "c9f9f11dcf1478ae5819299eb5d7459a1565a8dee688c23d3f0921741fe4bd73",
+  "bytes": 28727,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/synthetic_cards/card02.png",
+  "sha256": "4f14169fb21f11e3848eb7c429778572ea6d2dbd61d45331002747125ddddacc",
+  "bytes": 28189,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/synthetic_cards/card03.png",
+  "sha256": "1e6a2a12c2b0fabfac1a86d21adff4a8e0e814d1ddb5991930afa84ad6e1d9c8",
+  "bytes": 29833,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/synthetic_cards/card04.png",
+  "sha256": "d7c9d405b03316153ab0043dad18e17c6b047bc09cc7a071dfca7498064323d6",
+  "bytes": 28211,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/synthetic_cards/card05.png",
+  "sha256": "38c2b7b0b371f4f547cfca014e7c5ebe040d850983e87c248a628c7671de8b70",
+  "bytes": 29501,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/synthetic_cards/card06.png",
+  "sha256": "063a847db9c8c250fffbe7d82f3d52bb5ce06b5f0b07cd26796ea37d15ea2207",
+  "bytes": 32443,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/synthetic_cards/card07.png",
+  "sha256": "9f8306aee250294e422cd8c1c60f657d510bff0c59fe63236c81301458948712",
+  "bytes": 29447,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/synthetic_cards/card08.png",
+  "sha256": "5447951f9d05e152fdb1dc1204e014bd26aa8df78ac913ff7c63dda9f56b08af",
+  "bytes": 24229,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/synthetic_cards/card09.png",
+  "sha256": "dd626a009041e76f520ea0c0741de710c50c206b0cc913da5fb905ad37f70885",
+  "bytes": 23507,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/synthetic_cards/card10.png",
+  "sha256": "ee244e3865c574aec4d3277ef220dd4cd11fcab7c319886ff54a36cd7da9f254",
+  "bytes": 25831,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/synthetic_cards/card11.png",
+  "sha256": "af737f75258d6f5d1d15db931b0481aff59cfe61d40daa360e0f9a42bfbb0ab9",
+  "bytes": 25038,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/synthetic_cards/card12.png",
+  "sha256": "d9cfa7e3497c7367353ff3ad8d08ead77d0453940275173e3c83fd5da36994c4",
+  "bytes": 27998,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/synthetic_cards/card13.png",
+  "sha256": "350190614f7ec35f40743fa65cd8d7e42d17f3330064ad654f9cdb042843a8df",
+  "bytes": 24709,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/synthetic_cards/card14.png",
+  "sha256": "59f0515e694f6a5dd3a0630e3742a060c8104ea4268a37556f9136d972969fce",
+  "bytes": 24041,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/synthetic_cards/card15.png",
+  "sha256": "d6f7b7ffbb8f8358599927e19d7a84d806a5d9b077f374eeae39348969a0af00",
+  "bytes": 25918,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/synthetic_cards/card16.png",
+  "sha256": "3da5d86989c5c150cf38e32aac2b19cea5188a78000deb5e86ba33a993e4f62a",
+  "bytes": 24468,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/synthetic_cards/card17.png",
+  "sha256": "f16ce974c0800ca7b3c536f13cd14cf5ac5c3b23306fcbb09395440ffc2bd152",
+  "bytes": 24870,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/synthetic_cards/card18.png",
+  "sha256": "b9858217c2e3ed3afa55aa0cbeef3063901d69782fa2c8db1ad3f1cccb98d217",
+  "bytes": 28228,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/synthetic_cards/card19.png",
+  "sha256": "55067baffbd13facd56c01148af7ee06821da88cd6f1f07a55dc44a42af3718d",
+  "bytes": 24584,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/synthetic_cards/card20.png",
+  "sha256": "8336b1f49c34edd1a0be1185a149fe1f82cab1515d85d0b5c15eb328c274f239",
+  "bytes": 25948,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/synthetic_cards/card21.png",
+  "sha256": "9bd3f338db919ce2480d2e8426309fd2b5e1080acf2f1a97e9fbc722c3890e55",
+  "bytes": 25417,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/synthetic_cards/card22.png",
+  "sha256": "1a6415d16e4300c42c5646574843d16f8e7fca582e2ab85784708d5c744a2d8d",
+  "bytes": 26816,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/synthetic_cards/card23.png",
+  "sha256": "1fae0d5b6fdf3f0cb55af229f937d2c6544350968ec13c983744d6c2402403af",
+  "bytes": 26310,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/synthetic_cards/card24.png",
+  "sha256": "f2ca847aae2f6c8cb81f632555cd8113eae059143fc48561fd2a90c52335a4fd",
+  "bytes": 28758,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/synthetic_cards/card25.png",
+  "sha256": "c13546199d0ff02b8994725d9bf812a4209911177fe5fd0a41b9d53f2ef91464",
+  "bytes": 27002,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/synthetic_cards/card26.png",
+  "sha256": "d221681047049d0f30728605d1c3e9cfb40567c24ad83b2d3008ca5df5bd3558",
+  "bytes": 24374,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/synthetic_cards/card27.png",
+  "sha256": "edb5b708ae4f41fb18a0763cd3319fb8f56199a017e68878d4a3edc6031d382c",
+  "bytes": 27534,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/business_cards/synthetic_cards/truth.json",
+  "sha256": "f426e802960c86544a3e29f01821f477ad8da4fbaca6e1ca38bcf16264f19a6a",
+  "bytes": 8957,
+  "records": 28,
+  "original": false
+ },
+ {
+  "path": "experiments/contracts/an.py",
+  "sha256": "79f46c3c8036b9722eab0b26b805321803a81f5117e23af0d62556ebe5cd02d9",
+  "bytes": 827,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/contracts/an2.py",
+  "sha256": "aaafb8b7f29bb8ec1c7bded20a5e135b4f0c20851acd07dd04d7963d0c94d587",
+  "bytes": 1393,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/contracts/doicheck.py",
+  "sha256": "e7f08f5386e39b38a6072e85553611a4ab9d40afee4f746a85d6b139f515134c",
+  "bytes": 1204,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/contracts/figs.py",
+  "sha256": "d596e47f8fc6abecb2bb6c9896a47af1f9050fcc8be60a02e9e688c1e00b4b2a",
+  "bytes": 8431,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/contracts/holdout_an.py",
+  "sha256": "6255887c6fc3c9d50d3b63013a77ba14325a2addd4edf4fe331c664f3ded74a6",
+  "bytes": 1124,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/contracts/holdout_gemini-3.1-flash-lite.json",
+  "sha256": "1c5c70f4e600953541df4c3f5285253d827e4dcf9558401adf5b0ac518a1abb5",
+  "bytes": 12353,
+  "records": 43,
+  "original": false
+ },
+ {
+  "path": "experiments/contracts/holdout_gemini-3.8-flash.json",
+  "sha256": "a50b378d1920bb27d9fe4d6c6bbcd2374bb8368c2d03b36d06f3eae83c8474f1",
+  "bytes": 12353,
+  "records": 43,
+  "original": false
+ },
+ {
+  "path": "experiments/contracts/run.ts",
+  "sha256": "c43843a83b5b3c74259dbbcc728489952c093e9c28b5c81f10f73a432e1a0ea1",
+  "bytes": 4672,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/contracts/run_holdout.ts",
+  "sha256": "3d0585c0b2ede9255ebff28fac50673ec992bee7c71df1bcb1692e4b54413a2f",
+  "bytes": 5243,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/contracts/stability.py",
+  "sha256": "cd9e2e275a9fa10421c3eec847d1a14235a29732e156d9e07bf095f3f1e9b3a0",
+  "bytes": 1549,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/contracts/tau.py",
+  "sha256": "cd9096c9a38c892d6754d440a42450a0f6c9038d705461247f44318edd36e54f",
+  "bytes": 569,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/ellipse/analyse.py",
+  "sha256": "d103a00067f38693b731a69dc6a64570d3de88d277eba6756ce77377eecc9338",
+  "bytes": 5503,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/ellipse/build_jobs.py",
+  "sha256": "71f7fd8c87ed3b0580f0ed2ce817abe4c497c34f307dea201fbbed10c3f5cba6",
+  "bytes": 9078,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/ellipse/calibrate.py",
+  "sha256": "a4446058aafe578b54d0239584d812d45640b61c32134ce81c379e20c404f139",
+  "bytes": 2095,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/ellipse/calibrated_signals.py",
+  "sha256": "7a2a926b5c2e804cea95ffd9eb023ab2fd8b0df9348a2b194ede8e3a00c669c4",
+  "bytes": 3279,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/ellipse/calibrated_signals_results.json",
+  "sha256": "f48bec9fa5150f5420a1c83930b6c6da5b4ace342e15222f3b4fe7b4f8d4de22",
+  "bytes": 1148,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/ellipse/calibration_flash38.json",
+  "sha256": "61f51f29829432a335f458409f38e7fe275b8122054fbc1a6db39ec88d80c19e",
+  "bytes": 844,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/ellipse/calibration_flashlite.json",
+  "sha256": "f65682bbb23d5857c67123c7ec52608148864582da525357ccffe5802cebbd6a",
+  "bytes": 886,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/ellipse/cross_model.py",
+  "sha256": "a945c1e4653727aace865edecd59f005db6543f1b9f99d9cb9118007d0947a8e",
+  "bytes": 3584,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/ellipse/cross_model_results.json",
+  "sha256": "3715e1e5c4e5374c980bad242c30a5af8878df40b38720796f22a53e1a3de1cb",
+  "bytes": 1328,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/ellipse/ellipse_flash38.jsonl",
+  "sha256": "4a5aee6e03dfcdcacd83444da114957eb3ceabbc072d8a2abce92656c6da6e86",
+  "bytes": 140534,
+  "records": 1080,
+  "original": false
+ },
+ {
+  "path": "experiments/ellipse/ellipse_flashlite.jsonl",
+  "sha256": "3b98e10eb012cd4417442179578511ada1ba69b4c0af6ae620ab52d3a5884381",
+  "bytes": 139378,
+  "records": 1080,
+  "original": false
+ },
+ {
+  "path": "experiments/ellipse/ellipse_run.ts",
+  "sha256": "baeeabb908cf545949cab13a668dc55ba78d8a068c4bf6a99af978e92baa5e81",
+  "bytes": 1599,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/ellipse/human_compare.py",
+  "sha256": "34704a60084077c481dc857655111cd89fc4a5cc596dd0e8299ca0e173b8f816",
+  "bytes": 2947,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/ellipse/human_compare_flash38.json",
+  "sha256": "c03c440bcc57caae7bc1443c5bde984922d4822f46f1ffac7f0db9896c92cbcb",
+  "bytes": 965,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/ellipse/human_compare_flashlite.json",
+  "sha256": "6fbd6a2dceab718a9996c2b999b81d2075b26f710bfd74b389d05543446fc0aa",
+  "bytes": 954,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/ellipse/jobs_ids_scores.json",
+  "sha256": "12e9e65aa37225a8c967072e1223bc0408ebd94d018d3136f2bf2df2c1a46d7c",
+  "bytes": 94867,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/ellipse/results_flash38.json",
+  "sha256": "1bcf462f77cf0ad3b92d509807916de966ef09b1b3ed9bf5367dba4c2525fb37",
+  "bytes": 2125,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/ellipse/results_flashlite.json",
+  "sha256": "afccd4a97536901a0ed7d9c87f37829460d8dcef3588bed1ed741f9012722126",
+  "bytes": 2164,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/ellipse/uncertainty_signals.py",
+  "sha256": "08ccf2b3ca0be3ab444cb424241d576dd4f9b780da2265aff67c0eff3fbdc717",
+  "bytes": 3154,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "experiments/ellipse/uncertainty_signals_results.json",
+  "sha256": "0b9cf2891ef25447c0d74c2fb54bf93beb862cb080b71331952e888e1c4fb77d",
+  "bytes": 3192,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "figures/Figure1_operator.png",
+  "sha256": "3f8b1cf42b836d67209bda1511c20f96065e7511b59a7896c1beff6e6c6bae76",
+  "bytes": 333571,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "figures/Figure2_production.png",
+  "sha256": "f323e8e9a9a8af0efe013ba06081c17bc0f624ba1b93584f6e78d904985440d9",
+  "bytes": 172278,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "figures/Figure3_threshold.png",
+  "sha256": "6f7dac7a98a07e7b47c54202e88b87183072e45a2af8377690b45fd8027743d0",
+  "bytes": 163923,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "figures/Figure4_iterations.png",
+  "sha256": "6cb20f4e18c68212de1a963896322b22b3c1e62cdb83bc3779d5db2c8c737413",
+  "bytes": 195423,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "figures/Figure5_gates.png",
+  "sha256": "99399dba84671b8de2b9b3aa692dfbd18014124be0ff69f18e3ce29bd7ef1d0c",
+  "bytes": 150596,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "figures/GraphicalAbstract.png",
+  "sha256": "dde7e68b7068a1649aca17497ab285e127d52dc029054a940ab6485893f7a8e9",
+  "bytes": 130204,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "figures/src/figs.py",
+  "sha256": "10e6ed121388591300d33edf377fc85cca7cc41e70da4dcb9e0262a88e244428",
+  "bytes": 8435,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "figures/src/r1stats.py",
+  "sha256": "10c46cbbef5c18483953f33910b972f7d0777c7285b045953a1f334bdcb5e71e",
+  "bytes": 684,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "results/astra_evolution_20261026.md",
+  "sha256": "006f45cd5d07bda8c6181be665df27c5a30ad50ca1cff287d1e51970160e1eda",
+  "bytes": 5273,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "results/cards_results_v1.json",
+  "sha256": "e8dbdd05133da5ba15276db4177ea46198b20682e8d5ce0f1d41e2b0f4a7f038",
+  "bytes": 17880,
+  "records": 28,
+  "original": false
+ },
+ {
+  "path": "results/cards_results_v2.json",
+  "sha256": "1d4b85efa7b259b16b1311d87c41bdd387234370f327f3238d71439e668f1246",
+  "bytes": 18761,
+  "records": 28,
+  "original": false
+ },
+ {
+  "path": "results/cards_results_v3.json",
+  "sha256": "b5273a56cfb021c6a591a6868b01d94c392599e7014cccfbaeee10d95412e17c",
+  "bytes": 18765,
+  "records": 28,
+  "original": false
+ },
+ {
+  "path": "results/contracts_results_v1.json",
+  "sha256": "4b1a3c3969f743f615505a19138e5eaf336bb9a577fecc1cec9052f86be81066",
+  "bytes": 10496,
+  "records": 36,
+  "original": false
+ },
+ {
+  "path": "results/contracts_results_v2.json",
+  "sha256": "97a94f6623d8e1ab57fe52d72ec23f98d1fb6301e8aa57975a992b5c96991e99",
+  "bytes": 10605,
+  "records": 36,
+  "original": false
+ },
+ {
+  "path": "results/rep_gemini-3.1-flash-lite_r2.json",
+  "sha256": "9685e9d863bdebd38dad4c93afef37e336b478777071ead4fcb8f76a52237831",
+  "bytes": 10604,
+  "records": 36,
+  "original": false
+ },
+ {
+  "path": "results/rep_gemini-3.1-flash-lite_r3.json",
+  "sha256": "d2970ba1906c1491aaead012e4007b03f46734f5808234aa1afca9492d00a2cf",
+  "bytes": 10604,
+  "records": 36,
+  "original": false
+ },
+ {
+  "path": "results/rep_gemini-3.8-flash_r2.json",
+  "sha256": "482795748724bb95daf330b076820cb35fcbe7354368e63b9684dc5dc6d1eadf",
+  "bytes": 10604,
+  "records": 36,
+  "original": false
+ },
+ {
+  "path": "results/rep_gemini-3.8-flash_r3.json",
+  "sha256": "891a25265365459a78e2280481b0ef6864f99853d9768311ab96050cf2270878",
+  "bytes": 10604,
+  "records": 36,
+  "original": false
+ },
+ {
+  "path": "results/results_gemini-3.1-flash-lite.json",
+  "sha256": "aa1c8d4c0decb6047c5fbed025abf2a0a404ac1ed3c5a8473f54f494e1dc9e8d",
+  "bytes": 10604,
+  "records": 36,
+  "original": false
+ },
+ {
+  "path": "results/results_gemini-3.1-pro-preview.json",
+  "sha256": "0cac89a7304a00ff0411367e5c3f4d4fae3ae869f242ce71dac69cc1baf3aae3",
+  "bytes": 10626,
+  "records": 36,
+  "original": false
+ },
+ {
+  "path": "results/stability_results.json",
+  "sha256": "ddd22b7689d086ea7cd7ddbff5bfeaf6dca8f887e5dff16a8f328ced35f497b3",
+  "bytes": 544,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "src/card-ocr.ts",
+  "sha256": "1784bc0eb71f3d4576a4d5eae9a416baaafa86b1d86d7055d628404bec7a1f68",
+  "bytes": 7224,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "src/decision-ledger.ts",
+  "sha256": "5f9b2d699dd77cf6a51be9dbd5a6f93d94ca8afd9228b4af16838b6f9dca57b8",
+  "bytes": 6720,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "src/jrd-extract.ts",
+  "sha256": "d9a4a83c2f3ddc6791439c2dbc6b2443e8c39d721287e4d1a82fd8d20304da87",
+  "bytes": 30162,
+  "records": null,
+  "original": false
+ }
+]
