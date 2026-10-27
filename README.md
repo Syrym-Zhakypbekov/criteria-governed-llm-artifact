@@ -1,7 +1,9 @@
-# Criteria-governed LLM decisions — research artefact
+# Criteria-governed LLM decision workflows — research artefact
+
+License: MIT · Archived on Zenodo (DOI listed in the GitHub release notes) · Paper: MDPI *Machine Learning and Knowledge Extraction* (submitted)
 
 Code, prompts, synthetic test inputs, analysis scripts and aggregate results for the manuscript
-«Criteria-Governed Large Language Model Agents in a Production University Platform: A Design-Science Study of Criterion-Traceable Knowledge Extraction and Decision-Making» (submitted to MDPI *Machine Learning and Knowledge Extraction*).
+«Criteria-Governed LLM Decision Workflows: An Auditable Architecture and Experimental Evaluation in a Production University Platform» (submitted to MDPI *Machine Learning and Knowledge Extraction*, Special Issue «Knowledge Discovery and Extraction with Large Language Models, Retrieval-Augmented Generation, and Autonomous Agents»). Earlier work: Zhakypbekov et al., *Informatics* 2026, 13, 179, doi:10.3390/informatics13110179.
 
 This repository contains **only the parts needed to reproduce the study**. The production platform (Astra,
 International Information Technology University, Almaty) is not published. No personal data is included.
@@ -13,10 +15,11 @@ International Information Technology University, Almaty) is not published. No pe
 | `src/jrd-extract.ts` | contract extraction prompt, normalisation and criteria (`jrdCriteria`) |
 | `src/card-ocr.ts` | business-card extraction prompt, schema, provenance criteria (`cardCriteria`) |
 | `experiments/contracts/` | planted-defect generator and runner (36 synthetic supplier documents), threshold and stability analysis, figures |
+| `experiments/ablation/` | governance ablation C1–C5 on frozen outputs of two models, confirmatory held-out set generated after the operator was frozen, SHA-256 chronology, offline replay and statistics — see `experiments/ablation/README.md` (Table 8, Figure 5) |
 | `experiments/business_cards/` | development (28) and held-out (25, `holdout_cards/`) synthetic card images, generators, runners and per-call outputs; `*.orig.json` = original records, same name without `.orig` = corrected record (`routed` = state vetoed/escalated, `flagged` = any soft criterion below 1) |
 | `experiments/ellipse/` | public ELLIPSE benchmark: essay ids and human scores (`jobs_ids_scores.json`, no essay texts), per-call model outputs (`ellipse_*.jsonl`), analysis scripts and their outputs |
 | `results/` | per-document outputs of the contract and card development runs and repeated runs; `astra_evolution_20261026.md` (repository and deploy aggregates) |
-| `figures/` | Figures 1–5 and the graphical abstract; generator in `figures/src/figs.py` |
+| `figures/` | Figures 1–6 and the graphical abstract; generators in `figures/src/figs.py` and `experiments/ablation/fig_ablation.py` |
 | `context_facts_2710.md` | SQL and results for every contextual number in the paper and an experiment-level reconciliation of metered call counts (2716 calls) |
 | `MANIFEST.json` | SHA-256, size and record count of every file in this repository (`build_repo_manifest.py`) |
 
@@ -25,20 +28,20 @@ International Information Technology University, Almaty) is not published. No pe
 
 Python 3.11+, `pip install numpy pandas scipy scikit-learn matplotlib`. From `experiments/ellipse/`, with `ellipsis_raw_rater_scores_anon_all_essay.csv` downloaded from https://github.com/scrosseye/ELLIPSE-Corpus:
 ```
-python analyse.py jobs_ids_scores.json ellipsis_raw_rater_scores_anon_all_essay.csv ellipse_flashlite.jsonl flashlite   # Table 8 raw columns
-python calibrate.py jobs_ids_scores.json ellipse_flashlite.jsonl flashlite     # Table 8 calibrated columns
+python analyse.py jobs_ids_scores.json ellipsis_raw_rater_scores_anon_all_essay.csv ellipse_flashlite.jsonl flashlite   # Table 9 raw columns
+python calibrate.py jobs_ids_scores.json ellipse_flashlite.jsonl flashlite     # Table 9 calibrated columns
 python human_compare.py jobs_ids_scores.json ellipsis_raw_rater_scores_anon_all_essay.csv ellipse_flashlite.jsonl flashlite
-python uncertainty_signals.py jobs_ids_scores.json ellipse_flashlite.jsonl ellipse_flash38.jsonl   # Table 9
+python uncertainty_signals.py jobs_ids_scores.json ellipse_flashlite.jsonl ellipse_flash38.jsonl   # Table 10
 python matched_signals.py    jobs_ids_scores.json ellipse_flashlite.jsonl ellipse_flash38.jsonl   # matched before/after calibration
 python cross_model.py         jobs_ids_scores.json ellipse_flashlite.jsonl ellipse_flash38.jsonl   # ensemble
 ```
-(repeat the first three with `ellipse_flash38.jsonl flash38`). Contract and card counts are recomputed from the per-call JSON files (`holdout_an.py`, `stability.py`). Results of LLM calls are not exactly reproducible across model versions; every output used in the paper is stored here.
+(repeat the first three with `ellipse_flash38.jsonl flash38`). The ablation is replayed offline byte for byte (`experiments/ablation/README.md`). Contract and card counts are recomputed from the per-call JSON files (`holdout_an.py`, `stability.py`). Results of LLM calls are not exactly reproducible across model versions; every output used in the paper is stored here.
 
 ## Data and licences
 - Code: MIT licence (see `LICENSE`).
 - Synthetic contracts and business cards were generated for this study; any resemblance to real organisations or persons is coincidental.
-- ELLIPSE corpus: Crossley, S.A. et al. (2023), *International Journal of Learner Corpus Research* 9(2), 248–269, doi:10.1075/ijlcr.22026.cro — CC BY-NC-SA 4.0. Only model outputs and essay identifiers are redistributed here; essay texts must be obtained from the original repository.
+- ELLIPSE corpus: Crossley, S.A. et al. (2023), *International Journal of Learner Corpus Research* 9(2), 248–269, doi:10.1075/ijlcr.22026.cro — CC BY 4.0 (as stated by the corpus authors at https://github.com/scrosseye/ELLIPSE-Corpus). Only model outputs and essay identifiers are redistributed here; essay texts must be obtained from the original repository.
 - Production data of the university (business-card contacts, contract drafts, assessments) cannot be shared under the Law of the Republic of Kazakhstan «On Personal Data and Their Protection» No. 94-V; only aggregates reported in the paper are released.
 
 ## Cite
-Zhakypbekov, S. (2026). Research artefact for «Criteria-Governed Large Language Model Agents in a Production University Platform». Zenodo. doi:[to be assigned]
+Zhakypbekov, S. (2026). Research artefact: Criteria-Governed LLM Decision Workflows (v1.0-make). Zenodo (DOI in the release notes) — or use «Cite this repository» (`CITATION.cff`).

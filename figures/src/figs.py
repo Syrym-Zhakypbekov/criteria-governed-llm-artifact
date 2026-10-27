@@ -26,21 +26,44 @@ def load(f):
 
 
 # Figure 1 — the criteria operator
-fig, ax = plt.subplots(figsize=(13, 4.6)); ax.set_xlim(-0.02, 1.0); ax.set_ylim(0, 1); ax.axis("off")
-box(ax, 0.01, 0.42, 0.13, 0.16, "Input $x$\n(card, contract,\nanswer)")
-box(ax, 0.18, 0.42, 0.14, 0.16, "LLM proposal\n+ confidence $c$")
-box(ax, 0.36, 0.42, 0.16, 0.16, "Criterion certificates\n$r_i=\\langle s_i,e_i,p_i,q_i,u_i,k_i\\rangle$")
-box(ax, 0.56, 0.70, 0.17, 0.14, "Hard veto\n$A(x)=\\prod_{h\\in H}a_h(x)$", fc="#f7e3e2", ec=RED)
-box(ax, 0.56, 0.43, 0.17, 0.14, "Aggregate\n$S(x)=\\frac{\\sum_{i\\in G}w_iq_is_i}{\\sum_{i\\in G}w_iq_i}$")
-box(ax, 0.56, 0.16, 0.17, 0.14, "Gate\n$c<\\tau_c$ or $S<\\tau_S$ ?")
-box(ax, 0.78, 0.70, 0.2, 0.14, "VETOED → human", fc="#f7e3e2", ec=RED)
-box(ax, 0.78, 0.43, 0.2, 0.14, "ESCALATED → human", fc="#fdf1dc", ec="#b7791f")
-box(ax, 0.78, 0.16, 0.2, 0.14, "PROVISIONAL → human\nconfirm / revise / reject", fc="#e6eef6", ec=BLUE)
-arrow(ax, 0.14, 0.5, 0.18, 0.5); arrow(ax, 0.32, 0.5, 0.36, 0.5)
-arrow(ax, 0.52, 0.53, 0.56, 0.75); arrow(ax, 0.52, 0.5, 0.56, 0.5); arrow(ax, 0.645, 0.43, 0.645, 0.30)
-arrow(ax, 0.73, 0.77, 0.78, 0.77, "$A=0$"); arrow(ax, 0.73, 0.25, 0.78, 0.48, "yes"); arrow(ax, 0.73, 0.21, 0.78, 0.21, "no")
-ax.text(0.5, 0.03, "Decision ledger (implemented for extraction decisions): criteria, AI proposal, human final record and field-level difference",
-        ha="center", fontsize=9, style="italic", color=DARK)
+# v4 (27.10, Bykov: «too small, dense, text covered by arrows»): vertical pipeline at journal width (17 cm), text ≥ 10 pt,
+# arrows run only between box edges, labels on white background; solid border = in production, dashed = added in this study.
+def box2(ax, x, y, w, h, text, fc="#f5f5f5", ec=DARK, fs=10.5, dashed=False):
+    ax.add_patch(FancyBboxPatch((x, y), w, h, boxstyle="round,pad=0.008", fc=fc, ec=ec, lw=1.4, ls=(0, (4, 2.5)) if dashed else "-"))
+    ax.text(x + w / 2, y + h / 2, text, ha="center", va="center", fontsize=fs)
+
+
+def arr(ax, x1, y1, x2, y2, label="", lx=None, ly=None):
+    ax.annotate("", xy=(x2, y2), xytext=(x1, y1), arrowprops=dict(arrowstyle="-|>", lw=1.4, color=DARK, mutation_scale=14))
+    if label:
+        ax.text(lx if lx is not None else (x1 + x2) / 2, ly if ly is not None else (y1 + y2) / 2, label, ha="center", va="center", fontsize=9.5,
+                color=DARK, bbox=dict(fc="white", ec="none", pad=1.5))
+
+
+fig, ax = plt.subplots(figsize=(6.7, 8.2)); ax.set_xlim(0, 1); ax.set_ylim(-0.18, 1.0); ax.axis("off")
+L, W, H = 0.02, 0.56, 0.088          # left pipeline column
+R, RW = 0.665, 0.325                  # right outcome column
+Y = [0.89, 0.765, 0.64, 0.515, 0.39, 0.255, 0.115]
+box2(ax, L, Y[0], W, H, "Input $x$\n(business card, contract, answer)")
+box2(ax, L, Y[1], W, H, "LLM proposal (extracted fields)\n+ model confidence $c$")
+box2(ax, L, Y[2], W, H, "Criterion certificates\n$r_i=\\langle s_i, e_i, p_i, q_i, u_i, k_i\\rangle$")
+box2(ax, L, Y[3], W, H, "Applicability and evidence:\ndoes the criterion apply?\nis the value found in the source?", dashed=True)
+box2(ax, L, Y[4], W, H, "Hard veto  $A(x)=\\prod_{h\\in H} a_h(x)$", fc="#f7e3e2", ec=RED)
+box2(ax, L, Y[5], W, H + 0.012, "Weighted aggregate\n$S(x)=\\sum_{i\\in G} w_i q_i s_i \\;/\\; \\sum_{i\\in G} w_i q_i$")
+box2(ax, L, Y[6], W, H, "Gate:  $c<\\tau_c$  or  $S<\\tau_S$ ?")
+box2(ax, R, Y[1], RW, H, "FAIL-CLOSED → human\n(no or invalid\nLLM output)", fc="#f7e3e2", ec=RED, dashed=True)
+box2(ax, R, Y[4], RW, H, "VETOED → human", fc="#f7e3e2", ec=RED)
+box2(ax, R, Y[6], RW, H, "ESCALATED → human", fc="#fdf1dc", ec="#b7791f")
+box2(ax, R, Y[6] - 0.13, RW, H, "PROVISIONAL → human\nconfirm / revise / reject", fc="#e6eef6", ec=BLUE)
+cx = L + W / 2
+for a, b in zip(Y[:-1], Y[1:]):
+    arr(ax, cx, a, cx, b + H + (0.012 if b == Y[5] else 0))
+arr(ax, L + W, Y[1] + H / 2, R, Y[1] + H / 2, "error", ly=Y[1] + H / 2 + 0.025)
+arr(ax, L + W, Y[4] + H / 2, R, Y[4] + H / 2, "$A=0$", ly=Y[4] + H / 2 + 0.025)
+arr(ax, L + W, Y[6] + H / 2, R, Y[6] + H / 2, "yes", ly=Y[6] + H / 2 + 0.025)
+arr(ax, cx, Y[6], R, Y[6] - 0.13 + H / 2, "no", lx=cx + 0.10, ly=Y[6] - 0.035)
+box2(ax, L, -0.16, 0.97, 0.08, "Decision ledger: criteria, AI proposal,\nhuman final record, field-level difference", fc="#ffffff", fs=10)
+ax.text(R + RW / 2, Y[3] + H / 2, "solid: in production\ndashed: added in this study", ha="center", va="center", fontsize=9, color="#595959")
 fig.savefig(f"{OUT}/Figure1_operator.png", dpi=600, bbox_inches="tight"); plt.close(fig)
 
 # Figure 2 — production comparison (R1 counts, see r1stats.py)
@@ -116,7 +139,7 @@ ax.barh([g for g, _ in G][::-1], [n for _, n in G][::-1], color=RED)
 for i, (_, n) in enumerate(G[::-1]):
     ax.text(n + 0.6, i, str(n), va="center", fontsize=8)
 ax.set_xlabel(f"Releases stopped (first failing gate), {sum(n for _, n in G)} of 1026 runs")
-fig.savefig(f"{OUT}/Figure5_gates.png", dpi=600, bbox_inches="tight"); plt.close(fig)
+fig.savefig(f"{OUT}/Figure6_gates.png", dpi=600, bbox_inches="tight"); plt.close(fig)
 
 # Graphical abstract 2200x1120 px (MDPI: >= 1100x560), not a copy of any figure
 fig = plt.figure(figsize=(11, 5.6), dpi=200); ax = fig.add_axes([0, 0, 1, 1])

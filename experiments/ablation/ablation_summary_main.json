@@ -1,0 +1,594 @@
+[
+ {
+  "model": "gemini-3.8-flash",
+  "set": "dev",
+  "n_defective": 28,
+  "n_clean": 8,
+  "errors": 0,
+  "configs": {
+   "C1": {
+    "routed": 0,
+    "routed_pct": 0.0,
+    "routed_ci": [
+     0.0,
+     12.3
+    ],
+    "traced": 0,
+    "traced_pct": 0.0,
+    "false_alarms": 0,
+    "fa_ci": [
+     0.0,
+     36.9
+    ]
+   },
+   "C2": {
+    "routed": 9,
+    "routed_pct": 32.1,
+    "routed_ci": [
+     15.9,
+     52.4
+    ],
+    "traced": 9,
+    "traced_pct": 32.1,
+    "false_alarms": 0,
+    "fa_ci": [
+     0.0,
+     36.9
+    ]
+   },
+   "C3": {
+    "routed": 12,
+    "routed_pct": 42.9,
+    "routed_ci": [
+     24.5,
+     62.8
+    ],
+    "traced": 12,
+    "traced_pct": 42.9,
+    "false_alarms": 0,
+    "fa_ci": [
+     0.0,
+     36.9
+    ]
+   },
+   "C4": {
+    "routed": 28,
+    "routed_pct": 100.0,
+    "routed_ci": [
+     87.7,
+     100.0
+    ],
+    "traced": 28,
+    "traced_pct": 100.0,
+    "false_alarms": 0,
+    "fa_ci": [
+     0.0,
+     36.9
+    ]
+   },
+   "C5": {
+    "routed": 28,
+    "routed_pct": 100.0,
+    "routed_ci": [
+     87.7,
+     100.0
+    ],
+    "traced": 28,
+    "traced_pct": 100.0,
+    "false_alarms": 0,
+    "fa_ci": [
+     0.0,
+     36.9
+    ]
+   },
+   "PROD": {
+    "routed": 28,
+    "routed_pct": 100.0,
+    "routed_ci": [
+     87.7,
+     100.0
+    ],
+    "traced": 28,
+    "traced_pct": 100.0,
+    "false_alarms": 0,
+    "fa_ci": [
+     0.0,
+     36.9
+    ]
+   }
+  },
+  "cochran_q": {
+   "Q": 80.96,
+   "df": 4,
+   "p": 1.09043082589747e-16
+  },
+  "mcnemar": [
+   {
+    "pair": "C1 vs C2",
+    "only_first": 0,
+    "only_second": 9,
+    "p_midp": 0.0019531249999999996,
+    "p_holm": 0.005859374999999998
+   },
+   {
+    "pair": "C2 vs C3",
+    "only_first": 0,
+    "only_second": 3,
+    "p_midp": 0.125,
+    "p_holm": 0.25
+   },
+   {
+    "pair": "C3 vs C4",
+    "only_first": 0,
+    "only_second": 16,
+    "p_midp": 1.5258789062500027e-05,
+    "p_holm": 6.103515625000011e-05
+   },
+   {
+    "pair": "C4 vs C5",
+    "only_first": 0,
+    "only_second": 0,
+    "p_midp": 1.0,
+    "p_holm": 1.0
+   },
+   {
+    "pair": "C2 vs C4",
+    "only_first": 0,
+    "only_second": 19,
+    "p_midp": 1.907348632812501e-06,
+    "p_holm": 1.1444091796875005e-05
+   },
+   {
+    "pair": "C2 vs C5",
+    "only_first": 0,
+    "only_second": 19,
+    "p_midp": 1.907348632812501e-06,
+    "p_holm": 1.1444091796875005e-05
+   }
+  ]
+ },
+ {
+  "model": "gemini-3.8-flash",
+  "set": "holdout",
+  "n_defective": 33,
+  "n_clean": 10,
+  "errors": 0,
+  "configs": {
+   "C1": {
+    "routed": 0,
+    "routed_pct": 0.0,
+    "routed_ci": [
+     0.0,
+     10.6
+    ],
+    "traced": 0,
+    "traced_pct": 0.0,
+    "false_alarms": 0,
+    "fa_ci": [
+     0.0,
+     30.8
+    ]
+   },
+   "C2": {
+    "routed": 13,
+    "routed_pct": 39.4,
+    "routed_ci": [
+     22.9,
+     57.9
+    ],
+    "traced": 7,
+    "traced_pct": 21.2,
+    "false_alarms": 0,
+    "fa_ci": [
+     0.0,
+     30.8
+    ]
+   },
+   "C3": {
+    "routed": 14,
+    "routed_pct": 42.4,
+    "routed_ci": [
+     25.5,
+     60.8
+    ],
+    "traced": 11,
+    "traced_pct": 33.3,
+    "false_alarms": 0,
+    "fa_ci": [
+     0.0,
+     30.8
+    ]
+   },
+   "C4": {
+    "routed": 32,
+    "routed_pct": 97.0,
+    "routed_ci": [
+     84.2,
+     99.9
+    ],
+    "traced": 32,
+    "traced_pct": 97.0,
+    "false_alarms": 0,
+    "fa_ci": [
+     0.0,
+     30.8
+    ]
+   },
+   "C5": {
+    "routed": 33,
+    "routed_pct": 100.0,
+    "routed_ci": [
+     89.4,
+     100.0
+    ],
+    "traced": 33,
+    "traced_pct": 100.0,
+    "false_alarms": 0,
+    "fa_ci": [
+     0.0,
+     30.8
+    ]
+   },
+   "PROD": {
+    "routed": 32,
+    "routed_pct": 97.0,
+    "routed_ci": [
+     84.2,
+     99.9
+    ],
+    "traced": 32,
+    "traced_pct": 97.0,
+    "false_alarms": 0,
+    "fa_ci": [
+     0.0,
+     30.8
+    ]
+   }
+  },
+  "cochran_q": {
+   "Q": 92.38,
+   "df": 4,
+   "p": 4.116593833774982e-19
+  },
+  "mcnemar": [
+   {
+    "pair": "C1 vs C2",
+    "only_first": 0,
+    "only_second": 13,
+    "p_midp": 0.00012207031249999984,
+    "p_holm": 0.0003662109374999995
+   },
+   {
+    "pair": "C2 vs C3",
+    "only_first": 0,
+    "only_second": 1,
+    "p_midp": 0.4999999999999999,
+    "p_holm": 0.9999999999999998
+   },
+   {
+    "pair": "C3 vs C4",
+    "only_first": 0,
+    "only_second": 18,
+    "p_midp": 3.814697265624995e-06,
+    "p_holm": 1.525878906249998e-05
+   },
+   {
+    "pair": "C4 vs C5",
+    "only_first": 0,
+    "only_second": 1,
+    "p_midp": 0.4999999999999999,
+    "p_holm": 0.9999999999999998
+   },
+   {
+    "pair": "C2 vs C4",
+    "only_first": 0,
+    "only_second": 19,
+    "p_midp": 1.907348632812501e-06,
+    "p_holm": 9.536743164062503e-06
+   },
+   {
+    "pair": "C2 vs C5",
+    "only_first": 0,
+    "only_second": 20,
+    "p_midp": 9.536743164062494e-07,
+    "p_holm": 5.722045898437497e-06
+   }
+  ]
+ },
+ {
+  "model": "gemini-3.1-flash-lite",
+  "set": "dev",
+  "n_defective": 28,
+  "n_clean": 8,
+  "errors": 0,
+  "configs": {
+   "C1": {
+    "routed": 0,
+    "routed_pct": 0.0,
+    "routed_ci": [
+     0.0,
+     12.3
+    ],
+    "traced": 0,
+    "traced_pct": 0.0,
+    "false_alarms": 0,
+    "fa_ci": [
+     0.0,
+     36.9
+    ]
+   },
+   "C2": {
+    "routed": 8,
+    "routed_pct": 28.6,
+    "routed_ci": [
+     13.2,
+     48.7
+    ],
+    "traced": 8,
+    "traced_pct": 28.6,
+    "false_alarms": 0,
+    "fa_ci": [
+     0.0,
+     36.9
+    ]
+   },
+   "C3": {
+    "routed": 12,
+    "routed_pct": 42.9,
+    "routed_ci": [
+     24.5,
+     62.8
+    ],
+    "traced": 12,
+    "traced_pct": 42.9,
+    "false_alarms": 0,
+    "fa_ci": [
+     0.0,
+     36.9
+    ]
+   },
+   "C4": {
+    "routed": 28,
+    "routed_pct": 100.0,
+    "routed_ci": [
+     87.7,
+     100.0
+    ],
+    "traced": 28,
+    "traced_pct": 100.0,
+    "false_alarms": 0,
+    "fa_ci": [
+     0.0,
+     36.9
+    ]
+   },
+   "C5": {
+    "routed": 28,
+    "routed_pct": 100.0,
+    "routed_ci": [
+     87.7,
+     100.0
+    ],
+    "traced": 28,
+    "traced_pct": 100.0,
+    "false_alarms": 0,
+    "fa_ci": [
+     0.0,
+     36.9
+    ]
+   },
+   "PROD": {
+    "routed": 28,
+    "routed_pct": 100.0,
+    "routed_ci": [
+     87.7,
+     100.0
+    ],
+    "traced": 28,
+    "traced_pct": 100.0,
+    "false_alarms": 0,
+    "fa_ci": [
+     0.0,
+     36.9
+    ]
+   }
+  },
+  "cochran_q": {
+   "Q": 81.68,
+   "df": 4,
+   "p": 7.657950990286782e-17
+  },
+  "mcnemar": [
+   {
+    "pair": "C1 vs C2",
+    "only_first": 0,
+    "only_second": 8,
+    "p_midp": 0.003906249999999993,
+    "p_holm": 0.01171874999999998
+   },
+   {
+    "pair": "C2 vs C3",
+    "only_first": 0,
+    "only_second": 4,
+    "p_midp": 0.062499999999999986,
+    "p_holm": 0.12499999999999997
+   },
+   {
+    "pair": "C3 vs C4",
+    "only_first": 0,
+    "only_second": 16,
+    "p_midp": 1.5258789062500027e-05,
+    "p_holm": 6.103515625000011e-05
+   },
+   {
+    "pair": "C4 vs C5",
+    "only_first": 0,
+    "only_second": 0,
+    "p_midp": 1.0,
+    "p_holm": 1.0
+   },
+   {
+    "pair": "C2 vs C4",
+    "only_first": 0,
+    "only_second": 20,
+    "p_midp": 9.536743164062494e-07,
+    "p_holm": 5.722045898437497e-06
+   },
+   {
+    "pair": "C2 vs C5",
+    "only_first": 0,
+    "only_second": 20,
+    "p_midp": 9.536743164062494e-07,
+    "p_holm": 5.722045898437497e-06
+   }
+  ]
+ },
+ {
+  "model": "gemini-3.1-flash-lite",
+  "set": "holdout",
+  "n_defective": 33,
+  "n_clean": 10,
+  "errors": 0,
+  "configs": {
+   "C1": {
+    "routed": 0,
+    "routed_pct": 0.0,
+    "routed_ci": [
+     0.0,
+     10.6
+    ],
+    "traced": 0,
+    "traced_pct": 0.0,
+    "false_alarms": 0,
+    "fa_ci": [
+     0.0,
+     30.8
+    ]
+   },
+   "C2": {
+    "routed": 9,
+    "routed_pct": 27.3,
+    "routed_ci": [
+     13.3,
+     45.5
+    ],
+    "traced": 6,
+    "traced_pct": 18.2,
+    "false_alarms": 0,
+    "fa_ci": [
+     0.0,
+     30.8
+    ]
+   },
+   "C3": {
+    "routed": 15,
+    "routed_pct": 45.5,
+    "routed_ci": [
+     28.1,
+     63.6
+    ],
+    "traced": 12,
+    "traced_pct": 36.4,
+    "false_alarms": 0,
+    "fa_ci": [
+     0.0,
+     30.8
+    ]
+   },
+   "C4": {
+    "routed": 33,
+    "routed_pct": 100.0,
+    "routed_ci": [
+     89.4,
+     100.0
+    ],
+    "traced": 33,
+    "traced_pct": 100.0,
+    "false_alarms": 0,
+    "fa_ci": [
+     0.0,
+     30.8
+    ]
+   },
+   "C5": {
+    "routed": 33,
+    "routed_pct": 100.0,
+    "routed_ci": [
+     89.4,
+     100.0
+    ],
+    "traced": 33,
+    "traced_pct": 100.0,
+    "false_alarms": 0,
+    "fa_ci": [
+     0.0,
+     30.8
+    ]
+   },
+   "PROD": {
+    "routed": 33,
+    "routed_pct": 100.0,
+    "routed_ci": [
+     89.4,
+     100.0
+    ],
+    "traced": 33,
+    "traced_pct": 100.0,
+    "false_alarms": 0,
+    "fa_ci": [
+     0.0,
+     30.8
+    ]
+   }
+  },
+  "cochran_q": {
+   "Q": 96.0,
+   "df": 4,
+   "p": 6.983304005430604e-20
+  },
+  "mcnemar": [
+   {
+    "pair": "C1 vs C2",
+    "only_first": 0,
+    "only_second": 9,
+    "p_midp": 0.0019531249999999996,
+    "p_holm": 0.005859374999999998
+   },
+   {
+    "pair": "C2 vs C3",
+    "only_first": 0,
+    "only_second": 6,
+    "p_midp": 0.015624999999999879,
+    "p_holm": 0.031249999999999757
+   },
+   {
+    "pair": "C3 vs C4",
+    "only_first": 0,
+    "only_second": 18,
+    "p_midp": 3.814697265624995e-06,
+    "p_holm": 1.525878906249998e-05
+   },
+   {
+    "pair": "C4 vs C5",
+    "only_first": 0,
+    "only_second": 0,
+    "p_midp": 1.0,
+    "p_holm": 1.0
+   },
+   {
+    "pair": "C2 vs C4",
+    "only_first": 0,
+    "only_second": 24,
+    "p_midp": 5.960464477539052e-08,
+    "p_holm": 3.576278686523431e-07
+   },
+   {
+    "pair": "C2 vs C5",
+    "only_first": 0,
+    "only_second": 24,
+    "p_midp": 5.960464477539052e-08,
+    "p_holm": 3.576278686523431e-07
+   }
+  ]
+ }
+]

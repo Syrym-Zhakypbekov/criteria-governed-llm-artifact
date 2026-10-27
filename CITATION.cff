@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this artefact, please cite it as below."
+title: "Research artefact: Criteria-Governed LLM Decision Workflows"
+type: software
+authors:
+  - family-names: Zhakypbekov
+    given-names: Syrym
+    affiliation: International Information Technology University
+    orcid: "https://orcid.org/0000-0001-9112-5922"
+version: v1.0-make
+date-released: 2026-10-28
+license: MIT
+repository-code: "https://github.com/Syrym-Zhakypbekov/criteria-governed-llm-artifact"
+keywords:
+  - criteria-governed AI
+  - human-in-the-loop
+  - large language models
+  - knowledge extraction
+  - ablation study
+references:
+  - type: article
+    authors:
+      - family-names: Zhakypbekov
+        given-names: Syrym
+      - family-names: Bykov
+        given-names: Artem
+      - family-names: Yermakova
+        given-names: Vera
+      - family-names: Zhuginissova
+        given-names: Aliya
+      - family-names: Vasquez
+        given-names: Marco Angelo
+    title: "A Criteria-Governed Human-in-the-Loop Information System Architecture for Explainable AI-Assisted Learning and Preliminary Assessment"
+    journal: Informatics
+    year: 2026
+    volume: 13
+    issue: 11
+    start: 179
+    doi: "10.3390/informatics13110179"

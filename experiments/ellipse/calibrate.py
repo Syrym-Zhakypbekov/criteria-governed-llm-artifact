@@ -1,6 +1,7 @@
-# Human-anchored calibration criterion: fit score' = a + b*score on a calibration fold of human-scored essays,
-# evaluate on the held-out fold (2-fold, 200 random repeats). Then escalate by |calibrated - raw| disagreement between
-# configurations and by distance to band boundaries. usage: python calibrate.py jobs.json results.jsonl tag
+# Offline score calibration: fit an affine mapping from the mean of available repeat scores to the human reference on
+# each calibration half, then evaluate half-point-rounded, clipped predictions on the other half. Report means and the
+# central 95% range across 400 held-out fold evaluations from 200 random two-fold partitions. No escalation rule is
+# evaluated by this script. usage: python calibrate.py jobs.json results.jsonl tag
 import json, sys, numpy as np
 from sklearn.metrics import cohen_kappa_score
 JOBS, RES, TAG = sys.argv[1:4]
