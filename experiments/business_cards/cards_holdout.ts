@@ -18,7 +18,7 @@ async function main() {
       const per = c.defects.map((d) => ({ d, hit: VETO.includes(d) ? g.veto && String(g.vetoReason ?? "").length > 0
         : d === "no_job" ? low.includes("job_title") : low.includes("country") || low.includes("provenance") }));
       out.push({ id: c.file, defects: c.defects, veto: g.veto, vetoReason: g.vetoReason, state: g.state, sTotal: g.sTotal, low, inferred: r.inferred, per,
-        routed: g.state !== "provisional" || low.length > 0, got: r.fields, ms: Date.now() - t0 });
+        flagged: g.state !== "provisional" || low.length > 0, routed: g.state === "vetoed" || g.state === "escalated", got: r.fields, ms: Date.now() - t0 });
     } catch (e) { out.push({ id: c.file, defects: c.defects, error: String((e as Error).message).slice(0, 200) }); }
     console.log(JSON.stringify(out[out.length - 1]).slice(0, 300));
   }

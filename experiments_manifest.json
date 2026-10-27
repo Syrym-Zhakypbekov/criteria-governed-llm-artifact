@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T10:36:28",
+ "generated": "2026-10-27T10:52:29",
  "experiments": [
   {
    "id": "contracts_dev",
@@ -188,7 +188,7 @@
   },
   {
    "id": "cards_holdout",
-   "description": "Frozen held-out business cards (25 new-design PNG + truth.json)",
+   "description": "Held-out business cards (25 new-design PNG + truth.json); routed = state vetoed/escalated, flagged = old field (any soft criterion); originals kept as *.orig.json",
    "scripts": [
     {
      "path": "experiments_2610/mkcards_holdout.py",
@@ -199,13 +199,34 @@
     },
     {
      "path": "experiments_2610/cards_holdout.ts",
-     "sha256": "6c685d29caa0ee61675909f9ba2f33599fc2ad878b8bdafaac1497187a85f03b",
-     "bytes": 1908,
+     "sha256": "36cb02a951054495afc72d433eb875fbe07c24c7c6a00cd78a0c02f340adf237",
+     "bytes": 1966,
      "records": null,
-     "mtime": "2026-10-27T10:22:07"
+     "mtime": "2026-10-27T10:52:08"
     }
    ],
    "inputs": [
+    {
+     "path": "context_facts_2710.md",
+     "sha256": "0fdcca32a49d4de7eba67066d82e0d18a34016d94f1cac3b824de650ba1d09be",
+     "bytes": 3436,
+     "records": null,
+     "mtime": "2026-10-27T10:50:20"
+    },
+    {
+     "path": "experiments_2610/cards_holdout_gemini-3.5-flash-lite.orig.json",
+     "sha256": "b6557c5f1cdc4173685be2c6cb025ce538424c80e92cc87d2c46ccc10687d953",
+     "bytes": 14817,
+     "records": 25,
+     "mtime": "2026-10-27T10:52:08"
+    },
+    {
+     "path": "experiments_2610/cards_holdout_gemini-3.8-flash.orig.json",
+     "sha256": "64869c17a4614e5b55746e31cba109bf1d7663d121d5ec41b62870b8dde18edb",
+     "bytes": 12956,
+     "records": 25,
+     "mtime": "2026-10-27T10:52:08"
+    },
     {
      "path": "experiments_2610/cards_holdout/truth.json",
      "sha256": "9f26dbba0dd993b402b83f610d07d55c21e1421b9467fb4a24a73cfbd8ccdc6f",
@@ -392,17 +413,17 @@
    "outputs": [
     {
      "path": "experiments_2610/cards_holdout_gemini-3.5-flash-lite.json",
-     "sha256": "b6557c5f1cdc4173685be2c6cb025ce538424c80e92cc87d2c46ccc10687d953",
-     "bytes": 14817,
+     "sha256": "fda21ea3e130f43d5ff3a83de7398fd9601d4d865d9f5cc7c58d10816c3a1203",
+     "bytes": 16186,
      "records": 25,
-     "mtime": "2026-10-27T10:26:50"
+     "mtime": "2026-10-27T10:52:08"
     },
     {
      "path": "experiments_2610/cards_holdout_gemini-3.8-flash.json",
-     "sha256": "64869c17a4614e5b55746e31cba109bf1d7663d121d5ec41b62870b8dde18edb",
-     "bytes": 12956,
+     "sha256": "2b85787b695549121595ab77d827472a6d8947ccd2937190dcb1c55d58848e6d",
+     "bytes": 14106,
      "records": 25,
-     "mtime": "2026-10-27T10:26:51"
+     "mtime": "2026-10-27T10:52:08"
     }
    ]
   },

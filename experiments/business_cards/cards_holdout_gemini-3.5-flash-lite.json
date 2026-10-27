@@ -11,7 +11,6 @@
   ],
   "inferred": [],
   "per": [],
-  "routed": true,
   "got": {
    "title": "",
    "first_name": "Akira",
@@ -23,7 +22,9 @@
    "email": "a.tanaka@example.jp",
    "phone": "+81 75 555 0101"
   },
-  "ms": 2061
+  "ms": 2061,
+  "flagged": true,
+  "routed": false
  },
  {
   "id": "h01.png",
@@ -37,7 +38,6 @@
   ],
   "inferred": [],
   "per": [],
-  "routed": true,
   "got": {
    "title": "",
    "first_name": "Camille",
@@ -49,7 +49,9 @@
    "email": "c.walsh@example.fr",
    "phone": "+33 4 72 55 01 23"
   },
-  "ms": 1596
+  "ms": 1596,
+  "flagged": true,
+  "routed": false
  },
  {
   "id": "h02.png",
@@ -64,7 +66,6 @@
   ],
   "inferred": [],
   "per": [],
-  "routed": true,
   "got": {
    "title": "",
    "first_name": "Yerlan",
@@ -76,7 +77,9 @@
    "email": "y.mori@example.kz",
    "phone": "+7 7172 55 0199"
   },
-  "ms": 1599
+  "ms": 1599,
+  "flagged": true,
+  "routed": false
  },
  {
   "id": "h03.png",
@@ -90,7 +93,6 @@
   ],
   "inferred": [],
   "per": [],
-  "routed": true,
   "got": {
    "title": "",
    "first_name": "Selin",
@@ -102,7 +104,9 @@
    "email": "s.brooks@example.com.tr",
    "phone": "+90 212 555 0123"
   },
-  "ms": 1710
+  "ms": 1710,
+  "flagged": true,
+  "routed": false
  },
  {
   "id": "h04.png",
@@ -117,7 +121,6 @@
   ],
   "inferred": [],
   "per": [],
-  "routed": true,
   "got": {
    "title": "",
    "first_name": "Liam",
@@ -129,7 +132,9 @@
    "email": "l.moreau@example.ca",
    "phone": "+1 416 555 0175"
   },
-  "ms": 1631
+  "ms": 1631,
+  "flagged": true,
+  "routed": false
  },
  {
   "id": "h05.png",
@@ -143,7 +148,6 @@
   ],
   "inferred": [],
   "per": [],
-  "routed": true,
   "got": {
    "title": "",
    "first_name": "Dana",
@@ -155,7 +159,9 @@
    "email": "d.seitkali@example.jp",
    "phone": "+81 75 555 0101"
   },
-  "ms": 1647
+  "ms": 1647,
+  "flagged": true,
+  "routed": false
  },
  {
   "id": "h06.png",
@@ -176,7 +182,6 @@
     "hit": true
    }
   ],
-  "routed": true,
   "got": {
    "title": "",
    "first_name": "Rustam",
@@ -188,7 +193,9 @@
    "email": "",
    "phone": "+33 4 72 55 01 23"
   },
-  "ms": 1721
+  "ms": 1721,
+  "flagged": true,
+  "routed": true
  },
  {
   "id": "h07.png",
@@ -210,7 +217,6 @@
     "hit": true
    }
   ],
-  "routed": true,
   "got": {
    "title": "",
    "first_name": "Ines",
@@ -222,7 +228,9 @@
    "email": "",
    "phone": "+7 7172 55 0199"
   },
-  "ms": 1541
+  "ms": 1541,
+  "flagged": true,
+  "routed": true
  },
  {
   "id": "h08.png",
@@ -243,7 +251,6 @@
     "hit": true
    }
   ],
-  "routed": true,
   "got": {
    "title": "",
    "first_name": "Kenji",
@@ -255,7 +262,9 @@
    "email": "",
    "phone": "+90 212 555 0123"
   },
-  "ms": 1857
+  "ms": 1857,
+  "flagged": true,
+  "routed": true
  },
  {
   "id": "h09.png",
@@ -280,7 +289,6 @@
     "hit": true
    }
   ],
-  "routed": true,
   "got": {
    "title": "",
    "first_name": "Madina",
@@ -292,7 +300,9 @@
    "email": "m.karimov@example.ca",
    "phone": "+1 416 555 0175"
   },
-  "ms": 1579
+  "ms": 1579,
+  "flagged": true,
+  "routed": true
  },
  {
   "id": "h10.png",
@@ -316,7 +326,6 @@
     "hit": true
    }
   ],
-  "routed": true,
   "got": {
    "title": "",
    "first_name": "Pierre",
@@ -328,7 +337,9 @@
    "email": "p.laurent@example.jp",
    "phone": "+81 75 555 0101"
   },
-  "ms": 1879
+  "ms": 1879,
+  "flagged": true,
+  "routed": true
  },
  {
   "id": "h11.png",
@@ -352,7 +363,6 @@
     "hit": true
    }
   ],
-  "routed": true,
   "got": {
    "title": "",
    "first_name": "Aruzhan",
@@ -364,7 +374,9 @@
    "email": "a.serikov@example.fr",
    "phone": "+33 4 72 55 01 23"
   },
-  "ms": 1715
+  "ms": 1715,
+  "flagged": true,
+  "routed": true
  },
  {
   "id": "h12.png",
@@ -389,7 +401,6 @@
     "hit": true
    }
   ],
-  "routed": true,
   "got": {
    "title": "",
    "first_name": "N.",
@@ -401,7 +412,9 @@
    "email": "n.yilmaz@example.kz",
    "phone": "+7 7172 55 0199"
   },
-  "ms": 1656
+  "ms": 1656,
+  "flagged": true,
+  "routed": true
  },
  {
   "id": "h13.png",
@@ -425,7 +438,6 @@
     "hit": true
    }
   ],
-  "routed": true,
   "got": {
    "title": "Assistant Professor",
    "first_name": "L.",
@@ -437,7 +449,9 @@
    "email": "l.duarte@example.com.tr",
    "phone": "+90 212 555 0123"
   },
-  "ms": 1723
+  "ms": 1723,
+  "flagged": true,
+  "routed": true
  },
  {
   "id": "h14.png",
@@ -463,7 +477,6 @@
     "hit": true
    }
   ],
-  "routed": true,
   "got": {
    "title": "",
    "first_name": "B.",
@@ -475,7 +488,9 @@
    "email": "b.tulegenova@example.ca",
    "phone": "+1 416 555 0175"
   },
-  "ms": 1837
+  "ms": 1837,
+  "flagged": true,
+  "routed": true
  },
  {
   "id": "h15.png",
@@ -499,7 +514,6 @@
     "hit": true
    }
   ],
-  "routed": true,
   "got": {
    "title": "",
    "first_name": "Akira",
@@ -511,7 +525,9 @@
    "email": "a.tanaka@example.jp",
    "phone": "+81 75 555 0101"
   },
-  "ms": 1613
+  "ms": 1613,
+  "flagged": true,
+  "routed": false
  },
  {
   "id": "h16.png",
@@ -535,7 +551,6 @@
     "hit": true
    }
   ],
-  "routed": true,
   "got": {
    "title": "",
    "first_name": "Camille",
@@ -547,7 +562,9 @@
    "email": "c.walsh@example.fr",
    "phone": "+33 4 72 55 01 23"
   },
-  "ms": 1592
+  "ms": 1592,
+  "flagged": true,
+  "routed": false
  },
  {
   "id": "h17.png",
@@ -572,7 +589,6 @@
     "hit": true
    }
   ],
-  "routed": true,
   "got": {
    "title": "",
    "first_name": "Yerlan",
@@ -584,7 +600,9 @@
    "email": "y.mori@example.kz",
    "phone": "+7 7172 55 0199"
   },
-  "ms": 1610
+  "ms": 1610,
+  "flagged": true,
+  "routed": false
  },
  {
   "id": "h18.png",
@@ -606,7 +624,6 @@
     "hit": true
    }
   ],
-  "routed": true,
   "got": {
    "title": "",
    "first_name": "Selin",
@@ -618,7 +635,9 @@
    "email": "s.brooks@example.com.tr",
    "phone": "+90 212 555 0123"
   },
-  "ms": 1568
+  "ms": 1568,
+  "flagged": true,
+  "routed": false
  },
  {
   "id": "h19.png",
@@ -641,7 +660,6 @@
     "hit": true
    }
   ],
-  "routed": true,
   "got": {
    "title": "",
    "first_name": "Liam",
@@ -653,7 +671,9 @@
    "email": "l.moreau@example.ca",
    "phone": "+1 416 555 0175"
   },
-  "ms": 1513
+  "ms": 1513,
+  "flagged": true,
+  "routed": false
  },
  {
   "id": "h20.png",
@@ -675,7 +695,6 @@
     "hit": true
    }
   ],
-  "routed": true,
   "got": {
    "title": "",
    "first_name": "Dana",
@@ -687,7 +706,9 @@
    "email": "d.seitkali@example.jp",
    "phone": "+81 75 555 0101"
   },
-  "ms": 1595
+  "ms": 1595,
+  "flagged": true,
+  "routed": false
  },
  {
   "id": "h21.png",
@@ -717,7 +738,6 @@
     "hit": true
    }
   ],
-  "routed": true,
   "got": {
    "title": "",
    "first_name": "Rustam",
@@ -729,7 +749,9 @@
    "email": "r.omarova@example.fr",
    "phone": "+33 4 72 55 01 23"
   },
-  "ms": 1767
+  "ms": 1767,
+  "flagged": true,
+  "routed": false
  },
  {
   "id": "h22.png",
@@ -760,7 +782,6 @@
     "hit": true
    }
   ],
-  "routed": true,
   "got": {
    "title": "",
    "first_name": "Ines",
@@ -772,7 +793,9 @@
    "email": "i.aliyeva@example.kz",
    "phone": "+7 7172 55 0199"
   },
-  "ms": 1656
+  "ms": 1656,
+  "flagged": true,
+  "routed": true
  },
  {
   "id": "h23.png",
@@ -798,7 +821,6 @@
     "hit": true
    }
   ],
-  "routed": true,
   "got": {
    "title": "",
    "first_name": "",
@@ -810,7 +832,9 @@
    "email": "",
    "phone": "+90 212 555 0123"
   },
-  "ms": 1684
+  "ms": 1684,
+  "flagged": true,
+  "routed": true
  },
  {
   "id": "h24.png",
@@ -840,7 +864,6 @@
     "hit": true
    }
   ],
-  "routed": true,
   "got": {
    "title": "",
    "first_name": "",
@@ -852,6 +875,8 @@
    "email": "",
    "phone": "+1 416 555 0175"
   },
-  "ms": 1486
+  "ms": 1486,
+  "flagged": true,
+  "routed": true
  }
 ]

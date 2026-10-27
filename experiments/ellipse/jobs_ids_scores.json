@@ -1,0 +1,6607 @@
+{
+ "note": "Essay texts removed (obtain from https://github.com/scrosseye/ELLIPSE-Corpus, CC BY-NC-SA 4.0); prompts are rebuilt by build_jobs.py",
+ "jobs": [
+  {
+   "id": "E0A8EBEE657B",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "0CCB18D0CAB7",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "48BBB107A05C",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "6141DB282925",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "48F7FCAD8B23",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "E28221F47AE3",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "D4A0BB487395",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "E3DBC3B092A7",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "9DD22B9D10F4",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "DD474E5804C0",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "EEEEC24C9AE7",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "EEEEC24C9AE7",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "0CCB18D0CAB7",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "C928D32FE5C5",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "E2F767441B44",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "F49521C3494B",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "DBBAF0AB97FB",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "DBBAF0AB97FB",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "F9D0974B3AF7",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "40788D50B102",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "F66B2BAB7E4C",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "40788D50B102",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "A35B4B7CBD24",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "E3DBC3B092A7",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "40788D50B102",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "5EA0A8768F94",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "F347A054A1AF",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "5666CD4AA5CD",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "5C3757B0C6AE",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "C4472C6DFE66",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "88FD25AC86CF",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "3137C16C109D",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "B08751C48DAB",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "6141DB282925",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "2EEB160A4BD1",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "78E8970D0C13",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "0F32DDCBECB6",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "9DD22B9D10F4",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "F628F0D46CCC",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "F2387DA187A4",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "3BD4B53512BD",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "82F7210163B5",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "9715AAF5B952",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "48EA282A4EAF",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "5666CD4AA5CD",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "0F8F499BAAB9",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "685ABA004ADB",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "6E70CECCE25D",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "F49521C3494B",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "71129FE0D18F",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "A0A2D6856B0E",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "E28221F47AE3",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "CB120B25B46E",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "F2387DA187A4",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "6141DB282925",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "80C97E7C2558",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "144671E445D0",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "CC30C03474B1",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "9715AAF5B952",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "E0A8EBEE657B",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "3C2AFBFEDA6B",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "0F8F499BAAB9",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "6D728858E86F",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "4C60445C5681",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "0F32DDCBECB6",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "5C3757B0C6AE",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "C928D32FE5C5",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "DBBAF0AB97FB",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "F9D0974B3AF7",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "F66B2BAB7E4C",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "5AFBB5573AB3",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "CC30C03474B1",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "9715AAF5B952",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "8416C7C6F146",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "A6A6C7852F05",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "5AFBB5573AB3",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "78E8970D0C13",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "2CAAF1F40F49",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "0465517EB6B7",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "5EFD8FA4133A",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "D743AC1EB08D",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "21F8069EC7F7",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "2538542762C0",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "A7CC5A46675A",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "5C3757B0C6AE",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "C928D32FE5C5",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "3C2AFBFEDA6B",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "F032D40816C0",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "82F7210163B5",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "DC1271D1294D",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "C4472C6DFE66",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "8149E792E505",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "DEC2A1A6A1CA",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "8772F74F5EE0",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "CC30C03474B1",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "F1A5FE43ADD0",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "20E2B07931F3",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "24DAF94F0A18",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "0CCB18D0CAB7",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "C928D32FE5C5",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "0F32DDCBECB6",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "144671E445D0",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "DC1271D1294D",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "550D53DE2832",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "DC1271D1294D",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "A7CC5A46675A",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "DD474E5804C0",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "A47106D7B784",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "E0A8EBEE657B",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "830E5FA9FC72",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "C4472C6DFE66",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "40788D50B102",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "8F3B39C509B9",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "D743AC1EB08D",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "9715AAF5B952",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "A35B4B7CBD24",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "13450D581EC9",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "DD474E5804C0",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "7B802407D629",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "144671E445D0",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "E2B6281D99BD",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "5EA0A8768F94",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "88FD25AC86CF",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "623B7BD7613C",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "F032D40816C0",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "DC247D62DB3E",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "346E77F08903",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "DBBAF0AB97FB",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "A47106D7B784",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "4C60445C5681",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "830E5FA9FC72",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "A3C8FABB8B29",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "1767698C3969",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "DC1271D1294D",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "FDFB04ED3388",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "39E0A362CF29",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "DEC2A1A6A1CA",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "77A31D0A07A8",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "3A94013B23DD",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "C548AD0C706C",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "FD4C4EDC22DE",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "DD474E5804C0",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "E2F767441B44",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "C4472C6DFE66",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "FD4C4EDC22DE",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "5EA0A8768F94",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "0EC7D67618F4",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "5666CD4AA5CD",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "550D53DE2832",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "F66B2BAB7E4C",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "8416C7C6F146",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "A47106D7B784",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "2623A90F72B9",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "6E70CECCE25D",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "690713606EEF",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "E3DBC3B092A7",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "A7CC5A46675A",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "EBE636368EBC",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "F032D40816C0",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "623B7BD7613C",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "9EE9E6991968",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "F347A054A1AF",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "0F32DDCBECB6",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "8772F74F5EE0",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "2CAAF1F40F49",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "371739A95793",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "1767698C3969",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "8772F74F5EE0",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "0F8F499BAAB9",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "D4A0BB487395",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "EEEEC24C9AE7",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "C22B43EE7FB8",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "4C60445C5681",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "346E77F08903",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "0F8F499BAAB9",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "21F8069EC7F7",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "DC1271D1294D",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "5C3757B0C6AE",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "77A31D0A07A8",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "A7CC5A46675A",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "F032D40816C0",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "550D53DE2832",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "1767698C3969",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "1C1E049AB15F",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "3D4475C949C2",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "830E5FA9FC72",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "88FD25AC86CF",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "F1A5FE43ADD0",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "5EA0A8768F94",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "CC30C03474B1",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "5FFB959ED7BA",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "0465517EB6B7",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "827D807512AB",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "71129FE0D18F",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "34317A7F1262",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "71129FE0D18F",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "D743AC1EB08D",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "770E1717845C",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "FDB362959DDF",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "2538542762C0",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "13450D581EC9",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "5EFD8FA4133A",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "E0A8EBEE657B",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "C61946131A41",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "A47106D7B784",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "E2B6281D99BD",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "CEC5B40D1688",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "4C60445C5681",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "2CAAF1F40F49",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "5EFD8FA4133A",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "B1AFACE6704E",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "A35B4B7CBD24",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "346E77F08903",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "A3C8FABB8B29",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "4C60445C5681",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "39E0A362CF29",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "88FD25AC86CF",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "8F3B39C509B9",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "82F9FDBD6F98",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "E376D913FA25",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "5EFD8FA4133A",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "D4A0BB487395",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "0465517EB6B7",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "371739A95793",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "5666CD4AA5CD",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "0F32DDCBECB6",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "C928D32FE5C5",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "A7CC5A46675A",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "1C1E049AB15F",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "685ABA004ADB",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "A336FB5F2623",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "3137C16C109D",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "C928D32FE5C5",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "CB120B25B46E",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "9F1CC7603B64",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "3BD4B53512BD",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "0D65AF80CDE7",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "A0A2D6856B0E",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "DBBAF0AB97FB",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "82F7210163B5",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "8149E792E505",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "80C97E7C2558",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "82F7210163B5",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "24DAF94F0A18",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "E2B6281D99BD",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "6141DB282925",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "FD4C4EDC22DE",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "3137C16C109D",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "0F32DDCBECB6",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "3D4475C949C2",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "2623A90F72B9",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "9EE9E6991968",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "13450D581EC9",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "C37595A8AE16",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "EBE636368EBC",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "C61946131A41",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "78E8970D0C13",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "14EE006078C4",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "0CCB18D0CAB7",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "6E70CECCE25D",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "EEEEC24C9AE7",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "A0A2D6856B0E",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "F6EAE029B20B",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "9DD22B9D10F4",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "C61946131A41",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "66288718AF60",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "0F8F499BAAB9",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "A0A2D6856B0E",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "E376D913FA25",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "857574FE9711",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "DEC2A1A6A1CA",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "FDFB04ED3388",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "1C1E049AB15F",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "550D53DE2832",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "8F3B39C509B9",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "5C3757B0C6AE",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "144671E445D0",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "623B7BD7613C",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "5FFB959ED7BA",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "F1A5FE43ADD0",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "FDB362959DDF",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "623B7BD7613C",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "82F9FDBD6F98",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "E3DBC3B092A7",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "3C2AFBFEDA6B",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "3D4475C949C2",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "E0A8EBEE657B",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "E2B6281D99BD",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "9715AAF5B952",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "E376D913FA25",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "0F32DDCBECB6",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "2EEB160A4BD1",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "857574FE9711",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "5AFBB5573AB3",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "6141DB282925",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "8F3B39C509B9",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "2538542762C0",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "FF9C278EA478",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "FD0881855804",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "9EE9E6991968",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "3A94013B23DD",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "827D807512AB",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "82F7210163B5",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "C22B43EE7FB8",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "6E70CECCE25D",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "78E8970D0C13",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "FDFB04ED3388",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "77A31D0A07A8",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "FDB362959DDF",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "2EEB160A4BD1",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "B08751C48DAB",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "78E8970D0C13",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "6E3D46F9AAE1",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "F6EAE029B20B",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "B1AFACE6704E",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "0D65AF80CDE7",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "FF9C278EA478",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "FD4C4EDC22DE",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "3A94013B23DD",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "FDB362959DDF",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "0EC7D67618F4",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "A0E95D8119F7",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "82F9FDBD6F98",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "21F8069EC7F7",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "B08751C48DAB",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "C4472C6DFE66",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "78E8970D0C13",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "827D807512AB",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "830E5FA9FC72",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "EEEEC24C9AE7",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "827D807512AB",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "FF9C278EA478",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "5EA0A8768F94",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "5AFBB5573AB3",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "A47106D7B784",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "371739A95793",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "A6A6C7852F05",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "DEC2A1A6A1CA",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "0EC7D67618F4",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "144671E445D0",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "6E3D46F9AAE1",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "FD0881855804",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "5C3757B0C6AE",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "9DDBBA28EBD0",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "5FFB959ED7BA",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "21F8069EC7F7",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "A0A2D6856B0E",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "FF9C278EA478",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "2EEB160A4BD1",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "EBE636368EBC",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "F2387DA187A4",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "71129FE0D18F",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "2CAAF1F40F49",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "690713606EEF",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "EEEEC24C9AE7",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "FDFB04ED3388",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "3A94013B23DD",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "F1A5FE43ADD0",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "A6A6C7852F05",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "E3DBC3B092A7",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "82F9FDBD6F98",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "F628F0D46CCC",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "F628F0D46CCC",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "5AFBB5573AB3",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "A7CC5A46675A",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "C22B43EE7FB8",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "24DAF94F0A18",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "14EE006078C4",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "14EE006078C4",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "66288718AF60",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "B08751C48DAB",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "827D807512AB",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "3A94013B23DD",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "6E3D46F9AAE1",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "24DAF94F0A18",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "88FD25AC86CF",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "857574FE9711",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "0EC7D67618F4",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "D4A0BB487395",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "21F8069EC7F7",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "3C2AFBFEDA6B",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "82F7210163B5",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "FDFB04ED3388",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "48BBB107A05C",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "6D728858E86F",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "BCF16DEB277E",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "FD0881855804",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "8772F74F5EE0",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "82F9FDBD6F98",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "7007EB8E265D",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "0EC7D67618F4",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "6E3D46F9AAE1",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "FF9C278EA478",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "0CCB18D0CAB7",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "EBE636368EBC",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "9DD22B9D10F4",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "690713606EEF",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "DC1271D1294D",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "DEC2A1A6A1CA",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "8149E792E505",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "827D807512AB",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "FDB362959DDF",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "8772F74F5EE0",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "0D65AF80CDE7",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "857574FE9711",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "88FD25AC86CF",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "830E5FA9FC72",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "1C1E049AB15F",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "66288718AF60",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "E0A8EBEE657B",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "C37595A8AE16",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "690713606EEF",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "CEC5B40D1688",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "F1A5FE43ADD0",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "371739A95793",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "DD474E5804C0",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "1767698C3969",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "5C3757B0C6AE",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "A7CC5A46675A",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "F2387DA187A4",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "E0A8EBEE657B",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "0EC7D67618F4",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "3D4475C949C2",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "3D4475C949C2",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "8772F74F5EE0",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "3A94013B23DD",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "6E3D46F9AAE1",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "C61946131A41",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "A0E95D8119F7",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "C37595A8AE16",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "3BD4B53512BD",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "14EE006078C4",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "FD4C4EDC22DE",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "DBBAF0AB97FB",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "20E2B07931F3",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "DD474E5804C0",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "EBE636368EBC",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "C61946131A41",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "34317A7F1262",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "8F3B39C509B9",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "0465517EB6B7",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "5AFBB5573AB3",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "9DDBBA28EBD0",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "371739A95793",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "EBE636368EBC",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "CEC5B40D1688",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "F1A5FE43ADD0",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "C548AD0C706C",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "2EEB160A4BD1",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "3BD4B53512BD",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "48F7FCAD8B23",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "C6B1B7E91EE8",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "39E0A362CF29",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "21F8069EC7F7",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "9DDBBA28EBD0",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "F49521C3494B",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "A6A6C7852F05",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "A47106D7B784",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "F9D0974B3AF7",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "C6B1B7E91EE8",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "B1AFACE6704E",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "71129FE0D18F",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "A3C8FABB8B29",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "857574FE9711",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "346E77F08903",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "1C1E049AB15F",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "4C60445C5681",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "0465517EB6B7",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "66288718AF60",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "CEC5B40D1688",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "C548AD0C706C",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "F9D0974B3AF7",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "0CCB18D0CAB7",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "C548AD0C706C",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "E2F767441B44",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "7007EB8E265D",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "A47106D7B784",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "E733508EEB84",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "F9D0974B3AF7",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "2623A90F72B9",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "24DAF94F0A18",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "827D807512AB",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "2538542762C0",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "770E1717845C",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "F66B2BAB7E4C",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "A0E95D8119F7",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "BCF16DEB277E",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "FD0881855804",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "7B802407D629",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "8149E792E505",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "7007EB8E265D",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "2538542762C0",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "7007EB8E265D",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "F347A054A1AF",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "39E0A362CF29",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "8772F74F5EE0",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "3137C16C109D",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "A35B4B7CBD24",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "E376D913FA25",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "13450D581EC9",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "0CCB18D0CAB7",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "2EEB160A4BD1",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "82F7210163B5",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "FD0881855804",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "F2387DA187A4",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "685ABA004ADB",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "827D807512AB",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "A336FB5F2623",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "DC247D62DB3E",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "14EE006078C4",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "B1AFACE6704E",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "DEC2A1A6A1CA",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "14EE006078C4",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "5EA0A8768F94",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "550D53DE2832",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "9EE9E6991968",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "F6EAE029B20B",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "CB120B25B46E",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "34317A7F1262",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "5666CD4AA5CD",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "CC30C03474B1",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "4C60445C5681",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "39E0A362CF29",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "48F7FCAD8B23",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "6E3D46F9AAE1",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "C37595A8AE16",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "DC247D62DB3E",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "6E70CECCE25D",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "D4A0BB487395",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "F2387DA187A4",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "A0E95D8119F7",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "80C97E7C2558",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "0D65AF80CDE7",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "20E2B07931F3",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "0F8F499BAAB9",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "F66B2BAB7E4C",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "F1A5FE43ADD0",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "8F3B39C509B9",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "48F7FCAD8B23",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "B08751C48DAB",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "8416C7C6F146",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "E733508EEB84",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "39E0A362CF29",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "A336FB5F2623",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "8F3B39C509B9",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "685ABA004ADB",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "E2F767441B44",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "CC30C03474B1",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "21F8069EC7F7",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "2CAAF1F40F49",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "3A94013B23DD",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "9DD22B9D10F4",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "CB120B25B46E",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "3C2AFBFEDA6B",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "EEEEC24C9AE7",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "24DAF94F0A18",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "40788D50B102",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "BCF16DEB277E",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "F49521C3494B",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "9EE9E6991968",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "F1A5FE43ADD0",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "48F7FCAD8B23",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "E3DBC3B092A7",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "3137C16C109D",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "5666CD4AA5CD",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "2538542762C0",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "BCF16DEB277E",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "C6B1B7E91EE8",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "E733508EEB84",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "F032D40816C0",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "CEC5B40D1688",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "A3C8FABB8B29",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "E2B6281D99BD",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "F49521C3494B",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "8149E792E505",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "E2B6281D99BD",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "2623A90F72B9",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "2623A90F72B9",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "DD474E5804C0",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "B1AFACE6704E",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "4C60445C5681",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "7007EB8E265D",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "F628F0D46CCC",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "6E3D46F9AAE1",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "E376D913FA25",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "FDB362959DDF",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "CC30C03474B1",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "DD474E5804C0",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "2CAAF1F40F49",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "F66B2BAB7E4C",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "830E5FA9FC72",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "34317A7F1262",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "D4A0BB487395",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "66288718AF60",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "14EE006078C4",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "8416C7C6F146",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "FDB362959DDF",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "6E70CECCE25D",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "20E2B07931F3",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "7B802407D629",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "D743AC1EB08D",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "C61946131A41",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "9DDBBA28EBD0",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "F347A054A1AF",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "2EEB160A4BD1",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "0D65AF80CDE7",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "66288718AF60",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "88FD25AC86CF",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "1767698C3969",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "9DDBBA28EBD0",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "BCF16DEB277E",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "80C97E7C2558",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "C4472C6DFE66",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "A0E95D8119F7",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "C37595A8AE16",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "20E2B07931F3",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "1C1E049AB15F",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "48EA282A4EAF",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "623B7BD7613C",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "C22B43EE7FB8",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "FDFB04ED3388",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "A7CC5A46675A",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "F49521C3494B",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "6141DB282925",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "FF9C278EA478",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "5666CD4AA5CD",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "66288718AF60",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "5C3757B0C6AE",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "F032D40816C0",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "690713606EEF",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "DEC2A1A6A1CA",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "550D53DE2832",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "E2F767441B44",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "78E8970D0C13",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "6141DB282925",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "CEC5B40D1688",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "13450D581EC9",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "A35B4B7CBD24",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "685ABA004ADB",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "39E0A362CF29",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "685ABA004ADB",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "C4472C6DFE66",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "C548AD0C706C",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "0F8F499BAAB9",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "EBE636368EBC",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "E28221F47AE3",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "40788D50B102",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "82F7210163B5",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "A47106D7B784",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "0F32DDCBECB6",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "80C97E7C2558",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "C61946131A41",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "F032D40816C0",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "3D4475C949C2",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "623B7BD7613C",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "830E5FA9FC72",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "C548AD0C706C",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "770E1717845C",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "48EA282A4EAF",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "A336FB5F2623",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "E733508EEB84",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "770E1717845C",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "5EFD8FA4133A",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "F628F0D46CCC",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "EBE636368EBC",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "3C2AFBFEDA6B",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "5666CD4AA5CD",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "B1AFACE6704E",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "BCF16DEB277E",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "6D728858E86F",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "EEEEC24C9AE7",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "E2F767441B44",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "DC247D62DB3E",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "E733508EEB84",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "13450D581EC9",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "7B802407D629",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "5C3757B0C6AE",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "FD0881855804",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "71129FE0D18F",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "C928D32FE5C5",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "9715AAF5B952",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "C6B1B7E91EE8",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "FDFB04ED3388",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "B08751C48DAB",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "E0A8EBEE657B",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "6141DB282925",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "48BBB107A05C",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "F66B2BAB7E4C",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "14EE006078C4",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "1767698C3969",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "830E5FA9FC72",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "34317A7F1262",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "3D4475C949C2",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "E28221F47AE3",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "F49521C3494B",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "F2387DA187A4",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "C4472C6DFE66",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "21F8069EC7F7",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "144671E445D0",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "F6EAE029B20B",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "A6A6C7852F05",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "144671E445D0",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "F9D0974B3AF7",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "6D728858E86F",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "7007EB8E265D",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "DEC2A1A6A1CA",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "77A31D0A07A8",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "A0E95D8119F7",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "F6EAE029B20B",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "1C1E049AB15F",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "8F3B39C509B9",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "DC247D62DB3E",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "6D728858E86F",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "71129FE0D18F",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "9F1CC7603B64",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "7B802407D629",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "DBBAF0AB97FB",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "A6A6C7852F05",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "E28221F47AE3",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "3137C16C109D",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "D743AC1EB08D",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "DC247D62DB3E",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "9F1CC7603B64",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "0465517EB6B7",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "C6B1B7E91EE8",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "9EE9E6991968",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "40788D50B102",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "5FFB959ED7BA",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "770E1717845C",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "A6A6C7852F05",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "80C97E7C2558",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "6141DB282925",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "5FFB959ED7BA",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "2538542762C0",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "14EE006078C4",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "F49521C3494B",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "82F9FDBD6F98",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "FDFB04ED3388",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "8416C7C6F146",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "371739A95793",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "6D728858E86F",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "F6EAE029B20B",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "E733508EEB84",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "DC247D62DB3E",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "A0E95D8119F7",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "9EE9E6991968",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "E733508EEB84",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "A0E95D8119F7",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "8416C7C6F146",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "685ABA004ADB",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "3D4475C949C2",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "F628F0D46CCC",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "40788D50B102",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "9DDBBA28EBD0",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "B08751C48DAB",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "346E77F08903",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "C6B1B7E91EE8",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "D743AC1EB08D",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "71129FE0D18F",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "7007EB8E265D",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "24DAF94F0A18",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "CB120B25B46E",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "E0A8EBEE657B",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "13450D581EC9",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "857574FE9711",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "B1AFACE6704E",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "20E2B07931F3",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "78E8970D0C13",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "A336FB5F2623",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "77A31D0A07A8",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "DEC2A1A6A1CA",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "857574FE9711",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "A336FB5F2623",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "78E8970D0C13",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "F2387DA187A4",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "D743AC1EB08D",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "82F9FDBD6F98",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "82F7210163B5",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "9DDBBA28EBD0",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "20E2B07931F3",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "DC1271D1294D",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "A336FB5F2623",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "FDB362959DDF",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "1767698C3969",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "8416C7C6F146",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "D4A0BB487395",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "DBBAF0AB97FB",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "FD0881855804",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "DC247D62DB3E",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "48EA282A4EAF",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "550D53DE2832",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "CC30C03474B1",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "6E3D46F9AAE1",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "A47106D7B784",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "0EC7D67618F4",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "550D53DE2832",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "2623A90F72B9",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "2CAAF1F40F49",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "7B802407D629",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "1C1E049AB15F",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "DBBAF0AB97FB",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "F2387DA187A4",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "E3DBC3B092A7",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "A6A6C7852F05",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "5EA0A8768F94",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "E3DBC3B092A7",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "21F8069EC7F7",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "C548AD0C706C",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "371739A95793",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "E2B6281D99BD",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "A336FB5F2623",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "1767698C3969",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "82F9FDBD6F98",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "2623A90F72B9",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "371739A95793",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "0D65AF80CDE7",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "346E77F08903",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "C6B1B7E91EE8",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "770E1717845C",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "CEC5B40D1688",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "C6B1B7E91EE8",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "48EA282A4EAF",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "A0A2D6856B0E",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "E2F767441B44",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "F032D40816C0",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "770E1717845C",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "DC1271D1294D",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "48BBB107A05C",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "144671E445D0",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "F347A054A1AF",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "C548AD0C706C",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "827D807512AB",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "C22B43EE7FB8",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "A35B4B7CBD24",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "A6A6C7852F05",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "A3C8FABB8B29",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "F6EAE029B20B",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "7B802407D629",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "3C2AFBFEDA6B",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "48BBB107A05C",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "E376D913FA25",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "346E77F08903",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "5EFD8FA4133A",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "F628F0D46CCC",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "80C97E7C2558",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "0CCB18D0CAB7",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "E376D913FA25",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "623B7BD7613C",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "F6EAE029B20B",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "80C97E7C2558",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "770E1717845C",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "6E70CECCE25D",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "9DD22B9D10F4",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "FD0881855804",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "9F1CC7603B64",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "3C2AFBFEDA6B",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "C22B43EE7FB8",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "D743AC1EB08D",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "5EA0A8768F94",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "A3C8FABB8B29",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "E3DBC3B092A7",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "D4A0BB487395",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "40788D50B102",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "F66B2BAB7E4C",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "5EFD8FA4133A",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "77A31D0A07A8",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "48F7FCAD8B23",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "5666CD4AA5CD",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "0F8F499BAAB9",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "F628F0D46CCC",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "857574FE9711",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "F9D0974B3AF7",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "FF9C278EA478",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "34317A7F1262",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "5EFD8FA4133A",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "88FD25AC86CF",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "9F1CC7603B64",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "8149E792E505",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "9DD22B9D10F4",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "9715AAF5B952",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "F9D0974B3AF7",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "3137C16C109D",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "0465517EB6B7",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "CB120B25B46E",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "0F8F499BAAB9",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "7B802407D629",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "BCF16DEB277E",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "2623A90F72B9",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "A0A2D6856B0E",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "A35B4B7CBD24",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "B1AFACE6704E",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "690713606EEF",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "77A31D0A07A8",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "DD474E5804C0",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "3BD4B53512BD",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "13450D581EC9",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "2EEB160A4BD1",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "E2F767441B44",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "48BBB107A05C",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "8772F74F5EE0",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "FF9C278EA478",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "3BD4B53512BD",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "C37595A8AE16",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "EEEEC24C9AE7",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "A3C8FABB8B29",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "E2B6281D99BD",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "2CAAF1F40F49",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "5EA0A8768F94",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "C6B1B7E91EE8",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "9DDBBA28EBD0",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "6E3D46F9AAE1",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "8772F74F5EE0",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "FDFB04ED3388",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "B08751C48DAB",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "C548AD0C706C",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "66288718AF60",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "E28221F47AE3",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "7007EB8E265D",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "371739A95793",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "F1A5FE43ADD0",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "48EA282A4EAF",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "F49521C3494B",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "8416C7C6F146",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "3A94013B23DD",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "9F1CC7603B64",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "F347A054A1AF",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "C37595A8AE16",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "690713606EEF",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "A3C8FABB8B29",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "E28221F47AE3",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "8416C7C6F146",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "8149E792E505",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "CB120B25B46E",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "623B7BD7613C",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "0EC7D67618F4",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "0CCB18D0CAB7",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "F6EAE029B20B",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "48BBB107A05C",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "48F7FCAD8B23",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "550D53DE2832",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "E2F767441B44",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "A336FB5F2623",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "A35B4B7CBD24",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "6D728858E86F",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "5AFBB5573AB3",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "FDB362959DDF",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "E376D913FA25",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "D743AC1EB08D",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "BCF16DEB277E",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "34317A7F1262",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "80C97E7C2558",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "9715AAF5B952",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "A0E95D8119F7",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "20E2B07931F3",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "0D65AF80CDE7",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "66288718AF60",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "48BBB107A05C",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "E28221F47AE3",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "0465517EB6B7",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "34317A7F1262",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "82F9FDBD6F98",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "F347A054A1AF",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "5AFBB5573AB3",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "39E0A362CF29",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "FD4C4EDC22DE",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "9F1CC7603B64",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "3BD4B53512BD",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "346E77F08903",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "6E70CECCE25D",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "48F7FCAD8B23",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "9DD22B9D10F4",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "3BD4B53512BD",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "FD4C4EDC22DE",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "F347A054A1AF",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "2538542762C0",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "E733508EEB84",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "C928D32FE5C5",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "24DAF94F0A18",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "144671E445D0",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "48F7FCAD8B23",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "346E77F08903",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "0EC7D67618F4",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "0465517EB6B7",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "E733508EEB84",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "5AFBB5573AB3",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "E28221F47AE3",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "7007EB8E265D",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "C22B43EE7FB8",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "2538542762C0",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "FF9C278EA478",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "5EFD8FA4133A",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "3D4475C949C2",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "6D728858E86F",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "FD4C4EDC22DE",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "0D65AF80CDE7",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "48BBB107A05C",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "C37595A8AE16",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "2CAAF1F40F49",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "9DD22B9D10F4",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "CC30C03474B1",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "C22B43EE7FB8",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "C4472C6DFE66",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "3A94013B23DD",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "C928D32FE5C5",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "A35B4B7CBD24",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "8F3B39C509B9",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "685ABA004ADB",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "3137C16C109D",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "B1AFACE6704E",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "3BD4B53512BD",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "4C60445C5681",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "DC1271D1294D",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "E376D913FA25",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "48EA282A4EAF",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "5FFB959ED7BA",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "CEC5B40D1688",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "8149E792E505",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "9DDBBA28EBD0",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "77A31D0A07A8",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "9EE9E6991968",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "39E0A362CF29",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "3137C16C109D",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "5FFB959ED7BA",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "A7CC5A46675A",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "C22B43EE7FB8",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "3C2AFBFEDA6B",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "BCF16DEB277E",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "1767698C3969",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "1C1E049AB15F",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "F628F0D46CCC",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "9F1CC7603B64",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "20E2B07931F3",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "CB120B25B46E",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "A0A2D6856B0E",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "DC247D62DB3E",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "B08751C48DAB",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "D4A0BB487395",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "34317A7F1262",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "0D65AF80CDE7",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "A3C8FABB8B29",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "EBE636368EBC",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "E2B6281D99BD",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "690713606EEF",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "88FD25AC86CF",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "690713606EEF",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "F032D40816C0",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "FD4C4EDC22DE",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "5FFB959ED7BA",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "857574FE9711",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "9715AAF5B952",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "6E70CECCE25D",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "48EA282A4EAF",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "C61946131A41",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "623B7BD7613C",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "770E1717845C",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "9F1CC7603B64",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "2EEB160A4BD1",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "F9D0974B3AF7",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "C37595A8AE16",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "2623A90F72B9",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "24DAF94F0A18",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "CEC5B40D1688",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "F66B2BAB7E4C",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "48EA282A4EAF",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "685ABA004ADB",
+   "cfg": "A",
+   "rep": 3
+  },
+  {
+   "id": "13450D581EC9",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "F347A054A1AF",
+   "cfg": "C",
+   "rep": 3
+  },
+  {
+   "id": "77A31D0A07A8",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "5FFB959ED7BA",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "71129FE0D18F",
+   "cfg": "B",
+   "rep": 1
+  },
+  {
+   "id": "A0A2D6856B0E",
+   "cfg": "C",
+   "rep": 1
+  },
+  {
+   "id": "8149E792E505",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "9EE9E6991968",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "7B802407D629",
+   "cfg": "A",
+   "rep": 2
+  },
+  {
+   "id": "6D728858E86F",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "0F32DDCBECB6",
+   "cfg": "C",
+   "rep": 2
+  },
+  {
+   "id": "830E5FA9FC72",
+   "cfg": "B",
+   "rep": 3
+  },
+  {
+   "id": "FD0881855804",
+   "cfg": "B",
+   "rep": 2
+  },
+  {
+   "id": "CB120B25B46E",
+   "cfg": "A",
+   "rep": 1
+  },
+  {
+   "id": "C61946131A41",
+   "cfg": "B",
+   "rep": 1
+  }
+ ],
+ "gold": {
+  "48EA282A4EAF": {
+   "Overall": 1.0,
+   "Cohesion": 1.0,
+   "Syntax": 1.0,
+   "Vocabulary": 1.0,
+   "Phraseology": 1.0,
+   "Grammar": 1.0,
+   "Conventions": 1.0,
+   "words": 236
+  },
+  "0CCB18D0CAB7": {
+   "Overall": 2.5,
+   "Cohesion": 2.0,
+   "Syntax": 3.0,
+   "Vocabulary": 3.0,
+   "Phraseology": 2.0,
+   "Grammar": 2.5,
+   "Conventions": 2.5,
+   "words": 379
+  },
+  "9EE9E6991968": {
+   "Overall": 2.5,
+   "Cohesion": 2.5,
+   "Syntax": 2.5,
+   "Vocabulary": 2.5,
+   "Phraseology": 3.0,
+   "Grammar": 2.5,
+   "Conventions": 2.0,
+   "words": 253
+  },
+  "8F3B39C509B9": {
+   "Overall": 2.5,
+   "Cohesion": 2.5,
+   "Syntax": 2.0,
+   "Vocabulary": 3.0,
+   "Phraseology": 2.5,
+   "Grammar": 3.0,
+   "Conventions": 2.0,
+   "words": 390
+  },
+  "857574FE9711": {
+   "Overall": 2.0,
+   "Cohesion": 2.0,
+   "Syntax": 2.0,
+   "Vocabulary": 3.0,
+   "Phraseology": 2.5,
+   "Grammar": 2.5,
+   "Conventions": 2.0,
+   "words": 185
+  },
+  "550D53DE2832": {
+   "Overall": 2.5,
+   "Cohesion": 2.5,
+   "Syntax": 3.0,
+   "Vocabulary": 3.0,
+   "Phraseology": 2.5,
+   "Grammar": 2.5,
+   "Conventions": 2.5,
+   "words": 207
+  },
+  "3BD4B53512BD": {
+   "Overall": 2.0,
+   "Cohesion": 2.0,
+   "Syntax": 2.5,
+   "Vocabulary": 3.0,
+   "Phraseology": 2.5,
+   "Grammar": 2.0,
+   "Conventions": 2.5,
+   "words": 1006
+  },
+  "3137C16C109D": {
+   "Overall": 2.0,
+   "Cohesion": 2.0,
+   "Syntax": 2.0,
+   "Vocabulary": 2.0,
+   "Phraseology": 2.0,
+   "Grammar": 2.0,
+   "Conventions": 2.0,
+   "words": 300
+  },
+  "E376D913FA25": {
+   "Overall": 2.5,
+   "Cohesion": 2.5,
+   "Syntax": 1.5,
+   "Vocabulary": 3.0,
+   "Phraseology": 2.0,
+   "Grammar": 3.0,
+   "Conventions": 2.5,
+   "words": 326
+  },
+  "0F8F499BAAB9": {
+   "Overall": 2.5,
+   "Cohesion": 2.5,
+   "Syntax": 2.5,
+   "Vocabulary": 3.0,
+   "Phraseology": 2.5,
+   "Grammar": 3.0,
+   "Conventions": 2.5,
+   "words": 225
+  },
+  "0EC7D67618F4": {
+   "Overall": 2.5,
+   "Cohesion": 3.0,
+   "Syntax": 2.5,
+   "Vocabulary": 2.5,
+   "Phraseology": 3.0,
+   "Grammar": 2.5,
+   "Conventions": 3.0,
+   "words": 456
+  },
+  "346E77F08903": {
+   "Overall": 1.5,
+   "Cohesion": 1.5,
+   "Syntax": 1.5,
+   "Vocabulary": 1.5,
+   "Phraseology": 1.5,
+   "Grammar": 1.5,
+   "Conventions": 2.5,
+   "words": 206
+  },
+  "82F9FDBD6F98": {
+   "Overall": 2.5,
+   "Cohesion": 2.5,
+   "Syntax": 3.0,
+   "Vocabulary": 3.0,
+   "Phraseology": 3.0,
+   "Grammar": 3.0,
+   "Conventions": 3.5,
+   "words": 372
+  },
+  "88FD25AC86CF": {
+   "Overall": 2.5,
+   "Cohesion": 3.0,
+   "Syntax": 2.0,
+   "Vocabulary": 3.0,
+   "Phraseology": 3.0,
+   "Grammar": 2.0,
+   "Conventions": 2.5,
+   "words": 382
+  },
+  "FD0881855804": {
+   "Overall": 2.5,
+   "Cohesion": 2.5,
+   "Syntax": 2.5,
+   "Vocabulary": 2.5,
+   "Phraseology": 2.5,
+   "Grammar": 3.0,
+   "Conventions": 3.0,
+   "words": 174
+  },
+  "0D65AF80CDE7": {
+   "Overall": 2.0,
+   "Cohesion": 2.0,
+   "Syntax": 2.5,
+   "Vocabulary": 2.0,
+   "Phraseology": 2.0,
+   "Grammar": 2.5,
+   "Conventions": 2.5,
+   "words": 195
+  },
+  "78E8970D0C13": {
+   "Overall": 2.5,
+   "Cohesion": 3.0,
+   "Syntax": 2.5,
+   "Vocabulary": 3.0,
+   "Phraseology": 3.0,
+   "Grammar": 2.5,
+   "Conventions": 2.5,
+   "words": 283
+  },
+  "E2B6281D99BD": {
+   "Overall": 2.0,
+   "Cohesion": 3.0,
+   "Syntax": 2.0,
+   "Vocabulary": 3.0,
+   "Phraseology": 3.0,
+   "Grammar": 2.0,
+   "Conventions": 2.0,
+   "words": 209
+  },
+  "8416C7C6F146": {
+   "Overall": 2.0,
+   "Cohesion": 2.5,
+   "Syntax": 2.0,
+   "Vocabulary": 3.0,
+   "Phraseology": 2.0,
+   "Grammar": 2.0,
+   "Conventions": 2.0,
+   "words": 329
+  },
+  "EBE636368EBC": {
+   "Overall": 2.0,
+   "Cohesion": 2.0,
+   "Syntax": 3.0,
+   "Vocabulary": 2.5,
+   "Phraseology": 2.5,
+   "Grammar": 2.0,
+   "Conventions": 2.0,
+   "words": 172
+  },
+  "A0E95D8119F7": {
+   "Overall": 2.5,
+   "Cohesion": 2.5,
+   "Syntax": 2.5,
+   "Vocabulary": 2.5,
+   "Phraseology": 2.5,
+   "Grammar": 2.5,
+   "Conventions": 2.5,
+   "words": 417
+  },
+  "0465517EB6B7": {
+   "Overall": 2.5,
+   "Cohesion": 2.5,
+   "Syntax": 2.0,
+   "Vocabulary": 3.0,
+   "Phraseology": 2.5,
+   "Grammar": 3.0,
+   "Conventions": 2.0,
+   "words": 179
+  },
+  "6141DB282925": {
+   "Overall": 2.0,
+   "Cohesion": 2.5,
+   "Syntax": 2.5,
+   "Vocabulary": 3.0,
+   "Phraseology": 2.5,
+   "Grammar": 3.0,
+   "Conventions": 2.0,
+   "words": 254
+  },
+  "E3DBC3B092A7": {
+   "Overall": 2.5,
+   "Cohesion": 2.5,
+   "Syntax": 2.5,
+   "Vocabulary": 3.0,
+   "Phraseology": 3.5,
+   "Grammar": 2.5,
+   "Conventions": 3.0,
+   "words": 580
+  },
+  "C37595A8AE16": {
+   "Overall": 2.0,
+   "Cohesion": 2.5,
+   "Syntax": 2.5,
+   "Vocabulary": 2.0,
+   "Phraseology": 2.0,
+   "Grammar": 2.5,
+   "Conventions": 2.0,
+   "words": 280
+  },
+  "5FFB959ED7BA": {
+   "Overall": 2.5,
+   "Cohesion": 2.5,
+   "Syntax": 2.5,
+   "Vocabulary": 2.5,
+   "Phraseology": 2.5,
+   "Grammar": 3.0,
+   "Conventions": 3.0,
+   "words": 198
+  },
+  "8149E792E505": {
+   "Overall": 2.5,
+   "Cohesion": 2.5,
+   "Syntax": 2.5,
+   "Vocabulary": 3.0,
+   "Phraseology": 2.0,
+   "Grammar": 3.0,
+   "Conventions": 3.0,
+   "words": 467
+  },
+  "C22B43EE7FB8": {
+   "Overall": 2.0,
+   "Cohesion": 3.0,
+   "Syntax": 2.5,
+   "Vocabulary": 2.5,
+   "Phraseology": 2.0,
+   "Grammar": 3.0,
+   "Conventions": 2.0,
+   "words": 315
+  },
+  "34317A7F1262": {
+   "Overall": 2.5,
+   "Cohesion": 3.0,
+   "Syntax": 2.5,
+   "Vocabulary": 2.0,
+   "Phraseology": 2.5,
+   "Grammar": 2.5,
+   "Conventions": 3.0,
+   "words": 430
+  },
+  "D4A0BB487395": {
+   "Overall": 2.5,
+   "Cohesion": 3.0,
+   "Syntax": 2.5,
+   "Vocabulary": 3.0,
+   "Phraseology": 3.0,
+   "Grammar": 2.5,
+   "Conventions": 2.5,
+   "words": 559
+  },
+  "371739A95793": {
+   "Overall": 2.0,
+   "Cohesion": 2.0,
+   "Syntax": 2.0,
+   "Vocabulary": 3.0,
+   "Phraseology": 3.0,
+   "Grammar": 2.0,
+   "Conventions": 2.0,
+   "words": 309
+  },
+  "CC30C03474B1": {
+   "Overall": 2.5,
+   "Cohesion": 2.0,
+   "Syntax": 2.5,
+   "Vocabulary": 3.0,
+   "Phraseology": 3.0,
+   "Grammar": 3.0,
+   "Conventions": 2.0,
+   "words": 461
+  },
+  "C548AD0C706C": {
+   "Overall": 2.5,
+   "Cohesion": 2.5,
+   "Syntax": 2.0,
+   "Vocabulary": 3.0,
+   "Phraseology": 3.0,
+   "Grammar": 2.0,
+   "Conventions": 2.5,
+   "words": 552
+  },
+  "EEEEC24C9AE7": {
+   "Overall": 3.0,
+   "Cohesion": 2.5,
+   "Syntax": 2.5,
+   "Vocabulary": 3.0,
+   "Phraseology": 3.0,
+   "Grammar": 2.0,
+   "Conventions": 3.0,
+   "words": 214
+  },
+  "770E1717845C": {
+   "Overall": 3.0,
+   "Cohesion": 2.5,
+   "Syntax": 3.0,
+   "Vocabulary": 3.0,
+   "Phraseology": 2.5,
+   "Grammar": 3.0,
+   "Conventions": 2.5,
+   "words": 437
+  },
+  "13450D581EC9": {
+   "Overall": 3.0,
+   "Cohesion": 3.5,
+   "Syntax": 3.5,
+   "Vocabulary": 3.0,
+   "Phraseology": 3.0,
+   "Grammar": 3.0,
+   "Conventions": 3.0,
+   "words": 872
+  },
+  "C61946131A41": {
+   "Overall": 3.0,
+   "Cohesion": 3.5,
+   "Syntax": 3.5,
+   "Vocabulary": 3.0,
+   "Phraseology": 3.0,
+   "Grammar": 2.5,
+   "Conventions": 3.0,
+   "words": 730
+  },
+  "DC247D62DB3E": {
+   "Overall": 3.0,
+   "Cohesion": 3.0,
+   "Syntax": 3.0,
+   "Vocabulary": 3.0,
+   "Phraseology": 2.0,
+   "Grammar": 2.5,
+   "Conventions": 2.5,
+   "words": 291
+  },
+  "39E0A362CF29": {
+   "Overall": 3.0,
+   "Cohesion": 3.5,
+   "Syntax": 3.0,
+   "Vocabulary": 3.0,
+   "Phraseology": 3.0,
+   "Grammar": 2.5,
+   "Conventions": 3.0,
+   "words": 875
+  },
+  "A6A6C7852F05": {
+   "Overall": 3.0,
+   "Cohesion": 3.5,
+   "Syntax": 2.5,
+   "Vocabulary": 3.0,
+   "Phraseology": 3.0,
+   "Grammar": 3.0,
+   "Conventions": 2.0,
+   "words": 489
+  },
+  "24DAF94F0A18": {
+   "Overall": 3.0,
+   "Cohesion": 3.0,
+   "Syntax": 2.5,
+   "Vocabulary": 3.0,
+   "Phraseology": 3.0,
+   "Grammar": 2.5,
+   "Conventions": 3.0,
+   "words": 618
+  },
+  "E0A8EBEE657B": {
+   "Overall": 3.0,
+   "Cohesion": 3.0,
+   "Syntax": 3.0,
+   "Vocabulary": 3.0,
+   "Phraseology": 3.5,
+   "Grammar": 3.0,
+   "Conventions": 2.5,
+   "words": 316
+  },
+  "827D807512AB": {
+   "Overall": 3.0,
+   "Cohesion": 3.5,
+   "Syntax": 3.0,
+   "Vocabulary": 3.5,
+   "Phraseology": 3.0,
+   "Grammar": 2.5,
+   "Conventions": 3.0,
+   "words": 306
+  },
+  "F49521C3494B": {
+   "Overall": 3.0,
+   "Cohesion": 3.0,
+   "Syntax": 2.5,
+   "Vocabulary": 3.0,
+   "Phraseology": 2.0,
+   "Grammar": 3.0,
+   "Conventions": 3.0,
+   "words": 996
+  },
+  "F1A5FE43ADD0": {
+   "Overall": 3.0,
+   "Cohesion": 3.0,
+   "Syntax": 3.0,
+   "Vocabulary": 3.0,
+   "Phraseology": 3.0,
+   "Grammar": 2.5,
+   "Conventions": 3.5,
+   "words": 445
+  },
+  "9F1CC7603B64": {
+   "Overall": 3.0,
+   "Cohesion": 3.5,
+   "Syntax": 3.0,
+   "Vocabulary": 3.5,
+   "Phraseology": 2.5,
+   "Grammar": 3.0,
+   "Conventions": 3.0,
+   "words": 297
+  },
+  "E733508EEB84": {
+   "Overall": 3.0,
+   "Cohesion": 3.0,
+   "Syntax": 3.5,
+   "Vocabulary": 3.5,
+   "Phraseology": 2.5,
+   "Grammar": 3.0,
+   "Conventions": 3.0,
+   "words": 528
+  },
+  "5666CD4AA5CD": {
+   "Overall": 3.0,
+   "Cohesion": 4.0,
+   "Syntax": 3.0,
+   "Vocabulary": 3.5,
+   "Phraseology": 3.5,
+   "Grammar": 3.0,
+   "Conventions": 3.0,
+   "words": 921
+  },
+  "20E2B07931F3": {
+   "Overall": 3.0,
+   "Cohesion": 3.5,
+   "Syntax": 3.0,
+   "Vocabulary": 3.0,
+   "Phraseology": 2.5,
+   "Grammar": 3.0,
+   "Conventions": 3.0,
+   "words": 572
+  },
+  "144671E445D0": {
+   "Overall": 3.0,
+   "Cohesion": 2.5,
+   "Syntax": 3.0,
+   "Vocabulary": 3.0,
+   "Phraseology": 2.0,
+   "Grammar": 2.5,
+   "Conventions": 2.5,
+   "words": 567
+  },
+  "FDB362959DDF": {
+   "Overall": 3.0,
+   "Cohesion": 3.0,
+   "Syntax": 3.0,
+   "Vocabulary": 3.0,
+   "Phraseology": 3.0,
+   "Grammar": 2.5,
+   "Conventions": 2.5,
+   "words": 294
+  },
+  "66288718AF60": {
+   "Overall": 3.0,
+   "Cohesion": 2.5,
+   "Syntax": 3.0,
+   "Vocabulary": 3.0,
+   "Phraseology": 2.5,
+   "Grammar": 3.0,
+   "Conventions": 3.0,
+   "words": 295
+  },
+  "80C97E7C2558": {
+   "Overall": 3.0,
+   "Cohesion": 3.0,
+   "Syntax": 3.5,
+   "Vocabulary": 3.0,
+   "Phraseology": 3.0,
+   "Grammar": 3.5,
+   "Conventions": 4.0,
+   "words": 486
+  },
+  "2538542762C0": {
+   "Overall": 3.0,
+   "Cohesion": 3.0,
+   "Syntax": 2.5,
+   "Vocabulary": 3.5,
+   "Phraseology": 3.0,
+   "Grammar": 3.5,
+   "Conventions": 3.0,
+   "words": 461
+  },
+  "690713606EEF": {
+   "Overall": 3.0,
+   "Cohesion": 3.0,
+   "Syntax": 2.5,
+   "Vocabulary": 3.5,
+   "Phraseology": 2.5,
+   "Grammar": 3.0,
+   "Conventions": 2.5,
+   "words": 331
+  },
+  "2CAAF1F40F49": {
+   "Overall": 3.0,
+   "Cohesion": 3.5,
+   "Syntax": 3.0,
+   "Vocabulary": 3.5,
+   "Phraseology": 3.0,
+   "Grammar": 3.0,
+   "Conventions": 2.5,
+   "words": 315
+  },
+  "A7CC5A46675A": {
+   "Overall": 3.0,
+   "Cohesion": 4.0,
+   "Syntax": 3.5,
+   "Vocabulary": 4.0,
+   "Phraseology": 4.0,
+   "Grammar": 4.0,
+   "Conventions": 3.5,
+   "words": 450
+  },
+  "7B802407D629": {
+   "Overall": 3.0,
+   "Cohesion": 3.0,
+   "Syntax": 3.0,
+   "Vocabulary": 3.0,
+   "Phraseology": 3.0,
+   "Grammar": 3.5,
+   "Conventions": 3.0,
+   "words": 511
+  },
+  "C4472C6DFE66": {
+   "Overall": 3.0,
+   "Cohesion": 3.0,
+   "Syntax": 2.5,
+   "Vocabulary": 3.5,
+   "Phraseology": 3.0,
+   "Grammar": 2.5,
+   "Conventions": 3.0,
+   "words": 378
+  },
+  "F66B2BAB7E4C": {
+   "Overall": 3.0,
+   "Cohesion": 3.0,
+   "Syntax": 3.0,
+   "Vocabulary": 3.0,
+   "Phraseology": 3.0,
+   "Grammar": 3.0,
+   "Conventions": 3.0,
+   "words": 414
+  },
+  "A0A2D6856B0E": {
+   "Overall": 3.0,
+   "Cohesion": 2.5,
+   "Syntax": 2.5,
+   "Vocabulary": 3.0,
+   "Phraseology": 3.0,
+   "Grammar": 2.5,
+   "Conventions": 3.0,
+   "words": 391
+  },
+  "48BBB107A05C": {
+   "Overall": 3.0,
+   "Cohesion": 3.0,
+   "Syntax": 3.5,
+   "Vocabulary": 4.0,
+   "Phraseology": 3.5,
+   "Grammar": 2.5,
+   "Conventions": 3.0,
+   "words": 358
+  },
+  "A336FB5F2623": {
+   "Overall": 3.0,
+   "Cohesion": 3.0,
+   "Syntax": 3.0,
+   "Vocabulary": 3.5,
+   "Phraseology": 3.5,
+   "Grammar": 3.5,
+   "Conventions": 4.0,
+   "words": 247
+  },
+  "9DDBBA28EBD0": {
+   "Overall": 3.0,
+   "Cohesion": 3.0,
+   "Syntax": 3.0,
+   "Vocabulary": 3.5,
+   "Phraseology": 3.0,
+   "Grammar": 2.5,
+   "Conventions": 2.5,
+   "words": 918
+  },
+  "5EFD8FA4133A": {
+   "Overall": 3.0,
+   "Cohesion": 3.5,
+   "Syntax": 3.5,
+   "Vocabulary": 3.0,
+   "Phraseology": 2.5,
+   "Grammar": 2.5,
+   "Conventions": 2.5,
+   "words": 2103
+  },
+  "FF9C278EA478": {
+   "Overall": 3.0,
+   "Cohesion": 3.0,
+   "Syntax": 2.5,
+   "Vocabulary": 3.0,
+   "Phraseology": 3.0,
+   "Grammar": 2.5,
+   "Conventions": 3.0,
+   "words": 211
+  },
+  "77A31D0A07A8": {
+   "Overall": 3.0,
+   "Cohesion": 2.5,
+   "Syntax": 3.0,
+   "Vocabulary": 3.0,
+   "Phraseology": 3.0,
+   "Grammar": 2.5,
+   "Conventions": 2.5,
+   "words": 547
+  },
+  "F9D0974B3AF7": {
+   "Overall": 3.0,
+   "Cohesion": 2.5,
+   "Syntax": 2.5,
+   "Vocabulary": 3.0,
+   "Phraseology": 3.0,
+   "Grammar": 2.5,
+   "Conventions": 2.5,
+   "words": 190
+  },
+  "21F8069EC7F7": {
+   "Overall": 3.0,
+   "Cohesion": 3.0,
+   "Syntax": 3.0,
+   "Vocabulary": 3.5,
+   "Phraseology": 3.0,
+   "Grammar": 3.5,
+   "Conventions": 2.5,
+   "words": 538
+  },
+  "F032D40816C0": {
+   "Overall": 3.0,
+   "Cohesion": 2.5,
+   "Syntax": 3.5,
+   "Vocabulary": 3.0,
+   "Phraseology": 2.5,
+   "Grammar": 3.0,
+   "Conventions": 2.5,
+   "words": 1089
+  },
+  "F628F0D46CCC": {
+   "Overall": 3.0,
+   "Cohesion": 3.0,
+   "Syntax": 3.5,
+   "Vocabulary": 3.0,
+   "Phraseology": 3.0,
+   "Grammar": 3.0,
+   "Conventions": 3.5,
+   "words": 342
+  },
+  "4C60445C5681": {
+   "Overall": 3.0,
+   "Cohesion": 3.0,
+   "Syntax": 3.0,
+   "Vocabulary": 3.0,
+   "Phraseology": 3.0,
+   "Grammar": 2.5,
+   "Conventions": 3.5,
+   "words": 184
+  },
+  "DBBAF0AB97FB": {
+   "Overall": 3.0,
+   "Cohesion": 2.5,
+   "Syntax": 3.0,
+   "Vocabulary": 3.0,
+   "Phraseology": 3.0,
+   "Grammar": 3.0,
+   "Conventions": 2.0,
+   "words": 473
+  },
+  "6E70CECCE25D": {
+   "Overall": 3.0,
+   "Cohesion": 3.0,
+   "Syntax": 3.5,
+   "Vocabulary": 3.0,
+   "Phraseology": 3.0,
+   "Grammar": 2.5,
+   "Conventions": 3.5,
+   "words": 501
+  },
+  "48F7FCAD8B23": {
+   "Overall": 3.0,
+   "Cohesion": 3.0,
+   "Syntax": 3.0,
+   "Vocabulary": 3.5,
+   "Phraseology": 3.0,
+   "Grammar": 2.0,
+   "Conventions": 2.0,
+   "words": 740
+  },
+  "C6B1B7E91EE8": {
+   "Overall": 3.0,
+   "Cohesion": 3.0,
+   "Syntax": 2.5,
+   "Vocabulary": 4.0,
+   "Phraseology": 3.5,
+   "Grammar": 3.5,
+   "Conventions": 2.5,
+   "words": 228
+  },
+  "9DD22B9D10F4": {
+   "Overall": 4.0,
+   "Cohesion": 4.5,
+   "Syntax": 4.0,
+   "Vocabulary": 4.0,
+   "Phraseology": 4.0,
+   "Grammar": 4.5,
+   "Conventions": 4.0,
+   "words": 348
+  },
+  "71129FE0D18F": {
+   "Overall": 4.0,
+   "Cohesion": 4.5,
+   "Syntax": 4.0,
+   "Vocabulary": 4.0,
+   "Phraseology": 4.5,
+   "Grammar": 4.5,
+   "Conventions": 4.0,
+   "words": 255
+  },
+  "F2387DA187A4": {
+   "Overall": 3.5,
+   "Cohesion": 3.5,
+   "Syntax": 3.0,
+   "Vocabulary": 3.5,
+   "Phraseology": 3.5,
+   "Grammar": 3.0,
+   "Conventions": 3.5,
+   "words": 921
+  },
+  "FDFB04ED3388": {
+   "Overall": 4.0,
+   "Cohesion": 4.0,
+   "Syntax": 3.0,
+   "Vocabulary": 4.0,
+   "Phraseology": 3.5,
+   "Grammar": 3.5,
+   "Conventions": 3.0,
+   "words": 364
+  },
+  "DC1271D1294D": {
+   "Overall": 4.0,
+   "Cohesion": 3.5,
+   "Syntax": 3.0,
+   "Vocabulary": 4.0,
+   "Phraseology": 3.0,
+   "Grammar": 4.0,
+   "Conventions": 3.5,
+   "words": 286
+  },
+  "5EA0A8768F94": {
+   "Overall": 3.5,
+   "Cohesion": 3.5,
+   "Syntax": 3.5,
+   "Vocabulary": 3.5,
+   "Phraseology": 3.5,
+   "Grammar": 4.0,
+   "Conventions": 3.0,
+   "words": 264
+  },
+  "FD4C4EDC22DE": {
+   "Overall": 4.0,
+   "Cohesion": 3.5,
+   "Syntax": 4.0,
+   "Vocabulary": 3.5,
+   "Phraseology": 3.5,
+   "Grammar": 4.0,
+   "Conventions": 4.0,
+   "words": 366
+  },
+  "8772F74F5EE0": {
+   "Overall": 4.0,
+   "Cohesion": 3.5,
+   "Syntax": 3.5,
+   "Vocabulary": 4.0,
+   "Phraseology": 4.0,
+   "Grammar": 4.0,
+   "Conventions": 4.0,
+   "words": 508
+  },
+  "1767698C3969": {
+   "Overall": 3.5,
+   "Cohesion": 3.0,
+   "Syntax": 3.5,
+   "Vocabulary": 3.5,
+   "Phraseology": 3.5,
+   "Grammar": 3.5,
+   "Conventions": 3.5,
+   "words": 301
+  },
+  "623B7BD7613C": {
+   "Overall": 4.0,
+   "Cohesion": 4.0,
+   "Syntax": 4.0,
+   "Vocabulary": 4.5,
+   "Phraseology": 4.0,
+   "Grammar": 3.5,
+   "Conventions": 4.0,
+   "words": 259
+  },
+  "0F32DDCBECB6": {
+   "Overall": 3.5,
+   "Cohesion": 4.0,
+   "Syntax": 3.5,
+   "Vocabulary": 3.5,
+   "Phraseology": 3.5,
+   "Grammar": 3.0,
+   "Conventions": 3.0,
+   "words": 635
+  },
+  "830E5FA9FC72": {
+   "Overall": 3.5,
+   "Cohesion": 3.0,
+   "Syntax": 3.5,
+   "Vocabulary": 4.0,
+   "Phraseology": 3.5,
+   "Grammar": 3.0,
+   "Conventions": 3.5,
+   "words": 635
+  },
+  "A47106D7B784": {
+   "Overall": 3.5,
+   "Cohesion": 3.5,
+   "Syntax": 3.5,
+   "Vocabulary": 2.5,
+   "Phraseology": 3.5,
+   "Grammar": 3.5,
+   "Conventions": 3.0,
+   "words": 436
+  },
+  "7007EB8E265D": {
+   "Overall": 3.5,
+   "Cohesion": 3.5,
+   "Syntax": 3.5,
+   "Vocabulary": 3.0,
+   "Phraseology": 3.0,
+   "Grammar": 3.5,
+   "Conventions": 4.0,
+   "words": 408
+  },
+  "1C1E049AB15F": {
+   "Overall": 3.5,
+   "Cohesion": 3.5,
+   "Syntax": 3.5,
+   "Vocabulary": 3.5,
+   "Phraseology": 3.5,
+   "Grammar": 3.0,
+   "Conventions": 3.0,
+   "words": 462
+  },
+  "5AFBB5573AB3": {
+   "Overall": 3.5,
+   "Cohesion": 4.0,
+   "Syntax": 3.5,
+   "Vocabulary": 4.0,
+   "Phraseology": 4.0,
+   "Grammar": 3.5,
+   "Conventions": 3.5,
+   "words": 446
+  },
+  "DEC2A1A6A1CA": {
+   "Overall": 4.0,
+   "Cohesion": 4.0,
+   "Syntax": 3.0,
+   "Vocabulary": 4.0,
+   "Phraseology": 3.5,
+   "Grammar": 4.0,
+   "Conventions": 3.5,
+   "words": 234
+  },
+  "82F7210163B5": {
+   "Overall": 4.0,
+   "Cohesion": 3.5,
+   "Syntax": 3.5,
+   "Vocabulary": 4.0,
+   "Phraseology": 4.0,
+   "Grammar": 3.5,
+   "Conventions": 3.5,
+   "words": 870
+  },
+  "5C3757B0C6AE": {
+   "Overall": 3.5,
+   "Cohesion": 3.0,
+   "Syntax": 3.0,
+   "Vocabulary": 3.5,
+   "Phraseology": 3.5,
+   "Grammar": 3.0,
+   "Conventions": 3.5,
+   "words": 519
+  },
+  "F6EAE029B20B": {
+   "Overall": 4.0,
+   "Cohesion": 4.0,
+   "Syntax": 4.0,
+   "Vocabulary": 3.5,
+   "Phraseology": 3.5,
+   "Grammar": 3.5,
+   "Conventions": 4.0,
+   "words": 1170
+  },
+  "CB120B25B46E": {
+   "Overall": 4.0,
+   "Cohesion": 4.5,
+   "Syntax": 4.0,
+   "Vocabulary": 4.0,
+   "Phraseology": 4.0,
+   "Grammar": 3.5,
+   "Conventions": 4.5,
+   "words": 257
+  },
+  "A35B4B7CBD24": {
+   "Overall": 3.5,
+   "Cohesion": 4.0,
+   "Syntax": 3.5,
+   "Vocabulary": 3.0,
+   "Phraseology": 3.0,
+   "Grammar": 4.0,
+   "Conventions": 4.0,
+   "words": 449
+  },
+  "F347A054A1AF": {
+   "Overall": 3.5,
+   "Cohesion": 3.5,
+   "Syntax": 3.0,
+   "Vocabulary": 3.5,
+   "Phraseology": 3.0,
+   "Grammar": 2.5,
+   "Conventions": 3.5,
+   "words": 1046
+  },
+  "BCF16DEB277E": {
+   "Overall": 4.5,
+   "Cohesion": 4.5,
+   "Syntax": 3.0,
+   "Vocabulary": 4.5,
+   "Phraseology": 4.0,
+   "Grammar": 4.0,
+   "Conventions": 3.5,
+   "words": 518
+  },
+  "3D4475C949C2": {
+   "Overall": 4.0,
+   "Cohesion": 4.5,
+   "Syntax": 4.0,
+   "Vocabulary": 4.0,
+   "Phraseology": 4.0,
+   "Grammar": 4.0,
+   "Conventions": 4.0,
+   "words": 620
+  },
+  "6E3D46F9AAE1": {
+   "Overall": 4.5,
+   "Cohesion": 4.5,
+   "Syntax": 4.5,
+   "Vocabulary": 4.5,
+   "Phraseology": 4.0,
+   "Grammar": 4.5,
+   "Conventions": 4.5,
+   "words": 613
+  },
+  "3C2AFBFEDA6B": {
+   "Overall": 4.0,
+   "Cohesion": 4.5,
+   "Syntax": 4.0,
+   "Vocabulary": 3.5,
+   "Phraseology": 4.0,
+   "Grammar": 4.0,
+   "Conventions": 3.5,
+   "words": 246
+  },
+  "685ABA004ADB": {
+   "Overall": 3.5,
+   "Cohesion": 4.0,
+   "Syntax": 3.5,
+   "Vocabulary": 4.0,
+   "Phraseology": 3.5,
+   "Grammar": 3.5,
+   "Conventions": 4.0,
+   "words": 529
+  },
+  "DD474E5804C0": {
+   "Overall": 4.0,
+   "Cohesion": 3.5,
+   "Syntax": 3.5,
+   "Vocabulary": 4.5,
+   "Phraseology": 4.0,
+   "Grammar": 4.0,
+   "Conventions": 3.5,
+   "words": 512
+  },
+  "D743AC1EB08D": {
+   "Overall": 4.0,
+   "Cohesion": 4.0,
+   "Syntax": 3.5,
+   "Vocabulary": 4.0,
+   "Phraseology": 3.5,
+   "Grammar": 3.0,
+   "Conventions": 4.0,
+   "words": 478
+  },
+  "6D728858E86F": {
+   "Overall": 3.5,
+   "Cohesion": 3.5,
+   "Syntax": 3.0,
+   "Vocabulary": 3.5,
+   "Phraseology": 2.5,
+   "Grammar": 3.5,
+   "Conventions": 3.5,
+   "words": 307
+  },
+  "E2F767441B44": {
+   "Overall": 4.0,
+   "Cohesion": 5.0,
+   "Syntax": 4.0,
+   "Vocabulary": 4.0,
+   "Phraseology": 4.0,
+   "Grammar": 3.0,
+   "Conventions": 4.0,
+   "words": 476
+  },
+  "B08751C48DAB": {
+   "Overall": 3.5,
+   "Cohesion": 3.0,
+   "Syntax": 3.0,
+   "Vocabulary": 3.5,
+   "Phraseology": 4.0,
+   "Grammar": 3.0,
+   "Conventions": 3.0,
+   "words": 1174
+  },
+  "E28221F47AE3": {
+   "Overall": 3.5,
+   "Cohesion": 4.0,
+   "Syntax": 3.5,
+   "Vocabulary": 3.5,
+   "Phraseology": 3.0,
+   "Grammar": 3.0,
+   "Conventions": 3.5,
+   "words": 572
+  },
+  "A3C8FABB8B29": {
+   "Overall": 3.5,
+   "Cohesion": 3.0,
+   "Syntax": 3.5,
+   "Vocabulary": 3.5,
+   "Phraseology": 3.5,
+   "Grammar": 3.5,
+   "Conventions": 3.0,
+   "words": 350
+  },
+  "9715AAF5B952": {
+   "Overall": 3.5,
+   "Cohesion": 3.5,
+   "Syntax": 3.5,
+   "Vocabulary": 3.0,
+   "Phraseology": 3.5,
+   "Grammar": 3.0,
+   "Conventions": 3.5,
+   "words": 358
+  },
+  "3A94013B23DD": {
+   "Overall": 4.0,
+   "Cohesion": 4.0,
+   "Syntax": 3.5,
+   "Vocabulary": 4.5,
+   "Phraseology": 3.5,
+   "Grammar": 3.5,
+   "Conventions": 4.0,
+   "words": 472
+  },
+  "CEC5B40D1688": {
+   "Overall": 4.0,
+   "Cohesion": 4.5,
+   "Syntax": 4.0,
+   "Vocabulary": 4.5,
+   "Phraseology": 4.0,
+   "Grammar": 4.0,
+   "Conventions": 4.0,
+   "words": 774
+  },
+  "C928D32FE5C5": {
+   "Overall": 4.5,
+   "Cohesion": 4.5,
+   "Syntax": 4.5,
+   "Vocabulary": 4.5,
+   "Phraseology": 4.5,
+   "Grammar": 4.5,
+   "Conventions": 5.0,
+   "words": 388
+  },
+  "2623A90F72B9": {
+   "Overall": 4.0,
+   "Cohesion": 3.5,
+   "Syntax": 3.5,
+   "Vocabulary": 3.5,
+   "Phraseology": 3.5,
+   "Grammar": 3.0,
+   "Conventions": 3.5,
+   "words": 312
+  },
+  "14EE006078C4": {
+   "Overall": 3.5,
+   "Cohesion": 3.5,
+   "Syntax": 3.0,
+   "Vocabulary": 3.5,
+   "Phraseology": 3.5,
+   "Grammar": 2.5,
+   "Conventions": 3.0,
+   "words": 543
+  },
+  "2EEB160A4BD1": {
+   "Overall": 3.5,
+   "Cohesion": 3.0,
+   "Syntax": 2.5,
+   "Vocabulary": 3.0,
+   "Phraseology": 3.0,
+   "Grammar": 3.5,
+   "Conventions": 3.0,
+   "words": 389
+  },
+  "40788D50B102": {
+   "Overall": 3.5,
+   "Cohesion": 3.0,
+   "Syntax": 3.5,
+   "Vocabulary": 3.5,
+   "Phraseology": 3.0,
+   "Grammar": 3.5,
+   "Conventions": 3.5,
+   "words": 171
+  },
+  "B1AFACE6704E": {
+   "Overall": 5.0,
+   "Cohesion": 5.0,
+   "Syntax": 5.0,
+   "Vocabulary": 5.0,
+   "Phraseology": 5.0,
+   "Grammar": 5.0,
+   "Conventions": 5.0,
+   "words": 905
+  }
+ }
+}
