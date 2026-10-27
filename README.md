@@ -17,7 +17,7 @@ International Information Technology University, Almaty) is not published. No pe
 | `experiments/ellipse/` | public ELLIPSE benchmark: essay ids and human scores (`jobs_ids_scores.json`, no essay texts), per-call model outputs (`ellipse_*.jsonl`), analysis scripts and their outputs |
 | `results/` | per-document outputs of the contract and card development runs and repeated runs; `astra_evolution_20261026.md` (repository and deploy aggregates) |
 | `figures/` | Figures 1–5 and the graphical abstract; generator in `figures/src/figs.py` |
-| `context_facts_2710.md` | SQL and results for every contextual number in the paper and the call-by-call reconciliation (2716 calls) |
+| `context_facts_2710.md` | SQL and results for every contextual number in the paper and an experiment-level reconciliation of metered call counts (2716 calls) |
 | `MANIFEST.json` | SHA-256, size and record count of every file in this repository (`build_repo_manifest.py`) |
 
 ## Reproduce
@@ -29,7 +29,7 @@ python analyse.py jobs_ids_scores.json ellipsis_raw_rater_scores_anon_all_essay.
 python calibrate.py jobs_ids_scores.json ellipse_flashlite.jsonl flashlite     # Table 8 calibrated columns
 python human_compare.py jobs_ids_scores.json ellipsis_raw_rater_scores_anon_all_essay.csv ellipse_flashlite.jsonl flashlite
 python uncertainty_signals.py jobs_ids_scores.json ellipse_flashlite.jsonl ellipse_flash38.jsonl   # Table 9
-python calibrated_signals.py  jobs_ids_scores.json ellipse_flashlite.jsonl ellipse_flash38.jsonl   # post-calibration signals
+python matched_signals.py    jobs_ids_scores.json ellipse_flashlite.jsonl ellipse_flash38.jsonl   # matched before/after calibration
 python cross_model.py         jobs_ids_scores.json ellipse_flashlite.jsonl ellipse_flash38.jsonl   # ensemble
 ```
 (repeat the first three with `ellipse_flash38.jsonl flash38`). Contract and card counts are recomputed from the per-call JSON files (`holdout_an.py`, `stability.py`). Results of LLM calls are not exactly reproducible across model versions; every output used in the paper is stored here.

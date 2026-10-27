@@ -1,0 +1,182 @@
+{
+ "threshold": 0.5,
+ "budget": 0.2,
+ "fold_evaluations": 400,
+ "flashlite": {
+  "n": 120,
+  "held_out_sizes": [
+   60
+  ],
+  "large_errors_mean": {
+   "raw": 57.5,
+   "cal": 34.34
+  },
+  "repeat": {
+   "raw": {
+    "mean_advantage": 0.17,
+    "range": [
+     -1.2,
+     0.8
+    ],
+    "share_folds_gt0": 0.67
+   },
+   "cal": {
+    "mean_advantage": -1.1,
+    "range": [
+     -4.0,
+     2.0
+    ],
+    "share_folds_gt0": 0.23
+   },
+   "delta": {
+    "mean_advantage": -1.26,
+    "range": [
+     -4.41,
+     2.4
+    ],
+    "share_folds_gt0": 0.22
+   }
+  },
+  "between": {
+   "raw": {
+    "mean_advantage": -0.25,
+    "range": [
+     -1.6,
+     0.6
+    ],
+    "share_folds_gt0": 0.36
+   },
+   "cal": {
+    "mean_advantage": -1.05,
+    "range": [
+     -3.4,
+     1.6
+    ],
+    "share_folds_gt0": 0.21
+   },
+   "delta": {
+    "mean_advantage": -0.81,
+    "range": [
+     -3.6,
+     2.6
+    ],
+    "share_folds_gt0": 0.3
+   }
+  },
+  "cross": {
+   "raw": {
+    "mean_advantage": 0.38,
+    "range": [
+     -0.6,
+     0.8
+    ],
+    "share_folds_gt0": 0.84
+   },
+   "cal": {
+    "mean_advantage": -0.75,
+    "range": [
+     -3.41,
+     2.0
+    ],
+    "share_folds_gt0": 0.29
+   },
+   "delta": {
+    "mean_advantage": -1.13,
+    "range": [
+     -4.0,
+     1.8
+    ],
+    "share_folds_gt0": 0.21
+   }
+  }
+ },
+ "flash38": {
+  "n": 119,
+  "held_out_sizes": [
+   59,
+   60
+  ],
+  "large_errors_mean": {
+   "raw": 51.5,
+   "cal": 30.05
+  },
+  "repeat": {
+   "raw": {
+    "mean_advantage": 1.13,
+    "range": [
+     0.02,
+     2.03
+    ],
+    "share_folds_gt0": 0.97
+   },
+   "cal": {
+    "mean_advantage": 1.13,
+    "range": [
+     -1.2,
+     3.4
+    ],
+    "share_folds_gt0": 0.81
+   },
+   "delta": {
+    "mean_advantage": 0.0,
+    "range": [
+     -2.76,
+     3.07
+    ],
+    "share_folds_gt0": 0.5
+   }
+  },
+  "between": {
+   "raw": {
+    "mean_advantage": 0.74,
+    "range": [
+     -0.8,
+     2.0
+    ],
+    "share_folds_gt0": 0.84
+   },
+   "cal": {
+    "mean_advantage": -1.05,
+    "range": [
+     -3.8,
+     1.6
+    ],
+    "share_folds_gt0": 0.22
+   },
+   "delta": {
+    "mean_advantage": -1.79,
+    "range": [
+     -5.34,
+     1.49
+    ],
+    "share_folds_gt0": 0.17
+   }
+  },
+  "cross": {
+   "raw": {
+    "mean_advantage": 0.01,
+    "range": [
+     -1.97,
+     1.8
+    ],
+    "share_folds_gt0": 0.53
+   },
+   "cal": {
+    "mean_advantage": -0.29,
+    "range": [
+     -3.21,
+     2.5
+    ],
+    "share_folds_gt0": 0.4
+   },
+   "delta": {
+    "mean_advantage": -0.3,
+    "range": [
+     -4.15,
+     3.8
+    ],
+    "share_folds_gt0": 0.43
+   }
+  }
+ }
+}

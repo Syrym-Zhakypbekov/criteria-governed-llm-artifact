@@ -122,11 +122,11 @@ fig.savefig(f"{OUT}/Figure5_gates.png", dpi=600, bbox_inches="tight"); plt.close
 fig = plt.figure(figsize=(11, 5.6), dpi=200); ax = fig.add_axes([0, 0, 1, 1])
 ax.set_xlim(0, 1); ax.set_ylim(0, 1); ax.axis("off")
 ax.text(0.03, 0.91, "Criteria-governed LLM decisions in a production university platform", fontsize=19, weight="bold", color=DARK)
-ax.text(0.03, 0.85, "One criteria operator at successive AI decision points: certificates -> veto -> aggregate -> escalation -> human finality",
+ax.text(0.03, 0.85, "Criteria specification: certificates -> veto -> aggregate -> escalation -> human finality; shared ledger for extraction",
         fontsize=12, color=DARK)
 cols = [("Production", f"{100 * 1 / 191:.1f}% vs {100 * 187 / 1377:.1f}%",
          "returned by verification:\ncard-labelled vs other contacts\n(6.8% excl. one submitter)"),
-        ("Public essays", "QWK 0.48 to 0.77", "offline calibration against\nhuman scores, 120 essays;\ndisagreement not consistent"),
+        ("Public essays", "QWK 0.77", "calibrated, 3.8-flash,\ndetailed rubric, held-out\nsplit mean; 120 essays"),
         ("Held-out test", "33/33",
          "synthetic defective contracts\nrouted to a human by the\noperator; 0/10 clean routed"),
         ("Coding agents", "94 / 1026", "deploy runs stopped by\ntool-enforced gates in a\ncode base built by agents")]
