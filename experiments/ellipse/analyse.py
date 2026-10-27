@@ -18,7 +18,7 @@ R1 = {i: float(raw.loc[i, "Overall_1"]) for i in ids if i in raw.index}
 R2 = {i: float(raw.loc[i, "Overall_2"]) for i in ids if i in raw.index}
 
 def qwk(a, b):  # quadratic weighted kappa on half-point scale mapped to integers 2..10
-    return cohen_kappa_score([int(round(x * 2)) for x in a], [int(round(x * 2)) for x in b], weights="quadratic")
+    return cohen_kappa_score([int(round(x * 2)) for x in a], [int(round(x * 2)) for x in b], weights="quadratic", labels=list(range(2, 11)))
 def ci(vals, f, n=2000, seed=7):
     rnd = np.random.default_rng(seed); v = np.array(vals, dtype=object); bs = []
     for _ in range(n):
@@ -36,7 +36,7 @@ for c in "ABC":
     m = {i: float(np.mean(scores[c][i])) for i in full}
     first = {i: scores[c][i][0] for i in full}
     sd = [float(np.std(scores[c][i])) for i in full if len(scores[c][i]) >= 2]
-    rng = [max(scores[c][i]) - min(scores[c][i]) for i in full if len(scores[c][i]) >= 2]
+    rng = [max(scores[c][i]) - min(scores[c][i]) for i in full if len(scores[c][i]) == 3]  # all three runs parseable (R8-02)
     mae = float(np.mean([abs(m[i] - H[i]) for i in full]))
     lo, hi = ci(full, lambda s: float(np.mean([abs(m[i] - H[i]) for i in s])))
     d = {"n": len(full), "mae_vs_gold": mae, "mae_ci": [lo, hi],
@@ -46,7 +46,7 @@ for c in "ABC":
          "spearman_mean_vs_gold": float(spearmanr([m[i] for i in full], [H[i] for i in full])[0]),
          "bias_ai_minus_gold": float(np.mean([m[i] - H[i] for i in full])),
          "repeat_sd_mean": float(np.mean(sd)) if sd else None,
-         "share_repeats_identical": float(np.mean([x == 0 for x in rng])) if rng else None}
+         "share_repeats_identical": float(np.mean([x == 0 for x in rng])) if rng else None, "n_identical_denominator": len(rng)}
     out[c] = d
     print(f"  {c}: n={d['n']} MAE {mae:.3f} [{lo:.3f},{hi:.3f}]  QWK(run1 vs gold) {d['qwk_single_run_vs_gold']:.3f}  "
           f"QWK vs r1 {d['qwk_single_run_vs_rater1']:.3f} vs r2 {d['qwk_single_run_vs_rater2']:.3f}  rho {d['spearman_mean_vs_gold']:.3f}  "

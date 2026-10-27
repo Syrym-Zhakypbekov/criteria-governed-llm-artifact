@@ -104,7 +104,7 @@ for i, v in enumerate(cards):
 for i, v in enumerate(contr):
     ax.text(i + 1, 100 * v / 28 + 2.5, f"{v}/28", ha="center", fontsize=8)
 ax.set_xticks([1, 2, 3]); ax.set_xticklabels(["v1 (deployed)", "v2", "v3"]); ax.set_ylim(40, 108)
-ax.set_ylabel("Defects caught (%)"); ax.legend(frameon=False, fontsize=8, loc="lower right")
+ax.set_ylabel("Expected criterion detected (%)"); ax.legend(frameon=False, fontsize=8, loc="lower right")
 fig.savefig(f"{OUT}/Figure4_iterations.png", dpi=600, bbox_inches="tight"); plt.close(fig)
 print("cards caught v1-v3:", cards, "contracts caught v1-v2:", contr)
 

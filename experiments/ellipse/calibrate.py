@@ -9,7 +9,7 @@ res = [json.loads(l) for l in open(RES, encoding="utf-8") if l.strip()]
 ok = [r for r in res if "out" in r and isinstance(r["out"].get("overall"), (int, float))]
 ids = sorted(gold); H = np.array([gold[i]["Overall"] for i in ids])
 S = {c: np.array([np.mean([r["out"]["overall"] for r in ok if r["id"] == i and r["cfg"] == c] or [np.nan]) for i in ids]) for c in "ABC"}
-q = lambda a, b: cohen_kappa_score(np.round(np.clip(a, 1, 5) * 2).astype(int), np.round(b * 2).astype(int), weights="quadratic")
+q = lambda a, b: cohen_kappa_score(np.round(np.clip(a, 1, 5) * 2).astype(int), np.round(b * 2).astype(int), weights="quadratic", labels=list(range(2, 11)))
 rnd = np.random.default_rng(3); out = {"tag": TAG}
 for c in "ABC":
     x = S[c]; m = ~np.isnan(x); maes, qwks = [], []

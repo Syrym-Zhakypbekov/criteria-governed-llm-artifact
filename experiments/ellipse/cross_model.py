@@ -16,7 +16,7 @@ LA, LB = load(A_), load(B_)
 def mean(d, c): return np.array([np.mean(d.get((i, c), [np.nan])) for i in ids])
 def spread(d): return np.array([np.ptp([x for c in "ABC" for x in d.get((i, c), [])] or [0]) + np.std([x for c in "ABC" for x in d.get((i, c), [])] or [0]) for i in ids])
 xa, xb = mean(LA, "C"), mean(LB, "C"); m = ~np.isnan(xa) & ~np.isnan(xb)
-qwk = lambda a, b: cohen_kappa_score(np.round(np.clip(a, 1, 5) * 2).astype(int), np.round(b * 2).astype(int), weights="quadratic")
+qwk = lambda a, b: cohen_kappa_score(np.round(np.clip(a, 1, 5) * 2).astype(int), np.round(b * 2).astype(int), weights="quadratic", labels=list(range(2, 11)))
 rnd = np.random.default_rng(9); res = {k: [] for k in ["mae_a", "mae_b", "mae_ens", "qwk_a", "qwk_b", "qwk_ens"]}
 esc = {b: {"cross": [], "selfA": [], "selfB": [], "random": [], "n_large": []} for b in (0.1, 0.2, 0.3)}
 sA, sB = spread(LA), spread(LB)

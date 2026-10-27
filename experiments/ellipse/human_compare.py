@@ -14,7 +14,7 @@ M = (R1 + R2) / 2
 def run1(c):
     d = {(r["id"], r["rep"]): r["out"]["overall"] for r in res if r["cfg"] == c and "out" in r and isinstance(r["out"].get("overall"), (int, float))}
     return np.array([d.get((i, 1), d.get((i, 2), d.get((i, 3), np.nan))) for i in ids])
-qwk = lambda a, b: cohen_kappa_score(np.round(np.clip(a, 1, 5)).astype(int), np.round(b).astype(int), weights="quadratic")  # integer 1-5 scale = scale of individual raters
+qwk = lambda a, b: cohen_kappa_score(np.round(np.clip(a, 1, 5)).astype(int), np.round(b).astype(int), weights="quadratic", labels=list(range(1, 6)))  # integer 1-5 scale = scale of individual raters
 mae = lambda a, b: float(np.mean(np.abs(np.clip(np.round(a), 1, 5) - b)))
 rnd = np.random.default_rng(5); out = {"tag": TAG, "n": len(ids), "human_qwk_int": qwk(R1, R2), "human_mae_int": mae(R1, R2)}
 print(f"[{TAG}] rater1 vs rater2 (integer scale): QWK {out['human_qwk_int']:.3f} MAE {out['human_mae_int']:.3f}")
