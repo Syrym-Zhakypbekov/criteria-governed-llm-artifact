@@ -42,3 +42,6 @@ Evaluation calls with used outputs: 2668 (+36 failed, +10 unused, +2 smoke tests
 ## Speaking/text model allocation in the expert calibration study (work_v1)
 `SELECT i.stratum, s.model_version, s.provider, count(*) FROM work_v1.calibration_study_item i LEFT JOIN work_v1.answer_scores s ON s.id = i.ai_score_id GROUP BY 1,2,3`
 AUDIO: gemini-2.5-flash 5 (recording) · gemini-2.5-flash-lite 1 (recording) + 7 (transcript) = 13. CHAT: gemini-2.5-flash 10 · gemini-2.5-flash-lite 11 · deepseek-chat 1 = 22.
+
+## Expert calibration sample (work_v1.calibration_study notes, items → turns → exam_sessions)
+Stratified random sample, seeded, fraction 0.25 of eligible answers (completed sessions, ≥5 words): recordings 6/25, transcript-only spoken 7/26, text 22/88; 35 items from 35 distinct students (max one per student per stratum). AI 0–100 → rubric 1–5 as 1 + 4·x/100 (reproduces MAE 0.631, bias −0.607; ρ 0.751, p 0.0031 on the original scale). ρ CI: item-level percentile bootstrap 0.35–0.37 … 0.91 across seeds.

@@ -1,7 +1,7 @@
 # Round-4 reanalysis (27.10.2026): three disagreement signals kept SEPARATE, same error target, same budgets.
 # Target: large error = |three-run mean of configuration C - mean of two raters| >= 0.75 (uncalibrated, as in Section 6.4).
 # Signals per essay: within = range of the 3 repeats of configuration C; between = SD of the three configuration means (A,B,C);
-# cross = |C mean of this model - C mean of the other model|. Ties broken at random, averaged over 1000 tie-breaks.
+# cross = |C mean of this model - C mean of the other model|. Ties at the cutoff are averaged analytically (expected capture under random selection among tied essays), also inside every bootstrap resample.
 # Baseline = random review with the same budget (expected k*L/N). Uncertainty: paired bootstrap over essays (2000).
 # usage: python uncertainty_signals.py jobs.json ellipse_flashlite.jsonl ellipse_flash38.jsonl
 import json, sys, numpy as np
@@ -25,16 +25,18 @@ for name, d in D.items():
            "cross": np.abs(mc - cmean(other, "C"))}
     ok = ~np.isnan(mc) & ~np.isnan(sig["within"]) & ~np.isnan(sig["between"]) & ~np.isnan(sig["cross"])
     L = large[ok]; N = int(ok.sum()); res = {"n": N, "large": int(L.sum())}
-    def caught(s, lg, k, rr):  # mean over random tie-breaks
-        return np.mean([lg[np.lexsort((rr.random(len(s)), -s))[:k]].sum() for _ in range(200)])
+    def caught(s, lg, k):  # expected capture under random selection among essays tied at the cutoff (exact, R11-01)
+        order = np.sort(s)[::-1]; cut = order[k - 1]
+        above = s > cut; tied = s == cut; slots = k - above.sum()
+        return lg[above].sum() + slots * lg[tied].sum() / tied.sum()
     for sn, s in sig.items():
         s = s[ok]; res[sn] = {"distinct_values": int(len(np.unique(s)))}
         for b in out["budgets"]:
-            k = max(1, round(b * N)); c = caught(s, L, k, rng); exp = k * L.sum() / N
+            k = max(1, round(b * N)); c = caught(s, L, k); exp = k * L.sum() / N
             bs = []
             for _ in range(2000):
                 idx = rng.integers(0, N, N); lb = L[idx]; sb = s[idx]
-                bs.append(lb[np.lexsort((rng.random(N), -sb))[:k]].sum() - k * lb.sum() / N)
+                bs.append(caught(sb, lb, k) - k * lb.sum() / N)
             res[sn][f"{int(b*100)}"] = {"k": k, "caught": round(float(c), 2), "random_expected": round(float(exp), 2),
                                        "diff": round(float(c - exp), 2), "diff_ci": [round(float(np.percentile(bs, 2.5)), 2), round(float(np.percentile(bs, 97.5)), 2)]}
     out[name] = res
