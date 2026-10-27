@@ -708,8 +708,8 @@
  },
  {
   "path": "figures/Figure1_operator.png",
-  "sha256": "3f8b1cf42b836d67209bda1511c20f96065e7511b59a7896c1beff6e6c6bae76",
-  "bytes": 333571,
+  "sha256": "47a3a0e404d2f1d3b678d1d04bf9018554a9680afb252c858cab070aa88ce95c",
+  "bytes": 359585,
   "records": null,
   "original": false
  },
@@ -722,8 +722,8 @@
  },
  {
   "path": "figures/Figure3_threshold.png",
-  "sha256": "6f7dac7a98a07e7b47c54202e88b87183072e45a2af8377690b45fd8027743d0",
-  "bytes": 163923,
+  "sha256": "2d875f567d9d5012107c79307df1a163027c8959c9525f5446ce515494dcbb25",
+  "bytes": 162479,
   "records": null,
   "original": false
  },
@@ -743,15 +743,15 @@
  },
  {
   "path": "figures/GraphicalAbstract.png",
-  "sha256": "1868585145977ac122bf34a25828f8051f4ebdd693c9edba6f946633aac6a417",
-  "bytes": 129305,
+  "sha256": "50c2b37fc2e082852b3213f2655195293693eb0dcb0a3f15641b07479302666a",
+  "bytes": 134939,
   "records": null,
   "original": false
  },
  {
   "path": "figures/src/figs.py",
-  "sha256": "47619cd980d038fd26e559253803c0f0cf3a829f6afe151f277ac40b53ba743c",
-  "bytes": 8428,
+  "sha256": "39fe3acf80810e684424968c3e6457ac4a5765c8fad8dcb753ea6349de714be3",
+  "bytes": 8580,
   "records": null,
   "original": false
  },
