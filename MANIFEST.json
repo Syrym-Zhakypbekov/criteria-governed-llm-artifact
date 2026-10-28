@@ -29,7 +29,7 @@
  },
  {
   "path": "CITATION.cff",
-  "sha256": "63acc3b8154c5ffaf1854b9971b8a36b325e53f91015ba23aa87ee41ad86fc31",
+  "sha256": "50aeb2834e9f5dd0b5c8bbc97b2c9f22f2e1d369a98a6aa7d20aeb9f5f069efd",
   "bytes": 1259,
   "records": null,
   "original": false
@@ -43,8 +43,8 @@
  },
  {
   "path": "README.md",
-  "sha256": "4fbbc01d61152b725a4bc595ad92ba7df5d31612833950c1ecf4799c757d59fe",
-  "bytes": 5897,
+  "sha256": "e4f4c57bc6926c05117d19cf8cc780e66e1c94e68273efa7b0bb1afc0aacb8ab",
+  "bytes": 5960,
   "records": null,
   "original": false
  },

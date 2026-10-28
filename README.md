@@ -1,6 +1,6 @@
 # Criteria-governed LLM decision workflows — research artefact
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23698100.svg)](https://doi.org/10.5281/zenodo.23698100) · License: MIT · Version for the MAKE submission: v1.0-make, https://doi.org/10.5281/zenodo.23698101 · Paper: MDPI *Machine Learning and Knowledge Extraction* (submitted)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23698100.svg)](https://doi.org/10.5281/zenodo.23698100) · License: MIT · Version for the MAKE submission: v1.1-make, https://doi.org/10.5281/zenodo.23719304 (previous: v1.0-make, https://doi.org/10.5281/zenodo.23698101) · Paper: MDPI *Machine Learning and Knowledge Extraction* (submitted)
 
 Code, prompts, synthetic test inputs, analysis scripts and aggregate results for the manuscript
 «Criteria-Governed LLM Decision Workflows: An Auditable Architecture and Experimental Evaluation in a Production University Platform» (submitted to MDPI *Machine Learning and Knowledge Extraction*, Special Issue «Knowledge Discovery and Extraction with Large Language Models, Retrieval-Augmented Generation, and Autonomous Agents»). Earlier work: Zhakypbekov et al., *Informatics* 2026, 13, 179, doi:10.3390/informatics13110179.
@@ -44,4 +44,4 @@ python cross_model.py         jobs_ids_scores.json ellipse_flashlite.jsonl ellip
 - Production data of the university (business-card contacts, contract drafts, assessments) cannot be shared under the Law of the Republic of Kazakhstan «On Personal Data and Their Protection» No. 94-V; only aggregates reported in the paper are released.
 
 ## Cite
-Zhakypbekov, S. (2026). Research artefact: Criteria-Governed LLM Decision Workflows (v1.0-make). Zenodo. https://doi.org/10.5281/zenodo.23698101 (all versions: https://doi.org/10.5281/zenodo.23698100) — or use «Cite this repository» (`CITATION.cff`).
+Zhakypbekov, S. (2026). Research artefact: Criteria-Governed LLM Decision Workflows (v1.1-make). Zenodo. https://doi.org/10.5281/zenodo.23719304 (all versions: https://doi.org/10.5281/zenodo.23698100) — or use «Cite this repository» (`CITATION.cff`).
