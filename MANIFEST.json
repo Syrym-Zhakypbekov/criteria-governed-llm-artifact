@@ -78,8 +78,8 @@
  },
  {
   "path": "data/production_aggregates/qa_grades_150.csv",
-  "sha256": "8d617ad486b9b769941269bfced0f70c0509b3df961aa253dc121b11363d9e55",
-  "bytes": 4228,
+  "sha256": "c02621dc896f6beb060a6e257eceba0251d45ba3b53f4cf68b6764b99750be93",
+  "bytes": 4077,
   "records": null,
   "original": false
  },
@@ -92,8 +92,8 @@
  },
  {
   "path": "data/production_aggregates/topic_labels_300.csv",
-  "sha256": "96b90b465d1c41ad2b0eb1c2a53aeef434e3fe6997c85e16a74728cadc697846",
-  "bytes": 41821,
+  "sha256": "9bca32e8ff3b7f9a7cb35009cdb0b60acc89315d0f49e22cc9491e5d47f37e98",
+  "bytes": 41520,
   "records": null,
   "original": false
  },
@@ -309,8 +309,8 @@
  },
  {
   "path": "experiments/baseline/README.md",
-  "sha256": "abbd9ca75eee9bfd3d2092541fdf3f760fb018370ff71760d4a43e2cd17a919f",
-  "bytes": 15659,
+  "sha256": "000eca3fcb95a36a343a7c7adf98d9c4d61e67db42d99c5afb3815de4bb2f119",
+  "bytes": 15421,
   "records": null,
   "original": false
  },
@@ -323,15 +323,15 @@
  },
  {
   "path": "experiments/baseline/baseline_json_schema.json",
-  "sha256": "07841238de45a9a3dabc5da7ac949b71b1adf2bb86482e24cfbe80ca69ec1fa1",
-  "bytes": 6679,
+  "sha256": "d235a613e9a18eb6267fbc25e0edaab391f2c69e20faf928c4acea8d4b2a05ab",
+  "bytes": 6359,
   "records": null,
   "original": false
  },
  {
   "path": "experiments/baseline/baseline_results.json",
-  "sha256": "03da0bb669cce2db2f59bf1e979fda130e236f23e5fd8ff44e393dfec966b548",
-  "bytes": 389651,
+  "sha256": "d9ebe4c0059c58bba28080ce47ed31a26eb139fccae8a43ebbe5c454cb168c81",
+  "bytes": 373542,
   "records": null,
   "original": false
  },
@@ -344,15 +344,15 @@
  },
  {
   "path": "experiments/baseline/baseline_table.md",
-  "sha256": "c12bcf13ddbfab04c308309ed02c0f8f989f9f5c37e1990aae89d796c1aececd",
-  "bytes": 4486,
+  "sha256": "79c8d2d3ee16425c63bcee0d9820e90fb1cf342a0cf7798fbdcd8a9f8509d286",
+  "bytes": 4380,
   "records": null,
   "original": false
  },
  {
   "path": "experiments/baseline/preexisting_files.sha256.json",
-  "sha256": "77221ccc44451041f1eb53c9703524be47bb0ac2a536204d5a3e9a3fc5559c21",
-  "bytes": 19213,
+  "sha256": "7aa2bb141c8bb4d00a5a6a656fa74fbd9dd85dfdb2733ae2e4ff61cbd6992561",
+  "bytes": 19047,
   "records": null,
   "original": false
  },
@@ -365,8 +365,8 @@
  },
  {
   "path": "experiments/baseline/run.log",
-  "sha256": "61f4c272542835ce2fd408dd8f8b9ed195f87c89af4f84e6e58beeca800cb1ab",
-  "bytes": 4658,
+  "sha256": "1e9ef2e8b231553a8ba3e8bff67eb29a8d7989e8ed84d99374fe8943affa2d32",
+  "bytes": 4549,
   "records": null,
   "original": false
  },
