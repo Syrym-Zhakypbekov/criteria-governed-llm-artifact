@@ -1,0 +1,320 @@
+{
+  "$defs": {
+    "Addendum": {
+      "additionalProperties": false,
+      "properties": {
+        "base_number": {
+          "title": "Base Number",
+          "type": "string"
+        },
+        "base_date": {
+          "anyOf": [
+            {
+              "const": ""
+            },
+            {
+              "format": "date",
+              "type": "string"
+            }
+          ],
+          "title": "Base Date",
+          "type": "string"
+        }
+      },
+      "required": [
+        "base_number",
+        "base_date"
+      ],
+      "title": "Addendum",
+      "type": "object"
+    },
+    "Contract": {
+      "additionalProperties": false,
+      "properties": {
+        "number": {
+          "title": "Number",
+          "type": "string"
+        },
+        "date": {
+          "anyOf": [
+            {
+              "const": ""
+            },
+            {
+              "format": "date",
+              "type": "string"
+            }
+          ],
+          "title": "Date",
+          "type": "string"
+        },
+        "basis": {
+          "title": "Basis",
+          "type": "string"
+        },
+        "vat_rate": {
+          "title": "Vat Rate",
+          "type": "number"
+        },
+        "with_vat": {
+          "title": "With Vat",
+          "type": "boolean"
+        },
+        "kind": {
+          "enum": [
+            "goods",
+            "services",
+            "works"
+          ],
+          "title": "Kind",
+          "type": "string"
+        },
+        "from": {
+          "anyOf": [
+            {
+              "const": ""
+            },
+            {
+              "format": "date",
+              "type": "string"
+            }
+          ],
+          "title": "From",
+          "type": "string"
+        },
+        "until": {
+          "anyOf": [
+            {
+              "const": ""
+            },
+            {
+              "format": "date",
+              "type": "string"
+            }
+          ],
+          "title": "Until",
+          "type": "string"
+        },
+        "addendum": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Addendum"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "total": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Total"
+        }
+      },
+      "required": [
+        "number",
+        "date",
+        "basis",
+        "vat_rate",
+        "with_vat",
+        "kind",
+        "from",
+        "until",
+        "addendum"
+      ],
+      "title": "Contract",
+      "type": "object"
+    },
+    "Item": {
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "description": {
+          "title": "Description",
+          "type": "string"
+        },
+        "qty": {
+          "title": "Qty",
+          "type": "number"
+        },
+        "unit": {
+          "title": "Unit",
+          "type": "string"
+        },
+        "unit_price_with_vat": {
+          "minimum": 0,
+          "title": "Unit Price With Vat",
+          "type": "number"
+        },
+        "ktru_hints": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Ktru Hints",
+          "type": "array"
+        }
+      },
+      "required": [
+        "name",
+        "description",
+        "qty",
+        "unit",
+        "unit_price_with_vat",
+        "ktru_hints"
+      ],
+      "title": "Item",
+      "type": "object"
+    },
+    "Supplier": {
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "bin": {
+          "pattern": "^\\d{12}$",
+          "title": "Bin",
+          "type": "string"
+        },
+        "address": {
+          "title": "Address",
+          "type": "string"
+        },
+        "phone": {
+          "title": "Phone",
+          "type": "string"
+        },
+        "email": {
+          "format": "email",
+          "title": "Email",
+          "type": "string"
+        },
+        "iban": {
+          "title": "Iban",
+          "type": "string"
+        },
+        "bank": {
+          "title": "Bank",
+          "type": "string"
+        },
+        "bik": {
+          "title": "Bik",
+          "type": "string"
+        },
+        "director": {
+          "title": "Director",
+          "type": "string"
+        }
+      },
+      "required": [
+        "name",
+        "bin",
+        "address",
+        "phone",
+        "email",
+        "iban",
+        "bank",
+        "bik",
+        "director"
+      ],
+      "title": "Supplier",
+      "type": "object"
+    },
+    "ThirdParty": {
+      "additionalProperties": false,
+      "properties": {
+        "fio": {
+          "title": "Fio",
+          "type": "string"
+        },
+        "iin": {
+          "title": "Iin",
+          "type": "string"
+        },
+        "email": {
+          "format": "email",
+          "title": "Email",
+          "type": "string"
+        },
+        "phone": {
+          "title": "Phone",
+          "type": "string"
+        },
+        "role": {
+          "title": "Role",
+          "type": "string"
+        }
+      },
+      "required": [
+        "fio",
+        "iin",
+        "email",
+        "phone",
+        "role"
+      ],
+      "title": "ThirdParty",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "supplier": {
+      "$ref": "#/$defs/Supplier"
+    },
+    "contract": {
+      "$ref": "#/$defs/Contract"
+    },
+    "items": {
+      "items": {
+        "$ref": "#/$defs/Item"
+      },
+      "minItems": 1,
+      "title": "Items",
+      "type": "array"
+    },
+    "third_party": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/ThirdParty"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "total": {
+      "anyOf": [
+        {
+          "minimum": 0,
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Total"
+    }
+  },
+  "required": [
+    "supplier",
+    "contract",
+    "items",
+    "third_party"
+  ],
+  "title": "Extraction",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}
