@@ -14,6 +14,7 @@ International Information Technology University, Almaty) is not published. No pe
 | `src/decision-ledger.ts` | implemented operator: criterion codes and scores, hard veto, weighted aggregate (input-quality weight default 1), escalation gate, lifecycle, field-level diff, best-effort ledger writes |
 | `src/jrd-extract.ts` | contract extraction prompt, normalisation and criteria (`jrdCriteria`) |
 | `src/card-ocr.ts` | business-card extraction prompt, schema, provenance criteria (`cardCriteria`) |
+| `PROVENANCE.md`, `verify_deidentification.py` | how `src/` corresponds to platform commit `1114a138` (two files de-identified in comments only — staff names replaced by roles; code and prompts unchanged) and how prompt fingerprints are stored; `python verify_deidentification.py` checks it |
 | `experiments/contracts/` | planted-defect generator and runner (36 synthetic supplier documents), threshold and stability analysis, figures |
 | `experiments/ablation/` | governance ablation C1–C5 on frozen outputs of two models, confirmatory held-out set generated after the operator was frozen, SHA-256 chronology, offline replay and statistics — see `experiments/ablation/README.md` (Table 8, Figure 5) |
 | `experiments/business_cards/` | development (28) and held-out (25, `holdout_cards/`) synthetic card images, generators, runners and per-call outputs; `*.orig.json` = original records, same name without `.orig` = corrected record (`routed` = state vetoed/escalated, `flagged` = any soft criterion below 1) |
