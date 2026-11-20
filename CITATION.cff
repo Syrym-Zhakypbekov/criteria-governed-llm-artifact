@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this artefact, please cite it as below."
-title: "Research artefact: Criteria-Governed LLM Decision Workflows"
+title: "Research artefact: Criteria-Governed Agentic LLM Workflows in a Production University Platform"
 type: software
 authors:
   - family-names: Zhakypbekov
