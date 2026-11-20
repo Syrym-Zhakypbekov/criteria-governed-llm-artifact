@@ -1078,6 +1078,13 @@
   "original": false
  },
  {
+  "path": "experiments/verification/planted_truth_check.py",
+  "sha256": "70931a3d4456e07e95c092a1a61486f0cecdbfc89aad2c389b01323227f21199",
+  "bytes": 4403,
+  "records": null,
+  "original": false
+ },
+ {
   "path": "experiments/verification/recount_headlines.py",
   "sha256": "53560b246a3b9ff334644a905811860ae3639d99966cec730b0fb5b4be937f6c",
   "bytes": 4846,
