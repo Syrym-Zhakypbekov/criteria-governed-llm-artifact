@@ -11,7 +11,7 @@ Appendix A of the article gives SHA-256 prefixes of three platform files at comm
 | Archive file | Platform path at 1114a138 | SHA-256 at 1114a138 (Appendix A) | SHA-256 of the archived file |
 |---|---|---|---|
 | `src/jrd-extract.ts` | `apps/legal/lib/jrd-extract.ts` | `1c07b6322ce2…` | `4fb1a43f022b…` |
-| `src/card-ocr.ts` | `apps/kafedra/lib/qs/card-ocr.ts` | `05fe1acd0734…` | `cc25f3f36150…` |
+| `src/card-ocr.ts` | `apps/kafedra/lib/qs/card-ocr.ts` | `05fe1acd0734…` | `cc25f3f36150…` (v1.0–v1.2); `238a4013513b…` (v1.3) |
 | `src/decision-ledger.ts` | `lib/decision-ledger.ts` | `5f9b2d699dd7…` | `5f9b2d699dd7…` (identical) |
 
 **Why two hashes differ.** Before publication, the archived copies of `jrd-extract.ts` and `card-ocr.ts` were
@@ -20,7 +20,8 @@ replaced by their roles, for example «юрист» (lawyer) or «заведую
 total (nine in `jrd-extract.ts`, one in `card-ocr.ts`); every one of them is a comment line. No executable line, no
 prompt text and no line count changed. `decision-ledger.ts` contained no names and was archived unchanged, so its hash
 matches Appendix A. Earlier archive versions (v1.0–v1.2-make) did not state this de-identification; this note corrects
-that omission.
+that omission. In v1.3-make one further staff name left in the first comment line of `card-ocr.ts` was replaced by a
+role; this is again a comment-only change, so the comment-stripped hash below is unchanged.
 
 **How to check it.** `verify_deidentification.py` removes every line whose first non-blank characters are `//`, `*` or
 `/*` (comment-only lines; Windows line endings normalised to LF) and hashes the rest. The same rule applied to the
@@ -49,3 +50,15 @@ with platform access, or an editor on request, confirm the correspondence.
   store it with the score (`ai_grade.prompt_hash`), so each stored score can be linked to the exact prompt text.
 - **Offline replays (ablation, frozen C5).** They make no model calls; they replay stored model outputs. Their code is
   frozen by the hashes in `experiments/ablation/ablation_freeze.sha256`.
+
+## 3. Revision v1.3-make (November 2026, response to the MAKE reviews)
+
+- Added: this note and `verify_deidentification.py` (section 1); `experiments/verification/` with three checks written
+  separately from the original analysis scripts — `planted_truth_check.py` (planted defect labels of all 122 synthetic
+  contracts re-derived from the source text: 122/122), `recount_headlines.py` (37 assertions on headline counts, exact
+  intervals and stored summaries: all pass) and `rounding_check.ts` (production four-decimal rounding of the aggregate
+  changes 0 of 244 routing decisions).
+- Removed: the LLM topic re-annotation and answer-grading material (`ANNOTATION_PROTOCOL.md`, `EXECUTION_RECORD.md`,
+  `topic_labels_300.csv`, `qa_grades_150.csv`) and their sampling queries. These analyses supplied individual question and
+  answer texts to an external model and were removed from the revised article. Earlier archive versions are unchanged.
+- The submitted version v1.2-make (doi:10.5281/zenodo.23719854) remains available unchanged.

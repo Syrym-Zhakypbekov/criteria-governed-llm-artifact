@@ -7,8 +7,8 @@ authors:
     given-names: Syrym
     affiliation: International Information Technology University
     orcid: "https://orcid.org/0000-0001-9112-5922"
-version: v1.2-make
-date-released: 2026-10-28
+version: v1.3-make
+date-released: 2026-11-20
 license: MIT
 doi: "10.5281/zenodo.23698100"
 repository-code: "https://github.com/Syrym-Zhakypbekov/criteria-governed-llm-artifact"
