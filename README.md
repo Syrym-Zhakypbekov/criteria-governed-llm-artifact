@@ -1,6 +1,6 @@
 # Criteria-governed LLM decision workflows — research artefact
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23698100.svg)](https://doi.org/10.5281/zenodo.23698100) · License: MIT · Version for the revised MAKE manuscript: v1.3-make (see PROVENANCE.md, section 3) · submitted version: v1.2-make, https://doi.org/10.5281/zenodo.23719854 (earlier: v1.0-make, https://doi.org/10.5281/zenodo.23698101) · Paper: MDPI *Machine Learning and Knowledge Extraction* (submitted)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23698100.svg)](https://doi.org/10.5281/zenodo.23698100) · License: MIT · Version for the revised MAKE manuscript: v1.3-make, https://doi.org/10.5281/zenodo.24388299 (see PROVENANCE.md, section 3) · submitted version: v1.2-make, https://doi.org/10.5281/zenodo.23719854 (earlier: v1.0-make, https://doi.org/10.5281/zenodo.23698101) · Paper: MDPI *Machine Learning and Knowledge Extraction* (submitted)
 
 Code, prompts, synthetic test inputs, analysis scripts and aggregate results for the manuscript
 «Criteria-Governed Agentic LLM Workflows in a Production University Platform: A Design-Science Study of Criterion-Traceable Knowledge Extraction and Decision-Making» (submitted to MDPI *Machine Learning and Knowledge Extraction*, Special Issue «Knowledge Discovery and Extraction with Large Language Models, Retrieval-Augmented Generation, and Autonomous Agents»). Earlier work: Zhakypbekov et al., *Informatics* 2026, 13, 179, doi:10.3390/informatics13110179.
