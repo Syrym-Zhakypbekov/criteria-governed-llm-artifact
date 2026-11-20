@@ -103,15 +103,12 @@ SELECT CASE WHEN nn=un THEN 'record now equals model reading'
             WHEN translate(nn,'ӘҒҚҢӨҰҮҺІЁ','АГКНОУУХИЕ')=translate(un,'ӘҒҚҢӨҰҮҺІЁ','АГКНОУУХИЕ') THEN 'Kazakh/Russian letters only'
             WHEN position(translate(nn,'ӘҒҚҢӨҰҮҺІЁ','АГКНОУУХИЕ') in translate(un,'ӘҒҚҢӨҰҮҺІЁ','АГКНОУУХИЕ'))=1
               OR position(translate(un,'ӘҒҚҢӨҰҮҺІЁ','АГКНОУУХИЕ') in translate(nn,'ӘҒҚҢӨҰҮҺІЁ','АГКНОУУХИЕ'))=1 THEN 'one name is a prefix (missing part)'
-            ELSE 'other (classified individually)' END cls, count(*)
+            ELSE 'other (not classified further)' END cls, count(*)
 FROM n GROUP BY 1 ORDER BY 2 DESC;
 
 -- ===== Added 28 Oct 2026 (review R25) =====
--- Seeded samples (deterministic: order by md5(id || 'make2026'))
--- Applicant questions, 300:
-SELECT msg_id FROM queue.bitrix_questions WHERE topic IS NOT NULL ORDER BY md5(msg_id::text||'make2026') LIMIT 300;
--- Question answering, 150 (AI or law answers, smoke tests excluded):
-SELECT id FROM queue.faq_search_log WHERE answered_by IN ('ai','law') AND channel<>'smoke' ORDER BY md5(id::text||'make2026') LIMIT 150;
+-- (v1.3-make: the seeded samples for the LLM topic re-annotation and answer grading were removed together with
+--  those analyses; see PROVENANCE.md, «Revision v1.3-make».)
 
 -- Contract ledger, per-field comparison of the 7 revised decisions (12 fields)
 WITH r AS (SELECT ai_output a, human_output h, diff FROM queue.ai_decision WHERE caller='jrd-extract' AND state='revised'),
