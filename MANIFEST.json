@@ -1085,6 +1085,13 @@
   "original": false
  },
  {
+  "path": "experiments/verification/rounding_check.ts",
+  "sha256": "3cedeb9f1e11148bf22c0e54339e77485433e49dd9449e8fcf8b34c24068b046",
+  "bytes": 2215,
+  "records": null,
+  "original": false
+ },
+ {
   "path": "figures/Figure1_operator.png",
   "sha256": "d31674dc6c923cf8f31de666938cd5c8abb89db795f3e1759c090c11667f6d80",
   "bytes": 506274,
@@ -1144,6 +1151,13 @@
   "path": "figures/src/r1stats.py",
   "sha256": "10c46cbbef5c18483953f33910b972f7d0777c7285b045953a1f334bdcb5e71e",
   "bytes": 684,
+  "records": null,
+  "original": false
+ },
+ {
+  "path": "preregistration/PREREG_revision_2026-11.md",
+  "sha256": "1894300419fd24f081451efbab26cdd0bac5ecd3e8746eb06801ce112b46086b",
+  "bytes": 3483,
   "records": null,
   "original": false
  },
